@@ -1,0 +1,24 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# VS Code settings
+.vscode/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Code Runner temp file
+tempCodeRunnerFile.*
+
+# OS files
+.DS_Store
+Thumbs.db
