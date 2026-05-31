@@ -153,6 +153,8 @@ public class May31 {
         // }
         // return maxSum;
 
+        // ! Optimal Approach using Kadane's Algorith
+        // @ Best Time complexity -->O(N)
         int maxSum = Integer.MIN_VALUE;
         int runSum = 0;
         int idx = 0;
