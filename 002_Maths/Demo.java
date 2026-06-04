@@ -1,6 +1,4 @@
 
-import MathExamples.Example1;
-
 public class Demo {
     public static void main(String[] args) {
         // System.out.println(isOdd());
@@ -53,6 +51,12 @@ public class Demo {
         // System.out.println(.01 / 10);
         // System.out.println(MathExamples.Example1.sqrt(2, 1));
         // System.out.println(MathExamples.Example1.sqrtNewton(20));
-        Example1.factors1(36);
+        // Example1.factors1(36);
+        // June02 Stuff
+
+        June02.findNumbers(
+                new int[] {
+                        10, 11, 1111, 21, 1, 5
+                });
     }
 }

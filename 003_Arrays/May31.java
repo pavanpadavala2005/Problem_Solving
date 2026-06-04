@@ -141,7 +141,7 @@ public class May31 {
         return (a > b) ? x : (b > a ? y : (x > y ? y : x));
     }
 
-    public static int[] maxSumOfSubArray(int[] nums) {
+    public static int maxSumOfSubArray(int[] nums) {
         // ! Very Brute force -->O(N2)
         // int maxSum = Integer.MIN_VALUE;
         // for (int i = 0; i < nums.length; i++) {
@@ -169,6 +169,6 @@ public class May31 {
             if (runSum < 0)
                 runSum = 0;
         }
-        return new int[] { maxLen, maxSum };
+        return maxSum;
     }
 }
