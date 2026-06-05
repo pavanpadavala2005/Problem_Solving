@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Demo {
         public static void main(String[] args) {
@@ -165,7 +166,22 @@ public class Demo {
                 // })));
 
                 // ! June01 Stuff
-                System.out.println(June01.maxSubArray(
-                                new int[] { -7, -8, -16, -4, -8, -5, -7, -11, -10, -12, -4, -6, -4, -16, -10 }));
+                // System.out.println(June01.maxSubArray(
+                // new int[] { -7, -8, -16, -4, -8, -5, -7, -11, -10, -12, -4, -6, -4, -16, -10
+                // }));
+
+                // ! June04 Stuff
+                // System.out.println(
+                // June04.findLeaders(
+                // new int[] {
+
+                // // 16, 17, 4, 3, 5, 2
+                // 61, 61, 17
+                // }));
+
+                // System.out.println(Arrays.toString(
+                // June04.setZero(5)))
+
+                System.out.println(Arrays.toString(June04.plusOne(new int[] { 9, 9, 9, 9 })));
         }
 }
