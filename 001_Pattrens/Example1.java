@@ -1,5 +1,3 @@
-package Basic;
-
 public class Example1 {
     public static void leftIncrement(int n) {
         // for (int i = 0; i < n; i++) {
@@ -86,7 +84,6 @@ public class Example1 {
     }
 
     public static void leftSideTriangle(int n) {
-        // My Logic
         int target = 0;
         for (int row = 0; row < n * 2; row++) {
             target += (row < n ? 1 : -1);
@@ -96,7 +93,6 @@ public class Example1 {
             System.out.println();
         }
 
-        // Kunal Logic
         // int target = 0;
         // for (int row = 1; row <= (n * 2); row++) {
         // target = (row > n) ? (2 * n) - row : row;
@@ -151,6 +147,28 @@ public class Example1 {
             for (int col = 0; col < (2 * row) + 1; col++) {
                 System.out.print("* ");
             }
+            System.out.println();
+        }
+    }
+
+    public static void diamond3(int n) {
+        int target = 0;
+
+        for (int row = 0; row < 2 * n - 1; row++) {
+
+            if (row < n)
+                target++;
+            else
+                target--;
+
+            for (int space = 0; space < n - target; space++) {
+                System.out.print("  ");
+            }
+
+            for (int col = 0; col < 2 * target - 1; col++) {
+                System.out.print("# ");
+            }
+
             System.out.println();
         }
     }

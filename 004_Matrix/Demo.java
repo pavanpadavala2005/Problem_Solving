@@ -131,7 +131,9 @@ public class Demo {
                 //
 
                 // June10 Stuff
-                System.out.println(June10.pascalTriangleCompute(5));
+                // System.out.println(June10.pascalTriangleCompute(5));
+                // System.out.println();
+                System.out.println(June11.subarraySum(new int[] { 1 }, 0));
 
         }
 }

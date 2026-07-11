@@ -69,7 +69,8 @@ public class Example1 {
         while (true) {
             count++;
             root = (x + (n / x)) * 0.5;
-            if (Math.abs(root - x) < 0.1)
+            if (Math.abs(root - x) < 0.01) // Changed on 09/07/2026
+
                 break;
             x = root;
         }

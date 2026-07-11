@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class June10 {
     private static int factorial(int n) {
@@ -89,6 +90,17 @@ public class June10 {
                 inner.add(res);
             }
             resArr.add(inner);
+        }
+        return resArr;
+    }
+
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> resArr = new ArrayList<>();
+        int res = 1;
+        for (int i = 0; i <= rowIndex; i++) {
+            if (i > 0)
+                res = (res * (rowIndex - i)) / i;
+            resArr.add(res);
         }
         return resArr;
     }

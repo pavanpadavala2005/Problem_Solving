@@ -1,7 +1,7 @@
 
 public class Demo {
     public static void main(String[] args) {
-        // Example1.leftDecrement(5);
+        Example1.leftDecrement(5);
         // Example1.rightDecrement(5);
         // Example1.rightIncrement(5);
         // Example1.leftSideTriangle(5);
@@ -23,7 +23,12 @@ public class Demo {
 
         // Numbers.Example1.pyramid(5);
         // Numbers.Example1.pascal(5);
-        Numbers.Example1.square(5);
+        // Numbers.Example1.square(5);
+
+        // Example1.diamond3(5);
+
+        // Example3.square(5);
+        Example3.funnySquare(4);
     }
 
 }
