@@ -133,7 +133,19 @@ public class Demo {
                 // June10 Stuff
                 // System.out.println(June10.pascalTriangleCompute(5));
                 // System.out.println();
-                System.out.println(June11.subarraySum(new int[] { 1 }, 0));
+                // System.out.println(June11.subarraySum(new int[] { 1 }, 0));\
+
+                // ! July 13 Stuff
+                // System.out.println(July13.firstOccurance(new int[] { 0 }, 1));
+                // System.out.println(July13.SearchIn2DMatrixOptimal(
+                // new int[][] {
+                // new int[] { 1, 2, 3, 4, 5 },
+                // new int[] { 6, 7, 8, 9, 10 },
+                // new int[] { 11, 12, 13, 14, 15 },
+                // }, 90));
+
+                // ! July 14 Stuff
+        
 
         }
 }

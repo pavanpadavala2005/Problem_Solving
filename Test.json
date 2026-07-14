@@ -1,0 +1,70 @@
+[
+	{
+		"Columns": {
+			"Date": {
+				"Behaviour": "This is completely depends up on Description column, whenever we add new description content in Description column, in Date column the Time stamp with date will be automatically added ok can't be editable whenever we delete description int corresponding row the time stamp automatically deleted in that corresponding row",
+				"Formula": "A formula of When we add a text in Description just add The time Stamp in the Date Column corresponding row and if description row is erased just remove the timestamp  "
+			},
+			"Description": {
+				"Behaviour": "This is a text field in that i can add any text content"
+			},
+			"Amount": {
+				"Behaviour": "This is a special column i need special behaviour that i can able to add positive and negative number and before the number add the sign of the number if it is <0 make it -₹number and if it is >=0 make it +₹number",
+				"additional": "if number is < 0 make it red color and >= 0 make it green color",
+				"Formula": ""
+			},
+			"Only_Amount": {
+				"Behaviour": "it is a check box and if it is true means the amount in the corresponding row was setteled",
+				"important": "This is A CheckBox field and in this field if check box is true dont include the amount in the cumilative  sum and sum Column ok"
+			},
+			"Sum": {
+				"Behaviour": "This is a special column and the properties is that it is a cumilative sum for the amount in the Amount column, foe example if we are int the row 4 so in the column of Sum i need the amounts in Amount column of last three rows + current row amount --> sum(Amount(r1,r2,r3,r4)) will be there like that",
+				"additional": "if number is < 0 make it red color and >= 0 make it green color",
+				"Formula": "This is Cumilative Sum of All Amounts and in any row the Only_Account is checked as True so dont include that amount in the cumilative sum ok"
+			},
+			"Settlement": {
+				"Behaviour": "This is also a check box that will talk about sum column if any check box is checked means that the corresponding row's Sum is settled means that we can make that row's Sum to 0 and there is a column called Settled_Amount so in that we need to insert the amount in the Sum corresponding column to that Settled_Amount and make it zero ok",
+				"important": "This is an important column so in any cell if i clicked true it will add and change some date in some columns ill give you the description what should change ",
+				"Changes": [
+					{
+						"Change1": "When it set to true in the Settled_On column add time stamp and if i uncheeck remove that Time stamp"
+					},
+					{
+						"Change1": "When it set to true there is a column called paid by so make changes in that  column ok"
+					}
+				]
+			},
+			"Get": {
+				"Behaviour": "So Atchully this is a sheet speaking  between two people me and my friend so i need to have one value int [YOU,ME] so whenever the number in Sum < 0 i need YOU and whenever Sum >= keep ME",
+				"additional": "if number in Sum is < 0 make the text color red color and number in Sum >= 0 make it green color"
+			},
+			"Settled_On": {
+				"Behaviour": "This is also a date column like Date but the behaviour is special that whenever i click on the check box in any row in Settlement column so i need to keep a time stamp in this column including Date and Time ok"
+			},
+			"Paid_By": {
+				"Behaviour": "This is a column that will say who paid amount so this will work like this whenever i click on the check in Settlement i need to keep a value in int that is [YOU,ME] how so if the Sum is < 0 and click on settled keep ME and when Sum is >= 0 keep YOU",
+				"additional": "When i click on Settlement checked if number in Sum is < 0 make the text color in the Paid_By column red color and number in Sum >= 0 make Paid_By column  green color"
+			},
+			"Notes": {
+				"Behaviour": "This is a empty text field for writing any remarks"
+			},
+			"Settled_Amount": {
+				"Behaviour": "This is an important field that will store the snapshot of the amount when i clicked on the check box on Settelement in any row the number in Sum will became zero right so before making it zero just keep a snapshot of the number in this Column",
+				"additional": "When i click on Settlement checked if number in Sum is < 0 make the text color in the Paid_By column red color and number in Sum >= 0 make Paid_By column  green color"
+			},
+			"Who_Changed": {
+				"Behaviour": "This is A special Column i need a beautiful behaviour is that ill be sharing this shet to my firnd so he also can make changes in that sheet so i need to track who adding a record and who deleting and modifying records so their email or name should be placed in this column ok so i eed that behaviour ok i need to track when he made changes on Amount Description and Settlement columns"
+			}
+		}
+	}
+]
+
+
+yeah that is OSM and 
+i will consider your changes also yeah rename of the column to Ignore that is good
+ok Transaction Id Also Good
+and in Settlement check box it will add a snapshot of cumilative sum to Settled_Amount and then the Sum will became zero
+
+yes that suggestion making Activity log sheet also great Add a sheet 
+this change also great 6. Prevent editing old settled transactions
+yes 7. Dashboard Sheet also great implement that 	

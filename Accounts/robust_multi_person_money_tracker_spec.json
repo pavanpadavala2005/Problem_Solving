@@ -1,0 +1,578 @@
+{
+	"project": {
+		"name": "Multi-Person Money Tracker",
+		"version": "1.0",
+		"purpose": "Track shared money balances between the sheet owner and multiple people using one separate tracker sheet per person.",
+		"currency": "INR",
+		"timezone": "Asia/Kolkata",
+		"platform": "Google Sheets",
+		"participants": {
+			"ME": "The spreadsheet owner",
+			"YOU": "The person whose individual tracker sheet is being used"
+		}
+	},
+	"recommended_workbook_structure": {
+		"sheets": [
+			{
+				"name": "People_Master",
+				"purpose": "Stores the list of people and the corresponding tracker sheet name.",
+				"columns": [
+					"Person_ID",
+					"Person_Name",
+					"Email",
+					"Sheet_Name",
+					"Active",
+					"Opening_Balance",
+					"Created_On"
+				]
+			},
+			{
+				"name": "Tracker_Template",
+				"purpose": "Master template copied whenever a new person's money tracker is created.",
+				"protected": true
+			},
+			{
+				"name_pattern": "Person_<Person_Name>",
+				"purpose": "Separate transaction and settlement tracker for one person.",
+				"example": "Person_Rahul"
+			},
+			{
+				"name": "Dashboard",
+				"purpose": "Displays the current balance, last settlement, total paid, and total received for every person."
+			},
+			{
+				"name": "Audit_Log",
+				"purpose": "Stores a complete history of additions, edits, deletions, settlements, editor identity, and timestamps.",
+				"recommended": true
+			},
+			{
+				"name": "Settings",
+				"purpose": "Stores configurable values such as currency symbol, colors, timezone, protected columns, and owner identity."
+			}
+		]
+	},
+	"person_tracker": {
+		"sheet_name_pattern": "Person_<Person_Name>",
+		"header_row": 1,
+		"data_start_row": 2,
+		"column_order": [
+			"Date",
+			"Description",
+			"Amount",
+			"Only_Amount",
+			"Sum",
+			"Settlement",
+			"Get",
+			"Settled_On",
+			"Paid_By",
+			"Notes",
+			"Settled_Amount",
+			"Who_Changed"
+		],
+		"columns": {
+			"Date": {
+				"type": "datetime",
+				"editable": false,
+				"format": "dd-MMM-yyyy hh:mm:ss AM/PM",
+				"trigger": "Description",
+				"rules": [
+					"When Description changes from blank to non-blank, insert the current date and time.",
+					"Do not change the existing timestamp when Description is edited later.",
+					"When Description becomes blank, clear Date for the same row.",
+					"Protect this column from manual editing."
+				],
+				"example": {
+					"Description": "Paid for lunch",
+					"Date": "12-Jul-2026 05:30:15 PM"
+				}
+			},
+			"Description": {
+				"type": "text",
+				"editable": true,
+				"required_for_transaction": true,
+				"rules": [
+					"Accept any meaningful transaction description.",
+					"Trim leading and trailing spaces.",
+					"A non-empty description creates the Date timestamp.",
+					"Clearing the description also clears the Date timestamp."
+				],
+				"examples": ["Paid for lunch", "Cab fare", "Movie tickets", "Monthly settlement"]
+			},
+			"Amount": {
+				"type": "decimal",
+				"editable": true,
+				"currency": "INR",
+				"input_rules": [
+					"Accept positive, negative, and zero values.",
+					"Reject non-numeric text.",
+					"Round displayed values to two decimal places."
+				],
+				"display_rules": {
+					"positive_or_zero": {
+						"format": "+₹#,##0.00",
+						"text_color": "#188038"
+					},
+					"negative": {
+						"format": "-₹#,##0.00",
+						"text_color": "#D93025"
+					}
+				},
+				"meaning": {
+					"positive": "The running balance moves in favour of ME.",
+					"negative": "The running balance moves in favour of YOU.",
+					"zero": "No balance change."
+				},
+				"examples": [
+					{
+						"input": 500,
+						"display": "+₹500.00"
+					},
+					{
+						"input": -250,
+						"display": "-₹250.00"
+					},
+					{
+						"input": 0,
+						"display": "+₹0.00"
+					}
+				]
+			},
+			"Only_Amount": {
+				"type": "checkbox",
+				"editable": true,
+				"default": false,
+				"purpose": "Marks only the current row's Amount as individually settled.",
+				"calculation_effect": {
+					"unchecked": "The row Amount is included in the running Sum.",
+					"checked": "The row Amount is treated as zero for the running Sum."
+				},
+				"effective_amount_rule": "Effective_Amount = 0 when Only_Amount is TRUE; otherwise Effective_Amount = Amount.",
+				"important_note": "Changing this checkbox on an old row recalculates later running balances. Use Audit_Log to preserve the change history.",
+				"example": {
+					"Amount": -300,
+					"Only_Amount": true,
+					"Effective_Amount": 0
+				}
+			},
+			"Sum": {
+				"type": "calculated_currency",
+				"editable": false,
+				"purpose": "Shows the running unsettled balance between ME and YOU.",
+				"calculation_logic": [
+					"Start from the most recent completed settlement.",
+					"For each row, add Effective_Amount to the previous row's active balance.",
+					"Effective_Amount is zero when Only_Amount is checked.",
+					"When Settlement is checked on the current row, first save the current balance into Settled_Amount, then display Sum as zero.",
+					"The next row starts from zero after a completed settlement."
+				],
+				"conceptual_formula": {
+					"effective_amount": "IF(Only_Amount = TRUE, 0, Amount)",
+					"balance_before_settlement": "Previous_Active_Balance + Effective_Amount",
+					"displayed_sum": "IF(Settlement = TRUE, 0, Balance_Before_Settlement)"
+				},
+				"display_rules": {
+					"positive_or_zero": {
+						"format": "+₹#,##0.00",
+						"text_color": "#188038"
+					},
+					"negative": {
+						"format": "-₹#,##0.00",
+						"text_color": "#D93025"
+					}
+				},
+				"protection": "Formula/script-controlled; manual editing is not allowed."
+			},
+			"Settlement": {
+				"type": "checkbox",
+				"editable": true,
+				"default": false,
+				"purpose": "Completes settlement of the full running balance up to the current row.",
+				"on_check_actions_in_order": [
+					"Calculate the balance before settlement.",
+					"Store that balance permanently in Settled_Amount.",
+					"Add the current date and time to Settled_On.",
+					"Set Paid_By based on the balance before settlement.",
+					"Record the editor in Who_Changed.",
+					"Write a detailed event into Audit_Log.",
+					"Display Sum as zero.",
+					"Start the next row's running balance from zero."
+				],
+				"on_uncheck_policy": {
+					"recommended": "Do not automatically reverse a completed settlement.",
+					"reason": "Automatic reversal can corrupt historical balances and settlement records.",
+					"required_action": "Use a controlled Undo Settlement action that logs the reversal."
+				},
+				"validation": [
+					"Do not allow settlement when the balance before settlement is zero unless the user confirms.",
+					"Do not allow repeated settlement of the same row.",
+					"Lock Settled_Amount, Settled_On, and Paid_By after settlement."
+				]
+			},
+			"Get": {
+				"type": "calculated_text",
+				"editable": false,
+				"allowed_values": ["YOU", "ME"],
+				"purpose": "Shows who should receive money based on the current or settled balance.",
+				"source_value_rule": "Use Settled_Amount when Settlement is checked; otherwise use Sum.",
+				"logic": {
+					"value_less_than_zero": "YOU",
+					"value_greater_than_or_equal_to_zero": "ME"
+				},
+				"display_rules": {
+					"YOU": {
+						"text_color": "#D93025"
+					},
+					"ME": {
+						"text_color": "#188038"
+					}
+				},
+				"examples": [
+					{
+						"source_balance": -100,
+						"Get": "YOU"
+					},
+					{
+						"source_balance": 350,
+						"Get": "ME"
+					}
+				]
+			},
+			"Settled_On": {
+				"type": "datetime",
+				"editable": false,
+				"format": "dd-MMM-yyyy hh:mm:ss AM/PM",
+				"trigger": "Settlement",
+				"rules": [
+					"Insert the current date and time when Settlement changes to checked.",
+					"Do not update the timestamp again after settlement is completed.",
+					"Do not allow manual editing.",
+					"Clear only through a controlled Undo Settlement action."
+				],
+				"example": "12-Jul-2026 06:15:42 PM"
+			},
+			"Paid_By": {
+				"type": "system_text",
+				"editable": false,
+				"allowed_values": ["YOU", "ME"],
+				"purpose": "Shows who paid the settlement amount.",
+				"source_value": "Balance before settlement",
+				"logic": {
+					"balance_less_than_zero": "ME",
+					"balance_greater_than_or_equal_to_zero": "YOU"
+				},
+				"display_rules": {
+					"ME": {
+						"text_color": "#D93025",
+						"condition": "Balance before settlement is negative"
+					},
+					"YOU": {
+						"text_color": "#188038",
+						"condition": "Balance before settlement is positive or zero"
+					}
+				},
+				"examples": [
+					{
+						"balance_before_settlement": -100,
+						"Paid_By": "ME"
+					},
+					{
+						"balance_before_settlement": 350,
+						"Paid_By": "YOU"
+					}
+				]
+			},
+			"Notes": {
+				"type": "text",
+				"editable": true,
+				"required": false,
+				"purpose": "Stores optional remarks or settlement details.",
+				"examples": [
+					"Paid through UPI",
+					"Will settle next week",
+					"Amount disputed",
+					"Receipt shared on WhatsApp"
+				]
+			},
+			"Settled_Amount": {
+				"type": "snapshot_currency",
+				"editable": false,
+				"purpose": "Stores the balance snapshot before Sum is reset to zero.",
+				"write_condition": "Settlement changes to checked.",
+				"rules": [
+					"Copy the balance before settlement exactly, including its sign.",
+					"Never use a live formula after settlement.",
+					"Keep the value permanently for historical reporting.",
+					"Do not overwrite an existing settled amount."
+				],
+				"display_rules": {
+					"positive_or_zero": {
+						"format": "+₹#,##0.00",
+						"text_color": "#188038"
+					},
+					"negative": {
+						"format": "-₹#,##0.00",
+						"text_color": "#D93025"
+					}
+				}
+			},
+			"Who_Changed": {
+				"type": "system_text",
+				"editable": false,
+				"purpose": "Stores the latest identifiable user who changed monitored fields in the row.",
+				"monitored_columns": [
+					"Description",
+					"Amount",
+					"Only_Amount",
+					"Settlement",
+					"Notes"
+				],
+				"stored_value_priority": [
+					"Editor email address",
+					"Editor display name",
+					"UNKNOWN_USER when identity is unavailable"
+				],
+				"rules": [
+					"Update whenever a monitored column is changed.",
+					"For deletion of row content, update Audit_Log before clearing the row.",
+					"Keep only the latest editor in this column.",
+					"Use Audit_Log for complete edit history."
+				],
+				"implementation_note": "The ability to identify the editor can depend on the spreadsheet account type, sharing permissions, and automation authorization."
+			}
+		}
+	},
+	"transaction_processing_rules": {
+		"new_transaction": [
+			"User enters Description.",
+			"Date is automatically created.",
+			"User enters Amount.",
+			"Amount is formatted with sign, currency symbol, and color.",
+			"Sum is recalculated.",
+			"Get is recalculated.",
+			"Who_Changed is updated.",
+			"Audit_Log receives an ADD or EDIT event."
+		],
+		"edit_transaction": [
+			"Allow changes only to editable columns.",
+			"Recalculate Sum and Get from the edited row downward.",
+			"Do not modify original Date unless Description is cleared.",
+			"Record old value, new value, editor, and timestamp in Audit_Log."
+		],
+		"delete_transaction_content": [
+			"Record the previous row values in Audit_Log.",
+			"Clear Date when Description becomes blank.",
+			"Recalculate all later Sum values.",
+			"Do not silently delete settlement history."
+		],
+		"individual_amount_settlement": [
+			"Check Only_Amount.",
+			"Treat that row's Amount as zero in the running balance.",
+			"Recalculate later Sum values.",
+			"Record the action in Audit_Log."
+		],
+		"full_balance_settlement": [
+			"Check Settlement.",
+			"Capture the current balance before reset.",
+			"Save the snapshot in Settled_Amount.",
+			"Set Settled_On.",
+			"Set Paid_By.",
+			"Set displayed Sum to zero.",
+			"Continue future balances from zero.",
+			"Lock the settlement fields."
+		]
+	},
+	"audit_log": {
+		"sheet_name": "Audit_Log",
+		"append_only": true,
+		"columns": [
+			"Audit_ID",
+			"Event_Time",
+			"Editor",
+			"Person_Sheet",
+			"Row_Number",
+			"Action",
+			"Changed_Column",
+			"Old_Value",
+			"New_Value",
+			"Description_Snapshot",
+			"Amount_Snapshot",
+			"Balance_Before_Action",
+			"Settlement_ID"
+		],
+		"action_values": [
+			"ADD",
+			"EDIT",
+			"CLEAR",
+			"DELETE_ROW",
+			"ONLY_AMOUNT_SETTLED",
+			"BALANCE_SETTLED",
+			"UNDO_SETTLEMENT"
+		],
+		"rules": [
+			"Never allow normal users to edit or delete audit rows.",
+			"Create one audit entry for every monitored field change.",
+			"Create a unique Settlement_ID for every completed settlement.",
+			"Store enough snapshot information to reconstruct what happened."
+		]
+	},
+	"dashboard": {
+		"sheet_name": "Dashboard",
+		"columns": [
+			"Person_Name",
+			"Sheet_Name",
+			"Current_Balance",
+			"Who_Should_Get",
+			"Last_Settled_Amount",
+			"Last_Settled_On",
+			"Last_Paid_By",
+			"Total_Positive_Amounts",
+			"Total_Negative_Amounts",
+			"Total_Settlements",
+			"Active"
+		],
+		"recommended_features": [
+			"Filter active and inactive people.",
+			"Highlight negative balances in red and positive balances in green.",
+			"Click a person's name to open their tracker sheet.",
+			"Show the grand total balance across all people."
+		]
+	},
+	"settings": {
+		"sheet_name": "Settings",
+		"values": {
+			"timezone": "Asia/Kolkata",
+			"currency_symbol": "₹",
+			"positive_color": "#188038",
+			"negative_color": "#D93025",
+			"header_freeze_rows": 1,
+			"protect_calculated_columns": true,
+			"allow_manual_timestamp_edit": false,
+			"allow_manual_settlement_snapshot_edit": false
+		}
+	},
+	"worked_example": {
+		"person_sheet": "Person_Rahul",
+		"rows": [
+			{
+				"row": 2,
+				"Description": "Lunch paid by me",
+				"Amount": 500,
+				"Only_Amount": false,
+				"Balance_Before_Settlement": 500,
+				"Settlement": false,
+				"Sum": 500,
+				"Get": "ME",
+				"Settled_Amount": null,
+				"Paid_By": null
+			},
+			{
+				"row": 3,
+				"Description": "Taxi paid by Rahul",
+				"Amount": -200,
+				"Only_Amount": false,
+				"Balance_Before_Settlement": 300,
+				"Settlement": false,
+				"Sum": 300,
+				"Get": "ME",
+				"Settled_Amount": null,
+				"Paid_By": null
+			},
+			{
+				"row": 4,
+				"Description": "Groceries paid by Rahul",
+				"Amount": -400,
+				"Only_Amount": false,
+				"Balance_Before_Settlement": -100,
+				"Settlement": true,
+				"Sum": 0,
+				"Get": "YOU",
+				"Settled_Amount": -100,
+				"Paid_By": "ME",
+				"explanation": "Before settlement, the balance was -₹100.00, so ME pays YOU ₹100.00. The settled snapshot remains -₹100.00 and the active Sum resets to zero."
+			},
+			{
+				"row": 5,
+				"Description": "Coffee paid by me",
+				"Amount": 150,
+				"Only_Amount": false,
+				"Balance_Before_Settlement": 150,
+				"Settlement": false,
+				"Sum": 150,
+				"Get": "ME",
+				"Settled_Amount": null,
+				"Paid_By": null,
+				"explanation": "The previous row completed a settlement, so the new running balance starts from zero."
+			},
+			{
+				"row": 6,
+				"Description": "Movie ticket already settled separately",
+				"Amount": -300,
+				"Only_Amount": true,
+				"Effective_Amount": 0,
+				"Balance_Before_Settlement": 150,
+				"Settlement": false,
+				"Sum": 150,
+				"Get": "ME",
+				"Settled_Amount": null,
+				"Paid_By": null,
+				"explanation": "Only_Amount is checked, so this row's -₹300.00 is not added to the active running balance."
+			}
+		]
+	},
+	"validation_and_safety_rules": [
+		"Description should be present when Amount, Only_Amount, or Settlement is used.",
+		"Amount must be numeric.",
+		"Calculated and snapshot columns must be protected.",
+		"A settled row must not be silently edited.",
+		"Editing an old transaction after later settlements should require confirmation and must create an Audit_Log entry.",
+		"Do not permanently delete settlement history.",
+		"Use unique sheet names and unique Person_ID values.",
+		"Use dropdown validation for ME and YOU values where manual selection is ever allowed.",
+		"Use one standard timezone for all timestamps.",
+		"Create periodic backups or version snapshots."
+	],
+	"recommended_future_fields": [
+		{
+			"column": "Transaction_ID",
+			"reason": "Provides a permanent unique ID even when rows are moved or sorted."
+		},
+		{
+			"column": "Last_Changed_On",
+			"reason": "Shows the most recent edit timestamp directly in the person sheet."
+		},
+		{
+			"column": "Payment_Mode",
+			"reason": "Tracks Cash, UPI, Bank Transfer, Card, or Other."
+		},
+		{
+			"column": "Attachment_Link",
+			"reason": "Stores a receipt or payment screenshot link."
+		},
+		{
+			"column": "Category",
+			"reason": "Groups expenses such as Food, Travel, Shopping, Rent, and Other."
+		}
+	],
+	"important_design_decisions": [
+		{
+			"decision": "Sum resets after Settlement.",
+			"reason": "This matches the requested behaviour and prevents old balances from being counted again."
+		},
+		{
+			"decision": "Settled_Amount is a permanent snapshot, not a formula.",
+			"reason": "Historical settlements must not change when earlier transactions are edited."
+		},
+		{
+			"decision": "Get uses Settled_Amount on settled rows.",
+			"reason": "Because Sum becomes zero after settlement, using only Sum would lose who was entitled to receive the settled money."
+		},
+		{
+			"decision": "Paid_By uses the balance before settlement.",
+			"reason": "The payer must be determined before the active balance is reset."
+		},
+		{
+			"decision": "Audit_Log is separate from Who_Changed.",
+			"reason": "Who_Changed can show only the latest editor, while Audit_Log preserves full history."
+		}
+	]
+}
