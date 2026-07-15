@@ -100,6 +100,19 @@ public class July12 {
     }
 
     // ! ==================== AGGRESSIVE COWS ====================
+    public static boolean aggressiveCowsHelper(int[] nums, int distance, int cows) {
+        int cowCtr = 1, prev = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (distance <= nums[i] - nums[prev]) {
+                cowCtr++;
+                prev = i;
+            }
+        }
+        if (cowCtr >= cows)
+            return true;
+        return false;
+    }
+
     public static int aggressiveCowsOptimal(int nums[], int cows) {
         Arrays.sort(nums);
         int mx = Integer.MIN_VALUE, mi = Integer.MAX_VALUE;
@@ -130,16 +143,4 @@ public class July12 {
         return res;
     }
 
-    public static boolean aggressiveCowsHelper(int[] nums, int distance, int cows) {
-        int cowCtr = 1, prev = 0;
-        for (int i = 1; i < nums.length; i++) {
-            if (distance <= nums[i] - nums[prev]) {
-                cowCtr++;
-                prev = i;
-            }
-        }
-        if (cowCtr >= cows)
-            return true;
-        return false;
-    }
 }

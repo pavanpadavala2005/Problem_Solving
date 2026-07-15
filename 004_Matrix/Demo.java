@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Demo {
         private static void printMatrix(int[][] matrix) {
@@ -145,7 +146,63 @@ public class Demo {
                 // }, 90));
 
                 // ! July 14 Stuff
-        
 
+                // System.out.println(July14.countOnes(new int[] { 1, 0 }));
+
+                // System.out.println(Arrays.toString(
+                // July14.rowAndMaximumOnes(new int[][] {
+                // new int[] { 0, 1 },
+                // new int[] { 1, 0 }
+                // })));
+                // System.out.println(July14.SearchIn2DMatrixIIOptimal(
+                // new int[][] {
+                // new int[] { 1, 4, 7, 11, 15 },
+                // new int[] { 2, 5, 8, 12, 19 },
+                // new int[] { 3, 6, 9, 16, 22 },
+                // new int[] { 10, 13, 14, 17, 24 },
+                // new int[] { 18, 21, 23, 26, 30 },
+                // new int[] { 19, 24, 29, 30, 35 },
+                // new int[] { 20, 25, 32, 34, 40 },
+                // new int[] { 1, 2 },
+                // new int[] { 1 },
+                // new int[] { 3 },
+                // new int[] { 5 },
+                // }, 30));
+
+                // System.out.println(
+                // July14.getLeft(new int[][] {
+                // new int[] { 1, 2, 3, 4 },
+                // new int[] { 5, 6, 7, 8 },
+                // new int[] { 9, 10, 11, 12 },
+                // new int[] { 13, 14, 15, 16 }
+                // }, 1, 1));
+
+                // System.out.println(Arrays.toString(
+                // July14.findPeakGrid(new int[][] {
+                // new int[] { 4, 2, 5, 1, 4, 5 },
+                // new int[] { 2, 9, 3, 2, 3, 2 },
+                // new int[] { 1, 7, 6, 0, 1, 3 },
+                // new int[] { 3, 6, 2, 3, 7, 2 },
+                // new int[] { 4, 7, 3, 2, 1, 4 },
+                // })));
+
+                // System.out.println(Arrays.toString(
+                // July14.MedianOfSortedArraysBrute(
+                // new int[] { 1, 2 },
+                // new int[] { 3, 4 })));
+                // System.out.println(July14.MedianOfSortedArraysOptimal(
+                // new int[] { 1, 2 },
+                // new int[] { 4, }
+                // new int[] { 3, 5, 6, 12, 15 },
+                // new int[] { 3, 4, 6, 10, 10, 12 }));
+
+                System.out.println(Arrays.toString(
+                                July15.rowWithMax1s(
+                                                new int[][] {
+                                                                new int[] { 0, 1, 1, 1 },
+                                                                new int[] { 0, 0, 1, 1 },
+                                                                new int[] { 0, 1, 1, 1 },
+                                                                new int[] { 0, 0, 0, 1 },
+                                                })));
         }
 }
