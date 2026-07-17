@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Demo {
         private static void printMatrix(int[][] matrix) {
@@ -196,13 +195,35 @@ public class Demo {
                 // new int[] { 3, 5, 6, 12, 15 },
                 // new int[] { 3, 4, 6, 10, 10, 12 }));
 
-                System.out.println(Arrays.toString(
-                                July15.rowWithMax1s(
-                                                new int[][] {
-                                                                new int[] { 0, 1, 1, 1 },
-                                                                new int[] { 0, 0, 1, 1 },
-                                                                new int[] { 0, 1, 1, 1 },
-                                                                new int[] { 0, 0, 0, 1 },
-                                                })));
+                // System.out.println(Arrays.toString(
+                // July15.rowWithMax1s(
+                // new int[][] {
+                // new int[] { 0, 1, 1, 1 },
+                // new int[] { 0, 0, 1, 1 },
+                // new int[] { 0, 1, 1, 1 },
+                // new int[] { 0, 0, 0, 1 },
+                // })));
+
+                // System.out.println(July15.kThElementOfSortedArrays(
+                // new int[] {
+                // // 2, 3, 6, 7, 9
+                // 1, 4, 8, 10, 12
+                // },
+                // new int[] {
+                // 1, 4, 8, 10
+                // 5, 7, 11, 15, 17
+                // },
+                // 6));
+                // System.out.println(
+                // July15.upperBound(new int[] {
+                // 1, 5, 7, 9, 11
+                // }, 7));
+
+                System.out.println(July15.medianOfMatrix(
+                                new int[][] {
+                                                new int[] { 1, 5, 7, 9, 11 },
+                                                new int[] { 2, 3, 4, 5, 10 },
+                                                new int[] { 9, 10, 12, 14, 16 },
+                                }));
         }
 }
