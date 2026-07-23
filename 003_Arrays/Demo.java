@@ -497,13 +497,34 @@ public class Demo {
         // },
         // 4
         // 3));
-        for (int i = 1; i <= 32; i++)
-            System.out.println(i + "==>" + July12.splitArrayPossible(
-                    new int[] {
-                            // 1, 2, 3, 4, 5
-                            7, 2, 5, 10, 8
-                    },
-                    i, 3));
+        // for (int i = 1; i <= 32; i++)
+        // System.out.println(i + "==>" + July12.splitArrayPossible(
+        // new int[] {
+        // 1, 2, 3, 4, 5
+        // 7, 2, 5, 10, 8
+        // },
+        // i, 3));
+        // System.out.println(July19.findMinELemenet(
+        // new int[] {
+        // 6, 7, 8, 9, 10, 11, 12, 13, 0, 1, 2, 3, 4, 5
+        // 3, 4, 5, 1, 2
+        // 4, 5, 6, 7, 0, 1, 2
+        // 11, 13, 15, 17
+        // 2, 2, 2, 0, 1
+        // }));
+
+        // System.out.println(
+        // July19.minSumHelper(new int[] {
+        // 2, 3, 1, 2, 4, 3
+        // 1, 4, 4
+        // 1, 1, 1, 1, 1, 1, 1, 1
+        // }, 11));
+
+        // ! July 20 Stuff
+
+        System.out.println(July20.minSumHelper(
+                new int[] { 2, 3, 1, 2, 4, 3 },
+                7));
 
     }
 }
