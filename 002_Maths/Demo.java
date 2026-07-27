@@ -54,9 +54,13 @@ public class Demo {
         // Example1.factors1(36);
         // June02 Stuff
 
-        June02.findNumbers(
-                new int[] {
-                        10, 11, 1111, 21, 1, 5
-                });
+        // June02.findNumbers(
+        // new int[] {
+        // 10, 11, 1111, 21, 1, 5
+        // });
+        // ! July 23 Stuff
+        // System.out.println(July23.binToDecV1("1010"));
+        // System.out.println(12 & (-12));
+        System.out.println(Example2.sqrtNewton(20));
     }
 }

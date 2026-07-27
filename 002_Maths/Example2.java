@@ -1,6 +1,5 @@
-package MathExamples;
-
-public class Example1 {
+// package MathExamples;
+public class Example2 {
     public static boolean isPrime(int num) {
         if (num <= 1)
             return false;
@@ -69,10 +68,10 @@ public class Example1 {
         while (true) {
             count++;
             root = (x + (n / x)) * 0.5;
-            if (Math.abs(root - x) < 0.01) // Changed on 09/07/2026
-
+            if (Math.abs(root - x) < 0.05) // Changed on 09/07/2026
                 break;
             x = root;
+            System.out.println(root);
         }
         System.out.println(count);
         return root;

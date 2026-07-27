@@ -2,10 +2,21 @@ class Node {
     int data; // ! Data Part
     Node next; // ! Link Part to the next Node
 
+    public Node() {
+        this.data = Integer.MIN_VALUE;
+        this.next = null;
+    }
+
     public Node(int data) {
         this.data = data;
         this.next = null;
     }
+
+    public Node(int data, Node next) {
+        this.data = data;
+        this.next = next;
+    }
+
 }
 
 public class SinglyLinkedList {
