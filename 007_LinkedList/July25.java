@@ -52,8 +52,8 @@ public class July25 {
     // Node prev = slow;
     // slow = slow.next;
     // prev.next = null;
-    // System.out.println(LinkedListUtils.getList(head));
-    // System.out.println(LinkedListUtils.getList(slow));
+    // System.out.println(SinglyLinkedListUtils.getList(head));
+    // System.out.println(SinglyLinkedListUtils.getList(slow));
     // mergeSort(head);
     // mergeSort(slow);
     // Node temp = merge(head, slow);
@@ -190,7 +190,7 @@ public class July25 {
 
     public static Node addOneToLLBrute(Node head) {
         int carry = 1;
-        head = LinkedListUtils.reverseLinkedList(head);
+        head = SinglyLinkedListUtils.reverseLinkedList(head);
         Node temp = head;
         while (temp != null) {
             int sum = carry + temp.data;
@@ -200,7 +200,7 @@ public class July25 {
                 break;
             temp = temp.next;
         }
-        head = LinkedListUtils.reverseLinkedList(head);
+        head = SinglyLinkedListUtils.reverseLinkedList(head);
         if (carry >= 1) {
             Node newNode = new Node(carry);
             newNode.next = head;

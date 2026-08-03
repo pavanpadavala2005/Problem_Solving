@@ -1,6 +1,4 @@
-package Basic;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Example1 {

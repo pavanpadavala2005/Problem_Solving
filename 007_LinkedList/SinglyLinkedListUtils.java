@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LinkedListUtils {
+public class SinglyLinkedListUtils {
 
     // * =============== NORMAL UTILS =============
     public static Node reverseLinkedList(Node head) {

@@ -3,7 +3,34 @@ import java.util.Arrays;
 public class Demo {
     public static void main(String[] args) {
 
+        // ! July 26 Stuff
+
+        // System.out.println(July26.intToBin(10));
+
+        // System.out.println(July26.binToInt(July26.intToBin(10)));
+
+        // System.out.println(15 ^ 1);
+        // System.out.println(July26.rightMostSetBit(10));
+        // System.out.println(Integer.toBinaryString(~(1 << 31) | (1 << 31)));
+
+        // !
+        // System.out.println(
+        // Integer.toBinaryString(
+        // ((~(1 << 31) | (1 << 31)) ^ 10)));
+        // System.out.println(
+        // Integer.toBinaryString(10));
+
+        // System.out.println(10 ^ 2);
+
+        // int a = 12;
+        // int b = 7;
+        // System.out.println((a ^ b) + ((a & b) << 1));
         // ! July 27 Stuff
+        // System.out.println(July27.singleNumberII(
+        // new int[] {
+        // 5, 5, 5, 3, 2, 2, 2
+        // }));
+
         // String s = BitManuplationUtils.getBinary(20);
         // System.out.println(
         // BitManuplationUtils.getInteger(s));

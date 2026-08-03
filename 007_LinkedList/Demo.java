@@ -3,9 +3,9 @@ public class Demo {
         public static void main(String[] args) {
 
                 // * ========= UTILITIES STUFF =========
-                // Node head = LinkedListUtils.getHead(new int[] { 1, 2, 3, 4, 5, 6 });
-                // LinkedListUtils.keepCycle(head, 2);
-                // Node target = LinkedListUtils.getNode(
+                // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 3, 4, 5, 6 });
+                // SinglyLinkedListUtils.keepCycle(head, 2);
+                // Node target = SinglyLinkedListUtils.getNode(
                 // head,
                 //
                 // 5
@@ -26,8 +26,8 @@ public class Demo {
                 // System.out.println(July22.startingNodeOfCycle(head).data);
 
                 // ! July 24 Stuff
-                // Node head = LinkedListUtils.getHead(new int[] { 1, 2, 3, 2, 1 });
-                // LinkedListUtils.keepCycle(head, 4);
+                // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 3, 2, 1 });
+                // SinglyLinkedListUtils.keepCycle(head, 4);
 
                 // System.out.println(July24.lengthOfCycle(head));
                 // System.out.println(July24.isPalindrome(head));
@@ -39,76 +39,160 @@ public class Demo {
                 // // 1, 2, 3, 4, 5
                 // 2, 1, 3, 5, 6, 4, 7
                 // };
-                // Node head = LinkedListUtils.getHead(arr);
-                // System.out.println(LinkedListUtils.getList(
+                // Node head = SinglyLinkedListUtils.getHead(arr);
+                // System.out.println(SinglyLinkedListUtils.getList(
                 // July24.oddEvenListOptimalV2(head)));
 
                 // ! July 25 Stuff
-                // Node head = LinkedListUtils.getHead(new int[] {
+                // Node head = SinglyLinkedListUtils.getHead(new int[] {
                 // 1, 2, 3, 4, 5, 6
                 // 1, 2
                 // 1
                 // });
 
-                // System.out.println(LinkedListUtils.getList(July25.removeNthFromEndOptimal(head,
+                // System.out.println(SinglyLinkedListUtils.getList(July25.removeNthFromEndOptimal(head,
                 // 1)));
-                // System.out.println(LinkedListUtils.getList(July25.deleteMiddleNodeOptimal(head)));
-                // System.out.println(LinkedListUtils.getList(July25.deleteMiddleNodeOptimal(head)));
+                // System.out.println(SinglyLinkedListUtils.getList(July25.deleteMiddleNodeOptimal(head)));
+                // System.out.println(SinglyLinkedListUtils.getList(July25.deleteMiddleNodeOptimal(head)));
                 // ! Intersection Point Linked List
-                // Node headA = LinkedListUtils.getHead(new int[] { 4, 1, 8, 4, 5 });
-                // Node headB = LinkedListUtils.getHead(new int[] { 5, 6, 1 });
-                // LinkedListUtils.createIntersection(headA, headB, 2, 3, false);
-                // System.out.println(LinkedListUtils.getList(
+                // Node headA = SinglyLinkedListUtils.getHead(new int[] { 4, 1, 8, 4, 5 });
+                // Node headB = SinglyLinkedListUtils.getHead(new int[] { 5, 6, 1 });
+                // SinglyLinkedListUtils.createIntersection(headA, headB, 2, 3, false);
+                // System.out.println(SinglyLinkedListUtils.getList(
                 // July25.intersectionPointOptimal(headA, headB)));
 
-                // Node head = LinkedListUtils.getHead(new int[] {
+                // Node head = SinglyLinkedListUtils.getHead(new int[] {
                 // // 9, 9, 9
                 // // 1, 0, 0, 0
                 // 4, 2, 1, 3
                 // });
-                // System.out.println(LinkedListUtils.getList(July25.addOneToLLOptimal(head)));
+                // System.out.println(SinglyLinkedListUtils.getList(July25.addOneToLLOptimal(head)));
                 // int val = July25.addOneToLLHelper(head);
                 // System.out.println(val);
-                // System.out.println(LinkedListUtils.getList(July25.sortList(head)));
+                // System.out.println(SinglyLinkedListUtils.getList(July25.sortList(head)));
 
-                // Node head1 = LinkedListUtils.getHead(new int[] { 1, 2, 4 });
-                // Node head2 = LinkedListUtils.getHead(new int[] { 1, 3, 4 });
+                // Node head1 = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 4 });
+                // Node head2 = SinglyLinkedListUtils.getHead(new int[] { 1, 3, 4 });
 
-                // System.out.println(LinkedListUtils.getList(July25.mergeSortedLists(head1,
+                // System.out.println(SinglyLinkedListUtils.getList(July25.mergeSortedLists(head1,
                 // head2)));
 
-                // Node head = LinkedListUtils.getHead(new int[] { 9, 4, 6, 2, 1, 3, 5, 7, 8 });
+                // Node head = SinglyLinkedListUtils.getHead(new int[] { 9, 4, 6, 2, 1, 3, 5, 7,
+                // 8 });
 
-                // System.out.println(LinkedListUtils.getList(
+                // System.out.println(SinglyLinkedListUtils.getList(
                 // July25.mergeSort(head)));
 
-                // ! July 26 Stuff
+                // ! July 29 Stuff
 
-                // System.out.println(July26.intToBin(10));
+                // Node head = DoublyLinkedListUtils.getHead(new int[] {
+                // 4, 3, 2, 1
+                // 4, 2
+                //
+                // });
 
-                // System.out.println(July26.binToInt(July26.intToBin(10)));
+                // System.out.println(DoublyLinkedListUtils.getList(
+                // July29.reverseDoublyLinkedListOptimal(head)
+                //
+                // ));
+                // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 3, 4, 5, 6, 7, 8
+                // });
+                // System.out.println(SinglyLinkedListUtils.getList(
+                // July29.reverseLinkedListIIV2(head, 2, 4)
+                //
+                // ));
 
-                // System.out.println(15 ^ 1);
-                // System.out.println(July26.rightMostSetBit(10));
-                // System.out.println(Integer.toBinaryString(~(1 << 31) | (1 << 31)));
+                // ! July 3, Stuff
 
-                // !
+                // Node head = SinglyLinkedListUtils.getHead(new int[] {
+                // //
+                // 1, 2, 3, 4, 5
+                // //
+                // });
+
+                // System.out.println(SinglyLinkedListUtils.getList(
+                // //
+                // July30.reverseLinkedListIIV2(head, 2, 4)
+                //
+                // ));
+
+                // ! Aug 1 Stuff
+
+                // DoublyLinkedList dll = new DoublyLinkedList();
+                // dll.insertAtHead(100);
+                // dll.insertAtHead(200);
+                // dll.insertAtHead(300);
+                // dll.insertAtPos(3, 400);
+                // dll.deletePos(2);
+                // dll.printForward();
+
+                // NonLinearLinkedList nll = new NonLinearLinkedList();
+                // nll.insertAtTail(100);
+                // nll.insertAtTail(200);
+                // nll.insertAtTail(300);
+                // nll.printLL();
+
                 // System.out.println(
-                // Integer.toBinaryString(
-                // ((~(1 << 31) | (1 << 31)) ^ 10)));
+                // NonLinearLinkedListUtils.getList(
+                // head));
+
+                // DNode dhead = DoublyLinkedListUtils.getHead(new int[] {
+                // 1, 2, 3, 4, 5, 6, 7, 8, 9
+                // 1, 5, 6,
+                // 0, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+                // });
+
                 // System.out.println(
-                // Integer.toBinaryString(10));
+                // Aug01.pairsWithTargetSum(dhead, 8)
+                //
+                // );
 
-                // System.out.println(10 ^ 2);
+                // ! FLatten Linked list problem
+                // NlNode head = NonLinearLinkedListUtils.getHead(new int[] { 5, 10, 19, 28 });
+                // NonLinearLinkedListUtils.putBottomList(head, 1, new int[] { 7, 8 });
+                // NonLinearLinkedListUtils.putBottomList(head, 2, new int[] { 20 });
+                // NonLinearLinkedListUtils.putBottomList(head, 3, new int[] { 22 });
+                // NonLinearLinkedListUtils.putBottomList(head, 4, new int[] { 40, 45 });
+                // System.out.println(NonLinearLinkedListUtils.getList(head));
 
-                // int a = 12;
-                // int b = 7;
-                // System.out.println((a ^ b) + ((a & b) << 1));
-                // ! July 27 Stuff
-                // System.out.println(July27.singleNumberII(
-                // new int[] {
-                // 5, 5, 5, 3, 2, 2, 2
-                // }));
+                // NlNode head1 = NonLinearLinkedListUtils.getHead(new int[] { 4 });
+                // NonLinearLinkedListUtils.putBottomList(head1, 1, new int[] { 9 });
+                // NlNode head2 = NonLinearLinkedListUtils.getHead(new int[] { 5 });
+                // NonLinearLinkedListUtils.putBottomList(head2, 1, new int[] { 6, 8 });
+
+                // System.out.println(NonLinearLinkedListUtils.getChildList(
+                // // Aug01.mergeLists(head1, head2)
+                // Aug01.flattenListV2(head)
+                // //
+                // ));
+
+                // ! REMOVE DUPLICATES FROM LINKED LIST
+
+                // Node head = SinglyLinkedListUtils.getHead(new int[] {
+                // 1, 1, 2, 2, 3, 3, 4, 5
+                // 1, 1, 2, 3, 3
+                // });
+                // System.out.println(SinglyLinkedListUtils.getList(
+                // Aug01.removeDuplicates(head)
+                //
+                // ));
+
+                Node head1 = SinglyLinkedListUtils.getHead(new int[] {
+                                // 7, 2, 4, 3
+                                // 0
+                                2, 4, 3
+                });
+                Node head2 = SinglyLinkedListUtils.getHead(new int[] {
+                                // 5, 6, 4
+                                // 0
+                                5, 6, 4
+                });
+
+                System.out.println(SinglyLinkedListUtils.getList(
+                                Aug03.addTwoNumbersBrute(head1, head2)
+                //
+                ));
 
         }
 
