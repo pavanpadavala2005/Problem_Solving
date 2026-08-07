@@ -178,22 +178,33 @@ public class Demo {
                 //
                 // ));
 
-                Node head1 = SinglyLinkedListUtils.getHead(new int[] {
-                                // 7, 2, 4, 3
-                                // 0
-                                2, 4, 3
-                });
-                Node head2 = SinglyLinkedListUtils.getHead(new int[] {
-                                // 5, 6, 4
-                                // 0
-                                5, 6, 4
-                });
+                // Node head1 = SinglyLinkedListUtils.getHead(new int[] {
+                // // 7, 2, 4, 3
+                // // 0
+                // 2, 4, 3
+                // });
+                // Node head2 = SinglyLinkedListUtils.getHead(new int[] {
+                // // 5, 6, 4
+                // // 0
+                // 5, 6, 4
+                // });
 
-                System.out.println(SinglyLinkedListUtils.getList(
-                                Aug03.addTwoNumbersBrute(head1, head2)
-                //
-                ));
+                // System.out.println(SinglyLinkedListUtils.getList(
+                // Aug03.addTwoNumbersBrute(head1, head2)
+                // //
+                // ));
 
+                // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 6, 3, 4, 5, 6 });
+                // System.out.println(SinglyLinkedListUtils.getList(
+                // Aug05.removeElementsOptimal(head, 6))
+                // //
+                // );
+
+                Node head = SinglyLinkedListUtils.getHead(
+                                new int[] {
+                                                1, 0, 1
+                                });
+                System.out.println(Aug05.getDecimalValue(head));
         }
 
 }
