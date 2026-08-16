@@ -1,4 +1,5 @@
 
+
 public class Demo {
 
     public static void main(String[] args) {
@@ -63,11 +64,26 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Aug15.isAnagramOptimal(
-                "anagramz",
-                "nagaramz"
+        // System.out.println(Aug15.isAnagramOptimal(
+        // "anagramz",
+        // "nagaramz"
+        // //
+        // ));
+
+        // System.out.println(Aug15.isAnagramOptimal(
+        // // "anagram", "nagaram"
+        // "rat", "car"
+        // //
+        // ));
+
+        // ! Aug 16 Stuff
+        // System.out.println(
+        // Aug16.reverseWordsBetter(
+        // "the sky is blue"
+        // " hello world "
+        // "a good example"
         //
-        ));
+        // ));
 
     }
 }

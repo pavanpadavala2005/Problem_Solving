@@ -1,18 +1,19 @@
-
 public class Example2 {
+
+    // ! =============== Hollow Square ================
     public static void hallowSquare(int n) {
         for (int row = 0; row < n; row++) {
             for (int col = 0; col < n; col++) {
-                if (col == 0 || row == 0 || col == n - 1 || row == n - 1) {
+                if (col == 0 || row == 0 || col == n - 1 || row == n - 1)
                     System.out.print("* ");
-                } else {
+                else
                     System.out.print("  ");
-                }
             }
             System.out.println();
         }
     }
 
+    // ! =============== Hollow Left Increment ================
     public static void hallowLeftIncrement(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -25,123 +26,118 @@ public class Example2 {
         }
     }
 
+    // ! =============== Hollow Left Decrement ================
     public static void hallowLeftDecrement(int n) {
         for (int i = 0; i < n; i++) {
-            for (int space = 0; space < i; space++) {
+            for (int space = 0; space < i; space++)
                 System.out.print("  ");
-            }
+
             for (int j = 0; j < n - i - 1; j++) {
                 if (j == 0 || i == 0 || j == n - i - 2)
                     System.out.print("* ");
                 else
                     System.out.print("  ");
             }
+
             System.out.println();
         }
     }
 
+    // ! =============== Inverted Pyramid ================
     public static void invertedPyramid(int n) {
-        // for (int row = 0; row < n; row++) {
-        // for (int space = 0; space < row; space++) {
-        // System.out.print(" ");
-        // }
-        // for (int col = 0; col < (n - row); col++) {
-        // System.out.print("* ");
-        // }
-        // System.out.println();
-        // }
-
-        // Hallow
-
         for (int row = 0; row < n; row++) {
-            for (int space = 0; space < row; space++) {
+            for (int space = 0; space < row; space++)
                 System.out.print(" ");
+
+            for (int col = 0; col < n - row; col++) {
+                System.out.print(
+                        (col == 0 || row == 0 || col == n - row - 1) ? "* " : "  ");
             }
-            for (int col = 0; col < (n - row); col++) {
-                System.out.print((col == 0 || row == 0 || col == n - row - 1) ? "* " : "  ");
-            }
+
             System.out.println();
         }
     }
 
+    // ! =============== Pyramid ================
     public static void pyramid(int n) {
         for (int row = 0; row < n; row++) {
-            for (int space = 0; space < n - row - 1; space++) {
+            for (int space = 0; space < n - row - 1; space++)
                 System.out.print(" ");
-            }
+
             for (int col = 0; col < row + 1; col++) {
                 System.out.print(
                         (col == 0 || row == n - 1 || col == row) ? "* " : "  ");
             }
+
             System.out.println();
         }
     }
 
+    // ! =============== Diamond ================
     public static void diamond(int n) {
         for (int row = 0; row < n - 1; row++) {
-            for (int space = 0; space < n - row - 1; space++) {
+            for (int space = 0; space < n - row - 1; space++)
                 System.out.print(" ");
-            }
+
             for (int col = 0; col < row + 1; col++) {
                 System.out.print(
-                        (col == 0 || row == n - 1 || col == row) ? "* " : "  ");
+                        (col == 0 || col == row) ? "* " : "  ");
             }
+
             System.out.println();
         }
+
         for (int row = 0; row < n; row++) {
-            for (int space = 0; space < row; space++) {
-                System.out.print(" ");
+            for (int space = 0; space < row; space++)
+                System.out.print("  ");
+
+            for (int col = 0; col < n - row; col++) {
+                System.out.print(
+                        (col == 0 || col == n - row - 1) ? "* " : "  ");
             }
-            for (int col = 0; col < (n - row); col++) {
-                System.out.print((col == 0 || col == n - row - 1) ? "* " : "  ");
-            }
+
             System.out.println();
         }
     }
 
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-
+    // ! =============== Plus ================
     public static void plus(int n) {
         for (int row = 0; row < n; row++) {
             for (int col = 0; col < n; col++) {
-                if (n / 2 == row || n / 2 == col)
+                if (row == n / 2 || col == n / 2)
                     System.out.print("* ");
                 else
                     System.out.print("  ");
             }
+
             System.out.println();
         }
     }
 
+    // ! =============== Plus V2 ================
     public static void plusV2(int n) {
         for (int row = 0; row < n; row++) {
             for (int col = 0; col < n; col++) {
                 int mid = n / 2;
-                if (row == mid ||
-                        col == mid ||
-                        (row + col) / 2 == 0) {
+
+                if (row == mid || col == mid || (row + col) / 2 == 0)
                     System.out.print("* ");
-                } else {
+                else
                     System.out.print("  ");
-                }
             }
+
             System.out.println();
         }
     }
 
+    // ! =============== Matrix ================
     public static void matrix(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print(String.format("[%d,%d]", i, j));
             }
         }
+
         System.out.println();
     }
 }

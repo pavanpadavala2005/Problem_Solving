@@ -1,6 +1,8 @@
 import java.util.LinkedList;
 
 public class July23 {
+
+    // ! =============== Binary to Decimal V1 ================
     public static int binToDecV1(String s) {
         int res = 0;
         int val = 1;
@@ -12,7 +14,8 @@ public class July23 {
         return res;
     }
 
-    public static LinkedList decimalToBinV1(int num) {
+    // ! =============== Decimal to Binary V1 ================
+    public static LinkedList<Integer> decimalToBinV1(int num) {
         LinkedList<Integer> res = new LinkedList<>();
         while (num > 0) {
             int rem = num % 2;
@@ -22,6 +25,7 @@ public class July23 {
         return res;
     }
 
+    // ! =============== Decimal to Binary V2 ================
     public static StringBuilder decimalToBinV2(int num) {
         StringBuilder res = new StringBuilder("");
         while (num > 0) {

@@ -8,6 +8,17 @@ public class Aug15 {
     public static boolean isAnagramOptimal(String s, String t) {
         if (s.length() != t.length())
             return false;
+        int res = 0;
+        for (int i = 0; i < s.length(); i++) {
+            res ^= s.charAt(i);
+            res ^= t.charAt(i);
+        }
+        return res == 0;
+    }
+
+    public static boolean isAnagramBetter(String s, String t) {
+        if (s.length() != t.length())
+            return false;
         int[] res = new int[26];
         for (int i = 0; i < s.length(); i++) {
             int idx1 = s.charAt(i) - 97;
@@ -157,6 +168,18 @@ public class Aug15 {
     }
 
     // ! =============== LC205. Isomorphic Strings ================
+    public static boolean isIsomorphic(String s, String t) {
+        // * Using Two Arrays
+        int[] arr1 = new int[256], arr2 = new int[256];
+        for (int i = 0; i < s.length(); i++) {
+            if (arr1[s.charAt(i)] != arr2[t.charAt(i)])
+                return false;
+            arr1[s.charAt(i)] = i + 1;
+            arr2[t.charAt(i)] = i + 1;
+        }
+        return true;
+    }
+
     public static boolean isIsomorphicOptimal(String s, String t) {
         HashMap<Character, Character> freq = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {

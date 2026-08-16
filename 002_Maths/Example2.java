@@ -1,5 +1,5 @@
-// package MathExamples;
 public class Example2 {
+    // ! =============== Check Prime ================
     public static boolean isPrime(int num) {
         if (num <= 1)
             return false;
@@ -12,6 +12,7 @@ public class Example2 {
         return true;
     }
 
+    // ! =============== Factors ================
     public static void factors(int num) {
         int i = 1;
         while (i * i <= num) {
@@ -24,6 +25,7 @@ public class Example2 {
         }
     }
 
+    // ! =============== Primes in Range ================
     public static void primesInRange(int n) {
         boolean[] primes = new boolean[n + 1];
         for (int i = 2; i * i <= n; i++) {
@@ -38,6 +40,7 @@ public class Example2 {
         }
     }
 
+    // ! =============== Square Root ================
     public static double sqrt(int n, int p) {
         int s = 0;
         int e = n;
@@ -61,6 +64,7 @@ public class Example2 {
         return root;
     }
 
+    // ! =============== Square Root using Newton's Method ================
     public static double sqrtNewton(int n) {
         double x = n;
         double root;
@@ -77,6 +81,7 @@ public class Example2 {
         return root;
     }
 
+    // ! =============== Factors V2 ================
     public static void factors1(int n) {
         for (int i = 1; i * i <= n; i++) {
             if (n % i == 0) {
@@ -87,4 +92,5 @@ public class Example2 {
             }
         }
     }
+
 }
