@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class July22 {
+    // ! =============== LC 141. Linked List Cycle ================
     // !============= CYCLE IN LINKED LIST =============
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static boolean hasCycleOptimal(Node head) {
         Node slow = head;
         Node fast = head;
@@ -14,6 +17,8 @@ public class July22 {
         return false;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static boolean hasCycleBrute(Node head) {
         HashSet<Node> nodes = new HashSet<>();
         Node temp = head;
@@ -26,7 +31,10 @@ public class July22 {
         return false;
     }
 
+    // ! =============== LC 142. Linked List Cycle II ================
     // !======= STARTING NODE OF CYCLE =========
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static Node startingNodeOfCycle(Node head) {
         HashSet<Node> nodes = new HashSet<>();
         Node temp = head;

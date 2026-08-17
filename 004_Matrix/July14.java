@@ -1,6 +1,10 @@
 
 public class July14 {
     // ! ==================== MEDIAN OF TWO SORTED ARRAYS ==================
+
+    // ! =============== LC 4. Median of Two Sorted Arrays ================
+    // @ Time Complexity: O(N1 + N2)
+    // @ Space Complexity: O(1)
     public static double MedianOfSortedArraysOptimal(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length;
         int n = n1 + n2;
@@ -45,6 +49,8 @@ public class July14 {
         return (double) elem1;
     }
 
+    // @ Time Complexity: O(N1 + N2)
+    // @ Space Complexity: O(N1 + N2)
     public static double MedianOfSortedArraysBrute(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length;
         int n = n1 + n2;
@@ -66,6 +72,10 @@ public class July14 {
     }
 
     // ! ==================== FIND PEAK ELEMENT II OPTIMAL ==================
+
+    // ! =============== LC 1901. Find a Peak Element II ================
+    // @ Time Complexity: O(log C)
+    // @ Space Complexity: O(1)
     public static int peakIndex(int[] nums) {
         int n = nums.length;
         if (n == 0 || nums[0] > nums[1])
@@ -86,6 +96,8 @@ public class July14 {
         return -1;
     }
 
+    // @ Time Complexity: O(log R * log C)
+    // @ Space Complexity: O(1)
     public static int[] findPeakGrid(int[][] mat) {
         int i = 0;
         int j = mat.length - 1;
@@ -137,6 +149,8 @@ public class July14 {
         return mat[row][col];
     }
 
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(1)
     public static void findPeakElementIIHelper(int[][] mat) {
         int rows = mat.length;
         int cols = mat[0].length;
@@ -147,6 +161,8 @@ public class July14 {
         }
     }
 
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(1)
     public static int[] findPeakElementIIBrute(int[][] mat) {
         int m = mat.length;
         int n = mat[0].length;
@@ -168,6 +184,10 @@ public class July14 {
     }
 
     // ! ==================== SEARCH IN 2D MATRIX II ====================
+
+    // ! =============== LC 240. Search a 2D Matrix II ================
+    // @ Time Complexity: O(log C)
+    // @ Space Complexity: O(1)
     public static boolean binarySearch(int[] nums, int target) {
         int i = 0;
         int j = nums.length - 1;
@@ -183,6 +203,8 @@ public class July14 {
         return false;
     }
 
+    // @ Time Complexity: O(R + C)
+    // @ Space Complexity: O(1)
     public static boolean SearchIn2DMatrixIIOptimal(int[][] mat, int target) {
         int m = mat.length;
         int n = mat[0].length;
@@ -200,6 +222,8 @@ public class July14 {
         return false;
     }
 
+    // @ Time Complexity: O(log R * log C)
+    // @ Space Complexity: O(1)
     public static boolean SearchIn2DMatrixIIBetter(int[][] mat, int target) {
         int m = mat.length;
         int n = mat[0].length;
@@ -230,6 +254,8 @@ public class July14 {
         return false;
     }
 
+    // @ Time Complexity: O(R log C)
+    // @ Space Complexity: O(1)
     public static boolean SearchIn2DMatrixIIBrute(int[][] mat, int target) {
         int m = mat.length;
         int n = mat[0].length;
@@ -242,6 +268,10 @@ public class July14 {
     }
 
     // ! ==================== FIND ROWS WITH MAX 1's ====================
+
+    // ! =============== GFG. Row with Max 1s in Row-Wise Sorted Matrix ================
+    // @ Time Complexity: O(log C)
+    // @ Space Complexity: O(1)
     public static int lastOccurance(int[] nums, int target) {
         int n = nums.length, i = 0, j = n - 1;
         while (i <= j) {
@@ -254,6 +284,8 @@ public class July14 {
         return n - i;
     }
 
+    // @ Time Complexity: O(log C)
+    // @ Space Complexity: O(1)
     public static int countOnes(int[] nums) {
         int n = nums.length;
         int i = 0, j = n - 1;
@@ -270,6 +302,8 @@ public class July14 {
         return n - i;
     }
 
+    // @ Time Complexity: O(R log C)
+    // @ Space Complexity: O(1)
     public static int[] rowAndMaximumOnes(int[][] mat) {
         int idx = 0;
         int max = -1;

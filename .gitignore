@@ -23,4 +23,8 @@ tempCodeRunnerFile.*
 .DS_Store
 Thumbs.db
 
+# JSON files
 *.json
+
+# Safe folders anywhere in the project
+Safe/

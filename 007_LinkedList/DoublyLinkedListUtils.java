@@ -1,6 +1,9 @@
+// ! =============== GENERAL. Doubly Linked List Utilities ================
 import java.util.ArrayList;
 
 public class DoublyLinkedListUtils {
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static DNode getHead(int[] nums) {
         DoublyLinkedList dll = new DoublyLinkedList();
         for (int i : nums)
@@ -8,6 +11,8 @@ public class DoublyLinkedListUtils {
         return dll.head;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static DNode getDNode(DNode head, int target) {
         DNode temp = head;
         while (temp != null) {
@@ -18,6 +23,8 @@ public class DoublyLinkedListUtils {
         return temp;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static ArrayList getList(DNode head) {
         ArrayList<Integer> res = new ArrayList<>();
         DNode temp = head;

@@ -3,8 +3,11 @@ import java.util.ArrayList;
 
 public class July24 {
 
+    // ! =============== LC 328. Odd Even Linked List ================
     // ! ============= ODD EVEN LINKED LIST ==============
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static Node oddEvenListOptimalV2(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -21,6 +24,8 @@ public class July24 {
         return head;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static Node oddEvenListOptimalV1(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -39,6 +44,8 @@ public class July24 {
         return head;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static Node oddEvenListBrute(Node head) {
         ArrayList<Integer> res = new ArrayList<>();
         Node temp = head;
@@ -61,7 +68,10 @@ public class July24 {
         return head;
     }
 
+    // ! =============== GENERAL. Rearrange Array by Odd and Even Positions ================
     // ! ============= ODD EVEN LIST ==============
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(1)
     public static void oddEvenListBrute(int[] nums) {
         int pos = 1;
         for (int i = 2; i < nums.length; i += 2) {
@@ -73,6 +83,8 @@ public class July24 {
         }
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static void oddEvenList(int[] nums) {
         int i = 0;
         for (int j = 0; j < nums.length; j++) {
@@ -84,7 +96,10 @@ public class July24 {
         }
     }
 
+    // ! =============== GFG. Find Length of Loop ================
     // ! =========== LENGTH OF LOOP IN LL ===========
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int lengthOfCycle(Node head) {
         Node slow = head;
         Node fast = head;
@@ -109,7 +124,10 @@ public class July24 {
         return -1;
     }
 
+    // ! =============== LC 234. Palindrome Linked List ================
     // ! =========== PALINDROME LIST ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static boolean isPalindrome(Node head) {
         Node slow = head;
         Node fast = head;
@@ -134,6 +152,8 @@ public class July24 {
         return true;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static boolean isPalindromeBrute(Node head) {
         ArrayList<Integer> lis = new ArrayList<>();
         while (head != null) {

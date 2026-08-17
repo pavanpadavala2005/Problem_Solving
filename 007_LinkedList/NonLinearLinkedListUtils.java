@@ -1,8 +1,11 @@
 
+// ! =============== GENERAL. Non-Linear Linked List Utilities ================
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 public class NonLinearLinkedListUtils {
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(1)
     public static NlNode getHead(int[] nums) {
         NonLinearLinkedList nll = new NonLinearLinkedList();
         for (int i : nums)
@@ -10,6 +13,8 @@ public class NonLinearLinkedListUtils {
         return nll.head;
     }
 
+    // @ Time Complexity: O(P + K)
+    // @ Space Complexity: O(1)
     public static void putBottomList(NlNode head, int pos, int[] nums) {
         NlNode temp = head;
         while (temp != null && pos > 1) {
@@ -25,6 +30,8 @@ public class NonLinearLinkedListUtils {
         }
     }
 
+    // @ Time Complexity: O(N + B)
+    // @ Space Complexity: O(N + B)
     public static LinkedHashMap<Integer, ArrayList<Integer>> getList(NlNode head) {
         LinkedHashMap<Integer, ArrayList<Integer>> res = new LinkedHashMap<>();
         NlNode temp = head;
@@ -43,6 +50,8 @@ public class NonLinearLinkedListUtils {
         return res;
     }
 
+    // @ Time Complexity: O(B)
+    // @ Space Complexity: O(B)
     public static ArrayList<Integer> getChildList(NlNode head) {
         ArrayList<Integer> res = new ArrayList<>();
         NlNode temp = head;

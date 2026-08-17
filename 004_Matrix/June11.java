@@ -1,4 +1,8 @@
 public class June11 {
+
+    // ! =============== LC 560. Subarray Sum Equals K ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int subarraySum(int[] nums, int k) {
         int sum = 0;
         int count = 0;

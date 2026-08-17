@@ -1,5 +1,9 @@
 public class July13 {
     // ! ==================== SEARCH IN 2D MATRIX ====================
+
+    // ! =============== LC 74. Search a 2D Matrix ================
+    // @ Time Complexity: O(log(R * C))
+    // @ Space Complexity: O(1)
     public static boolean SearchIn2DMatrixOptimal(int[][] mat, int target) {
         int n = mat.length;
         int m = mat[0].length;
@@ -19,6 +23,8 @@ public class July13 {
         return false;
     }
 
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(1)
     public static boolean SearchIn2DMatrixBrute(int[][] mat, int target) {
         int n = mat.length;
         int m = mat[0].length;
@@ -33,6 +39,10 @@ public class July13 {
     }
 
     // ! ==================== FIND ROWS WITH MAX 1's ====================
+
+    // ! =============== GFG. Row with Max 1s in Row-Wise Sorted Matrix ================
+    // @ Time Complexity: O(log C)
+    // @ Space Complexity: O(1)
     public static int firstOccurance(int[] nums, int target) {
         int n = nums.length, i = 0, j = nums.length - 1;
         while (i <= j) {

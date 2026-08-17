@@ -2,6 +2,9 @@ import java.util.*;
 
 public class June07 {
 
+    // ! =============== General. Create a Matrix with User Input ================
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(N^2)
     public static void basicMatrixWithInput(int n) {
         Scanner sc = new Scanner(System.in);
         int[][] matrix = new int[n][n];
@@ -14,6 +17,9 @@ public class June07 {
         System.out.println(Arrays.deepToString(matrix));
     }
 
+    // ! =============== General. Print a Matrix ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(1)
     public static void printMatrix(int[][] matrix) {
         // int rows = matrix.length;
         // int cols = matrix[0].length;
@@ -30,6 +36,9 @@ public class June07 {
         }
     }
 
+    // ! =============== General. Print a Three-Dimensional Matrix ================
+    // @ Time Complexity: O(R * C * E)
+    // @ Space Complexity: O(1)
     public static void threeDMatrixPrint() {
         int[][][] matrix = new int[][][] {
                 new int[][] {
@@ -63,6 +72,9 @@ public class June07 {
         }
     }
 
+    // ! =============== General. Traverse a Jagged Array ================
+    // @ Time Complexity: O(E)
+    // @ Space Complexity: O(1)
     public static void jaggedArrays() {
         int[][] matrix = new int[][] {
                 new int[] { 1, 2, 3 },
@@ -82,6 +94,9 @@ public class June07 {
 
     // ! Matrix Problems --> Very Basic Problems
 
+    // ! =============== GFG. Row Sum in a Matrix ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(R)
     public static int[] sumOfEachRow(int[][] matrix) {
         int[] resArr = new int[matrix.length];
         for (int i = 0; i < matrix.length; i++) {
@@ -94,6 +109,9 @@ public class June07 {
         return resArr;
     }
 
+    // ! =============== General. Column Sum in a Matrix ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(C)
     public static int[] sumOfEachColumn(int[][] matrix) {
         int[] resArr = new int[matrix[0].length];
         for (int i = 0; i < matrix[0].length; i++) {
@@ -106,6 +124,9 @@ public class June07 {
         return resArr;
     }
 
+    // ! =============== General. Primary Diagonal Sum ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int diagonalSum(int[][] matrix) {
         int sum = 0;
         for (int i = 0; i < matrix.length; i++)
@@ -113,6 +134,9 @@ public class June07 {
         return sum;
     }
 
+    // ! =============== LC 867. Transpose Matrix ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(R * C)
     public static int[][] transposeMatrix(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -123,6 +147,9 @@ public class June07 {
         return resMatrix;
     }
 
+    // ! =============== GFG. Add Two Square Matrices ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(R * C)
     public static int[][] addTwoMatrix(int[][] matrix1, int[][] matrix2) {
         int rows = matrix1.length;
         int cols = matrix1[0].length;
@@ -146,6 +173,9 @@ public class June07 {
             matrix[i][j] = -1;
     }
 
+    // ! =============== LC 73. Set Matrix Zeroes ================
+    // @ Time Complexity: O(R * C)
+    // @ Space Complexity: O(R + C)
     public static int[][] setMatrixZeros(int[][] matrix) {
         // ! Time Complexity is Somewhere around O(N3)
         // int rows = matrix.length;
@@ -180,6 +210,9 @@ public class June07 {
         return matrix;
     }
 
+    // ! =============== LC 48. Rotate Image ================
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(1)
     public static int[][] rotateMatrix90Degree(int[][] matrix) {
         // int n = matrix.length;
         // int[][] resMatrix = new int[n][n];
