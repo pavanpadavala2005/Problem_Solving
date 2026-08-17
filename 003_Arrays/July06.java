@@ -1,4 +1,8 @@
 public class July06 {
+
+    // ! =============== LC 33. Search in Rotated Sorted Array ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(log N)
     public static int searchRotatedArrayRec(int[] nums, int target) {
         return searchRotatedArrayRec(nums, target, 0, nums.length - 1);
     }
@@ -11,7 +15,7 @@ public class July06 {
         if (nums[mid] == target)
             return mid;
         // Left Part is Sorted
-        else if (nums[i] <= nums[mid]) { 
+        else if (nums[i] <= nums[mid]) {
             if (nums[i] <= target && target <= nums[mid])
                 return searchRotatedArrayRec(nums, target, i, mid - 1);
             else
@@ -26,6 +30,8 @@ public class July06 {
         }
     }
 
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int searchRotatedArray(int[] nums, int target) {
         int i = 0;
         int j = nums.length - 1;
@@ -102,6 +108,10 @@ public class July06 {
         return f;
     }
 
+    // ! =============== LC 34. Find First and Last Position of Element in Sorted
+    // Array ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int[] getFirstAndLastOccuranceOptimal(int[] nums, int target) {
         int lb = firstOccurance(nums, target);
         if (lb == -1)
@@ -110,6 +120,8 @@ public class July06 {
         return new int[] { lb, ub };
     }
 
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int[] getFirstAndLastOccuranceBrute(int[] nums, int target) {
         int lb = lowerBound(nums, target);
         int ub = upperBound(nums, target);
@@ -119,6 +131,9 @@ public class July06 {
         return new int[] { lb, ub - 1 };
     }
 
+    // ! =============== GFG. Floor in a Sorted Array ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int findFloor(int[] nums, int target) {
         int n = nums.length;
         int i = 0;
@@ -136,6 +151,9 @@ public class July06 {
         return idx;
     }
 
+    // ! =============== GFG. Lower Bound ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int lowerBound(int[] nums, int target) {
         // Need to Find an smallest possible index whew arr[index] >= target
         int n = nums.length;
@@ -153,6 +171,9 @@ public class July06 {
         return idx;
     }
 
+    // ! =============== GFG. Upper Bound ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int upperBound(int[] nums, int target) {
         // Need to Find an smallest possible index whew arr[index] > target
         int n = nums.length;
@@ -170,6 +191,9 @@ public class July06 {
         return idx;
     }
 
+    // ! =============== LC 35. Search Insert Position ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int i = 0;

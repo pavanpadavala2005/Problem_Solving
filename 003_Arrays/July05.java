@@ -16,6 +16,9 @@ public class July05 {
         System.out.println(Arrays.toString(nums));
     }
 
+    // ! =============== GFG. Merge Sort ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static void mergeV2(int[] nums, int low, int mid, int high) {
         int n = high - low;
         int[] resArr = new int[n];
@@ -36,6 +39,8 @@ public class July05 {
             nums[idx + low] = resArr[idx];
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static void merge(int[] nums) {
         int low = 0;
         int high = nums.length;
@@ -74,6 +79,8 @@ public class July05 {
         }
     }
 
+    // @ Time Complexity: O(N log N)
+    // @ Space Complexity: O(N)
     public static void mergeSort(int[] nums) {
         mergeSort(nums, 0, nums.length);
     }
@@ -98,6 +105,9 @@ public class July05 {
         System.out.println();
     }
 
+    // ! =============== GFG. Quick Sort ================
+    // @ Time Complexity: Average: O(N log N), Worst: O(N^2)
+    // @ Space Complexity: Average: O(log N), Worst: O(N)
     public static void quickSort(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
     }

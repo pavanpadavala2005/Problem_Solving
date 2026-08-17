@@ -3,6 +3,10 @@ import java.util.Arrays;
 
 public class July12 {
     // ! ==================== SPLIT ARRAY CORRECT ====================
+
+    // ! =============== LC 410. Split Array Largest Sum ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static boolean splitArrayPossible(int[] nums, int max, int k) {
         int ctr = 1;
         int sm = 0;
@@ -18,6 +22,9 @@ public class July12 {
     }
 
     // ! ==================== SPLIT ARRAY WASTED ====================
+
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int splitArrayHelper(int[] prefix, int limit) {
         int n = prefix.length;
         int ans = Integer.MAX_VALUE;
@@ -27,6 +34,8 @@ public class July12 {
         return ans;
     }
 
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(N)
     public static int splitArrayBrute(int[] nums, int k) {
         int n = nums.length;
         if (k > n)
@@ -43,6 +52,10 @@ public class July12 {
     }
 
     // ! ==================== BOOK ALLOCATION ====================
+
+    // ! =============== GFG. Allocate Minimum Pages ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int bookAllocationHelper(int[] nums, long max) {
         int ctr = 1;
         long sm = 0;
@@ -57,6 +70,8 @@ public class July12 {
         return ctr;
     }
 
+    // @ Time Complexity: O(N log S)
+    // @ Space Complexity: O(1)
     public static int bookAllocationOptimal(int[] nums, int k) {
         int n = nums.length;
         if (k > n)
@@ -79,6 +94,8 @@ public class July12 {
         return (int) i;
     }
 
+    // @ Time Complexity: O(N * S)
+    // @ Space Complexity: O(1)
     public static int bookAllocationBrute(int[] nums, int k) {
         int n = nums.length;
         if (k > n)
@@ -100,6 +117,10 @@ public class July12 {
     }
 
     // ! ==================== AGGRESSIVE COWS ====================
+
+    // ! =============== GFG. Aggressive Cows ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static boolean aggressiveCowsHelper(int[] nums, int distance, int cows) {
         int cowCtr = 1, prev = 0;
         for (int i = 1; i < nums.length; i++) {
@@ -113,6 +134,8 @@ public class July12 {
         return false;
     }
 
+    // @ Time Complexity: O(N log N + N log R)
+    // @ Space Complexity: O(log N)
     public static int aggressiveCowsOptimal(int nums[], int cows) {
         Arrays.sort(nums);
         int mx = Integer.MIN_VALUE, mi = Integer.MAX_VALUE;
@@ -132,6 +155,8 @@ public class July12 {
         return j;
     }
 
+    // @ Time Complexity: O(N log N + N * R)
+    // @ Space Complexity: O(log N)
     public static int aggressiveCowsBrute(int nums[], int cows) {
         Arrays.sort(nums);
         int mx = Integer.MIN_VALUE, res = Integer.MIN_VALUE;

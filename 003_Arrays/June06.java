@@ -10,6 +10,11 @@ public class June06 {
     }
 
     // ! Leet 3190
+
+    // ! =============== LC 3190. Find Minimum Operations to Make All Elements
+    // Divisible by Three ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int minimumOperations(int[] nums) {
         int count = 0;
         for (int i : nums)
@@ -35,6 +40,9 @@ public class June06 {
         }
     }
 
+    // ! =============== LC 31. Next Permutation ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static void nextPermutation(int[] nums) {
         int n = nums.length;
         int idx = -1;
@@ -56,5 +64,4 @@ public class June06 {
         }
         reverse(nums, idx + 1, n - 1);
     }
-
 }

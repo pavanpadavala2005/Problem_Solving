@@ -2,24 +2,11 @@
 import java.util.HashMap;
 
 public class June12 {
-    public static int numberOfSubArrays(int[] nums, int k) {
-        // int count = 0;
-        // for (int i = 0; i < nums.length; i++) {
-        // int sum = 0;
-        // for (int j = i; j < nums.length; j++) {
-        // sum += nums[j];
-        // if (sum == k) {
-        // for (int x = i; x <= j; x++) {
-        // System.out.print(nums[x] + " ");
-        // }
-        // count++;
-        // break;
-        // }
-        // }
-        // System.out.println();
-        // }
-        // return count;
 
+    // ! =============== LC 560. Subarray Sum Equals K ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
+    public static int numberOfSubArrays(int[] nums, int k) {
         HashMap<Integer, Integer> prev = new HashMap<>();
         prev.put(0, 1);
         int prefix = 0;
@@ -35,6 +22,30 @@ public class June12 {
         return ctr;
     }
 
+    public static int numberOfSubArraysBrute(int[] nums, int k) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int sum = 0;
+            for (int j = i; j < nums.length; j++) {
+                sum += nums[j];
+                if (sum == k) {
+                    for (int x = i; x <= j; x++) {
+                        System.out.print(nums[x] + " ");
+                    }
+                    count++;
+                    break;
+                }
+            }
+            System.out.println();
+        }
+        return count;
+
+    }
+
+    // ! =============== LC 2798. Number of Employees Who Met the Target
+    // ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int ctr = 0;
         for (int i : hours)
@@ -43,6 +54,9 @@ public class June12 {
         return ctr;
     }
 
+    // ! =============== LC 3467. Transform Array by Parity ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         int left = 0;
@@ -61,6 +75,10 @@ public class June12 {
         return nums;
     }
 
+    // ! =============== LC 3289. The Two Sneaky Numbers of Digitville
+    // ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int[] getSneakyNumbers(int[] nums) {
         int[] freqArr = new int[101];
         for (int i = 0; i < nums.length; i++)
@@ -76,6 +94,7 @@ public class June12 {
         return resArr;
     }
 
+    // ! =============== UTILITY METHOD =================
     public static void reverse(int[] arr, int i, int j) {
         while (i < j) {
             int temp = arr[i];
@@ -86,6 +105,9 @@ public class June12 {
         }
     }
 
+    // ! =============== LC 189. Rotate Array ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         reverse(nums, n - k, n - 1);

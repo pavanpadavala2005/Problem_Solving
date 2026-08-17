@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.List;
 
 public class July01 {
+
+    // ! =============== LC 229. Majority Element II ================
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(1)
     public static List<Integer> majorityElementIIBrute(int[] nums) {
         List<Integer> res = new ArrayList<>();
         int n = nums.length;
@@ -22,6 +26,9 @@ public class July01 {
 
     // ! Take a HashMap and keep a counter and when ever the counter exceeded the
     // n/3 just add it to the Result
+
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static List<Integer> majorityElementIIBetter(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         HashMap<Integer, Integer> freq = new HashMap<>();
@@ -34,6 +41,8 @@ public class July01 {
         return res;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static List<Integer> majorityElementIIOptimal(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         int ctr1 = 0;
@@ -72,6 +81,9 @@ public class July01 {
         return res;
     }
 
+    // ! =============== LC 268. Missing Number ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int missingNumber(int[] nums) {
         int res = nums[0];
         for (int i = 1; i < nums.length; i++)
@@ -79,6 +91,8 @@ public class July01 {
         return res;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int misingNumberBrute(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -91,6 +105,8 @@ public class July01 {
         return diff - sum;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int misingNumberBetter(int[] nums) {
         int res = nums.length;
         for (int i = 0; i < nums.length; i++) {
@@ -100,6 +116,8 @@ public class July01 {
         return res;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int missingNumberOptimal(int[] nums) {
         int res = 0;
         int n = nums.length;
@@ -111,6 +129,9 @@ public class July01 {
         return res;
     }
 
+    // ! =============== LC 287. Find the Duplicate Number ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int findDuplicate_mark(int[] nums) {
         int len = nums.length;
         for (int num : nums) {

@@ -2,21 +2,12 @@
 import java.util.HashMap;
 
 public class June05 {
+
+    // ! =============== LC 1295. Find Numbers with Even Number of Digits
+    // ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int findNumbers(int[] nums) {
-        // int count = 0;
-        // for (int num : nums) {
-        // int temp = num;
-        // int ctr = 0;
-        // while (temp > 0) {
-        // temp &= (temp - 1);
-        // ctr++;
-        // }
-        // if ((ctr & 1) == 0) {
-        // count++;
-        // System.out.println(num);
-        // }
-        // }
-        // return count;
 
         // ! Using and Searching in the Range
         int count = 0;
@@ -26,14 +17,38 @@ public class June05 {
         return count;
     }
 
-    public static int countKDifference(int[] nums, int k) {
+    public static int findNumbersBrute(int[] nums) {
+        int count = 0;
+        for (int num : nums) {
+            int temp = num;
+            int ctr = 0;
+            while (temp > 0) {
+                temp &= (temp - 1);
+                ctr++;
+            }
+            if ((ctr & 1) == 0) {
+                count++;
+                System.out.println(num);
+            }
+        }
+        return count;
+    }
+
+    // ! =============== LC 2006. Count Number of Pairs with Absolute Difference K
+    // ================
+    public static int countKDifferenceBrute(int[] nums, int k) {
         // ! Brute force Approach
-        // int count = 0;
-        // for (int i = 0; i < nums.length; i++)
-        // for (int j = i + 1; j < nums.length; j++)
-        // if (Math.abs(nums[i] - nums[j]) == k)
-        // count++;
-        // return count;
+        int count = 0;
+        for (int i = 0; i < nums.length; i++)
+            for (int j = i + 1; j < nums.length; j++)
+                if (Math.abs(nums[i] - nums[j]) == k)
+                    count++;
+        return count;
+    }
+
+    // @ Time Complexity: Average: O(N)
+    // @ Space Complexity: O(N)
+    public static int countKDifference(int[] nums, int k) {
 
         // ! Better Approach
         HashMap<Integer, Integer> freq = new HashMap<>();
@@ -62,6 +77,10 @@ public class June05 {
         return res;
     }
 
+    // ! =============== LC 2011. Final Value of Variable After Performing
+    // Operations ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int finalValueAfterOperations(String[] operations) {
         int x = 0;
         for (String s : operations) {
@@ -74,6 +93,9 @@ public class June05 {
         return x;
     }
 
+    // ! =============== LC 3467. Transform Array by Parity ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {

@@ -1,7 +1,9 @@
 import java.util.HashMap;
 
 public class June01 {
-
+    // ! =============== General. Minimum Sum Subarray ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int[] minSumSubArray(int[] nums) {
         int minSum = Integer.MAX_VALUE;
         // for (int i = 0; i < nums.length; i++) {
@@ -29,6 +31,9 @@ public class June01 {
         return new int[] { len, minSum };
     }
 
+    // ! =============== LC 53. Maximum Subarray ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int maxSubArray(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
         int runSum = 0;
@@ -40,31 +45,31 @@ public class June01 {
         maxSum = Math.max(runSum, maxSum);
         return maxSum;
     }
-    // User function Template for Java
 
-    class Solution {
-        public int longestSubarray(int[] nums, int k) {
-            // code here
-            int n = nums.length, currSum = 0, maxLen = 0;
-            HashMap<Integer, Integer> map = new HashMap<>();
-            map.put(0, -1); // Ensures -ve numbers also
-            for (int i = 0; i < n; i++) {
-                currSum += nums[i];
-                int rem = currSum - k;
-                if (map.containsKey(rem))
-                    maxLen = Math.max(maxLen, i - map.get(rem));
+    // ! =============== GFG. Longest Subarray with Sum K ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
+    public int longestSubarray(int[] nums, int k) {
+        // code here
+        int n = nums.length, currSum = 0, maxLen = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1); // Ensures -ve numbers also
+        for (int i = 0; i < n; i++) {
+            currSum += nums[i];
+            int rem = currSum - k;
+            if (map.containsKey(rem))
+                maxLen = Math.max(maxLen, i - map.get(rem));
 
-                if (!map.containsKey(currSum))
-                    map.put(currSum, i);
-            }
-            return maxLen;
+            if (!map.containsKey(currSum))
+                map.put(currSum, i);
         }
+        return maxLen;
     }
 
-import java.util.*;
-
-// Class containing the sliding window algorithm
-    public int longestSubarray(int[] nums, int k) {
+    // ! =============== GFG. Longest Subarray with Sum K ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
+    public int longestSubarrayBrute(int[] nums, int k) {
         int n = nums.length;
         // To store the maximum length of the subarray
         int maxLen = 0;
@@ -91,4 +96,5 @@ import java.util.*;
         }
         return maxLen;
     }
+
 }

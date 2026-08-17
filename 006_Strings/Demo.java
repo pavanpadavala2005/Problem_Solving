@@ -1,5 +1,4 @@
 
-
 public class Demo {
 
     public static void main(String[] args) {
@@ -84,6 +83,24 @@ public class Demo {
         // "a good example"
         //
         // ));
+
+        // ! Aug 17 Stuff
+        // System.out.println(Aug17.rotateStringOptimal(
+        // "abcde",
+        // "cdeab"
+        // "abcde",
+        // "abced"
+        // "abc",
+        // "ab"
+        //
+        // ));
+
+        System.out.println(Aug17.removeOuterParenthesesOptimal(
+                // "(()())(())"
+                // "()()"
+                "(()())(())(()(()))"
+        //
+        ));
 
     }
 }

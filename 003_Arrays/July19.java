@@ -1,6 +1,11 @@
 public class July19 {
 
     // ! =============== FIND MIN ELEMENT IN ROTATED ARRAY II =============
+
+    // ! =============== LC 154. Find Minimum in Rotated Sorted Array II
+    // ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int findMinELemenet(int[] nums) {
         int i = 0;
         int j = nums.length - 1;

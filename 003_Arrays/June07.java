@@ -1,4 +1,3 @@
-
 import java.util.HashSet;
 
 public class June07 {
@@ -9,6 +8,9 @@ public class June07 {
         return false;
     }
 
+    // ! =============== LC 128. Longest Consecutive Sequence ================
+    // @ Time Complexity: Average: O(N)
+    // @ Space Complexity: O(N)
     public static int longestConsecutive(int[] nums) {
         // ! Brute Force Solution --> O(N2)
         // int longest = 1;

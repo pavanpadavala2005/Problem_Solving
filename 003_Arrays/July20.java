@@ -1,5 +1,9 @@
 public class July20 {
     // ! =============== 209 MINIMUM SIZE SUB ARRAY SUM =============
+
+    // ! =============== LC 209. Minimum Size Subarray Sum ================
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static int minSumHelper(int[] nums, int target) {
         int sum = 0;
         int ln = Integer.MAX_VALUE;

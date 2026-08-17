@@ -1,4 +1,9 @@
 public class July07 {
+
+    // ! =============== LC 153. Find Minimum in Rotated Sorted Array
+    // ================
+    // @ Time Complexity: O(log N)
+    // @ Space Complexity: O(1)
     public static int findMinInSortedArray(int[] nums) {
         int i = 0;
         int j = nums.length - 1;

@@ -1,6 +1,9 @@
 import java.util.*;
 
 public class June13 {
+    // ! =============== LC 229. Majority Element II ================
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(1)
     public static List<Integer> majorityElementIIBrute(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         int n = nums.length;
@@ -17,6 +20,8 @@ public class June13 {
         return res;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(N)
     public static List<Integer> majorityElementIIBetter(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         HashMap<Integer, Integer> freq = new HashMap<>();
@@ -29,6 +34,8 @@ public class June13 {
         return res;
     }
 
+    // @ Time Complexity: O(N)
+    // @ Space Complexity: O(1)
     public static List<Integer> majorityElementIIOptimal(int[] nums) {
         int ctr1 = 0;
         int ctr2 = 0;

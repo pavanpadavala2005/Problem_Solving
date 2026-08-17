@@ -45,22 +45,6 @@ public class Aug15 {
         return true;
     }
 
-    // ! =============== LC796. Rotate String ================
-    // TODO Do this on Aug 16
-    public static boolean rotateStringBrute(String s, String goal) {
-        int n1 = s.length();
-        int n2 = goal.length();
-        if (n1 != n2)
-            return false;
-        int idx = 0;
-        while (idx < goal.length() && goal.charAt(idx) != s.charAt(0))
-            idx++;
-        for (int i = 0; i < n1; i++)
-            if (s.charAt(i) != goal.charAt(idx++ % n1))
-                return false;
-        return true;
-    }
-
     // ! =============== LC1903. Largest Odd Number in String ================
     public static String largestOddNumber(String num) {
         for (int i = num.length() - 1; i >= 0; i--) {

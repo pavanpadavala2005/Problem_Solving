@@ -2,6 +2,9 @@ import java.util.*;
 
 public class July04 {
 
+    // ! =============== LC 56. Merge Intervals ================
+    // @ Time Complexity: O(N log N)
+    // @ Space Complexity: O(N)
     public static int[][] mergeOverlappingIntervalsV4(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<int[]> res = new ArrayList<>();
@@ -21,6 +24,8 @@ public class July04 {
         return res.toArray(new int[res.size()][]);
     }
 
+    // @ Time Complexity: O(N log N)
+    // @ Space Complexity: O(N)
     public static int[][] mergeOverlappingIntervalsV3(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<List<Integer>> res = new ArrayList<>();
@@ -49,6 +54,8 @@ public class July04 {
 
     }
 
+    // @ Time Complexity: O(N log N)
+    // @ Space Complexity: O(N)
     public static int[][] mergeOverlappingIntervalsV2(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<List<Integer>> res = new ArrayList<>();
@@ -84,6 +91,8 @@ public class July04 {
         return mat;
     }
 
+    // @ Time Complexity: O(N^2)
+    // @ Space Complexity: O(N)
     public static int[][] mergeOverlappingIntervalsV1(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         System.out.println(Arrays.deepToString(intervals));
