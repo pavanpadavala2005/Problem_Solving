@@ -85,6 +85,7 @@ public class Demo {
         // ));
 
         // ! Aug 17 Stuff
+
         // System.out.println(Aug17.rotateStringOptimal(
         // "abcde",
         // "cdeab"
@@ -95,12 +96,24 @@ public class Demo {
         //
         // ));
 
-        System.out.println(Aug17.removeOuterParenthesesOptimal(
-                // "(()())(())"
-                // "()()"
-                "(()())(())(()(()))"
+        // System.out.println(Aug17.removeOuterParenthesesOptimal(
+        // "(()())(())"
+        // "()()"
+        // "(()())(())(()(()))"
+        // //
+        // ));
+
+        // ! ============= Aug 18 Stuff ============
+        // System.out.println(Aug18.frequencySortMoreBetter(
+        // "tree"
+        // "Aabb"
+        // "cccaaa"
+        //
+        // ));
+
+        System.out.println(Aug18.myAtoiBrute(
+                " -042"
         //
         ));
-
     }
 }

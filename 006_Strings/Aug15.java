@@ -205,7 +205,7 @@ public class Aug15 {
     }
 
     // ! =============== LC13. Roman to Integer ==================
-    public static int romanToIntegerBetter(String s) {
+    public static int romanToIntegerOptimal(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
