@@ -7,24 +7,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/pavanpadavala2005/Problem_Solving">
-    <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  </a>
-  <img src="https://img.shields.io/badge/Focus-DSA-blue?style=for-the-badge" alt="DSA">
-  <img src="https://img.shields.io/badge/Practice-Daily-success?style=for-the-badge" alt="Daily Practice">
-  <img src="https://img.shields.io/badge/Started-May%202026-purple?style=for-the-badge" alt="Started May 2026">
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Focus-DSA-blue?style=for-the-badge" alt="DSA" />
+  <img src="https://img.shields.io/badge/Practice-Daily-success?style=for-the-badge" alt="Daily Practice" />
+  <img src="https://img.shields.io/badge/Started-May%202026-purple?style=for-the-badge" alt="Started May 2026" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/pavanpadavala2005/Problem_Solving">
-    <img src="https://img.shields.io/github/last-commit/pavanpadavala2005/Problem_Solving?style=flat-square&logo=github" alt="Last Commit">
+  <a href="https://github.com/pavanpadavala2005/Problem_Solving/commits/main">
+    <img src="https://img.shields.io/github/last-commit/pavanpadavala2005/Problem_Solving?style=flat-square&logo=github" alt="Last Commit" />
   </a>
-  <a href="https://github.com/pavanpadavala2005/Problem_Solving/commits">
-    <img src="https://img.shields.io/github/commit-activity/m/pavanpadavala2005/Problem_Solving?style=flat-square&logo=git" alt="Commit Activity">
+  <a href="https://github.com/pavanpadavala2005/Problem_Solving/commits/main">
+    <img src="https://img.shields.io/github/commit-activity/m/pavanpadavala2005/Problem_Solving?style=flat-square&logo=git" alt="Commit Activity" />
   </a>
-  <img src="https://img.shields.io/github/repo-size/pavanpadavala2005/Problem_Solving?style=flat-square" alt="Repository Size">
+  <img src="https://img.shields.io/github/repo-size/pavanpadavala2005/Problem_Solving?style=flat-square" alt="Repository Size" />
 </p>
-
 <p align="center">
   <b>☕ Java</b> •
   <b>🧠 Data Structures</b> •

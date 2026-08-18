@@ -137,7 +137,7 @@ public class July28 {
                     inner.append(s.charAt(pos));
             res.add(inner.toString());
         }
-        res.sort((i, j) -> Integer.compare(i.length(), j.length()));
+        // res.sort((i, j) -> Integer.compare(i.length(), j.length()));
         return res;
     }
 

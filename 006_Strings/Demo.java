@@ -111,8 +111,40 @@ public class Demo {
         //
         // ));
 
-        System.out.println(Aug18.myAtoiBrute(
-                " -042"
+        // System.out.println(Aug18.myAtoiBrute(
+        // " -042"
+        // //
+        // ));
+
+        // System.out.println(Aug18.countSubstringBrute(
+        // "abcabc"
+        //
+        // ));
+
+        // System.out.println(Aug18.maxDepthBetter(
+        // "(1 + (2 * 3) + ((8) / 4)) + 1"
+        // "()(())((()()))"
+        // "(1)+((2))+(((3)))"
+        // "1"
+        //
+        // ));
+
+        // System.out.println(Aug18.myAtoiBetter(
+        // " -042"
+        // "1337c0d3"
+        // "0-1"
+        // "words and 987"
+        // "-91283472332"
+        // "42"
+
+        //
+        // ));
+
+        // System.out.println(Integer.MIN_VALUE);
+
+        System.out.println(Aug18.countSubstringBrute(
+                // "abc"
+                "abcabc"
         //
         ));
     }
