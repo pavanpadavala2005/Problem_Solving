@@ -1,11 +1,50 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Stack;
 
 public class Aug18 {
+    // ! =============== LC1358. Number of Substrings Containing All Three
+    // Characters =========
+    // @ TC --> O(N);
+    // @ SC --> O(3) --> O(1)
+    public static int countSubstringOptimal(String s) {
+        int n = s.length();
+        int[] freq = new int[3];
+        int count = 0;
+        int i = 0;
+        int j = 0;
+        while (j < n) {
+            freq[s.charAt(j) - 'a']++;
+            // while (freq['a' - 'a'] > 0 && freq['b' - 'a'] > 0 && freq['c' - 'a'] > 0) {
+            while (freq[0] > 0 && freq[1] > 0 && freq[2] > 0) {
+                count += (n - j);
+                freq[s.charAt(i++) - 'a']--;
+            }
+            j++;
+        }
+        return count;
+    }
 
-    // ! =============== GFG. Count Substrings with a, b and c =========
-    // https://www.geeksforgeeks.org/problems/count-substring/1
-    // TODO : SOLVE THIS
+    // @ TC --> O(N^3) (NEAR TO)
+    // @ SC --> O(N) --> HashSet to store All characters
+    public static int countSubstringBetter(String s) {
+        ArrayList<String> res = new ArrayList<>();
+        for (int i = 0; i < s.length(); i++) {
+            HashSet<Character> freq = new HashSet<>();
+            StringBuilder sb = new StringBuilder();
+            for (int j = i; j < s.length(); j++) {
+                freq.add(s.charAt(j));
+                if (freq.size() == 3) {
+                    for (int k = i; k <= j; k++)
+                        sb.append(s.charAt(k));
+                    res.add(sb.toString());
+                } else
+                    sb.setLength(0);
+            }
+        }
+        return res.size();
+    }
+
     public static int countSubstringBrute(String s) {
         if (s == null || s.length() < 3)
             return 0;

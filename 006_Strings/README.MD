@@ -56,28 +56,42 @@
 
 ---
 
+## 🗓️ August 19 — `Aug19.java`
+
+|   # | Problem                                             | Platform / ID | Solution                      |
+| --: | --------------------------------------------------- | ------------: | ----------------------------- |
+|   1 | Longest Palindromic Substring                       |           LC5 | [View Solution](./Aug19.java) |
+|   2 | Valid Palindrome                                    |         LC125 | [View Solution](./Aug19.java) |
+|   3 | Reverse String                                      |         LC344 | [View Solution](./Aug19.java) |
+|   4 | Count Substrings with Exactly K Distinct Characters |           TUF | [View Solution](./Aug19.java) |
+
+---
+
 # 📊 Problem Index
 
-| Platform / ID | Problem                                            | Date   | Solution                      |
-| ------------: | -------------------------------------------------- | ------ | ----------------------------- |
-|           LC8 | String to Integer (atoi)                           | Aug 18 | [View Solution](./Aug18.java) |
-|          LC13 | Roman to Integer                                   | Aug 15 | [View Solution](./Aug15.java) |
-|          LC14 | Longest Common Prefix                              | Aug 15 | [View Solution](./Aug15.java) |
-|          LC28 | Find the Index of the First Occurrence in a String | Aug 15 | [View Solution](./Aug15.java) |
-|         LC125 | Valid Palindrome                                   | Aug 15 | [View Solution](./Aug15.java) |
-|         LC151 | Reverse Words in a String                          | Aug 16 | [View Solution](./Aug16.java) |
-|         LC205 | Isomorphic Strings                                 | Aug 15 | [View Solution](./Aug15.java) |
-|         LC242 | Valid Anagram                                      | Aug 15 | [View Solution](./Aug15.java) |
-|         LC412 | Fizz Buzz                                          | Aug 15 | [View Solution](./Aug15.java) |
-|         LC451 | Sort Characters By Frequency                       | Aug 18 | [View Solution](./Aug18.java) |
-|         LC796 | Rotate String                                      | Aug 17 | [View Solution](./Aug17.java) |
-|        LC1021 | Remove Outermost Parentheses                       | Aug 17 | [View Solution](./Aug17.java) |
-|        LC1614 | Maximum Nesting Depth of the Parentheses           | Aug 18 | [View Solution](./Aug18.java) |
-|        LC1903 | Largest Odd Number in String                       | Aug 15 | [View Solution](./Aug15.java) |
-|           GFG | Count Substrings with a, b and c                   | Aug 18 | [View Solution](./Aug18.java) |
-|      Practice | Palindrome Number                                  | Aug 15 | [View Solution](./Aug15.java) |
-|      Practice | Palindrome String                                  | Aug 15 | [View Solution](./Aug15.java) |
-|      Practice | Reverse String                                     | Aug 15 | [View Solution](./Aug15.java) |
+| Platform / ID | Problem                                             | Date           | Solution                                      |
+| ------------: | --------------------------------------------------- | -------------- | --------------------------------------------- |
+|           LC5 | Longest Palindromic Substring                       | Aug 19         | [View Solution](./Aug19.java)                 |
+|           LC8 | String to Integer (atoi)                            | Aug 18         | [View Solution](./Aug18.java)                 |
+|          LC13 | Roman to Integer                                    | Aug 15         | [View Solution](./Aug15.java)                 |
+|          LC14 | Longest Common Prefix                               | Aug 15         | [View Solution](./Aug15.java)                 |
+|          LC28 | Find the Index of the First Occurrence in a String  | Aug 15         | [View Solution](./Aug15.java)                 |
+|         LC125 | Valid Palindrome                                    | Aug 15, Aug 19 | [Aug15](./Aug15.java) · [Aug19](./Aug19.java) |
+|         LC151 | Reverse Words in a String                           | Aug 16         | [View Solution](./Aug16.java)                 |
+|         LC205 | Isomorphic Strings                                  | Aug 15         | [View Solution](./Aug15.java)                 |
+|         LC242 | Valid Anagram                                       | Aug 15         | [View Solution](./Aug15.java)                 |
+|         LC344 | Reverse String                                      | Aug 19         | [View Solution](./Aug19.java)                 |
+|         LC412 | Fizz Buzz                                           | Aug 15         | [View Solution](./Aug15.java)                 |
+|         LC451 | Sort Characters By Frequency                        | Aug 18         | [View Solution](./Aug18.java)                 |
+|         LC796 | Rotate String                                       | Aug 17         | [View Solution](./Aug17.java)                 |
+|        LC1021 | Remove Outermost Parentheses                        | Aug 17         | [View Solution](./Aug17.java)                 |
+|        LC1614 | Maximum Nesting Depth of the Parentheses            | Aug 18         | [View Solution](./Aug18.java)                 |
+|        LC1903 | Largest Odd Number in String                        | Aug 15         | [View Solution](./Aug15.java)                 |
+|           GFG | Count Substrings with a, b and c                    | Aug 18         | [View Solution](./Aug18.java)                 |
+|           TUF | Count Substrings with Exactly K Distinct Characters | Aug 19         | [View Solution](./Aug19.java)                 |
+|      Practice | Palindrome Number                                   | Aug 15         | [View Solution](./Aug15.java)                 |
+|      Practice | Palindrome String                                   | Aug 15         | [View Solution](./Aug15.java)                 |
+|      Practice | Reverse String                                      | Aug 15         | [View Solution](./Aug15.java)                 |
 
 ---
 
@@ -90,6 +104,7 @@
 | [`Aug16.java`](./Aug16.java) | Problems solved on August 16              |
 | [`Aug17.java`](./Aug17.java) | Problems solved on August 17              |
 | [`Aug18.java`](./Aug18.java) | Problems solved on August 18              |
+| [`Aug19.java`](./Aug19.java) | Problems solved on August 19              |
 
 ---
 
@@ -104,8 +119,8 @@ Whenever I solve a new problem:
 
 ### Example
 
-If you solve **LC58 — Length of Last Word** on August 19:
+If you solve **LC58 — Length of Last Word** on August 20:
 
 ```md
-| 1 | Length of Last Word | LC58 | [View Solution](./Aug19.java) |
+| 1 | Length of Last Word | LC58 | [View Solution](./Aug20.java) |
 ```

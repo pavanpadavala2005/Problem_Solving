@@ -142,9 +142,55 @@ public class Demo {
 
         // System.out.println(Integer.MIN_VALUE);
 
-        System.out.println(Aug18.countSubstringBrute(
-                // "abc"
-                "abcabc"
+        // System.out.println(Aug18.countSubstringBrute(
+        // // "abc"
+        // "abcabc"
+        // //
+        // ));
+        // ! ============= Aug 19 Stuff ============
+        // System.out.println(Aug19.countSubstringTest(
+        // "aabcb"
+        // "abcabc"
+        // "aaacb"
+        //
+        // ));
+
+        // System.out.println(Aug19.countNumberOfSubstringsWithKCharacters(
+        // "pqpqs",
+        // 2
+        // "abcabc", 3
+        // //
+        // ));
+
+        // System.out.println(Aug19.longestPalindromeBetter(
+        // "amabma"
+        // "babad"
+        // "cbbd"
+        //
+        // ));
+
+        // char[] arr = new String("Hellow").toCharArray();
+
+        // System.out.println(Aug19.expand(
+        // new String("aabaa"), 0, 1
+        // //
+        // ));
+        // System.out.println(Aug19.longestPalindromeOptimal(
+        // "acbcz"
+        // "abbc"
+        //
+        // ));
+
+        // System.out.println(Aug19.getLower(
+        // 'A'
+        // //
+        // ));
+
+        System.out.println(Aug19.isPalindrome(
+                // "A man, a plan, a canal: Panama"
+                // "race car"
+                // "0P"
+                "Zeus was deified, saw Suez."
         //
         ));
     }
