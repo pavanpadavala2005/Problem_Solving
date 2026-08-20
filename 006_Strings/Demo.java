@@ -147,7 +147,7 @@ public class Demo {
         // "abcabc"
         // //
         // ));
-        // ! ============= Aug 19 Stuff ============
+        // ! ============= Aug 19 Problems ============
         // System.out.println(Aug19.countSubstringTest(
         // "aabcb"
         // "abcabc"
@@ -186,11 +186,84 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Aug19.isPalindrome(
-                // "A man, a plan, a canal: Panama"
-                // "race car"
-                // "0P"
-                "Zeus was deified, saw Suez."
+        // System.out.println(Aug19.isPalindrome(
+        // // "A man, a plan, a canal: Panama"
+        // // "race car"
+        // // "0P"
+        // "Zeus was deified, saw Suez."
+        // //
+        // ));
+        // ! ============= Aug 19 Problems ============
+        // System.out.println(Aug20.validPalindromeOptimal(
+        // "abca"
+        // "afgfea"
+        //
+        // ));
+
+        // System.out.println(Aug20.countSubstringsBetter(
+        // "aaa"
+        // // "abc"
+        // ));
+
+        // System.out.println(Aug20.palindromicLength(
+        // "abacdc",
+        // 1,
+        // 1
+        // //
+        // ));
+
+        // System.out.println(Aug20.countSubstringsOtimalV2(
+        // "abc"
+        // "aaa"
+        // "abacdc"
+        //
+        // ));
+
+        // System.out.println(Aug20.isAnagram(
+        // "c",
+        // "a"
+        // //
+        // ));
+
+        // int i = 1;
+        // String s = "acdcaeccde";
+        // for (int i = 0; i < s.length() - 1 + 1; i++) {
+        // System.out.println(s.substring(i, i + 1)
+        // + " " +
+        // Aug20.isAnagram(s.substring(i, i + 1), "c")
+        // + " " + i
+        // //
+        // );
+        // }
+
+        // System.out.println(Aug20.findAnagramsBetter(
+        // // "cbaebabacd",
+        // // "abc"
+
+        // // "abab",
+        // // "ab"
+        // "acdcaeccde",
+        // "c"
+        // //
+        // ));
+
+        // System.out.println(Aug20.isAnagramModified(
+        // "cbaebabacd",
+        // 0, 2,
+        // "abc"
+        // //
+        // ));
+
+        System.out.println(Aug20.findAnagramsOptimalV1(
+                // "cbaebabacd",
+                // "abc"
+                "aa",
+                "bb"
+
+        // "ababab",
+        // "ab"
+        // "abab",
+        // "ab"
         //
         ));
     }

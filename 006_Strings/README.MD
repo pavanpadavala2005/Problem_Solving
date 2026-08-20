@@ -67,6 +67,16 @@
 
 ---
 
+## 🗓️ August 20 — `Aug20.java`
+
+|   # | Problem                       | Platform / ID | Solution                      |
+| --: | ----------------------------- | ------------: | ----------------------------- |
+|   1 | Find All Anagrams in a String |         LC438 | [View Solution](./Aug20.java) |
+|   2 | Palindromic Substrings        |         LC647 | [View Solution](./Aug20.java) |
+|   3 | Valid Palindrome II           |         LC680 | [View Solution](./Aug20.java) |
+
+---
+
 # 📊 Problem Index
 
 | Platform / ID | Problem                                             | Date           | Solution                                      |
@@ -82,7 +92,10 @@
 |         LC242 | Valid Anagram                                       | Aug 15         | [View Solution](./Aug15.java)                 |
 |         LC344 | Reverse String                                      | Aug 19         | [View Solution](./Aug19.java)                 |
 |         LC412 | Fizz Buzz                                           | Aug 15         | [View Solution](./Aug15.java)                 |
+|         LC438 | Find All Anagrams in a String                       | Aug 20         | [View Solution](./Aug20.java)                 |
 |         LC451 | Sort Characters By Frequency                        | Aug 18         | [View Solution](./Aug18.java)                 |
+|         LC647 | Palindromic Substrings                              | Aug 20         | [View Solution](./Aug20.java)                 |
+|         LC680 | Valid Palindrome II                                 | Aug 20         | [View Solution](./Aug20.java)                 |
 |         LC796 | Rotate String                                       | Aug 17         | [View Solution](./Aug17.java)                 |
 |        LC1021 | Remove Outermost Parentheses                        | Aug 17         | [View Solution](./Aug17.java)                 |
 |        LC1614 | Maximum Nesting Depth of the Parentheses            | Aug 18         | [View Solution](./Aug18.java)                 |
@@ -105,6 +118,7 @@
 | [`Aug17.java`](./Aug17.java) | Problems solved on August 17              |
 | [`Aug18.java`](./Aug18.java) | Problems solved on August 18              |
 | [`Aug19.java`](./Aug19.java) | Problems solved on August 19              |
+| [`Aug20.java`](./Aug20.java) | Problems solved on August 20              |
 
 ---
 
@@ -119,8 +133,8 @@ Whenever I solve a new problem:
 
 ### Example
 
-If you solve **LC58 — Length of Last Word** on August 20:
+If you solve **LC58 — Length of Last Word** on August 21:
 
 ```md
-| 1 | Length of Last Word | LC58 | [View Solution](./Aug20.java) |
+| 1 | Length of Last Word | LC58 | [View Solution](./Aug21.java) |
 ```

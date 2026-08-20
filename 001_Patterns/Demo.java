@@ -1,7 +1,7 @@
 
 public class Demo {
     public static void main(String[] args) {
-        Example1.leftDecrement(5);
+        // Example1.leftDecrement(5);
         // Example1.rightDecrement(5);
         // Example1.rightIncrement(5);
         // Example1.leftSideTriangle(5);
@@ -28,7 +28,7 @@ public class Demo {
         // Example1.diamond3(5);
 
         // Example3.square(5);
-        Example3.funnySquare(4);
+        // Example3.funnySquare(4);
     }
 
 }

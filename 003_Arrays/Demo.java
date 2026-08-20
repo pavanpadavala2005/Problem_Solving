@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Demo {
     public static void main(String[] args) {
@@ -302,18 +300,18 @@ public class Demo {
         // System.out.println(Arrays.toString(nums));
 
         // ==================== July04 Stuff ====================
-        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
-        res.add(new ArrayList<>(List.of(2, 5)));
-        res.add(new ArrayList<>(List.of(2, 5)));
-        res.add(new ArrayList<>(List.of(2, 5)));
-        int[][] mat = new int[res.size()][];
-        for (int i = 0; i < res.size(); i++) {
-            int[] pair = new int[res.get(i).size()];
-            for (int j = 0; j < res.get(i).size(); j++) {
-                pair[j] = res.get(i).get(j);
-            }
-            mat[i] = pair;
-        }
+        // ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        // res.add(new ArrayList<>(List.of(2, 5)));
+        // res.add(new ArrayList<>(List.of(2, 5)));
+        // res.add(new ArrayList<>(List.of(2, 5)));
+        // int[][] mat = new int[res.size()][];
+        // for (int i = 0; i < res.size(); i++) {
+        // int[] pair = new int[res.get(i).size()];
+        // for (int j = 0; j < res.get(i).size(); j++) {
+        // pair[j] = res.get(i).get(j);
+        // }
+        // mat[i] = pair;
+        // }
         // July04.mergeOverlappingIntervals(mat);
 
         // ArrayList<ArrayList<Integer>> nums = new ArrayList<>();

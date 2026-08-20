@@ -1,4 +1,3 @@
-
 public class Demo {
     public static void main(String[] args) {
         // System.out.println(isOdd());
@@ -52,15 +51,15 @@ public class Demo {
         // System.out.println(MathExamples.Example1.sqrt(2, 1));
         // System.out.println(MathExamples.Example1.sqrtNewton(20));
         // Example1.factors1(36);
-        // June02 Stuff
+        // ! ==================== June 02 Problems ====================
 
         // June02.findNumbers(
         // new int[] {
         // 10, 11, 1111, 21, 1, 5
         // });
-        // ! July 23 Stuff
+        // ! ==================== July 23 Problems ====================
         // System.out.println(July23.binToDecV1("1010"));
         // System.out.println(12 & (-12));
-        System.out.println(Example2.sqrtNewton(20));
+        // System.out.println(Example2.sqrtNewton(20));
     }
 }
