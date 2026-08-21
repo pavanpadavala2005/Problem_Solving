@@ -193,7 +193,7 @@ public class Demo {
         // "Zeus was deified, saw Suez."
         // //
         // ));
-        // ! ============= Aug 19 Problems ============
+        // ! ============= Aug 20 Problems ============
         // System.out.println(Aug20.validPalindromeOptimal(
         // "abca"
         // "afgfea"
@@ -212,11 +212,9 @@ public class Demo {
         // //
         // ));
 
-        // System.out.println(Aug20.countSubstringsOtimalV2(
-        // "abc"
-        // "aaa"
-        // "abacdc"
-        //
+        // System.out.println(Aug20.findAnagramsOptimalV4(
+        // "abc", "abacdc"
+        // //
         // ));
 
         // System.out.println(Aug20.isAnagram(
@@ -236,9 +234,11 @@ public class Demo {
         // );
         // }
 
-        // System.out.println(Aug20.findAnagramsBetter(
-        // // "cbaebabacd",
-        // // "abc"
+        // System.out.println(Aug20.findAnagramsOptimalV4(
+        // "cbaebabacd",
+        // "abc"
+        // //
+        // ));
 
         // // "abab",
         // // "ab"
@@ -254,16 +254,40 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Aug20.findAnagramsOptimalV1(
-                // "cbaebabacd",
-                // "abc"
-                "aa",
-                "bb"
+        // System.out.println(Aug20.findAnagramsOptimalV1(
+        // "cbaebabacd",
+        // "abc"
+        // "aa",
+        // "bb"
 
         // "ababab",
         // "ab"
         // "abab",
         // "ab"
+        //
+        // ));
+        // ! ============= Aug 21 Proble ms ============
+        // System.out.println(Aug21.longestKSubstrBetter(
+        // // "aabacbebebe",
+        // // 3
+        // // "aaaa",
+        // // 2
+        // // "aabaaab",
+        // // 2
+        // "veycgead",
+        // 2`
+        // //
+        // ));
+
+        // System.out.println(Aug21.checkInclusionOptimal("ab", "eidbaooo"
+        // "ab",
+        // "eidboaoo"
+        //
+        // ));
+
+        System.out.println(Aug21.minWindowVeryBrute(
+                "ADOBECODEBANC",
+                "ABC"
         //
         ));
     }

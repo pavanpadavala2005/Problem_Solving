@@ -4,7 +4,67 @@ import java.util.List;
 
 public class Aug20 {
     // ! ============ LC438. Find All Anagrams in a String ==============
-    public static List<Integer> findAnagramsOptimalV1(String s, String p) {
+    public static List<Integer> findAnagramsOptimalV4(String s, String p) {
+        ArrayList<Integer> res = new ArrayList<>();
+        if (s.length() < p.length())
+            return res;
+        HashMap<Character, Integer> pMap = new HashMap<>();
+        for (int i = 0; i < p.length(); i++)
+            pMap.put(p.charAt(i), pMap.getOrDefault(p.charAt(i), 0) + 1);
+        int left = 0, count = p.length();
+        for (int right = 0; right < s.length(); right++) {
+            char rightCh = s.charAt(right);
+            pMap.put(rightCh, pMap.getOrDefault(rightCh, 0) - 1);
+            if (pMap.get(rightCh) >= 0)
+                count--;
+            if (right - left + 1 > p.length()) {
+                char leftChar = s.charAt(left);
+                pMap.put(leftChar, pMap.get(leftChar) + 1);
+                if (pMap.get(leftChar) > 0)
+                    count++;
+                left++;
+            }
+            if (count == 0)
+                res.add(left);
+        }
+        return res;
+    }
+
+    // @ TC --> O(N) --> Here we are using Only one Loop to do the things whenever
+    // length exceeds in the same loop we are expanding and shrinking at the same
+    // time
+    // @ SC --> O(M)+O(N) --> may be in worst case we can store the total chars in P
+    public static List<Integer> findAnagramsOptimalV3(String s, String p) {
+        ArrayList<Integer> res = new ArrayList<>();
+        if (s.length() < p.length())
+            return res;
+        HashMap<Character, Integer> pMap = new HashMap<>();
+        HashMap<Character, Integer> sMap = new HashMap<>();
+        for (int i = 0; i < p.length(); i++)
+            pMap.put(p.charAt(i), pMap.getOrDefault(p.charAt(i), 0) + 1);
+        int left = 0, count = p.length();
+        for (int right = 0; right < s.length(); right++) {
+            char rightChar = s.charAt(right);
+            sMap.put(rightChar, sMap.getOrDefault(rightChar, 0) + 1);
+            if (pMap.containsKey(rightChar) && sMap.get(rightChar) <= pMap.get(rightChar))
+                count--;
+            if (right - left + 1 > p.length()) {
+                char leftChar = s.charAt(left);
+                sMap.put(leftChar, sMap.get(leftChar) - 1);
+                if (pMap.containsKey(leftChar) && sMap.get(leftChar) < pMap.get(leftChar))
+                    count++;
+                left++;
+            }
+            if (count == 0)
+                res.add(left);
+        }
+        return res;
+    }
+
+    // @ TC --> O(N) + O(N) --> inner while loop is running when outer loop stops
+    // not every outer loop so TC(Outer)+TC(Inner)
+    // @ SC --> O(M)+O(N) --> may be in worst case we can store the total chars in P
+    public static List<Integer> findAnagramsOptimalV2(String s, String p) {
         ArrayList<Integer> res = new ArrayList<>();
         if (s.length() < p.length())
             return res;
@@ -31,7 +91,10 @@ public class Aug20 {
         return res;
     }
 
-    public static List<Integer> findAnagramsOptimal(String s, String p) {
+    // @ TC --> O(N)*O(N) --> in worst case we are getting subString of length N
+    // @ SC --> O(1) --> everything is done by pointers other than checking is
+    // @ Anagram --> O(26) We can say Fixed Size for every time --> O(1)
+    public static List<Integer> findAnagramsOptimalV1(String s, String p) {
         if (s == null || s.length() == 0 || p == null || p.length() == 0)
             return new ArrayList<>();
         ArrayList<Integer> res = new ArrayList<>();
@@ -264,6 +327,6 @@ public class Aug20 {
     }
 }
 
-// Target Min0 -> 3 , Max -> 5 (Quality Problems Only)
+// Target Min -> 3 , Max -> 5 (Quality Problems Only)
 // 1. LC647. Palindromic Substrings ✅
 // 2. LC438. Find All Anagrams in a String
