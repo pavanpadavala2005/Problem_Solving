@@ -266,7 +266,7 @@ public class Demo {
         // "ab"
         //
         // ));
-        // ! ============= Aug 21 Proble ms ============
+        // ! ============= Aug 21 Problems ============
         // System.out.println(Aug21.longestKSubstrBetter(
         // // "aabacbebebe",
         // // 3
@@ -285,9 +285,42 @@ public class Demo {
         //
         // ));
 
-        System.out.println(Aug21.minWindowVeryBrute(
-                "ADOBECODEBANC",
-                "ABC"
+        // System.out.println(Aug21.minWindowVeryBrute(
+        // "ADOBECODEBANC",
+        // "ABC"
+        // //
+        // ));
+        // ! ============= Aug 22 Problems ============
+        // System.out.println(Aug22.minWindowSuperOptimal(
+        // // "ADOBECODEBANC",
+        // // "ABC"
+
+        // "b",
+        // "a"
+        // //
+        // ));
+
+        // HashMap<Character, Integer> freq1 = new HashMap<>();
+        // freq1.put('A', 1);
+        // freq1.put('B', 1);
+        // freq1.put('C', 1);
+        // HashMap<Character, Integer> freq2 = new HashMap<>();
+        // freq2.put('A', 2);
+        // freq2.put('B', 1);
+        // freq2.put('C', 1);
+        // freq2.put('D', 1);
+        // System.out.println(Aug22.minWindowHelper(freq2, freq1)
+        // //
+        // );
+
+        // System.out.println(Aug22.findSubstringHelper(
+        // "foothe",
+        // new String[] { "foo", "bar" }
+        // //
+        // ));
+        System.out.println(Aug22.beautySum(
+                // "aabcb"
+                "aabcbaa"
         //
         ));
     }

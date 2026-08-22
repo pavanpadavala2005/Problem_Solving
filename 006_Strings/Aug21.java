@@ -2,42 +2,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Aug21 {
-    // ! ============ LC76. Minimum Window Substring ==============
-    public static String minWindowVeryBrute(String s, String t) {
-        if (s.length() < t.length())
-            return "";
-        String res = "";
-        int minLen = Integer.MAX_VALUE;
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                if (minWindowHelper(s.substring(i, j + 1), t)) {
-                    if (j - i + 1 < minLen) {
-                        minLen = j - i + 1;
-                        res = s.substring(i, j + 1);
-                    }
-                }
-            }
-        }
-        return res;
-    }
-
-    public static boolean minWindowHelper(String s1, String s2) {
-        if (s1.length() < s2.length())
-            return false;
-        for (int i = 0; i < s2.length(); i++) {
-            boolean isFound = false;
-            for (int j = 0; j < s1.length(); j++) {
-                if (s1.charAt(j) == s2.charAt(i)) {
-                    isFound = true;
-                    break;
-                }
-                if (!isFound)
-                    return false;
-            }
-        }
-
-        return true;
-    }
 
     // ! ============ LC567. Permutation in String ==============
     // @ TC --> O(N) --> We are using only one For Loop and Pointers
