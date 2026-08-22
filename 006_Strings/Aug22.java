@@ -197,4 +197,4 @@ public class Aug22 {
 // Target Min -> 3 , Max -> 5 (Quality Problems Only)
 // 1. LC76. Minimum Window Substring ✅
 // 2. 30. Substring with Concatenation of All Words ❌
-// 3. 1781. Sum of Beauty of All Substrings
+// 3. 1781. Sum of Beauty of All Substrings ✅

@@ -87,6 +87,15 @@
 
 ---
 
+## 🗓️ August 22 — `Aug22.java`
+
+|   # | Problem                         | Platform / ID | Solution                      |
+| --: | ------------------------------- | ------------: | ----------------------------- |
+|   1 | Minimum Window Substring        |          LC76 | [View Solution](./Aug22.java) |
+|   2 | Sum of Beauty of All Substrings |        LC1781 | [View Solution](./Aug22.java) |
+
+---
+
 # 📊 Problem Index
 
 | Platform / ID | Problem                                             | Date           | Solution                                      |
@@ -118,6 +127,8 @@
 |      Practice | Palindrome Number                                   | Aug 15         | [View Solution](./Aug15.java)                 |
 |      Practice | Palindrome String                                   | Aug 15         | [View Solution](./Aug15.java)                 |
 |      Practice | Reverse String                                      | Aug 15         | [View Solution](./Aug15.java)                 |
+|      Practice | Minimum Window Substring                            | Aug 22         | [View Solution](./Aug22.java)                 |
+|      Practice | Sum of Beauty of All Substrings                     | Aug 22         | [View Solution](./Aug22.java)                 |
 
 ---
 
@@ -133,6 +144,7 @@
 | [`Aug19.java`](./Aug19.java) | Problems solved on August 19              |
 | [`Aug20.java`](./Aug20.java) | Problems solved on August 20              |
 | [`Aug21.java`](./Aug21.java) | Problems solved on August 21              |
+| [`Aug21.java`](./Aug22.java) | Problems solved on August 22              |
 
 ---
 
@@ -147,8 +159,8 @@ Whenever I solve a new problem:
 
 ### Example
 
-If you solve **LC58 — Length of Last Word** on August 22:
+If you solve **LC58 — Length of Last Word** on August 23:
 
 ```md
-| 1 | Length of Last Word | LC58 | [View Solution](./Aug22.java) |
+| 1 | Length of Last Word | LC58 | [View Solution](./Aug23.java) |
 ```
