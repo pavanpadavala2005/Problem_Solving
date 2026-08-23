@@ -4,7 +4,7 @@ public class Demo {
 
         // Aug23.printTo1(10);
 
-        String s = "abcdcba";
-        System.out.println(Aug23.isPalindrome(s, 0, s.length() - 1));
+        // String s = "abcdcba";
+        // System.out.println(Aug23.isPalindrome(s, 0, s.length() - 1));
     }
 }
