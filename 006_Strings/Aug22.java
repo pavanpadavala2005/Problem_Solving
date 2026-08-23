@@ -5,6 +5,32 @@ import java.util.List;
 
 public class Aug22 {
     // ! ============ LC1781. Sum of Beauty of All Substrings ==============
+    // @ TC --> O(N*N*26) --> we are not counting specially, in the loop it has been
+    // done
+    // @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
+    public static int beautySumBetter(String s) {
+        if (s.length() == 1)
+            return 0;
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int[] freq = new int[26];
+            for (int j = i; j < s.length(); j++) {
+                freq[s.charAt(j) - 'a']++;
+                int max = 0, min = Integer.MAX_VALUE;
+                for (int k = 0; k < 26; k++)
+                    if (freq[k] > 0) {
+                        max = Math.max(max, freq[k]);
+                        min = Math.min(min, freq[k]);
+                    }
+                count += max - min;
+            }
+        }
+        return count;
+    }
+
+    // @ TC --> O(N*N*N*26) --> two loops O(N*N) --> helper function --> O(N+26) -->
+    // O(N^3) --> 26 --> O(1) for every input
+    // @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
     public static int beautySumBrute(String s) {
         if (s.length() == 1)
             return 0;
@@ -196,5 +222,5 @@ public class Aug22 {
 
 // Target Min -> 3 , Max -> 5 (Quality Problems Only)
 // 1. LC76. Minimum Window Substring ✅
-// 2. 30. Substring with Concatenation of All Words ❌
+// 2. LC30. Substring with Concatenation of All Words ❌
 // 3. 1781. Sum of Beauty of All Substrings ✅

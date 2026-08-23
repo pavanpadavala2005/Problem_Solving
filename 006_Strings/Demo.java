@@ -318,10 +318,17 @@ public class Demo {
         // new String[] { "foo", "bar" }
         // //
         // ));
-        // System.out.println(Aug22.beautySum(
-        // // "aabcb"
-        // "aabcbaa"
+        // System.out.println(Aug22.beautySumBetter(
+        // "aabcb"
+        // // "aabcbaa"`
         // //
         // ));
+        System.out.println(Aug23.findSubstringOptimal(
+                "barfoofoobarthefoobarmand",
+                new String[] { "bar", "foo", "the" }
+        // "barfoothefoobarman",
+        // new String[] { "bar", "foo" }
+        //
+        ));
     }
 }
