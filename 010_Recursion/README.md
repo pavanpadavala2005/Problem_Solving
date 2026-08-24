@@ -12,8 +12,8 @@
 
 | Metric           |           Value |
 | ---------------- | --------------: |
-| Java Files       |           **1** |
-| Practice Entries |           **5** |
+| Java Files       |           **2** |
+| Practice Entries |          **14** |
 | Period Covered   | **August 2026** |
 | Language         |        **Java** |
 
@@ -32,24 +32,28 @@
 
 ### 🎯 Difficulty Distribution
 
-| Level      |    LC |   GFG |  C360 | General | Total |
-| :--------- | ----: | ----: | ----: | ------: | ----: |
-| **EASY**   |     0 |     0 |     0 |       5 | **5** |
-| **MEDIUM** |     0 |     0 |     0 |       0 | **0** |
-| **HARD**   |     0 |     0 |     0 |       0 | **0** |
-| **Total**  | **0** | **0** | **0** |   **5** | **5** |
+| Level      |    LC |   GFG |  C360 | General |  Total |
+| :--------- | ----: | ----: | ----: | ------: | -----: |
+| **EASY**   |     0 |     0 |     0 |      13 | **13** |
+| **MEDIUM** |     1 |     0 |     0 |       0 |  **1** |
+| **HARD**   |     0 |     0 |     0 |       0 |  **0** |
+| **Total**  | **1** | **0** | **0** |  **13** | **14** |
 
 ---
 
 ## 🧩 Topic Coverage
 
-| Area                      | Problems Practiced                                 |
-| ------------------------- | -------------------------------------------------- |
-| Basic Recursion           | Print from 1 to N, Print from N to 1               |
-| Recursive String Problems | Checking Palindrome                                |
-| Mathematical Recursion    | Factorial                                          |
-| Recursive Number Problems | Nth Fibonacci                                      |
-| Recursion Fundamentals    | Base cases, recursive calls, stack-based execution |
+| Area                     | Problems Practiced                                                |
+| ------------------------ | ----------------------------------------------------------------- |
+| Basic Recursion          | Print from 1 to N, Print from N to 1                              |
+| Mathematical Recursion   | Factorial, Fibonacci, Sum of Numbers                              |
+| Digit-Based Recursion    | Count of Digits, Sum of Digits, Reverse Number                    |
+| String Recursion         | Checking Palindrome                                               |
+| Array Recursion          | Reverse Array                                                     |
+| Functional Recursion     | Sum of Numbers, Reverse Array                                     |
+| Parameterized Recursion  | Sum of Numbers                                                    |
+| Recursion & Backtracking | Subsets                                                           |
+| Recursion Fundamentals   | Base cases, recursive calls, recursion stack, multiple approaches |
 
 ---
 
@@ -67,23 +71,49 @@
 
 ---
 
+## 🗓️ August 24 — `Aug24.java`
+
+|   # | Problem                                 | Source  | Level  | Solution                      |
+| --: | --------------------------------------- | ------- | :----: | ----------------------------- |
+|   6 | Subsets                                 | LC78    | MEDIUM | [View Solution](./Aug24.java) |
+|   7 | Fibonacci Number                        | General |  EASY  | [View Solution](./Aug24.java) |
+|   8 | Count of Digits                         | General |  EASY  | [View Solution](./Aug24.java) |
+|   9 | Sum of Digits                           | General |  EASY  | [View Solution](./Aug24.java) |
+|  10 | Reverse Number                          | General |  EASY  | [View Solution](./Aug24.java) |
+|  11 | Check Palindrome                        | General |  EASY  | [View Solution](./Aug24.java) |
+|  12 | Reverse Array                           | General |  EASY  | [View Solution](./Aug24.java) |
+|  13 | Parameterized Recursion — Sum of Number | General |  EASY  | [View Solution](./Aug24.java) |
+|  14 | Functional Recursion — Sum of Number    | General |  EASY  | [View Solution](./Aug24.java) |
+
+---
+
 # 📊 Problem Index
 
-|   # | Problem             | Source  | Level | Date   | File                         |
-| --: | ------------------- | ------- | :---: | ------ | ---------------------------- |
-|   1 | Print from 1 → N    | General | EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
-|   2 | Print from N → 1    | General | EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
-|   3 | Checking Palindrome | General | EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
-|   4 | Factorial           | General | EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
-|   5 | Nth Fibonacci       | General | EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   # | Problem                                 | Source  | Level  | Date   | File                         |
+| --: | --------------------------------------- | ------- | :----: | ------ | ---------------------------- |
+|   1 | Print from 1 → N                        | General |  EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   2 | Print from N → 1                        | General |  EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   3 | Checking Palindrome                     | General |  EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   4 | Factorial                               | General |  EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   5 | Nth Fibonacci                           | General |  EASY  | Aug 23 | [`Aug23.java`](./Aug23.java) |
+|   6 | Subsets                                 | LC78    | MEDIUM | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|   7 | Fibonacci Number                        | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|   8 | Count of Digits                         | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|   9 | Sum of Digits                           | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|  10 | Reverse Number                          | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|  11 | Check Palindrome                        | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|  12 | Reverse Array                           | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|  13 | Parameterized Recursion — Sum of Number | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
+|  14 | Functional Recursion — Sum of Number    | General |  EASY  | Aug 24 | [`Aug24.java`](./Aug24.java) |
 
 ---
 
 # 📁 Files
 
-| File                         | Purpose                                                                         |
-| ---------------------------- | ------------------------------------------------------------------------------- |
-| [`Aug23.java`](./Aug23.java) | Recursion fundamentals including printing, palindrome, factorial, and Fibonacci |
+| File                         | Purpose                                                                                                    |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [`Aug23.java`](./Aug23.java) | Recursion fundamentals including printing, palindrome, factorial, and Fibonacci                            |
+| [`Aug24.java`](./Aug24.java) | Subsets, Fibonacci, digit operations, reverse number, palindrome, array reversal, and recursion techniques |
 
 ---
 
@@ -91,18 +121,18 @@
 
 | Category      | Practice Entries |
 | ------------- | ---------------: |
-| Total         |            **5** |
+| Total         |           **14** |
 | Example Files |            **0** |
-| August 2026   |            **5** |
+| August 2026   |           **14** |
 
 ## 🌐 Platform Distribution
 
 | Source           | Practice Entries |
 | ---------------- | ---------------: |
-| LeetCode         |            **0** |
+| LeetCode         |            **1** |
 | GeeksforGeeks    |            **0** |
 | Code360          |            **0** |
-| General Practice |            **5** |
+| General Practice |           **13** |
 
 ---
 
@@ -118,16 +148,16 @@ Continue the global problem numbering and preserve all previous practice history
 
 ### Example — New Day
 
-If the next practice session is on August 24 and the new file is:
+If the next practice session is on August 25 and the new file is:
 
-`Aug24.java`
+`Aug25.java`
 
 Then add:
 
 ```md
-## 🗓️ August 24 — `Aug24.java`
+## 🗓️ August 25 — `Aug25.java`
 
 |   # | Problem               | Source                    |        Level         | Solution                      |
 | --: | --------------------- | ------------------------- | :------------------: | ----------------------------- |
-|   6 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug24.java) |
+|  15 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug25.java) |
 ```
