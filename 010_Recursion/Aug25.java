@@ -52,7 +52,7 @@ public class Aug25 {
         return arr;
     }
 
-    // ! =============== Gen. Print number of SubSequence Whose Sum equal to K
+    // ! =============== Gen. Print number of SubSequence Whose Sum equal
     // ================
     public static int countSubSequencesSumToK(int[] nums, int i, int target, int sum) {
         if (i >= nums.length) {
