@@ -12,8 +12,8 @@
 
 | Metric           |           Value |
 | ---------------- | --------------: |
-| Java Files       |           **9** |
-| Practice Entries |          **30** |
+| Java Files       |          **10** |
+| Practice Entries |          **32** |
 | Period Covered   | **August 2026** |
 | Language         |        **Java** |
 
@@ -34,10 +34,10 @@
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | :--------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     14 |     1 |     0 |       3 | **18** |
+| **EASY**   |     16 |     1 |     0 |       3 | **20** |
 | **MEDIUM** |      8 |     1 |     0 |       1 | **10** |
 | **HARD**   |      2 |     0 |     0 |       0 |  **2** |
-| **Total**  | **24** | **2** | **0** |   **4** | **30** |
+| **Total**  | **26** | **2** | **0** |   **4** | **32** |
 
 ---
 
@@ -47,12 +47,14 @@
 | ----------------------------- | ------------------------------------------------------------------------------------------ |
 | String Basics                 | Anagram, Palindrome, Reverse String, Roman to Integer                                      |
 | String Manipulation           | Longest Common Prefix, String Rotation, String to Integer, Reverse Words                   |
-| Character Frequency & Hashing | Valid Anagram, Isomorphic Strings, Sort Characters by Frequency                            |
+| Character Frequency & Hashing | Valid Anagram, Isomorphic Strings, Sort Characters by Frequency, Find the Difference       |
 | Palindromes                   | Valid Palindrome, Palindrome String, Longest Palindromic Substring, Palindromic Substrings |
 | Sliding Window                | Find All Anagrams, Permutation in String, K Unique Characters, Minimum Window Substring    |
 | Substrings                    | Count Substrings with a, b and c, K Distinct Characters, Sum of Beauty of All Substrings   |
 | Parentheses / Parsing         | Remove Outermost Parentheses, Maximum Nesting Depth                                        |
 | String Search                 | Find Index of First Occurrence, Longest Common Prefix                                      |
+| Subsequence                   | Is Subsequence                                                                             |
+| Character / Bit Manipulation  | Find the Difference using XOR                                                              |
 
 ---
 
@@ -154,6 +156,15 @@
 
 ---
 
+## 🗓️ August 26 — `Aug26.java`
+
+|   # | Problem             | Source | Level | Solution                      |
+| --: | ------------------- | ------ | :---: | ----------------------------- |
+|  31 | Is Subsequence      | LC392  | EASY  | [View Solution](./Aug26.java) |
+|  32 | Find the Difference | LC389  | EASY  | [View Solution](./Aug26.java) |
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                             | Source  | Level  | Date   | File                         |
@@ -188,6 +199,8 @@
 |  28 | Longest Substring with K Uniques                    | GFG     | MEDIUM | Aug 21 | [`Aug21.java`](./Aug21.java) |
 |  29 | Minimum Window Substring                            | LC76    |  HARD  | Aug 22 | [`Aug22.java`](./Aug22.java) |
 |  30 | Sum of Beauty of All Substrings                     | LC1781  | MEDIUM | Aug 22 | [`Aug22.java`](./Aug22.java) |
+|  31 | Is Subsequence                                      | LC392   |  EASY  | Aug 26 | [`Aug26.java`](./Aug26.java) |
+|  32 | Find the Difference                                 | LC389   |  EASY  | Aug 26 | [`Aug26.java`](./Aug26.java) |
 
 ---
 
@@ -204,6 +217,7 @@
 | [`Aug20.java`](./Aug20.java) | Problems solved on August 20              |
 | [`Aug21.java`](./Aug21.java) | Problems solved on August 21              |
 | [`Aug22.java`](./Aug22.java) | Problems solved on August 22              |
+| [`Aug26.java`](./Aug26.java) | Problems solved on August 26              |
 
 ---
 
@@ -211,15 +225,15 @@
 
 | Category      | Practice Entries |
 | ------------- | ---------------: |
-| Total         |           **30** |
+| Total         |           **32** |
 | Example Files |            **1** |
-| August 2026   |           **30** |
+| August 2026   |           **32** |
 
 ## 🌐 Platform Distribution
 
 | Source           | Practice Entries |
 | ---------------- | ---------------: |
-| LeetCode         |           **24** |
+| LeetCode         |           **26** |
 | GeeksforGeeks    |            **2** |
 | Code360          |            **0** |
 | General Practice |            **4** |
@@ -238,16 +252,16 @@ Continue the global problem numbering and preserve all previous practice history
 
 ### Example — New Day
 
-If the next practice session is on August 23 and the new file is:
+If the next practice session is on August 27 and the new file is:
 
-`Aug23.java`
+`Aug27.java`
 
 Then add:
 
 ```md
-## 🗓️ August 23 — `Aug23.java`
+## 🗓️ August 27 — `Aug27.java`
 
-|   # | Problem             | Source | Solution                      |
-| --: | ------------------- | ------ | ----------------------------- |
-|  31 | Length of Last Word | LC58   | [View Solution](./Aug23.java) |
+|   # | Problem            | Source                    |        Level         | Solution                      |
+| --: | ------------------ | ------------------------- | :------------------: | ----------------------------- |
+|  33 | New String Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug27.java) |
 ```

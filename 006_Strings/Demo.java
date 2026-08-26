@@ -323,12 +323,21 @@ public class Demo {
         // // "aabcbaa"`
         // //
         // ));
-        System.out.println(Aug23.findSubstringOptimal(
-                "barfoofoobarthefoobarmand",
-                new String[] { "bar", "foo", "the" }
+        // System.out.println(Aug23.findSubstringOptimal(
+        // "barfoofoobarthefoobarmand",
+        // new String[] { "bar", "foo", "the" }
         // "barfoothefoobarman",
         // new String[] { "bar", "foo" }
         //
-        ));
+        // ));
+
+        // System.out.println(Aug26.findTheDifferenceBetter(
+        // "abcd",
+        // "abcde"
+        // "",
+        // "y"
+        //
+        // ));
+
     }
 }
