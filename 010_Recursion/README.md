@@ -12,8 +12,8 @@
 
 | Metric           |           Value |
 | ---------------- | --------------: |
-| Java Files       |           **3** |
-| Practice Entries |          **20** |
+| Java Files       |           **4** |
+| Practice Entries |          **23** |
 | Period Covered   | **August 2026** |
 | Language         |        **Java** |
 
@@ -35,27 +35,28 @@
 | Level      |    LC |   GFG |  C360 | General |  Total |
 | :--------- | ----: | ----: | ----: | ------: | -----: |
 | **EASY**   |     0 |     0 |     0 |      13 | **13** |
-| **MEDIUM** |     2 |     0 |     0 |       5 |  **7** |
+| **MEDIUM** |     4 |     0 |     0 |       6 | **10** |
 | **HARD**   |     0 |     0 |     0 |       0 |  **0** |
-| **Total**  | **2** | **0** | **0** |  **18** | **20** |
+| **Total**  | **4** | **0** | **0** |  **19** | **23** |
 
 ---
 
 ## 🧩 Topic Coverage
 
-| Area                    | Problems Practiced                                                        |
-| ----------------------- | ------------------------------------------------------------------------- |
-| Basic Recursion         | Print from 1 to N, Print from N to 1                                      |
-| Mathematical Recursion  | Factorial, Fibonacci, Sum of Numbers                                      |
-| Digit-Based Recursion   | Count of Digits, Sum of Digits, Reverse Number                            |
-| String Recursion        | Checking Palindrome                                                       |
-| Array Recursion         | Reverse Array                                                             |
-| Functional Recursion    | Sum of Numbers, Reverse Array, Subsequence Selection                      |
-| Parameterized Recursion | Sum of Numbers, Subsequence Generation                                    |
-| Subsequence Problems    | Subsequence Sum = K, Count Subsequence Sum = K, Print Any One Subsequence |
-| Backtracking / Subsets  | Subsets, Number of Valid Subsequences                                     |
-| Divide and Conquer      | Merge Sort                                                                |
-| Recursion Fundamentals  | Base cases, recursive calls, recursion stack, left/right recursion        |
+| Area                    | Problems Practiced                                                         |
+| ----------------------- | -------------------------------------------------------------------------- |
+| Basic Recursion         | Print from 1 to N, Print from N to 1                                       |
+| Mathematical Recursion  | Factorial, Fibonacci, Sum of Numbers                                       |
+| Digit-Based Recursion   | Count of Digits, Sum of Digits, Reverse Number                             |
+| String Recursion        | Checking Palindrome                                                        |
+| Array Recursion         | Reverse Array                                                              |
+| Functional Recursion    | Sum of Numbers, Reverse Array, Subsequence Selection                       |
+| Parameterized Recursion | Sum of Numbers, Subsequence Generation                                     |
+| Subsequence Problems    | Subsequence Sum = K, Count Subsequence Sum = K, Print Any One Subsequence  |
+| Backtracking / Subsets  | Subsets, Combination Sum, Combination Sum II, Number of Valid Subsequences |
+| Combination Problems    | Combination Sum, Combination Sum II, Three-Element Combinations            |
+| Divide and Conquer      | Merge Sort                                                                 |
+| Recursion Fundamentals  | Base cases, recursive calls, recursion stack, left/right recursion         |
 
 ---
 
@@ -102,6 +103,16 @@
 
 ---
 
+## 🗓️ August 27 — `Aug27.java`
+
+|   # | Problem                      | Source  | Level  | Solution                      |
+| --: | ---------------------------- | ------- | :----: | ----------------------------- |
+|  21 | Print All Three Combinations | General | MEDIUM | [View Solution](./Aug27.java) |
+|  22 | Combination Sum              | LC39    | MEDIUM | [View Solution](./Aug27.java) |
+|  23 | Combination Sum II           | LC40    | MEDIUM | [View Solution](./Aug27.java) |
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                                     | Source  | Level  | Date   | File                         |
@@ -126,6 +137,9 @@
 |  18 | Count Subsequences Whose Sum Equals K                       | General | MEDIUM | Aug 25 | [`Aug25.java`](./Aug25.java) |
 |  19 | Print Any One Subsequence Whose Sum Equals K                | General | MEDIUM | Aug 25 | [`Aug25.java`](./Aug25.java) |
 |  20 | Merge Sort                                                  | General | MEDIUM | Aug 25 | [`Aug25.java`](./Aug25.java) |
+|  21 | Print All Three Combinations                                | General | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
+|  22 | Combination Sum                                             | LC39    | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
+|  23 | Combination Sum II                                          | LC40    | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
 
 ---
 
@@ -136,6 +150,7 @@
 | [`Aug23.java`](./Aug23.java) | Recursion fundamentals including printing, palindrome, factorial, and Fibonacci                            |
 | [`Aug24.java`](./Aug24.java) | Subsets, Fibonacci, digit operations, reverse number, palindrome, array reversal, and recursion techniques |
 | [`Aug25.java`](./Aug25.java) | Merge Sort, subsequence sum problems, Subsets, and recursive subsequence counting                          |
+| [`Aug27.java`](./Aug27.java) | Combination Sum, Combination Sum II, and recursive combination generation                                  |
 
 ---
 
@@ -143,18 +158,18 @@
 
 | Category      | Practice Entries |
 | ------------- | ---------------: |
-| Total         |           **20** |
+| Total         |           **23** |
 | Example Files |            **0** |
-| August 2026   |           **20** |
+| August 2026   |           **23** |
 
 ## 🌐 Platform Distribution
 
 | Source           | Practice Entries |
 | ---------------- | ---------------: |
-| LeetCode         |            **2** |
+| LeetCode         |            **4** |
 | GeeksforGeeks    |            **0** |
 | Code360          |            **0** |
-| General Practice |           **18** |
+| General Practice |           **19** |
 
 ---
 
@@ -170,16 +185,16 @@ Continue the global problem numbering and preserve all previous practice history
 
 ### Example — New Day
 
-If the next practice session is on August 26 and the new file is:
+If the next practice session is on August 28 and the new file is:
 
-`Aug26.java`
+`Aug28.java`
 
 Then add:
 
 ```md
-## 🗓️ August 26 — `Aug26.java`
+## 🗓️ August 28 — `Aug28.java`
 
 |   # | Problem               | Source                    |        Level         | Solution                      |
 | --: | --------------------- | ------------------------- | :------------------: | ----------------------------- |
-|  21 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug26.java) |
+|  24 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug28.java) |
 ```

@@ -1,6 +1,4 @@
 
-import java.util.Arrays;
-
 public class Demo {
     public static void main(String[] args) {
         // ! ============= Aug 23 Problems ============
@@ -96,9 +94,9 @@ public class Demo {
         // int[] arr = new int[] { 9, 4, 3, 1, 2 };
         // Aug25.mergeSot(arr, 0, arr.length - 1);
 
-        int[] arr = new int[] {
-                9, 4, 3, 1, 2
-        };
+        // int[] arr = new int[] {
+        // 9, 4, 3, 1, 2
+        // };
         // int[] res = Aug25.merge(
         // arr,
         // 0,
@@ -107,11 +105,59 @@ public class Demo {
         // //
         // );
 
-        Aug25.mergeSot(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(
-                // res
-                arr
+        // Aug25.mergeSot(arr, 0, arr.length - 1);
+        // System.out.println(Arrays.toString(
+        // // res
+        // arr
+        // //
+        // ));
+
+        // ! ============== Aug 27 Problems =============
+        // System.out.println(Aug27.recV2(
+        // new int[] { 2, 3, 5 },
+        // 0,
+        // 8,
+        // new ArrayList<>()
+        // //
+        // ));
+
+        // Aug27.printCombo(
+        // new int[] { 2, 3, 6 },
+        // 0,
+        // new ArrayList<>()
+        // //
+        // );
+
+        // System.out.println(Aug27.combinationSum(
+        // new int[] { 2, 3, 6, 7 },
+        // 7
+        // //
+        // ));
+        // Aug27.combinationSum2HelperV1(
+        // new int[] { 2, 5, 2, 1, 2 },
+        // 0,
+        // 5,
+        // new ArrayList<>(),
+        // new ArrayList<>()
+        // //
+        // );
+        // System.out.println(Aug27.combinationSum2(
+        // new int[] { 2, 5, 2, 1, 2 },
+        // 5
+        // //
+        // ));
+
+        System.out.println(Aug27.combinationSum2Better(
+                new int[] {
+                        10, 1, 2, 7, 6, 1, 5
+                // 2, 5, 2, 1, 2
+                // 1, 1, 1, 2, 2
+                },
+                8
+        // 5
+        // 4
         //
         ));
+
     }
 }
