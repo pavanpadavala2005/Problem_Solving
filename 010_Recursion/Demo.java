@@ -147,15 +147,39 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Aug27.combinationSum2Better(
-                new int[] {
-                        10, 1, 2, 7, 6, 1, 5
-                // 2, 5, 2, 1, 2
-                // 1, 1, 1, 2, 2
-                },
-                8
+        // System.out.println(Aug27.combinationSum2Better(
+        // new int[] {
+        // 10, 1, 2, 7, 6, 1, 5
+        // 2, 5, 2, 1, 2
+        // 1, 1, 1, 2, 2
+        // },
+        // 8
         // 5
         // 4
+        //
+        // ));
+
+        // ! ============== Aug 28 Problems =============
+        // System.out.println(Aug28.myPowRec(
+        // 2.0d,
+        // 10
+        // 2.0d,
+        // -2
+        //
+        // ));
+
+        // System.out.println(Aug28.climbStairsItr(
+        // // 3
+        // // 4
+        // 6
+        // //
+        // ));
+
+        System.out.println(Aug28.rob(new int[] {
+                // 1, 2, 3, 1
+                // 2, 7, 9, 3, 1
+                2, 7, 9, 3, 1, 8, 4, 6, 5
+        }
         //
         ));
 

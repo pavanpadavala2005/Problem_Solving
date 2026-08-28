@@ -12,8 +12,8 @@
 
 | Metric           |           Value |
 | ---------------- | --------------: |
-| Java Files       |           **4** |
-| Practice Entries |          **23** |
+| Java Files       |           **5** |
+| Practice Entries |          **25** |
 | Period Covered   | **August 2026** |
 | Language         |        **Java** |
 
@@ -34,10 +34,10 @@
 
 | Level      |    LC |   GFG |  C360 | General |  Total |
 | :--------- | ----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     0 |     0 |     0 |      13 | **13** |
-| **MEDIUM** |     4 |     0 |     0 |       6 | **10** |
+| **EASY**   |     1 |     0 |     0 |      13 | **14** |
+| **MEDIUM** |     5 |     0 |     0 |       6 | **11** |
 | **HARD**   |     0 |     0 |     0 |       0 |  **0** |
-| **Total**  | **4** | **0** | **0** |  **19** | **23** |
+| **Total**  | **6** | **0** | **0** |  **19** | **25** |
 
 ---
 
@@ -56,6 +56,7 @@
 | Backtracking / Subsets  | Subsets, Combination Sum, Combination Sum II, Number of Valid Subsequences |
 | Combination Problems    | Combination Sum, Combination Sum II, Three-Element Combinations            |
 | Divide and Conquer      | Merge Sort                                                                 |
+| Recursive Optimization  | Climbing Stairs, Power Calculation                                         |
 | Recursion Fundamentals  | Base cases, recursive calls, recursion stack, left/right recursion         |
 
 ---
@@ -113,6 +114,15 @@
 
 ---
 
+## 🗓️ August 28 — `Aug28.java`
+
+|   # | Problem         | Source | Level  | Solution                      |
+| --: | --------------- | ------ | :----: | ----------------------------- |
+|  24 | Climbing Stairs | LC70   |  EASY  | [View Solution](./Aug28.java) |
+|  25 | Pow(x, n)       | LC50   | MEDIUM | [View Solution](./Aug28.java) |
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                                     | Source  | Level  | Date   | File                         |
@@ -140,6 +150,8 @@
 |  21 | Print All Three Combinations                                | General | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
 |  22 | Combination Sum                                             | LC39    | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
 |  23 | Combination Sum II                                          | LC40    | MEDIUM | Aug 27 | [`Aug27.java`](./Aug27.java) |
+|  24 | Climbing Stairs                                             | LC70    |  EASY  | Aug 28 | [`Aug28.java`](./Aug28.java) |
+|  25 | Pow(x, n)                                                   | LC50    | MEDIUM | Aug 28 | [`Aug28.java`](./Aug28.java) |
 
 ---
 
@@ -151,6 +163,7 @@
 | [`Aug24.java`](./Aug24.java) | Subsets, Fibonacci, digit operations, reverse number, palindrome, array reversal, and recursion techniques |
 | [`Aug25.java`](./Aug25.java) | Merge Sort, subsequence sum problems, Subsets, and recursive subsequence counting                          |
 | [`Aug27.java`](./Aug27.java) | Combination Sum, Combination Sum II, and recursive combination generation                                  |
+| [`Aug28.java`](./Aug28.java) | Climbing Stairs and recursive power calculation using different approaches                                 |
 
 ---
 
@@ -158,15 +171,15 @@
 
 | Category      | Practice Entries |
 | ------------- | ---------------: |
-| Total         |           **23** |
+| Total         |           **25** |
 | Example Files |            **0** |
-| August 2026   |           **23** |
+| August 2026   |           **25** |
 
 ## 🌐 Platform Distribution
 
 | Source           | Practice Entries |
 | ---------------- | ---------------: |
-| LeetCode         |            **4** |
+| LeetCode         |            **6** |
 | GeeksforGeeks    |            **0** |
 | Code360          |            **0** |
 | General Practice |           **19** |
@@ -181,20 +194,18 @@ Update the **Repository Overview**, **Progress**, and **Platform Distribution** 
 
 Continue the global problem numbering and preserve all previous practice history.
 
-> Multiple approaches to the same problem count as one entry; repeated practice on another date counts as a new entry.
-
 ### Example — New Day
 
-If the next practice session is on August 28 and the new file is:
+If the next practice session is on August 29 and the new file is:
 
-`Aug28.java`
+`Aug29.java`
 
 Then add:
 
 ```md
-## 🗓️ August 28 — `Aug28.java`
+## 🗓️ August 29 — `Aug29.java`
 
 |   # | Problem               | Source                    |        Level         | Solution                      |
 | --: | --------------------- | ------------------------- | :------------------: | ----------------------------- |
-|  24 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug28.java) |
+|  26 | New Recursion Problem | LC / GFG / C360 / General | EASY / MEDIUM / HARD | [View Solution](./Aug29.java) |
 ```
