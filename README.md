@@ -292,27 +292,22 @@ The daily/topic Java files contain the actual problem-solving logic.
 For example:
 
 ```java
-// ! =============== LC14. Longest Common Prefix ================
+import java.util.HashMap;
+class MonthDate {
+    // ! =============== LC1. Two Sum ================
+    public static int[] twoSumOptimal(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-public static String longestCommonPrefixOptimal(String[] strs) {
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
 
-    if (strs == null || strs.length == 0)
-        return "";
-
-    String res = strs[0];
-
-    for (int i = 1; i < strs.length; i++) {
-
-        while (strs[i].indexOf(res) != 0) {
-
-            res = res.substring(0, res.length() - 1);
-
-            if (res.isEmpty())
-                return "";
+            if (map.containsKey(complement)) {
+                return new int[] {map.get(complement),i};
+            }
+            map.put(nums[i], i);
         }
+        return new int[] {};
     }
-
-    return res;
 }
 ```
 
@@ -329,20 +324,16 @@ The problem-solving methods are written inside the corresponding Java files and 
 ### Example
 
 ```java
+import java.util.Arrays;
 public class Demo {
-
     public static void main(String[] args) {
 
-        String[] strs = {
-            "flower",
-            "flow",
-            "flight"
-        };
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
 
-        String result =
-            Aug15.longestCommonPrefixOptimal(strs);
+        int[] result = Aug15.twoSumOptimal(nums, target);
 
-        System.out.println(result);
+        System.out.println(Arrays.toString(result));
     }
 }
 ```
