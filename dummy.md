@@ -1,246 +1,230 @@
-# 🧵 006 — Strings
+<div align="center">
 
-> 📌 **This README is the central tracker for all String-related problem-solving practice.**
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,50:0969DA,100:2EA44F&height=230&section=header&text=Pavan%20Kumar%20Padavala&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=36)
 
-> Each Java file contains the actual solutions and preserves the different approaches practiced, including brute-force, better, and optimal methods.
+[![Profile Views](https://komarev.com/ghpvc/?username=pavanpadavala2005&label=Profile%20Views&color=0969da&style=for-the-badge)](https://github.com/pavanpadavala2005)
+[![GitHub Followers](https://img.shields.io/github/followers/pavanpadavala2005?label=Followers&style=for-the-badge&logo=github&color=181717)](https://github.com/pavanpadavala2005?tab=followers)
 
-> **Tracked details:** problem name, source/platform, practice date, and Java solution file.
+</div>
 
----
+## 👨‍💻 About Me
 
-## 🧭 Repository Overview
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <p>
+        Hi, I'm <b>Pavan Kumar Padavala</b> — a passionate developer and mentor
+        who enjoys building useful applications, solving problems, and creating
+        clean and user-friendly digital experiences.
+      </p>
 
-| Metric           |           Value |
-| ---------------- | --------------: |
-| Java Files       |           **9** |
-| Practice Entries |          **27** |
-| Period Covered   | **August 2026** |
-| Language         |        **Java** |
+      <p>
+        🌱 Currently expanding my skills in <b>backend development</b><br>
+        🎯 Working toward building complete and reliable <b>full-stack applications</b><br>
+        🧠 Strengthening <b>Data Structures & Algorithms</b> with Java<br>
+        🤝 Open to learning, collaboration, and meaningful development projects<br>
+        📫 <a href="mailto:pavankumarpadavala123@gmail.com"><b>pavankumarpadavala123@gmail.com</b></a>
+      </p>
+    </td>
 
-> Multiple approaches to the same problem inside one Java file are counted as one practice entry. Repeated practice on different dates remains listed separately.
+    <td width="40%" align="center" valign="middle">
+      <img
+        alt="Developer coding animation"
+        width="340"
+        src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"
+      >
+    </td>
 
----
-
-## 🏷️ Source Legend
-
-| Label     | Platform                                  |
-| --------- | ----------------------------------------- |
-| `LC`      | LeetCode                                  |
-| `GFG`     | GeeksforGeeks                             |
-| `C360`    | Code360                                   |
-| `General` | General practice or no confirmed platform |
-
----
-
-## 🧩 Topic Coverage
-
-| Area                          | Problems Practiced                                                                         |
-| ----------------------------- | ------------------------------------------------------------------------------------------ |
-| String Basics                 | Anagram, Palindrome, Reverse String, Roman to Integer                                      |
-| String Manipulation           | Longest Common Prefix, String Rotation, String to Integer                                  |
-| Character Frequency & Hashing | Valid Anagram, Isomorphic Strings, Sort Characters by Frequency                            |
-| Palindromes                   | Valid Palindrome, Palindrome String, Longest Palindromic Substring, Palindromic Substrings |
-| Sliding Window                | Find All Anagrams, Permutation in String, K Unique Characters, Minimum Window Substring    |
-| Substrings                    | Count Substrings with a, b and c, K Distinct Characters, Sum of Beauty of All Substrings   |
-| Parentheses / Parsing         | Remove Outermost Parentheses, Maximum Nesting Depth                                        |
-| String Search                 | Find Index of First Occurrence, Longest Common Prefix                                      |
+  </tr>
+</table>
 
 ---
 
-# 📚 Examples
+## 🚀 Current Focus
 
-## 📘 Example 1 — `Demo.java`
-
-|   # | Problem                                   | Source  | Solution                     |
-| --: | ----------------------------------------- | ------- | ---------------------------- |
-|   — | Basic String demonstrations / experiments | General | [View Solution](./Demo.java) |
-
----
-
-# 📅 August 2026
-
-## 🗓️ August 15 — `Aug15.java`
-
-|   # | Problem                                            | Source  | Solution                      |
-| --: | -------------------------------------------------- | ------- | ----------------------------- |
-|   1 | Valid Anagram                                      | LC242   | [View Solution](./Aug15.java) |
-|   2 | Largest Odd Number in String                       | LC1903  | [View Solution](./Aug15.java) |
-|   3 | Fizz Buzz                                          | LC412   | [View Solution](./Aug15.java) |
-|   4 | Longest Common Prefix                              | LC14    | [View Solution](./Aug15.java) |
-|   5 | Find the Index of the First Occurrence in a String | LC28    | [View Solution](./Aug15.java) |
-|   6 | Isomorphic Strings                                 | LC205   | [View Solution](./Aug15.java) |
-|   7 | Roman to Integer                                   | LC13    | [View Solution](./Aug15.java) |
-|   8 | Palindrome Number                                  | General | [View Solution](./Aug15.java) |
-|   9 | Valid Palindrome                                   | LC125   | [View Solution](./Aug15.java) |
-|  10 | Palindrome String                                  | General | [View Solution](./Aug15.java) |
-|  11 | Reverse String                                     | General | [View Solution](./Aug15.java) |
+<table>
+<tr>
+<th>Area</th>
+<th>Current Direction</th>
+</tr>
+<tr>
+<td>⚙️ Backend</td>
+<td>Server-side development, APIs, application logic and backend architecture</td>
+</tr>
+<tr>
+<td>🔗 Full Stack</td>
+<td>Connecting responsive interfaces, APIs and databases into complete applications</td>
+</tr>
+<tr>
+<td>🧠 Problem Solving</td>
+<td>Strengthening programming fundamentals and DSA through consistent Java practice</td>
+</tr>
+<tr>
+<td>🤖 AI / GenAI</td>
+<td>Exploring practical AI-powered applications and modern development workflows</td>
+</tr>
+</table>
 
 ---
 
-## 🗓️ August 16 — `Aug16.java`
+## 🧰 Tech Stack
 
-|   # | Problem                   | Source | Solution                      |
-| --: | ------------------------- | ------ | ----------------------------- |
-|  12 | Reverse Words in a String | LC151  | [View Solution](./Aug16.java) |
+### 💻 Languages
 
----
+<p>
+  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css&theme=dark" alt="Java, Python, JavaScript, HTML and CSS" />
+</p>
 
-## 🗓️ August 17 — `Aug17.java`
+### ⚛️ Frameworks & Libraries
 
-|   # | Problem                      | Source | Solution                      |
-| --: | ---------------------------- | ------ | ----------------------------- |
-|  13 | Remove Outermost Parentheses | LC1021 | [View Solution](./Aug17.java) |
-|  14 | Rotate String                | LC796  | [View Solution](./Aug17.java) |
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,tailwind&theme=dark" alt="React, Node.js and Tailwind CSS" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
 
----
+### 🗄️ Databases
 
-## 🗓️ August 18 — `Aug18.java`
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" alt="MySQL and MongoDB" />
+</p>
 
-|   # | Problem                                  | Source | Solution                      |
-| --: | ---------------------------------------- | ------ | ----------------------------- |
-|  15 | Count Substrings with a, b and c         | GFG    | [View Solution](./Aug18.java) |
-|  16 | String to Integer (atoi)                 | LC8    | [View Solution](./Aug18.java) |
-|  17 | Maximum Nesting Depth of the Parentheses | LC1614 | [View Solution](./Aug18.java) |
-|  18 | Sort Characters By Frequency             | LC451  | [View Solution](./Aug18.java) |
+### 🛠️ Tools & Platforms
 
----
-
-## 🗓️ August 19 — `Aug19.java`
-
-|   # | Problem                                             | Source  | Solution                      |
-| --: | --------------------------------------------------- | ------- | ----------------------------- |
-|  19 | Longest Palindromic Substring                       | LC5     | [View Solution](./Aug19.java) |
-|  20 | Valid Palindrome                                    | LC125   | [View Solution](./Aug19.java) |
-|  21 | Reverse String                                      | LC344   | [View Solution](./Aug19.java) |
-|  22 | Count Substrings with Exactly K Distinct Characters | General | [View Solution](./Aug19.java) |
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm&theme=dark" alt="Git, GitHub, Visual Studio Code and npm" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+</p>
 
 ---
 
-## 🗓️ August 20 — `Aug20.java`
+## 🧠 Problem Solving
 
-|   # | Problem                       | Source | Solution                      |
-| --: | ----------------------------- | ------ | ----------------------------- |
-|  23 | Find All Anagrams in a String | LC438  | [View Solution](./Aug20.java) |
-|  24 | Palindromic Substrings        | LC647  | [View Solution](./Aug20.java) |
-|  25 | Valid Palindrome II           | LC680  | [View Solution](./Aug20.java) |
+<p align="center">
+  <a href="https://github.com/pavanpadavala2005/Problem_Solving">
+    <img src="https://img.shields.io/badge/Java-DSA%20Practice-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java DSA Practice" />
+  </a>
+</p>
 
----
+I maintain a dedicated repository for my **daily Data Structures & Algorithms practice with Java**, including topic-wise and day-wise problem solving.
 
-## 🗓️ August 21 — `Aug21.java`
+<p align="center">
 
-|   # | Problem                          | Source | Solution                      |
-| --: | -------------------------------- | ------ | ----------------------------- |
-|  26 | Minimum Window Substring         | LC76   | [View Solution](./Aug21.java) |
-|  27 | Permutation in String            | LC567  | [View Solution](./Aug21.java) |
-|  28 | Longest Substring with K Uniques | GFG    | [View Solution](./Aug21.java) |
+<a href="https://github.com/pavanpadavala2005/Problem_Solving">
+  <img src="https://img.shields.io/badge/🧠%20Problem%20Solving-Repository-181717?style=for-the-badge&logo=github" alt="Problem Solving Repository" />
+</a>
 
----
-
-## 🗓️ August 22 — `Aug22.java`
-
-|   # | Problem                         | Source | Solution                      |
-| --: | ------------------------------- | ------ | ----------------------------- |
-|  29 | Minimum Window Substring        | LC76   | [View Solution](./Aug22.java) |
-|  30 | Sum of Beauty of All Substrings | LC1781 | [View Solution](./Aug22.java) |
+</p>
 
 ---
 
-# 📊 Problem Index
+## 📊 GitHub Insights
 
-|   # | Problem                                             | Source  | Date   | File                         |
-| --: | --------------------------------------------------- | ------- | ------ | ---------------------------- |
-|   1 | Valid Anagram                                       | LC242   | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   2 | Largest Odd Number in String                        | LC1903  | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   3 | Fizz Buzz                                           | LC412   | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   4 | Longest Common Prefix                               | LC14    | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   5 | Find the Index of the First Occurrence in a String  | LC28    | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   6 | Isomorphic Strings                                  | LC205   | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   7 | Roman to Integer                                    | LC13    | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   8 | Palindrome Number                                   | General | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|   9 | Valid Palindrome                                    | LC125   | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|  10 | Palindrome String                                   | General | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|  11 | Reverse String                                      | General | Aug 15 | [`Aug15.java`](./Aug15.java) |
-|  12 | Reverse Words in a String                           | LC151   | Aug 16 | [`Aug16.java`](./Aug16.java) |
-|  13 | Remove Outermost Parentheses                        | LC1021  | Aug 17 | [`Aug17.java`](./Aug17.java) |
-|  14 | Rotate String                                       | LC796   | Aug 17 | [`Aug17.java`](./Aug17.java) |
-|  15 | Count Substrings with a, b and c                    | GFG     | Aug 18 | [`Aug18.java`](./Aug18.java) |
-|  16 | String to Integer (atoi)                            | LC8     | Aug 18 | [`Aug18.java`](./Aug18.java) |
-|  17 | Maximum Nesting Depth of the Parentheses            | LC1614  | Aug 18 | [`Aug18.java`](./Aug18.java) |
-|  18 | Sort Characters By Frequency                        | LC451   | Aug 18 | [`Aug18.java`](./Aug18.java) |
-|  19 | Longest Palindromic Substring                       | LC5     | Aug 19 | [`Aug19.java`](./Aug19.java) |
-|  20 | Valid Palindrome                                    | LC125   | Aug 19 | [`Aug19.java`](./Aug19.java) |
-|  21 | Reverse String                                      | LC344   | Aug 19 | [`Aug19.java`](./Aug19.java) |
-|  22 | Count Substrings with Exactly K Distinct Characters | General | Aug 19 | [`Aug19.java`](./Aug19.java) |
-|  23 | Find All Anagrams in a String                       | LC438   | Aug 20 | [`Aug20.java`](./Aug20.java) |
-|  24 | Palindromic Substrings                              | LC647   | Aug 20 | [`Aug20.java`](./Aug20.java) |
-|  25 | Valid Palindrome II                                 | LC680   | Aug 20 | [`Aug20.java`](./Aug20.java) |
-|  26 | Minimum Window Substring                            | LC76    | Aug 21 | [`Aug21.java`](./Aug21.java) |
-|  27 | Permutation in String                               | LC567   | Aug 21 | [`Aug21.java`](./Aug21.java) |
-|  28 | Longest Substring with K Uniques                    | GFG     | Aug 21 | [`Aug21.java`](./Aug21.java) |
-|  29 | Minimum Window Substring                            | LC76    | Aug 22 | [`Aug22.java`](./Aug22.java) |
-|  30 | Sum of Beauty of All Substrings                     | LC1781  | Aug 22 | [`Aug22.java`](./Aug22.java) |
+<p align="center">
+  <a href="https://github.com/pavanpadavala2005">
+    <img
+      height="180"
+      src="https://github-stats-extended.vercel.app/api?username=pavanpadavala2005&show_icons=true&theme=night&hide_border=true&rank_icon=github"
+      alt="Pavan's GitHub statistics"
+    />
+  </a>
 
----
+  <a href="https://github.com/pavanpadavala2005?tab=repositories">
+    <img
+      height="180"
+      src="https://github-stats-extended.vercel.app/api/top-langs/?username=pavanpadavala2005&layout=compact&langs_count=8&theme=tokyo&hide_border=true"
+      alt="Pavan's most used programming languages"
+    />
+  </a>
+</p>
 
-# 📁 Files
+### 🔥 Contribution Streak
 
-| File                         | Purpose                                   |
-| ---------------------------- | ----------------------------------------- |
-| [`Demo.java`](./Demo.java)   | Basic String demonstrations / experiments |
-| [`Aug15.java`](./Aug15.java) | Problems solved on August 15              |
-| [`Aug16.java`](./Aug16.java) | Problems solved on August 16              |
-| [`Aug17.java`](./Aug17.java) | Problems solved on August 17              |
-| [`Aug18.java`](./Aug18.java) | Problems solved on August 18              |
-| [`Aug19.java`](./Aug19.java) | Problems solved on August 19              |
-| [`Aug20.java`](./Aug20.java) | Problems solved on August 20              |
-| [`Aug21.java`](./Aug21.java) | Problems solved on August 21              |
-| [`Aug22.java`](./Aug22.java) | Problems solved on August 22              |
+<p align="center">
+  <img
+    width="70%"
+    src="https://streak-stats.demolab.com/?user=pavanpadavala2005&theme=tokyonight&hide_border=true"
+    alt="Pavan's GitHub contribution streak"
+  />
+</p>
+
+### 📈 Contribution Activity
+
+<p align="center">
+  <img
+    width="95%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=pavanpadavala2005&theme=github-compact&hide_border=true&area=true"
+    alt="Pavan's recent GitHub contribution activity graph"
+  />
+</p>
+
+<p align="center">
+  <sub>
+    GitHub statistics and contribution cards are generated by external services and may occasionally experience temporary delays or outages.
+    Language statistics represent code detected in public repositories and should not be interpreted as proficiency measurements.
+  </sub>
+</p>
 
 ---
 
-# 📈 Progress
+## 🌱 Learning Philosophy
 
-| Category      | Practice Entries |
-| ------------- | ---------------: |
-| Total         |           **30** |
-| Example Files |            **1** |
-| August 2026   |           **30** |
-
-## 🌐 Platform Distribution
-
-| Source           | Practice Entries |
-| ---------------- | ---------------: |
-| LeetCode         |           **23** |
-| GeeksforGeeks    |            **2** |
-| Code360          |            **0** |
-| General Practice |            **5** |
-
----
-
-# 🔄 Daily Update
-
-Whenever a new `MonthDate.java` file is added, update the corresponding **date section**, **Problem Index**, and **Files** section.
-
-Update the **Repository Overview**, **Progress**, and **Platform Distribution** counts accordingly.
-
-Continue the global problem numbering and preserve all previous practice history.
-
-> Multiple approaches to the same problem count as one entry; repeated practice on another date counts as a new entry.
-
-### Example — New Day
-
-If the next practice session is on August 23 and the new file is:
-
-`Aug23.java`
-
-Then add:
-
-```md
-## 🗓️ August 23 — `Aug23.java`
-
-|   # | Problem             | Source | Solution                      |
-| --: | ------------------- | ------ | ----------------------------- |
-|  31 | Length of Last Word | LC58   | [View Solution](./Aug23.java) |
+```text
+        LEARN
+          ↓
+        BUILD
+          ↓
+        SOLVE
+          ↓
+       ANALYZE
+          ↓
+       IMPROVE
+          ↓
+        REPEAT
 ```
 
-hello
+> **Keep learning. Keep building. Keep solving. Keep improving.**
+
+---
+
+## 🔗 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-pavanpadavala2005-181717?style=for-the-badge&logo=github)](https://github.com/pavanpadavala2005)
+[![Email](https://img.shields.io/badge/Email-Let's%20Connect-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pavankumarpadavala123@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pavan%20Padavala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pavan-kumar-padavala/)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=firefox&logoColor=white)](http://pavan-kumar-padavala.vercel.app/)
+
+<!-- Add your real coding-profile URLs below when available -->
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](YOUR_LEETCODE_PROFILE_URL)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](YOUR_GFG_PROFILE_URL)
+[![Naukri Code360](https://img.shields.io/badge/Naukri%20Code360-Profile-DD1F26?style=for-the-badge&logoColor=white)](YOUR_CODE360_PROFILE_URL)
+
+</div>
+
+---
+
+## 📌 What I'm Building Toward
+
+<div align="center">
+
+| 🎯 Goal                   | Direction                                                    |
+| ------------------------- | ------------------------------------------------------------ |
+| ☕ Strong Java            | DSA, OOP, problem solving & backend development              |
+| ⚙️ Backend Engineering    | APIs, databases, authentication & scalable application logic |
+| 🌐 Full-Stack Development | Frontend + backend + database integration                    |
+| 🤖 AI / GenAI             | Practical AI-powered applications                            |
+| 🚀 Continuous Growth      | Learn → Build → Solve → Improve                              |
+
+</div>
+
+---
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2EA44F,50:0969DA,100:6E40C9&height=120&section=footer)
+
+</div>

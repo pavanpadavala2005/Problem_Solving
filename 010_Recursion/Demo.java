@@ -175,13 +175,36 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Aug28.rob(new int[] {
-                // 1, 2, 3, 1
-                // 2, 7, 9, 3, 1
-                2, 7, 9, 3, 1, 8, 4, 6, 5
-        }
+        // System.out.println(Aug28.rob(new int[] {
+        // // 1, 2, 3, 1
+        // // 2, 7, 9, 3, 1
+        // 2, 7, 9, 3, 1, 8, 4, 6, 5
+        // }
+        // //
+        // ));
+        // ! ============== Aug 29 Problems =============
+        // System.out.println(Aug29.findMedianSortedArrays(
+        // new int[] { 1, 3 },
+        // new int[] { 2, 4 }
+        // //
+        // ));
+
+        // ArrayList<Integer> res = Aug29.returnOneSubSequence(
+        // new int[] { 1, 2, 1 },
+        // 0,
+        // new ArrayList<>(),
+        // 2
+        // //
+        // );
+        // System.out.println(res);
+
+        Aug29.combinationSumII(
+                new int[] {
+                        10, 1, 2, 7, 6, 1, 5
+                },
+                8
         //
-        ));
+        );
 
     }
 }
