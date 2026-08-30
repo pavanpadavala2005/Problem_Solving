@@ -238,8 +238,9 @@ This gives the repository two different perspectives:
 ```text
 Arrays
 Strings
-Recursion
 Linked List
+Recursion
+Bit Manipulation
 ...
 ```
 
