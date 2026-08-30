@@ -198,13 +198,55 @@ public class Demo {
         // );
         // System.out.println(res);
 
-        Aug29.combinationSumII(
-                new int[] {
-                        10, 1, 2, 7, 6, 1, 5
-                },
-                8
-        //
-        );
+        // Aug29.combinationSumII(
+        // new int[] {
+        // 10, 1, 2, 7, 6, 1, 5
+        // },
+        // 8
+        // //
+        // );
 
+        // ! ============== Aug 30 Problems =============
+
+        // System.out.println(Aug30.subsetSums(
+        // new int[] { 2, 3 }
+        // //
+        // ));
+
+        // System.out.println(Aug30.perfectSum(
+        // new int[] {
+        // 3, 34, 4, 12, 5, 2
+        // 1, 2, 3
+        // 5, 2, 3, 10, 6, 8
+        // 2, 5, 1, 4, 3
+        // },
+        // // 6
+        // // 9
+        // 10
+        // //
+        // ));
+
+        // System.out.println(Aug30.perfectSum(
+        // new int[] { 0, 10, 0 },
+        // 0
+        // //
+        // ));
+        // List<List<Integer>> res = Aug30.subsetsWithDup(
+        // new int[] {
+        // // 1, 2, 2, 3, 3
+        // 1, 5, 6
+        // });
+
+        // res.sort((a, b) -> Integer.compare(a.size(), b.size()));
+        // System.out.println(
+        // res
+        //
+        // );
+        System.out.println(Aug30.permute(
+                new int[] {
+                        1, 2, 3
+                }
+        //
+        ));
     }
 }
