@@ -242,10 +242,32 @@ public class Demo {
         // res
         //
         // );
-        System.out.println(Aug30.permute(
-                new int[] {
-                        1, 2, 3
-                }
+        // System.out.println(Aug30.permute(
+        // new int[] {
+        // 1, 2, 3
+        // }
+        // //
+        // ));
+        // ! ============== Aug 31 Problems =============
+
+        // System.out.println(Aug31.uniquePerms(
+        // new int[] { 1, 3, 3 }
+        // //
+        // ));
+
+        // System.out.println(Aug31.permutation(
+        // new String("ABC")
+        // //
+        // ));
+
+        // System.out.println(Aug31.findPermutation(new String(
+        // "AABC"
+        // //
+        // )));
+
+        System.out.println(Aug31.uniquePaths(
+                3,
+                7
         //
         ));
     }

@@ -1,9 +1,13 @@
 # 🧩 010 — Recursion
 
 > 📌 **This README is the central tracker for all Recursion-related problem-solving practice.**
+
 >
+
 > Each day's Java file contains the actual solutions. This README tracks:
+
 >
+
 > **Problem Name · Source · Difficulty · Date · Java File**
 
 ---
@@ -105,6 +109,17 @@
 
 ---
 
+## 🗓️ August 31 — `Aug31.java`
+
+|   # | Problem                                 | Source | Level  | Solution                      |
+| --: | --------------------------------------- | ------ | ------ | ----------------------------- |
+|  38 | Unique Paths                            | LC62   | Medium | [View Solution](./Aug31.java) |
+|  39 | Distinct Permutations of a String       | GFG    | Medium | [View Solution](./Aug31.java) |
+|  40 | All String Permutations in Sorted Order | GFG    | Medium | [View Solution](./Aug31.java) |
+|  41 | All Unique Permutations of an Array     | GFG    | Medium | [View Solution](./Aug31.java) |
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                                     | Source  | Level  | Date   | File                       |
@@ -146,6 +161,10 @@
 |  35 | Count Subsets with Sum                                      | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
 |  36 | Subset Sum Problem                                          | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
 |  37 | Subset Sums                                                 | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
+|  38 | Unique Paths                                                | LC62    | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
+|  39 | Distinct Permutations of a String                           | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
+|  40 | All String Permutations in Sorted Order                     | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
+|  41 | All Unique Permutations of an Array                         | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
 
 ---
 
@@ -154,9 +173,9 @@
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
 | **EASY**   |      4 |     0 |     0 |      13 | **17** |
-| **MEDIUM** |      8 |     3 |     0 |       9 | **20** |
+| **MEDIUM** |      9 |     6 |     0 |       9 | **24** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **12** | **3** | **0** |  **22** | **37** |
+| **TOTAL**  | **13** | **6** | **0** |  **22** | **41** |
 
 ---
 
@@ -172,6 +191,7 @@
 | [`Aug28.java`](./Aug28.java) | Problems solved on August 28 |
 | [`Aug29.java`](./Aug29.java) | Problems solved on August 29 |
 | [`Aug30.java`](./Aug30.java) | Problems solved on August 30 |
+| [`Aug31.java`](./Aug31.java) | Problems solved on August 31 |
 
 ---
 
@@ -180,25 +200,27 @@
 For every new practice day:
 
 1. Add the new `MonthDate.java` file.
+
 2. Add the day's problems with **Source + Level + Solution**.
+
 3. Add the problems to the **Problem Index**.
+
 4. Update the **Source Legend counts**.
+
 5. Add the new Java file under **Files**.
 
 ### Example — New Day
 
-If the next practice session is on August 31 and the new file is:
+If the next practice session is on September 1 and the new file is:
 
-`Aug31.java`
+`Sep01.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ August 31 — `Aug31.java`
+## 🗓️ September 1 — `Sep01.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  38 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Aug31.java) |
+|  42 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep01.java) |
 ```
-
-Then update the **Problem Index**, **Source Legend**, and **Files** section.
