@@ -181,17 +181,17 @@
 
 # 📁 Files
 
-| File                         | Purpose                      |
-| ---------------------------- | ---------------------------- |
-| [`Aug23.java`](./Aug23.java) | Problems solved on August 23 |
-| [`Aug24.java`](./Aug24.java) | Problems solved on August 24 |
-| [`Aug25.java`](./Aug25.java) | Problems solved on August 25 |
-| [`Aug26.java`](./Aug26.java) | Problems solved on August 26 |
-| [`Aug27.java`](./Aug27.java) | Problems solved on August 27 |
-| [`Aug28.java`](./Aug28.java) | Problems solved on August 28 |
-| [`Aug29.java`](./Aug29.java) | Problems solved on August 29 |
-| [`Aug30.java`](./Aug30.java) | Problems solved on August 30 |
-| [`Aug31.java`](./Aug31.java) | Problems solved on August 31 |
+| File                         | Purpose                      | Topics Covered                                                                                   |
+| ---------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+| [`Aug23.java`](./Aug23.java) | Problems solved on August 23 | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                               |
+| [`Aug24.java`](./Aug24.java) | Problems solved on August 24 | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion |
+| [`Aug25.java`](./Aug25.java) | Problems solved on August 25 | Merge Sort, Subsequences, Subset Sum, Backtracking                                               |
+| [`Aug26.java`](./Aug26.java) | Problems solved on August 26 | String Recursion, Subsequence, Character Comparison                                              |
+| [`Aug27.java`](./Aug27.java) | Problems solved on August 27 | Combination Sum, Combinations, Backtracking                                                      |
+| [`Aug28.java`](./Aug28.java) | Problems solved on August 28 | Climbing Stairs, Power / Fast Exponentiation                                                     |
+| [`Aug29.java`](./Aug29.java) | Problems solved on August 29 | Combination Sum, Subsequences, Subset Sum, Binary Search                                         |
+| [`Aug30.java`](./Aug30.java) | Problems solved on August 30 | Permutations, Subsets, Subset Sum, Backtracking                                                  |
+| [`Aug31.java`](./Aug31.java) | Problems solved on August 31 | Unique Paths, String Permutations, Array Permutations, Backtracking                              |
 
 ---
 
