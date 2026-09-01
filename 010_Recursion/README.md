@@ -109,14 +109,15 @@
 
 ---
 
-## 🗓️ August 31 — `Aug31.java`
+# 📅 September 2026
 
-|   # | Problem                                 | Source | Level  | Solution                      |
-| --: | --------------------------------------- | ------ | ------ | ----------------------------- |
-|  38 | Unique Paths                            | LC62   | Medium | [View Solution](./Aug31.java) |
-|  39 | Distinct Permutations of a String       | GFG    | Medium | [View Solution](./Aug31.java) |
-|  40 | All String Permutations in Sorted Order | GFG    | Medium | [View Solution](./Aug31.java) |
-|  41 | All Unique Permutations of an Array     | GFG    | Medium | [View Solution](./Aug31.java) |
+## 🗓️ September 1 — `Sep01.java`
+
+|   # | Problem  | Source | Level | Solution                      |
+| --: | -------- | ------ | ----- | ----------------------------- |
+|  38 | N-Queens | LC51   | Hard  | [View Solution](./Sep01.java) |
+
+> ⏱️ **Time Taken:** Nearly 2 hours
 
 ---
 
@@ -161,10 +162,7 @@
 |  35 | Count Subsets with Sum                                      | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
 |  36 | Subset Sum Problem                                          | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
 |  37 | Subset Sums                                                 | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  38 | Unique Paths                                                | LC62    | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
-|  39 | Distinct Permutations of a String                           | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
-|  40 | All String Permutations in Sorted Order                     | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
-|  41 | All Unique Permutations of an Array                         | GFG     | Medium | Aug 31 | [Aug31.java](./Aug31.java) |
+|  38 | N-Queens                                                    | LC51    | Hard   | Sep 01 | [Sep01.java](./Sep01.java) |
 
 ---
 
@@ -173,25 +171,26 @@
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
 | **EASY**   |      4 |     0 |     0 |      13 | **17** |
-| **MEDIUM** |      9 |     6 |     0 |       9 | **24** |
-| **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **13** | **6** | **0** |  **22** | **41** |
+| **MEDIUM** |     10 |     6 |     0 |       9 | **25** |
+| **HARD**   |      1 |     0 |     0 |       0 |  **1** |
+| **TOTAL**  | **15** | **6** | **0** |  **22** | **43** |
 
 ---
 
 # 📁 Files
 
-| File                         | Purpose                      | Topics Covered                                                                                   |
-| ---------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
-| [`Aug23.java`](./Aug23.java) | Problems solved on August 23 | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                               |
-| [`Aug24.java`](./Aug24.java) | Problems solved on August 24 | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion |
-| [`Aug25.java`](./Aug25.java) | Problems solved on August 25 | Merge Sort, Subsequences, Subset Sum, Backtracking                                               |
-| [`Aug26.java`](./Aug26.java) | Problems solved on August 26 | String Recursion, Subsequence, Character Comparison                                              |
-| [`Aug27.java`](./Aug27.java) | Problems solved on August 27 | Combination Sum, Combinations, Backtracking                                                      |
-| [`Aug28.java`](./Aug28.java) | Problems solved on August 28 | Climbing Stairs, Power / Fast Exponentiation                                                     |
-| [`Aug29.java`](./Aug29.java) | Problems solved on August 29 | Combination Sum, Subsequences, Subset Sum, Binary Search                                         |
-| [`Aug30.java`](./Aug30.java) | Problems solved on August 30 | Permutations, Subsets, Subset Sum, Backtracking                                                  |
-| [`Aug31.java`](./Aug31.java) | Problems solved on August 31 | Unique Paths, String Permutations, Array Permutations, Backtracking                              |
+| File                         | Purpose                        | Topics Covered                                                                                   |
+| ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [`Aug23.java`](./Aug23.java) | Problems solved on August 23   | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                               |
+| [`Aug24.java`](./Aug24.java) | Problems solved on August 24   | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion |
+| [`Aug25.java`](./Aug25.java) | Problems solved on August 25   | Merge Sort, Subsequences, Subset Sum, Backtracking                                               |
+| [`Aug26.java`](./Aug26.java) | Problems solved on August 26   | String Recursion, Subsequence, Character Comparison                                              |
+| [`Aug27.java`](./Aug27.java) | Problems solved on August 27   | Combination Sum, Combinations, Backtracking                                                      |
+| [`Aug28.java`](./Aug28.java) | Problems solved on August 28   | Climbing Stairs, Power / Fast Exponentiation                                                     |
+| [`Aug29.java`](./Aug29.java) | Problems solved on August 29   | Combination Sum, Subsequences, Subset Sum, Binary Search                                         |
+| [`Aug30.java`](./Aug30.java) | Problems solved on August 30   | Permutations, Subsets, Subset Sum, Backtracking                                                  |
+| [`Aug31.java`](./Aug31.java) | Problems solved on August 31   | Unique Paths, String Permutations, Array Permutations, Backtracking                              |
+| [`Sep01.java`](./Sep01.java) | Problems solved on September 1 | N-Queens, Backtracking, Matrix, Constraint Checking                                              |
 
 ---
 
@@ -209,18 +208,20 @@ For every new practice day:
 
 5. Add the new Java file under **Files**.
 
+6. Add **Topics Covered** for the new Java file.
+
 ### Example — New Day
 
-If the next practice session is on September 1 and the new file is:
+If the next practice session is on September 2 and the new file is:
 
-`Sep01.java`
+`Sep02.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 1 — `Sep01.java`
+## 🗓️ September 2 — `Sep02.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  42 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep01.java) |
+|  39 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep02.java) |
 ```

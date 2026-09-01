@@ -248,6 +248,7 @@ public class Demo {
         // }
         // //
         // ));
+
         // ! ============== Aug 31 Problems =============
 
         // System.out.println(Aug31.uniquePerms(
@@ -265,10 +266,23 @@ public class Demo {
         // //
         // )));
 
-        System.out.println(Aug31.uniquePaths(
-                3,
-                7
+        // System.out.println(Aug31.uniquePaths(
+        // 3,
+        // 7
+        // //
+        // ));
+        // ! ============== Sep 01 Problems =============
+        // System.out.println(Sep01.canWePlaceQueen(
+        // new char[][] {
+        // new char[] { '.', '.', '.', '.' },
+        // new char[] { '.', '.', '.', '.' },
+        // new char[] { '.', '.', '.', '.' },
+        // new char[] { 'Q', '.', '.', '.' }
+        // },
+        // 0, 3
+        // //
+        // ));
         //
-        ));
+        System.out.println(Sep01.solveNQueens(4));
     }
 }
