@@ -1,5 +1,14 @@
 
 public class Demo {
+    public static void printMatrix(char[][] mat) {
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[i].length; j++) {
+                System.out.print(mat[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         // ! ============= Aug 23 Problems ============
 
@@ -271,18 +280,68 @@ public class Demo {
         // 7
         // //
         // ));
+
         // ! ============== Sep 01 Problems =============
         // System.out.println(Sep01.canWePlaceQueen(
         // new char[][] {
         // new char[] { '.', '.', '.', '.' },
+        // new char[] { 'Q', '.', '.', '.' },
         // new char[] { '.', '.', '.', '.' },
-        // new char[] { '.', '.', '.', '.' },
-        // new char[] { 'Q', '.', '.', '.' }
+        // new char[] { '.', '.', '.', '.' }
         // },
-        // 0, 3
+        // 1, 3
         // //
         // ));
         //
-        System.out.println(Sep01.solveNQueens(4));
+        // System.out.println(Sep01.solveNQueens(4));
+        // int n = 6;
+        // for (int i = 0; i < n; i++) {
+        // for (int j = 0; j < n; j++) {
+        // System.out.print((n + i - j - 1) + " ");
+        // }
+        // }
+        // System.out.println(Sep01.solveNQueensOptimal(4));
+        // ! ============== Sep 02 Problems =============
+
+        // char[][] board = new char[][] {
+        // new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+        // new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+        // new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+        // new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+        // new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+        // new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+        // new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+        // new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+        // new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
+        // };
+
+        // Sep02.solveSudoku(board);
+
+        // System.out.println(Sep02.canWePlaceNumber(
+        // board,
+        // 2,
+        // 5,
+        // '2'
+        // //
+        // ));
+
+        // Sep02.solveSudoku(board);
+
+        // printMatrix(board);
+
+        int[][] maze1 = new int[][] {
+                new int[] { 1, 0, 0, 0 },
+                new int[] { 1, 1, 0, 1 },
+                new int[] { 1, 1, 0, 0 },
+                new int[] { 0, 1, 1, 1 } };
+        // int row = 2;
+        // int col = 0;
+        // System.out.println(Sep02.isPossible(maze, row, col + 1));
+        int[][] maze2 = new int[][] {
+                new int[] { 1, 1, 1 },
+                new int[] { 1, 1, 1 },
+                new int[] { 1, 1, 1 },
+        };
+        Sep02.ratInMaze(maze2);
     }
 }
