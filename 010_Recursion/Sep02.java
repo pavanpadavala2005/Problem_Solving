@@ -5,44 +5,55 @@ public class Sep02 {
     // *https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
     public static ArrayList<String> ratInMaze(int[][] maze) {
         ArrayList<String> res = new ArrayList<>();
-        ratInMaze(maze, 0, 0, new ArrayList<>(), res);
+        ratInMaze(maze, 0, 0, new StringBuilder(), res);
         return res;
     }
 
-    public static void ratInMaze(int[][] maze, int row, int col, ArrayList<Character> sb, ArrayList<String> res) {
+    public static void ratInMaze(int[][] maze, int row, int col, StringBuilder sb, ArrayList<String> res) {
         if (row == maze.length - 1 && col == maze[0].length - 1) {
-            System.out.println(sb);
+            res.add(sb.toString());
             return;
         }
         if (isPossible(maze, row, col - 1)) {
-            sb.add('L');
+            sb.append('L');
             maze[row][col] = 0;
             ratInMaze(maze, row, col - 1, sb, res);
-            sb.remove(sb.size() - 1);
+            sb.deleteCharAt(sb.length() - 1);
             maze[row][col] = 1;
         }
         if (isPossible(maze, row - 1, col)) {
-            sb.add('T');
+            sb.append('T');
             maze[row][col] = 0;
             ratInMaze(maze, row - 1, col, sb, res);
-            sb.remove(sb.size() - 1);
+            sb.deleteCharAt(sb.length() - 1);
             maze[row][col] = 1;
         }
         if (isPossible(maze, row, col + 1)) {
-            sb.add('R');
+            sb.append('R');
             maze[row][col] = 0;
             ratInMaze(maze, row, col + 1, sb, res);
-            sb.remove(sb.size() - 1);
+            sb.deleteCharAt(sb.length() - 1);
             maze[row][col] = 1;
         }
         if (isPossible(maze, row + 1, col)) {
-            sb.add('D');
+            sb.append('D');
             maze[row][col] = 0;
             ratInMaze(maze, row + 1, col, sb, res);
-            sb.remove(sb.size() - 1);
+            sb.deleteCharAt(sb.length() - 1);
             maze[row][col] = 1;
         }
     }
+
+    // public static void exec(int[][] maze, int row, int col, ArrayList<Character>
+    // sb, ArrayList<String> res) {
+    // if (isPossible(maze, row + 1, col)) {
+    // sb.add('D');
+    // maze[row][col] = 0;
+    // ratInMaze(maze, row + 1, col, sb, res);
+    // sb.remove(sb.size() - 1);
+    // maze[row][col] = 1;
+    // }
+    // }
 
     public static boolean isPossible(int[][] maze, int row, int col) {
         if (row < 0 || col < 0 || row >= maze.length || col >= maze[0].length)

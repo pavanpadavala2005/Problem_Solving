@@ -342,6 +342,6 @@ public class Demo {
                 new int[] { 1, 1, 1 },
                 new int[] { 1, 1, 1 },
         };
-        Sep02.ratInMaze(maze2);
+        System.out.println(Sep02.ratInMaze(maze1));
     }
 }
