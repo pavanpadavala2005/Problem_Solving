@@ -9,6 +9,15 @@ public class Demo {
         }
     }
 
+    public static void printMatrix(int[][] mat) {
+        for (int i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[i].length; j++) {
+                System.out.print(mat[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         // ! ============= Aug 23 Problems ============
 
@@ -337,20 +346,52 @@ public class Demo {
         // int row = 2;
         // int col = 0;
         // System.out.println(Sep02.isPossible(maze, row, col + 1));
-        int[][] maze2 = new int[][] {
-                new int[] { 1, 1, 1, 1 },
-                new int[] { 1, 0, 1, 1 },
-                new int[] { 1, 0, 1, 1 },
-                new int[] { 1, 1, 1, 1 },
-        };
+        // int[][] maze2 = new int[][] {
+        // new int[] { 1, 1, 1, 1 },
+        // new int[] { 1, 0, 1, 1 },
+        // new int[] { 1, 0, 1, 1 },
+        // new int[] { 1, 1, 1, 1 },
+        // };
 
-        int[][] maze3 = {
-                new int[] { 0, 1, 1 },
-                new int[] { 1, 1, 1 },
-                new int[] { 1, 1, 1 }
-        };
-        // System.out.println(Sep02.ratInMaze(maze1));
+        // int[][] maze3 = {
+        // new int[] { 0, 1, 1 },
+        // new int[] { 1, 1, 1 },
+        // new int[] { 1, 1, 1 }
+        // };
+
+        // System.out.println(Sep03.ratInMaze(maze1));
+
         // ! ============== Sep 03 Problems =============
-        System.out.println(Sep03.ratInMaze(maze3));
+        // System.out.println(Sep03.ratInMaze(maze3));
+
+        // int[][] grid = new int[][] {
+        // new int[] { 0, 0, 0 },
+        // new int[] { 0, 0, 0 },
+        // new int[] { 0, 0, 0 }
+        // };
+        // int[][] grid = new int[][] {
+        // new int[] { 1, 0 }
+        // };
+        // System.out.println(Sep03.uniquePathsWithObstacles(grid, 0, 0));
+
+        // Sep03.uniquePathsWithObstaclesBrute(
+        // new int[][] {
+        // new int[] { 1 }
+        // }
+        // //
+        // );
+        // System.out.println(Sep03.countGoodNumbers(
+        // 2
+        //
+        // ));
+
+        // System.out.println(1 << 2);
+
+        // System.out.println(Sep03.calcPower(3, 1));
+
+        System.out.println(Sep03.countGoodNumbers(
+                3
+        //
+        ));
     }
 }
