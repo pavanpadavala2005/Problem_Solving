@@ -2,11 +2,7 @@
 
 > 📌 **This README is the central tracker for all Recursion-related problem-solving practice.**
 
->
-
 > Each day's Java file contains the actual solutions. This README tracks:
-
->
 
 > **Problem Name · Source · Difficulty · Date · Java File**
 
@@ -109,13 +105,24 @@
 
 ---
 
+## 🗓️ August 31 — `Aug31.java`
+
+|   # | Problem                                 | Source | Level  | Solution                      |
+| --: | --------------------------------------- | ------ | ------ | ----------------------------- |
+|  38 | Unique Paths                            | LC62   | Medium | [View Solution](./Aug31.java) |
+|  39 | Distinct Permutations of a String       | GFG    | Medium | [View Solution](./Aug31.java) |
+|  40 | All String Permutations in Sorted Order | GFG    | Medium | [View Solution](./Aug31.java) |
+|  41 | All Unique Permutations of an Array     | GFG    | Medium | [View Solution](./Aug31.java) |
+
+---
+
 # 📅 September 2026
 
 ## 🗓️ September 1 — `Sep01.java`
 
 |   # | Problem  | Source | Level | Solution                      |
 | --: | -------- | ------ | ----- | ----------------------------- |
-|  38 | N-Queens | LC51   | Hard  | [View Solution](./Sep01.java) |
+|  42 | N-Queens | LC51   | Hard  | [View Solution](./Sep01.java) |
 
 > ⏱️ **Time Taken:** Nearly 2 hours
 
@@ -125,55 +132,67 @@
 
 |   # | Problem       | Source | Level  | Solution                      |
 | --: | ------------- | ------ | ------ | ----------------------------- |
-|  39 | Rat in a Maze | GFG    | Medium | [View Solution](./Sep02.java) |
-|  40 | Sudoku Solver | LC37   | Hard   | [View Solution](./Sep02.java) |
+|  43 | Rat in a Maze | GFG    | Medium | [View Solution](./Sep02.java) |
+|  44 | Sudoku Solver | LC37   | Hard   | [View Solution](./Sep02.java) |
+
+---
+
+## 🗓️ September 3 — `Sep03.java`
+
+|   # | Problem       | Source | Level  | Solution                      |
+| --: | ------------- | ------ | ------ | ----------------------------- |
+|  43 | Rat in a Maze | GFG    | Medium | [View Solution](./Sep03.java) |
 
 ---
 
 # 📊 Problem Index
 
-|   # | Problem                                                     | Source  | Level  | Date   | File                       |
-| --: | ----------------------------------------------------------- | ------- | ------ | ------ | -------------------------- |
-|   1 | Print from 1 → N                                            | General | Easy   | Aug 23 | [Aug23.java](./Aug23.java) |
-|   2 | Print from N → 1                                            | General | Easy   | Aug 23 | [Aug23.java](./Aug23.java) |
-|   3 | Checking Palindrome                                         | General | Easy   | Aug 23 | [Aug23.java](./Aug23.java) |
-|   4 | Factorial                                                   | General | Easy   | Aug 23 | [Aug23.java](./Aug23.java) |
-|   5 | Nth Fibonacci                                               | General | Easy   | Aug 23 | [Aug23.java](./Aug23.java) |
-|   6 | Subsets                                                     | LC78    | Medium | Aug 24 | [Aug24.java](./Aug24.java) |
-|   7 | Fibonacci Number                                            | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|   8 | Count of Digits                                             | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|   9 | Sum of Digits                                               | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  10 | Reverse Number                                              | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  11 | Check Palindrome                                            | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  12 | Reverse Array                                               | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  13 | Sum of Number — Parameterized Recursion                     | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  14 | Sum of Number — Functional Recursion                        | General | Easy   | Aug 24 | [Aug24.java](./Aug24.java) |
-|  15 | Merge Sort                                                  | General | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  16 | Count Subsequences Whose Sum Equals K                       | General | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  17 | Print Any One Subsequence Whose Sum Equals K                | General | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  18 | Print All Subsequences Whose Sum Equals K                   | General | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  19 | Number of Subsequences That Satisfy the Given Sum Condition | LC1498  | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  20 | Subsets                                                     | LC78    | Medium | Aug 25 | [Aug25.java](./Aug25.java) |
-|  21 | Is Subsequence                                              | LC392   | Easy   | Aug 26 | [Aug26.java](./Aug26.java) |
-|  22 | Find the Difference                                         | LC389   | Easy   | Aug 26 | [Aug26.java](./Aug26.java) |
-|  23 | Combination Sum II                                          | LC40    | Medium | Aug 27 | [Aug27.java](./Aug27.java) |
-|  24 | Print All Three Combinations                                | General | Medium | Aug 27 | [Aug27.java](./Aug27.java) |
-|  25 | Combination Sum                                             | LC39    | Medium | Aug 27 | [Aug27.java](./Aug27.java) |
-|  26 | Climbing Stairs                                             | LC70    | Easy   | Aug 28 | [Aug28.java](./Aug28.java) |
-|  27 | Pow(x, n)                                                   | LC50    | Medium | Aug 28 | [Aug28.java](./Aug28.java) |
-|  28 | Combination Sum II                                          | General | Medium | Aug 29 | [Aug29.java](./Aug29.java) |
-|  29 | Combination Sum I                                           | General | Medium | Aug 29 | [Aug29.java](./Aug29.java) |
-|  30 | One Subsequence Whose Sum Equals K                          | General | Medium | Aug 29 | [Aug29.java](./Aug29.java) |
-|  31 | Subsequences Whose Sum Equals K                             | General | Medium | Aug 29 | [Aug29.java](./Aug29.java) |
-|  32 | Binary Search                                               | LC704   | Easy   | Aug 29 | [Aug29.java](./Aug29.java) |
-|  33 | Permutations                                                | LC46    | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  34 | Subsets II                                                  | LC90    | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  35 | Count Subsets with Sum                                      | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  36 | Subset Sum Problem                                          | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  37 | Subset Sums                                                 | GFG     | Medium | Aug 30 | [Aug30.java](./Aug30.java) |
-|  38 | N-Queens                                                    | LC51    | Hard   | Sep 01 | [Sep01.java](./Sep01.java) |
-|  39 | Rat in a Maze                                               | GFG     | Medium | Sep 02 | [Sep02.java](./Sep02.java) |
-|  40 | Sudoku Solver                                               | LC37    | Hard   | Sep 02 | [Sep02.java](./Sep02.java) |
+|   # | Problem                                                     | Source  | Level  | Date           | File                                                   |
+| --: | ----------------------------------------------------------- | ------- | ------ | -------------- | ------------------------------------------------------ |
+|   1 | Print from 1 → N                                            | General | Easy   | Aug 23         | [Aug23.java](./Aug23.java)                             |
+|   2 | Print from N → 1                                            | General | Easy   | Aug 23         | [Aug23.java](./Aug23.java)                             |
+|   3 | Checking Palindrome                                         | General | Easy   | Aug 23         | [Aug23.java](./Aug23.java)                             |
+|   4 | Factorial                                                   | General | Easy   | Aug 23         | [Aug23.java](./Aug23.java)                             |
+|   5 | Nth Fibonacci                                               | General | Easy   | Aug 23         | [Aug23.java](./Aug23.java)                             |
+|   6 | Subsets                                                     | LC78    | Medium | Aug 24, Aug 25 | [Aug24.java](./Aug24.java), [Aug25.java](./Aug25.java) |
+|   7 | Fibonacci Number                                            | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|   8 | Count of Digits                                             | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|   9 | Sum of Digits                                               | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  10 | Reverse Number                                              | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  11 | Check Palindrome                                            | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  12 | Reverse Array                                               | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  13 | Sum of Number — Parameterized Recursion                     | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  14 | Sum of Number — Functional Recursion                        | General | Easy   | Aug 24         | [Aug24.java](./Aug24.java)                             |
+|  15 | Merge Sort                                                  | General | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  16 | Count Subsequences Whose Sum Equals K                       | General | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  17 | Print Any One Subsequence Whose Sum Equals K                | General | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  18 | Print All Subsequences Whose Sum Equals K                   | General | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  19 | Number of Subsequences That Satisfy the Given Sum Condition | LC1498  | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  20 | Subsets                                                     | LC78    | Medium | Aug 25         | [Aug25.java](./Aug25.java)                             |
+|  21 | Is Subsequence                                              | LC392   | Easy   | Aug 26         | [Aug26.java](./Aug26.java)                             |
+|  22 | Find the Difference                                         | LC389   | Easy   | Aug 26         | [Aug26.java](./Aug26.java)                             |
+|  23 | Combination Sum II                                          | LC40    | Medium | Aug 27         | [Aug27.java](./Aug27.java)                             |
+|  24 | Print All Three Combinations                                | General | Medium | Aug 27         | [Aug27.java](./Aug27.java)                             |
+|  25 | Combination Sum                                             | LC39    | Medium | Aug 27         | [Aug27.java](./Aug27.java)                             |
+|  26 | Climbing Stairs                                             | LC70    | Easy   | Aug 28         | [Aug28.java](./Aug28.java)                             |
+|  27 | Pow(x, n)                                                   | LC50    | Medium | Aug 28         | [Aug28.java](./Aug28.java)                             |
+|  28 | Combination Sum II                                          | General | Medium | Aug 29         | [Aug29.java](./Aug29.java)                             |
+|  29 | Combination Sum I                                           | General | Medium | Aug 29         | [Aug29.java](./Aug29.java)                             |
+|  30 | One Subsequence Whose Sum Equals K                          | General | Medium | Aug 29         | [Aug29.java](./Aug29.java)                             |
+|  31 | Subsequences Whose Sum Equals K                             | General | Medium | Aug 29         | [Aug29.java](./Aug29.java)                             |
+|  32 | Binary Search                                               | LC704   | Easy   | Aug 29         | [Aug29.java](./Aug29.java)                             |
+|  33 | Permutations                                                | LC46    | Medium | Aug 30         | [Aug30.java](./Aug30.java)                             |
+|  34 | Subsets II                                                  | LC90    | Medium | Aug 30         | [Aug30.java](./Aug30.java)                             |
+|  35 | Count Subsets with Sum                                      | GFG     | Medium | Aug 30         | [Aug30.java](./Aug30.java)                             |
+|  36 | Subset Sum Problem                                          | GFG     | Medium | Aug 30         | [Aug30.java](./Aug30.java)                             |
+|  37 | Subset Sums                                                 | GFG     | Medium | Aug 30         | [Aug30.java](./Aug30.java)                             |
+|  38 | Unique Paths                                                | LC62    | Medium | Aug 31         | [Aug31.java](./Aug31.java)                             |
+|  39 | Distinct Permutations of a String                           | GFG     | Medium | Aug 31         | [Aug31.java](./Aug31.java)                             |
+|  40 | All String Permutations in Sorted Order                     | GFG     | Medium | Aug 31         | [Aug31.java](./Aug31.java)                             |
+|  41 | All Unique Permutations of an Array                         | GFG     | Medium | Aug 31         | [Aug31.java](./Aug31.java)                             |
+|  42 | N-Queens                                                    | LC51    | Hard   | Sep 01         | [Sep01.java](./Sep01.java)                             |
+|  43 | Rat in a Maze                                               | GFG     | Medium | Sep 02, Sep 03 | [Sep02.java](./Sep02.java), [Sep03.java](./Sep03.java) |
+|  44 | Sudoku Solver                                               | LC37    | Hard   | Sep 02         | [Sep02.java](./Sep02.java)                             |
 
 ---
 
@@ -182,9 +201,9 @@
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
 | **EASY**   |      5 |     0 |     0 |      13 | **18** |
-| **MEDIUM** |      8 |     7 |     0 |       6 | **21** |
-| **HARD**   |      1 |     0 |     0 |       0 |  **1** |
-| **TOTAL**  | **14** | **7** | **0** |  **19** | **40** |
+| **MEDIUM** |      9 |     9 |     0 |       6 | **24** |
+| **HARD**   |      2 |     0 |     0 |       0 |  **2** |
+| **TOTAL**  | **16** | **9** | **0** |  **19** | **44** |
 
 ---
 
@@ -202,7 +221,8 @@
 | [`Aug30.java`](./Aug30.java) | Problems solved on August 30   | Permutations, Subsets, Subset Sum, Backtracking                                                  |
 | [`Aug31.java`](./Aug31.java) | Problems solved on August 31   | Unique Paths, String Permutations, Array Permutations, Backtracking                              |
 | [`Sep01.java`](./Sep01.java) | Problems solved on September 1 | N-Queens, Backtracking, Matrix, Constraint Checking                                              |
-| [`Sep02.java`](./Sep02.java) | Problems solved on September 2 | Rat in a Maze, Sudoku, Backtracking, Maze Traversal, Constraint Checking, Matrix                 |
+| [`Sep02.java`](./Sep02.java) | Problems solved on September 2 | Rat in a Maze, Sudoku Solver, Backtracking, Maze Traversal, Constraint Checking, Matrix          |
+| [`Sep03.java`](./Sep03.java) | Problems solved on September 3 | Rat in a Maze, Backtracking, Maze Traversal, Matrix, Path Finding                                |
 
 ---
 
@@ -235,5 +255,5 @@ Then add this section **at the end of the daily problems**:
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  41 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep03.java) |
+|  45 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep03.java) |
 ```

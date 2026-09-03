@@ -338,10 +338,19 @@ public class Demo {
         // int col = 0;
         // System.out.println(Sep02.isPossible(maze, row, col + 1));
         int[][] maze2 = new int[][] {
-                new int[] { 1, 1, 1 },
-                new int[] { 1, 1, 1 },
-                new int[] { 1, 1, 1 },
+                new int[] { 1, 1, 1, 1 },
+                new int[] { 1, 0, 1, 1 },
+                new int[] { 1, 0, 1, 1 },
+                new int[] { 1, 1, 1, 1 },
         };
-        System.out.println(Sep02.ratInMaze(maze1));
+
+        int[][] maze3 = {
+                new int[] { 0, 1, 1 },
+                new int[] { 1, 1, 1 },
+                new int[] { 1, 1, 1 }
+        };
+        // System.out.println(Sep02.ratInMaze(maze1));
+        // ! ============== Sep 03 Problems =============
+        System.out.println(Sep03.ratInMaze(maze3));
     }
 }
