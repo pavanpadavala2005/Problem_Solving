@@ -23,6 +23,7 @@ tempCodeRunnerFile.*
 .DS_Store
 Thumbs.db
 
+
 # JSON files
 *.json
 
@@ -30,3 +31,6 @@ Thumbs.db
 Safe/
 dummy.md
 Excalidraw_Files/
+
+*.png
+*.excalidraw
