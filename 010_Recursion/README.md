@@ -148,6 +148,19 @@
 
 ---
 
+## 🗓️ September 4 — `Sep04.java`
+
+|   # | Problem                     | Source | Level  | Solution                      |
+| --: | --------------------------- | ------ | ------ | ----------------------------- |
+|  46 | Combination Sum III         | LC216  | Medium | [View Solution](./Sep04.java) |
+|  47 | Reverse a Stack             | GFG    | Medium | [View Solution](./Sep04.java) |
+|  48 | Generate Parentheses        | LC22   | Medium | [View Solution](./Sep04.java) |
+|  49 | Consecutive 1's not allowed | GFG    | Medium | [View Solution](./Sep04.java) |
+
+> ⚠️ **Note:** `Consecutive 1's not allowed` is marked as **DP / See in DP Series** in the Java file, but it is included here because it was part of the day's targeted problems.
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                                     | Source  | Level  | Date           | File                                                   |
@@ -197,36 +210,40 @@
 |  43 | Rat in a Maze                                               | GFG     | Medium | Sep 02, Sep 03 | [Sep02.java](./Sep02.java), [Sep03.java](./Sep03.java) |
 |  44 | Sudoku Solver                                               | LC37    | Hard   | Sep 02         | [Sep02.java](./Sep02.java)                             |
 |  45 | Count Good Numbers                                          | LC1922  | Medium | Sep 03         | [Sep03.java](./Sep03.java)                             |
+|  46 | Combination Sum III                                         | LC216   | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
+|  47 | Reverse a Stack                                             | GFG     | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
+|  48 | Generate Parentheses                                        | LC22    | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
 
 ---
 
 # 🏷️ Source Legend
 
-| Level      |     LC |   GFG |  C360 | General |  Total |
-| ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |      5 |     0 |     0 |      13 | **18** |
-| **MEDIUM** |     10 |     9 |     0 |       6 | **25** |
-| **HARD**   |      2 |     0 |     0 |       0 |  **2** |
-| **TOTAL**  | **17** | **9** | **0** |  **19** | **45** |
+| Level      |     LC |    GFG |  C360 | General |  Total |
+| ---------- | -----: | -----: | ----: | ------: | -----: |
+| **EASY**   |      5 |      0 |     0 |      13 | **18** |
+| **MEDIUM** |     13 |     10 |     0 |       6 | **29** |
+| **HARD**   |      2 |      0 |     0 |       0 |  **2** |
+| **TOTAL**  | **20** | **10** | **0** |  **19** | **49** |
 
 ---
 
 # 📁 Files
 
-| File                         | Purpose                        | Topics Covered                                                                                                |
-| ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| [`Aug23.java`](./Aug23.java) | Problems solved on August 23   | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                                            |
-| [`Aug24.java`](./Aug24.java) | Problems solved on August 24   | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion              |
-| [`Aug25.java`](./Aug25.java) | Problems solved on August 25   | Merge Sort, Subsequences, Subset Sum, Backtracking                                                            |
-| [`Aug26.java`](./Aug26.java) | Problems solved on August 26   | String Recursion, Subsequence, Character Comparison                                                           |
-| [`Aug27.java`](./Aug27.java) | Problems solved on August 27   | Combination Sum, Combinations, Backtracking                                                                   |
-| [`Aug28.java`](./Aug28.java) | Problems solved on August 28   | Climbing Stairs, Power / Fast Exponentiation                                                                  |
-| [`Aug29.java`](./Aug29.java) | Problems solved on August 29   | Combination Sum, Subsequences, Subset Sum, Binary Search                                                      |
-| [`Aug30.java`](./Aug30.java) | Problems solved on August 30   | Permutations, Subsets, Subset Sum, Backtracking                                                               |
-| [`Aug31.java`](./Aug31.java) | Problems solved on August 31   | Unique Paths, String Permutations, Array Permutations, Backtracking                                           |
-| [`Sep01.java`](./Sep01.java) | Problems solved on September 1 | N-Queens, Backtracking, Matrix, Constraint Checking                                                           |
-| [`Sep02.java`](./Sep02.java) | Problems solved on September 2 | Rat in a Maze, Sudoku Solver, Backtracking, Maze Traversal, Constraint Checking, Matrix                       |
-| [`Sep03.java`](./Sep03.java) | Problems solved on September 3 | Count Good Numbers, Fast Power, Modular Arithmetic, Unique Paths, Rat in a Maze, Backtracking, Maze Traversal |
+| File                         | Purpose                        | Topics Covered                                                                                   |
+| ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------ |
+| [`Aug23.java`](./Aug23.java) | Problems solved on August 23   | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                               |
+| [`Aug24.java`](./Aug24.java) | Problems solved on August 24   | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion |
+| [`Aug25.java`](./Aug25.java) | Problems solved on August 25   | Merge Sort, Subsequences, Subset Sum, Backtracking                                               |
+| [`Aug26.java`](./Aug26.java) | Problems solved on August 26   | String Recursion, Subsequence, Character Comparison                                              |
+| [`Aug27.java`](./Aug27.java) | Problems solved on August 27   | Combination Sum, Combinations, Backtracking                                                      |
+| [`Aug28.java`](./Aug28.java) | Problems solved on August 28   | Climbing Stairs, Power / Fast Exponentiation                                                     |
+| [`Aug29.java`](./Aug29.java) | Problems solved on August 29   | Combination Sum, Subsequences, Subset Sum, Binary Search                                         |
+| [`Aug30.java`](./Aug30.java) | Problems solved on August 30   | Permutations, Subsets, Subset Sum, Backtracking                                                  |
+| [`Aug31.java`](./Aug31.java) | Problems solved on August 31   | Unique Paths, String Permutations, Array Permutations, Backtracking                              |
+| [`Sep01.java`](./Sep01.java) | Problems solved on September 1 | N-Queens, Backtracking, Matrix, Constraint Checking                                              |
+| [`Sep02.java`](./Sep02.java) | Problems solved on September 2 | Rat in a Maze, Sudoku Solver, Backtracking, Maze Traversal, Constraint Checking, Matrix          |
+| [`Sep03.java`](./Sep03.java) | Problems solved on September 3 | Count Good Numbers, Fast Power, Modular Arithmetic, Rat in a Maze, Backtracking, Maze Traversal  |
+| [`Sep04.java`](./Sep04.java) | Problems solved on September 4 | Combination Sum III, Backtracking, Generate Parentheses, Stack Recursion, Stack Manipulation     |
 
 ---
 
@@ -248,16 +265,16 @@ For every new practice day:
 
 ### Example — New Day
 
-If the next practice session is on September 3 and the new file is:
+If the next practice session is on September 5 and the new file is:
 
-`Sep04.java`
+`Sep05.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 3 — `Sep04.java`
+## 🗓️ September 5 — `Sep05.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  45 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep04.java) |
+|  49 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep05.java) |
 ```

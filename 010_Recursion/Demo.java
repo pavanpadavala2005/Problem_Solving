@@ -389,8 +389,30 @@ public class Demo {
 
         // System.out.println(Sep03.calcPower(3, 1));
 
-        System.out.println(Sep03.countGoodNumbers(
-                3
+        // System.out.println(Sep03.countGoodNumbers(
+        // 3
+        // //
+        // ));
+
+        // ! ============== Sep 04 Problems =============
+        // Stack<Integer> st = new Stack<>();
+        // st.push(1);
+        // st.push(2);
+        // st.push(3);
+        // st.push(4);
+        // st.push(5);
+        // Sep04.reverseStack(st);
+
+        // Sep04.generateParenthesis(4);
+
+        // System.out.println(Sep04.countStrings(
+        // 4,
+        // new StringBuilder()
+        // //
+        // ));
+
+        System.out.println(Sep04.combinationSum3(
+                3, 7
         //
         ));
     }
