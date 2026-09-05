@@ -411,9 +411,38 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Sep04.combinationSum3(
-                3, 7
-        //
-        ));
+        // System.out.println(Sep04.combinationSum3(
+        // 3, 7
+        // //
+        // ));
+        // ! ============== Sep 05 Problems =============
+
+        // System.out.println(Sep05.letterCombinations(
+        // "10"
+        // //
+        // ));
+        char[][] board = new char[][] {
+                new char[] { 'A', 'B', 'C', 'E' },
+                new char[] { 'S', 'F', 'C', 'S' },
+                new char[] { 'A', 'D', 'E', 'E' }
+        };
+
+        System.out.println(Sep05.exist(board, "ABCCED"));
+
+        // boolean[][] path = new boolean[][] {
+        // new boolean[] { false, false, false, false },
+        // new boolean[] { false, true, false, false },
+        // new boolean[] { false, false, false, false },
+        // };
+
+        // System.out.println(Sep05.isPossible(
+        // board,
+        // 1,
+        // 1,
+        // 'B',
+        // path
+        // //
+        // ));
+
     }
 }
