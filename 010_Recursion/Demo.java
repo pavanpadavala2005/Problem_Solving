@@ -421,13 +421,8 @@ public class Demo {
         // "10"
         // //
         // ));
-        char[][] board = new char[][] {
-                new char[] { 'A', 'B', 'C', 'E' },
-                new char[] { 'S', 'F', 'C', 'S' },
-                new char[] { 'A', 'D', 'E', 'E' }
-        };
 
-        System.out.println(Sep05.exist(board, "ABCCED"));
+        // System.out.println(Sep05.exist(board, "ABCCED"));
 
         // boolean[][] path = new boolean[][] {
         // new boolean[] { false, false, false, false },
@@ -444,5 +439,18 @@ public class Demo {
         // //
         // ));
 
+        // ! ============== Sep 06 Problems =============
+        // char[][] board = new char[][] {
+        // new char[] { 'A', 'B', 'C', 'E' },
+        // new char[] { 'S', 'B', 'C', 'S' },
+        // new char[] { 'A', 'A', 'E', 'E' }
+        // };
+
+        // System.out.println(Sep06.exist(board, "XYZ"));
+
+        System.out.println(Sep06.canPartition(
+                new int[] { 1, 2, 3, 3, 2, 1 }
+
+        ));
     }
 }

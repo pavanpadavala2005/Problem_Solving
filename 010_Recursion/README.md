@@ -1,12 +1,12 @@
 # 🧩 010 — Recursion
 
-> 📌 **This README is the central tracker for all Recursion-related problem-solving practice.**
+_> 📌_ **\*\*This README is the central tracker for all Recursion-related problem-solving practice.\*\***
 
-> Each day's Java file contains the actual solutions. This README tracks:
+_> Each day's Java file contains the actual solutions. This README tracks:_
 
-> **Problem Name · Source · Difficulty · Date · Java File**
+_>_ **\*\*Problem Name · Source · Difficulty · Date · Java File\*\***
 
----
+**---**
 
 # 📅 August 2026
 
@@ -96,7 +96,7 @@
 |  40 | All String Permutations in Sorted Order | GFG    | Medium | [View Solution](./Aug31.java) |
 |  41 | All Unique Permutations of an Array     | GFG    | Medium | [View Solution](./Aug31.java) |
 
----
+**---**
 
 # 📅 September 2026
 
@@ -129,7 +129,7 @@
 |  48 | Generate Parentheses        | LC22   | Medium | [View Solution](./Sep04.java) |
 |  49 | Consecutive 1's not allowed | GFG    | Medium | [View Solution](./Sep04.java) |
 
-> ⚠️ **Note:** `Consecutive 1's not allowed` is marked as **DP / See in DP Series** in the Java file, but it is included in the Recursion tracker because it was part of the day's targeted problems.
+_> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*\*DP / See in DP Series\*\*** _in the Java file, but it is included in the Recursion tracker because it was part of the day's targeted problems._
 
 ## 🗓️ September 5 — `Sep05.java`
 
@@ -138,7 +138,13 @@
 |  50 | Word Search                           | LC79   | Medium | [View Solution](./Sep05.java) |
 |  51 | Letter Combinations of a Phone Number | LC17   | Medium | [View Solution](./Sep05.java) |
 
----
+## 🗓️ September 6 — `Sep06.java`
+
+|   # | Problem     | Source | Level  | Solution                      |
+| --: | ----------- | ------ | ------ | ----------------------------- |
+|  51 | Word Search | LC79   | Medium | [View Solution](./Sep06.java) |
+
+**---**
 
 # 📊 Problem Index
 
@@ -193,10 +199,10 @@
 |  47 | Reverse a Stack                                             | GFG     | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
 |  48 | Generate Parentheses                                        | LC22    | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
 |  49 | Consecutive 1's not allowed                                 | GFG     | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
-|  50 | Word Search                                                 | LC79    | Medium | Sep 05         | [Sep05.java](./Sep05.java)                             |
-|  51 | Letter Combinations of a Phone Number                       | LC17    | Medium | Sep 05         | [Sep05.java](./Sep05.java)                             |
+|  50 | Letter Combinations of a Phone Number                       | LC17    | Medium | Sep 05         | [Sep05.java](./Sep05.java)                             |
+|  51 | Word Search                                                 | LC79    | Medium | Sep 05, Sep 06 | [Sep05.java](./Sep05.java), [Sep06.java](./Sep06.java) |
 
----
+**---**
 
 # 📈 Source Legend
 
@@ -207,7 +213,7 @@
 | **HARD**   |      2 |     0 |     0 |       0 |  **2** |
 | **TOTAL**  | **20** | **9** | **0** |  **22** | **51** |
 
----
+**---**
 
 # 📁 Files
 
@@ -227,8 +233,9 @@
 | [`Sep03.java`](./Sep03.java) | Problems solved on September 3 | Count Good Numbers, Fast Power, Modular Arithmetic, Rat in a Maze, Backtracking, Maze Traversal                        |
 | [`Sep04.java`](./Sep04.java) | Problems solved on September 4 | Combination Sum III, Reverse a Stack, Generate Parentheses, Consecutive 1's not allowed, Backtracking, Stack Recursion |
 | [`Sep05.java`](./Sep05.java) | Problems solved on September 5 | Word Search, Letter Combinations, Matrix Backtracking, String Backtracking, Phone Keypad Recursion                     |
+| [`Sep06.java`](./Sep06.java) | Problems solved on September 6 | Word Search, Matrix Backtracking, DFS                                                                                  |
 
----
+**---**
 
 # 🔄 Daily Update
 
