@@ -1,4 +1,6 @@
 
+import java.util.Arrays;
+
 public class Demo {
     public static void printMatrix(char[][] mat) {
         for (int i = 0; i < mat.length; i++) {
@@ -448,9 +450,36 @@ public class Demo {
 
         // System.out.println(Sep06.exist(board, "XYZ"));
 
-        System.out.println(Sep06.canPartition(
-                new int[] { 1, 2, 3, 3, 2, 1 }
+        // System.out.println(Sep06.canPartition(
+        // new int[] { 1, 2, 3, 3, 2, 1 }
 
+        // ));
+
+        // System.out.println(Sep06.isPowerOfThree(81));
+
+        // ! ============== Sep 07 Problems =============
+
+        // int[][] nums = new int[][] {
+
+        // // new int[] { 0, 11, 16, 5, 20 },
+        // // new int[] { 17, 4, 19, 10, 15 },
+        // // new int[] { 12, 1, 8, 21, 6 },
+        // // new int[] { 3, 18, 23, 14, 9 },
+        // // new int[] { 24, 13, 2, 7, 22 }
+
+        // new int[] { 0, 3, 6 },
+        // new int[] { 5, 8, 1 },
+        // new int[] { 2, 7, 4 },
+        // };
+        // System.out.println(
+        // Sep07.checkValidGrid(nums)
+        // //
+        // );
+
+        System.out.println(Arrays.deepToString(
+                Sep07.knightTourGenerator(5)
+        //
         ));
+
     }
 }

@@ -26,6 +26,33 @@ public class Sep06 {
         return false;
     }
 
+    // ! ============== LC326. Power of Three =============
+    public static boolean isPowerOfThree(int n) {
+        // if (n <= 0)
+        // return false;
+        // return isPowerOfThreeBrute(n,1);
+
+        return isPowerOfThreeBetter(n);
+    }
+
+    public static boolean isPowerOfThreeBetter(int n) {
+        if (n <= 0)
+            return false;
+        if (n == 1)
+            return true;
+        return isPowerOfThreeBetter(n / 3);
+    }
+
+    // @ TC --> O(N)
+    // @ SC -> O(N)
+    public static boolean isPowerOfThreeBrute(int n, long val) {
+        if (val > n)
+            return false;
+        if (val == n)
+            return true;
+        return isPowerOfThreeBrute(n, val * 3);
+    }
+
     // ! ============== LC79. Word Search =============
     public static boolean exist(char[][] board, String word) {
         boolean[][] path = new boolean[board.length][board[0].length];
@@ -59,4 +86,4 @@ public class Sep06 {
 
 // ! Target Min -> 3 , Max -> 5 (Quality Problems Only)
 // 1. LC79. Word Search ✅
-// 2. LC416. Partition Equal Subset Sum ❌
+// 2. LC416. Partition Equal Subset Sum ❌ Dp --> Look in DP Series 
