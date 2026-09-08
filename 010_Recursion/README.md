@@ -135,14 +135,21 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 
 |   # | Problem                               | Source | Level  | Solution                      |
 | --: | ------------------------------------- | ------ | ------ | ----------------------------- |
-|  50 | Word Search                           | LC79   | Medium | [View Solution](./Sep05.java) |
-|  51 | Letter Combinations of a Phone Number | LC17   | Medium | [View Solution](./Sep05.java) |
+|  50 | Letter Combinations of a Phone Number | LC17   | Medium | [View Solution](./Sep05.java) |
+|  51 | Word Search                           | LC79   | Medium | [View Solution](./Sep05.java) |
 
 ## 🗓️ September 6 — `Sep06.java`
 
 |   # | Problem     | Source | Level  | Solution                      |
 | --: | ----------- | ------ | ------ | ----------------------------- |
 |  51 | Word Search | LC79   | Medium | [View Solution](./Sep06.java) |
+
+## 🗓️ September 8 — `Sep08.java`
+
+|   # | Problem                     | Source | Level  | Solution                      |
+| --: | --------------------------- | ------ | ------ | ----------------------------- |
+|  52 | Min Steps by Knight         | GFG    | Medium | [View Solution](./Sep08.java) |
+|  53 | Unique 3-Digit Even Numbers | LC3483 | Medium | [View Solution](./Sep08.java) |
 
 **---**
 
@@ -201,17 +208,19 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 |  49 | Consecutive 1's not allowed                                 | GFG     | Medium | Sep 04         | [Sep04.java](./Sep04.java)                             |
 |  50 | Letter Combinations of a Phone Number                       | LC17    | Medium | Sep 05         | [Sep05.java](./Sep05.java)                             |
 |  51 | Word Search                                                 | LC79    | Medium | Sep 05, Sep 06 | [Sep05.java](./Sep05.java), [Sep06.java](./Sep06.java) |
+|  52 | Min Steps by Knight                                         | GFG     | Medium | Sep 08         | [Sep08.java](./Sep08.java)                             |
+|  53 | Unique 3-Digit Even Numbers                                 | LC3483  | Medium | Sep 08         | [Sep08.java](./Sep08.java)                             |
 
 **---**
 
 # 📈 Source Legend
 
-| Level      |     LC |   GFG |  C360 | General |  Total |
-| ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |      4 |     0 |     0 |      13 | **17** |
-| **MEDIUM** |     14 |     9 |     0 |       9 | **32** |
-| **HARD**   |      2 |     0 |     0 |       0 |  **2** |
-| **TOTAL**  | **20** | **9** | **0** |  **22** | **51** |
+| Level      |     LC |    GFG |  C360 | General |  Total |
+| ---------- | -----: | -----: | ----: | ------: | -----: |
+| **EASY**   |      4 |      0 |     0 |      13 | **17** |
+| **MEDIUM** |     15 |     10 |     0 |       9 | **34** |
+| **HARD**   |      2 |      0 |     0 |       0 |  **2** |
+| **TOTAL**  | **21** | **10** | **0** |  **22** | **53** |
 
 **---**
 
@@ -234,6 +243,7 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 | [`Sep04.java`](./Sep04.java) | Problems solved on September 4 | Combination Sum III, Reverse a Stack, Generate Parentheses, Consecutive 1's not allowed, Backtracking, Stack Recursion |
 | [`Sep05.java`](./Sep05.java) | Problems solved on September 5 | Word Search, Letter Combinations, Matrix Backtracking, String Backtracking, Phone Keypad Recursion                     |
 | [`Sep06.java`](./Sep06.java) | Problems solved on September 6 | Word Search, Matrix Backtracking, DFS                                                                                  |
+| [`Sep08.java`](./Sep08.java) | Problems solved on September 8 | Unique 3-Digit Even Numbers, Knight Movement, Backtracking, DFS, Matrix Traversal                                      |
 
 **---**
 

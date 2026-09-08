@@ -1,6 +1,7 @@
 
 public class Sep07 {
     // ! ============== The Knight's tour Generator =============
+    // * PERSONAL
     public static int[][] knightTourGenerator(int n) {
         int[][] board = new int[n][n];
         knightTourGenerator(board, 0, 0, 0);

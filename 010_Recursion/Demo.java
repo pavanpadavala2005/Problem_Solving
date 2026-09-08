@@ -1,6 +1,4 @@
 
-import java.util.Arrays;
-
 public class Demo {
     public static void printMatrix(char[][] mat) {
         for (int i = 0; i < mat.length; i++) {
@@ -14,7 +12,7 @@ public class Demo {
     public static void printMatrix(int[][] mat) {
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                System.out.print(mat[i][j] + " ");
+                System.out.print(mat[i][j] + (" ".repeat(3 - (int) Math.log10(123) + 1)));
             }
             System.out.println();
         }
@@ -121,7 +119,7 @@ public class Demo {
         // arr,
         // 0,
         // arr.length / 2,
-        // arr.length - 1
+        // arr.length - 1`
         // //
         // );
 
@@ -340,11 +338,11 @@ public class Demo {
 
         // printMatrix(board);
 
-        int[][] maze1 = new int[][] {
-                new int[] { 1, 0, 0, 0 },
-                new int[] { 1, 1, 0, 1 },
-                new int[] { 1, 1, 0, 0 },
-                new int[] { 0, 1, 1, 1 } };
+        // int[][] maze1 = new int[][] {
+        // new int[] { 1, 0, 0, 0 },
+        // new int[] { 1, 1, 0, 1 },
+        // new int[] { 1, 1, 0, 0 },
+        // new int[] { 0, 1, 1, 1 } };
         // int row = 2;
         // int col = 0;
         // System.out.println(Sep02.isPossible(maze, row, col + 1));
@@ -476,10 +474,40 @@ public class Demo {
         // //
         // );
 
-        System.out.println(Arrays.deepToString(
-                Sep07.knightTourGenerator(5)
-        //
-        ));
+        // System.out.println(Arrays.deepToString(
+        // Sep07.knightTourGenerator(5)
+        // //
+        // ));
+        // ! ============== Sep 08 Problems =============
 
+        // printMatrix(Sep08.knightTourGenerator(5));
+
+        // System.out.println(Sep08.minStepToReachTarget(
+        // new int[] {
+        // // 1, 3
+        // 3, 3
+        // },
+        // new int[] {
+        // // 5, 1
+        // 1, 2
+        // },
+        // 3
+        // //
+        // ));
+
+        System.out.println(Sep08.totalNumbers(new int[] {
+
+                // 1, 2, 3, 4
+                // 0, 2, 2
+                // 6, 6, 6
+                // 1, 3, 5
+                9, 2, 2, 0
+        }));
+        // int[] nums = new int[] { 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, };
+        // for (int i = 0; i < nums.length; i++) {
+        // if (i > 0 && nums[i] == nums[i - 1])
+        // continue;
+        // System.out.println(i);
+        // }
     }
 }
