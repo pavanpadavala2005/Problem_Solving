@@ -151,6 +151,13 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 |  52 | Min Steps by Knight         | GFG    | Medium | [View Solution](./Sep08.java) |
 |  53 | Unique 3-Digit Even Numbers | LC3483 | Medium | [View Solution](./Sep08.java) |
 
+## 🗓️ September 9 — `Sep09.java`
+
+|   # | Problem                                  | Source | Level  | Solution                      |
+| --: | ---------------------------------------- | ------ | ------ | ----------------------------- |
+|  54 | Find the K-th Character in String Game I | LC3304 | Medium | [View Solution](./Sep09.java) |
+|  55 | N-Queens II                              | LC52   | Hard   | [View Solution](./Sep09.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -210,6 +217,8 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 |  51 | Word Search                                                 | LC79    | Medium | Sep 05, Sep 06 | [Sep05.java](./Sep05.java), [Sep06.java](./Sep06.java) |
 |  52 | Min Steps by Knight                                         | GFG     | Medium | Sep 08         | [Sep08.java](./Sep08.java)                             |
 |  53 | Unique 3-Digit Even Numbers                                 | LC3483  | Medium | Sep 08         | [Sep08.java](./Sep08.java)                             |
+|  54 | Find the K-th Character in String Game I                    | LC3304  | Medium | Sep 09         | [Sep09.java](./Sep09.java)                             |
+|  55 | N-Queens II                                                 | LC52    | Hard   | Sep 09         | [Sep09.java](./Sep09.java)                             |
 
 **---**
 
@@ -218,9 +227,9 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 | Level      |     LC |    GFG |  C360 | General |  Total |
 | ---------- | -----: | -----: | ----: | ------: | -----: |
 | **EASY**   |      4 |      0 |     0 |      13 | **17** |
-| **MEDIUM** |     15 |     10 |     0 |       9 | **34** |
-| **HARD**   |      2 |      0 |     0 |       0 |  **2** |
-| **TOTAL**  | **21** | **10** | **0** |  **22** | **53** |
+| **MEDIUM** |     16 |     10 |     0 |       9 | **35** |
+| **HARD**   |      3 |      0 |     0 |       0 |  **3** |
+| **TOTAL**  | **23** | **10** | **0** |  **22** | **55** |
 
 **---**
 
@@ -244,6 +253,7 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 | [`Sep05.java`](./Sep05.java) | Problems solved on September 5 | Word Search, Letter Combinations, Matrix Backtracking, String Backtracking, Phone Keypad Recursion                     |
 | [`Sep06.java`](./Sep06.java) | Problems solved on September 6 | Word Search, Matrix Backtracking, DFS                                                                                  |
 | [`Sep08.java`](./Sep08.java) | Problems solved on September 8 | Unique 3-Digit Even Numbers, Knight Movement, Backtracking, DFS, Matrix Traversal                                      |
+| [`Sep09.java`](./Sep09.java) | Problems solved on September 9 | N-Queens II, String Recursion, Backtracking, Character Generation                                                      |
 
 **---**
 

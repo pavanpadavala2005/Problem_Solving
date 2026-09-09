@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class Sep08 {
     // ! ============== LC3483. Unique 3-Digit Even Numbers =============
     public static int totalNumbers(int[] digits) {
@@ -108,11 +109,11 @@ public class Sep08 {
 // ! KNIGHT MOVEMENTS
 // {
 // {-2,-1} -> C1,
+// {-1,-2} -> C2,
 // {-2,+1} -> C3,
+// {+1,-2} -> C4,
 // {-1,+2} -> C5,
+// {+2,-1} -> C6,
 // {+1,+2} -> C7,
 // {+2,+1} -> C8
-// {+2,-1} -> C6,
-// {+1,-2} -> C4,
-// {-1,-2} -> C2,
 // }

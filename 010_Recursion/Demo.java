@@ -495,19 +495,26 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Sep08.totalNumbers(new int[] {
+        // System.out.println(Sep08.totalNumbers(new int[] {
 
-                // 1, 2, 3, 4
-                // 0, 2, 2
-                // 6, 6, 6
-                // 1, 3, 5
-                9, 2, 2, 0
-        }));
+        // // 1, 2, 3, 4
+        // // 0, 2, 2
+        // // 6, 6, 6
+        // // 1, 3, 5
+        // 9, 2, 2, 0
+        // }));
         // int[] nums = new int[] { 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, };
         // for (int i = 0; i < nums.length; i++) {
         // if (i > 0 && nums[i] == nums[i - 1])
         // continue;
         // System.out.println(i);
         // }
+
+        // ! ============== Sep 09 Problems =============
+
+        // System.out.println(Sep09.kthCharacter(5));
+
+        // System.out.println(Sep09.totalNQueens(4));
+
     }
 }
