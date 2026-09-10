@@ -1,4 +1,5 @@
 public class Sep09 {
+
     // ! ============== LC52. N-Queens II =============
     public static int totalNQueens(int n) {
         if (n <= 1)

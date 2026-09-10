@@ -158,6 +158,12 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 |  54 | Find the K-th Character in String Game I | LC3304 | Medium | [View Solution](./Sep09.java) |
 |  55 | N-Queens II                              | LC52   | Hard   | [View Solution](./Sep09.java) |
 
+## 🗓️ September 10 — `Sep10.java`
+
+|   # | Problem                      | Source | Level  | Solution                      |
+| --: | ---------------------------- | ------ | ------ | ----------------------------- |
+|  53 | Finding 3-Digit Even Numbers | LC2094 | Medium | [View Solution](./Sep10.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -219,6 +225,7 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 |  53 | Unique 3-Digit Even Numbers                                 | LC3483  | Medium | Sep 08         | [Sep08.java](./Sep08.java)                             |
 |  54 | Find the K-th Character in String Game I                    | LC3304  | Medium | Sep 09         | [Sep09.java](./Sep09.java)                             |
 |  55 | N-Queens II                                                 | LC52    | Hard   | Sep 09         | [Sep09.java](./Sep09.java)                             |
+|  53 | Finding 3-Digit Even Numbers                                | LC2094  | Medium | Sep 10         | [Sep10.java](./Sep10.java)                             |
 
 **---**
 
@@ -227,33 +234,34 @@ _> ⚠️_ **\*\*Note:\*\*** _\`Consecutive 1's not allowed\` is marked as_ **\*
 | Level      |     LC |    GFG |  C360 | General |  Total |
 | ---------- | -----: | -----: | ----: | ------: | -----: |
 | **EASY**   |      4 |      0 |     0 |      13 | **17** |
-| **MEDIUM** |     16 |     10 |     0 |       9 | **35** |
+| **MEDIUM** |     17 |     10 |     0 |       9 | **36** |
 | **HARD**   |      3 |      0 |     0 |       0 |  **3** |
-| **TOTAL**  | **23** | **10** | **0** |  **22** | **55** |
+| **TOTAL**  | **24** | **10** | **0** |  **22** | **56** |
 
 **---**
 
 # 📁 Files
 
-| File                         | Purpose                        | Topics Covered                                                                                                         |
-| ---------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [`Aug23.java`](./Aug23.java) | Problems solved on August 23   | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                                                     |
-| [`Aug24.java`](./Aug24.java) | Problems solved on August 24   | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion                       |
-| [`Aug25.java`](./Aug25.java) | Problems solved on August 25   | Merge Sort, Subsequences, Subset Sum, Backtracking                                                                     |
-| [`Aug26.java`](./Aug26.java) | Problems solved on August 26   | String Recursion, Subsequence, Character Comparison                                                                    |
-| [`Aug27.java`](./Aug27.java) | Problems solved on August 27   | Combination Sum, Combinations, Backtracking                                                                            |
-| [`Aug28.java`](./Aug28.java) | Problems solved on August 28   | Climbing Stairs, Power / Fast Exponentiation                                                                           |
-| [`Aug29.java`](./Aug29.java) | Problems solved on August 29   | Combination Sum, Subsequences, Subset Sum, Binary Search                                                               |
-| [`Aug30.java`](./Aug30.java) | Problems solved on August 30   | Permutations, Subsets, Subset Sum, Backtracking                                                                        |
-| [`Aug31.java`](./Aug31.java) | Problems solved on August 31   | Unique Paths, String Permutations, Array Permutations, Backtracking                                                    |
-| [`Sep01.java`](./Sep01.java) | Problems solved on September 1 | N-Queens, Backtracking, Matrix, Constraint Checking                                                                    |
-| [`Sep02.java`](./Sep02.java) | Problems solved on September 2 | Rat in a Maze, Sudoku Solver, Backtracking, Maze Traversal, Constraint Checking, Matrix                                |
-| [`Sep03.java`](./Sep03.java) | Problems solved on September 3 | Count Good Numbers, Fast Power, Modular Arithmetic, Rat in a Maze, Backtracking, Maze Traversal                        |
-| [`Sep04.java`](./Sep04.java) | Problems solved on September 4 | Combination Sum III, Reverse a Stack, Generate Parentheses, Consecutive 1's not allowed, Backtracking, Stack Recursion |
-| [`Sep05.java`](./Sep05.java) | Problems solved on September 5 | Word Search, Letter Combinations, Matrix Backtracking, String Backtracking, Phone Keypad Recursion                     |
-| [`Sep06.java`](./Sep06.java) | Problems solved on September 6 | Word Search, Matrix Backtracking, DFS                                                                                  |
-| [`Sep08.java`](./Sep08.java) | Problems solved on September 8 | Unique 3-Digit Even Numbers, Knight Movement, Backtracking, DFS, Matrix Traversal                                      |
-| [`Sep09.java`](./Sep09.java) | Problems solved on September 9 | N-Queens II, String Recursion, Backtracking, Character Generation                                                      |
+| File                         | Purpose                         | Topics Covered                                                                                                         |
+| ---------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [`Aug23.java`](./Aug23.java) | Problems solved on August 23    | Basic Recursion, Number Problems, Palindrome, Factorial, Fibonacci                                                     |
+| [`Aug24.java`](./Aug24.java) | Problems solved on August 24    | Basic Recursion, Subsets, Number Problems, Array Recursion, Parameterized & Functional Recursion                       |
+| [`Aug25.java`](./Aug25.java) | Problems solved on August 25    | Merge Sort, Subsequences, Subset Sum, Backtracking                                                                     |
+| [`Aug26.java`](./Aug26.java) | Problems solved on August 26    | String Recursion, Subsequence, Character Comparison                                                                    |
+| [`Aug27.java`](./Aug27.java) | Problems solved on August 27    | Combination Sum, Combinations, Backtracking                                                                            |
+| [`Aug28.java`](./Aug28.java) | Problems solved on August 28    | Climbing Stairs, Power / Fast Exponentiation                                                                           |
+| [`Aug29.java`](./Aug29.java) | Problems solved on August 29    | Combination Sum, Subsequences, Subset Sum, Binary Search                                                               |
+| [`Aug30.java`](./Aug30.java) | Problems solved on August 30    | Permutations, Subsets, Subset Sum, Backtracking                                                                        |
+| [`Aug31.java`](./Aug31.java) | Problems solved on August 31    | Unique Paths, String Permutations, Array Permutations, Backtracking                                                    |
+| [`Sep01.java`](./Sep01.java) | Problems solved on September 1  | N-Queens, Backtracking, Matrix, Constraint Checking                                                                    |
+| [`Sep02.java`](./Sep02.java) | Problems solved on September 2  | Rat in a Maze, Sudoku Solver, Backtracking, Maze Traversal, Constraint Checking, Matrix                                |
+| [`Sep03.java`](./Sep03.java) | Problems solved on September 3  | Count Good Numbers, Fast Power, Modular Arithmetic, Rat in a Maze, Backtracking, Maze Traversal                        |
+| [`Sep04.java`](./Sep04.java) | Problems solved on September 4  | Combination Sum III, Reverse a Stack, Generate Parentheses, Consecutive 1's not allowed, Backtracking, Stack Recursion |
+| [`Sep05.java`](./Sep05.java) | Problems solved on September 5  | Word Search, Letter Combinations, Matrix Backtracking, String Backtracking, Phone Keypad Recursion                     |
+| [`Sep06.java`](./Sep06.java) | Problems solved on September 6  | Word Search, Matrix Backtracking, DFS                                                                                  |
+| [`Sep08.java`](./Sep08.java) | Problems solved on September 8  | Unique 3-Digit Even Numbers, Knight Movement, Backtracking, DFS, Matrix Traversal                                      |
+| [`Sep09.java`](./Sep09.java) | Problems solved on September 9  | N-Queens II, String Recursion, Backtracking, Character Generation                                                      |
+| [`Sep10.java`](./Sep10.java) | Problems solved on September 10 | Finding 3-Digit Even Numbers, Recursion, Backtracking, Permutations                                                    |
 
 **---**
 

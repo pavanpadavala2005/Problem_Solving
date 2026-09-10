@@ -516,5 +516,17 @@ public class Demo {
 
         // System.out.println(Sep09.totalNQueens(4));
 
+        // ! ============== Sep 09 Problems =============
+        // System.out.println(Sep10.findEvenNumbers(new int[] {
+        // 2, 2, 2, 8, 8, 0
+        // 2, 1, 3, 0
+        // }));
+        // System.out.println(Sep10.addOperators(
+        // "123",
+        // 6
+        // "105",
+        // 5
+        // ));
     }
+
 }
