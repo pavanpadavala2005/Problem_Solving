@@ -1,14 +1,10 @@
 # ⚡ 008 — Bit Manipulation
 
-_> 📌_ **\*\*Purpose:\*\*** _This README is the central tracker for all Bit Manipulation problem-solving practice._
+📌* **\*\*Purpose:\*\*** \_This README is the central tracker for all Bit Manipulation problem-solving practice.*
 
-\*>
+Each day's Java file contains the actual implementations. This README keeps track of the\_ **\*\*problem name, LeetCode number, date, and solution file\*\*\***.
 
-_> Each day's Java file contains the actual implementations. This README keeps track of the_ **\*\*problem name, LeetCode number, date, and solution file\*\*\***.
-
-\*>
-
-_> 🎯_ **\*\*Target:\*\*** _Minimum 2 — Maximum 5_ **\*\*quality problems\*\*** _per day._
+🎯* **\*\*Target:\*\*** \_Minimum 2 — Maximum 5* **\*\*quality problems\*\*** _per day._
 
 **---**
 
