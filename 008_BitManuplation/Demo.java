@@ -20,6 +20,19 @@ public class Demo {
 
         // int n = 13;
         // System.out.println(BitManipulation.isSetBit(n, 1));
-        System.out.println(Sep12.hammingWeight(3));
+        // System.out.println(Sep12.hammingWeight(3));
+
+        // ! ============== Sep 13 Problems =============
+
+        // boolean val = Sep13.isOdd(-11);
+        // int val = Sep13.clearBitsAfterRightSetBit(22);
+        // System.out.println(val);
+        // System.out.println(Sep13.countSetBitsToN(242, 5));
+        // System.out.println(Sep13.countSetBitsInRange(242, 2, 5));
+        // System.out.println(1 << 31);
+
+        // System.out.println(Sep13.reverseBitsBetter(43261596));
+
+        System.out.println(Sep13.addBinary("1010", "1011"));
     }
 }
