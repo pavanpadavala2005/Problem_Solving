@@ -33,6 +33,12 @@ public class Demo {
 
         // System.out.println(Sep13.reverseBitsBetter(43261596));
 
-        System.out.println(Sep13.addBinary("1010", "1011"));
+        // System.out.println(Sep13.addBinary("1010", "1011"));
+
+        // ! ============== Sep 14 Problems =============
+        // System.out.println(Sep14.subsets(new int[] { 1, 2, 3 }));
+        // System.out.println(Sep14.toHex(-1));
+        System.out.println(Sep14.findComplement(1));
+
     }
 }

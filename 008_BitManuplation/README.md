@@ -1,10 +1,14 @@
 # ⚡ 008 — Bit Manipulation
 
-📌* **\*\*Purpose:\*\*** \_This README is the central tracker for all Bit Manipulation problem-solving practice.*
+_> 📌_ **\*\*Purpose:\*\*** _This README is the central tracker for all Bit Manipulation problem-solving practice._
 
-Each day's Java file contains the actual implementations. This README keeps track of the\_ **\*\*problem name, LeetCode number, date, and solution file\*\*\***.
+\*>
 
-🎯* **\*\*Target:\*\*** \_Minimum 2 — Maximum 5* **\*\*quality problems\*\*** _per day._
+_> Each day's Java file contains the actual implementations. This README keeps track of the_ **\*\*problem name, LeetCode number, date, and solution file\*\***.
+
+\*>
+
+_> 🎯_ **\*\*Target:\*\*** _Minimum 2 — Maximum 5_ **\*\*quality problems\*\*** _per day._
 
 **---**
 
@@ -20,6 +24,8 @@ Each day's Java file contains the actual implementations. This README keeps trac
 |   4 | Integer to Binary                           |        — | [View Solution](./Sep12.java) |
 |   5 | Binary to Integer                           |        — | [View Solution](./Sep12.java) |
 
+**---**
+
 ## 🗓️ September 13 — `Sep13.java`
 
 |   # | Problem                                       | LeetCode | Solution                      |
@@ -29,6 +35,16 @@ Each day's Java file contains the actual implementations. This README keeps trac
 |   8 | Counting Bits                                 |    LC338 | [View Solution](./Sep13.java) |
 |   9 | Add Binary                                    |     LC67 | [View Solution](./Sep13.java) |
 |  10 | Reverse Bits                                  |    LC190 | [View Solution](./Sep13.java) |
+
+**---**
+
+## 🗓️ September 14 — `Sep14.java`
+
+|   # | Problem                         | LeetCode | Solution                      |
+| --: | ------------------------------- | -------: | ----------------------------- |
+|  11 | Convert a Number to Hexadecimal |    LC405 | [View Solution](./Sep14.java) |
+|  12 | Subsets                         |     LC78 | [View Solution](./Sep14.java) |
+|  13 | Number Complement               |    LC476 | [View Solution](./Sep14.java) |
 
 **---**
 
@@ -46,6 +62,9 @@ Each day's Java file contains the actual implementations. This README keeps trac
 |   8 |    LC338 | Counting Bits                                 | Sep 13 | [View Solution](./Sep13.java) |
 |   9 |     LC67 | Add Binary                                    | Sep 13 | [View Solution](./Sep13.java) |
 |  10 |    LC190 | Reverse Bits                                  | Sep 13 | [View Solution](./Sep13.java) |
+|  11 |    LC405 | Convert a Number to Hexadecimal               | Sep 14 | [View Solution](./Sep14.java) |
+|  12 |     LC78 | Subsets                                       | Sep 14 | [View Solution](./Sep14.java) |
+|  13 |    LC476 | Number Complement                             | Sep 14 | [View Solution](./Sep14.java) |
 
 **---**
 
@@ -54,8 +73,8 @@ Each day's Java file contains the actual implementations. This README keeps trac
 | File                         | Purpose                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------ |
 | [`Sep12.java`](./Sep12.java) | Bit Manipulation problems and number-system conversions solved on September 12 |
-| [`Sep13.java`](./Sep13.java) | Bit Manipulation problems solved on September 13                               |
-| [`Sep14.java`](./Sep14.java) | Problems solved on September 14                                                |
+| [`Sep13.java`](./Sep13.java) | Problems solved on September 13                                                |
+| [`Sep14.java`](./Sep14.java) | Bit Manipulation problems solved on September 14                               |
 
 **---**
 
@@ -63,8 +82,8 @@ Each day's Java file contains the actual implementations. This README keeps trac
 
 | Month             |      LeetCode |           GFG |       General |          Total |
 | ----------------- | ------------: | ------------: | ------------: | -------------: |
-| September 2026    |             3 |             0 |             7 |             10 |
-| **\*\*Total\*\*** | **\*\*3\*\*** | **\*\*0\*\*** | **\*\*7\*\*** | **\*\*10\*\*** |
+| September 2026    |             6 |             0 |             7 |             13 |
+| **\*\*Total\*\*** | **\*\*6\*\*** | **\*\*0\*\*** | **\*\*7\*\*** | **\*\*13\*\*** |
 
 **---**
 
