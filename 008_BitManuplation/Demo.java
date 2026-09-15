@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class Demo {
     public static void main(String[] args) {
         // ! ============== Sep 12 Problems =============
@@ -38,7 +41,48 @@ public class Demo {
         // ! ============== Sep 14 Problems =============
         // System.out.println(Sep14.subsets(new int[] { 1, 2, 3 }));
         // System.out.println(Sep14.toHex(-1));
-        System.out.println(Sep14.findComplement(1));
+        // System.out.println(Sep14.findComplement(1));
 
+        // ! ============== Sep 15 Problems =============
+        // System.out.println(Sep15.getLSBkBits(30, 4));
+        // int num = 1 << 31;
+        // int mask = 1 << (31 - 4);
+        // System.out.println(Integer.toBinaryString(num - mask));
+        // System.out.println(Integer.toBinaryString(mask));
+
+        // int n = 200;
+        // int range = 8;
+        // int k = 4;
+        // int val = n & (~((1 << (range - k)) - 1));
+        // // System.out.println(Integer.toBinaryString(val));
+        // int x = ~((1 << (range - 4)) - 1);
+        // System.out.println(Integer.toBinaryString((byte) x));
+
+        // System.out.println(
+        // // Integer.toBinaryString(
+        // Sep15.setBitsFromLtoR(243, 2, 5, 10)
+        // //
+        // // )
+        // //
+        // );
+
+        // System.out.println(Sep15.hasAlternatingBits(
+        // // 5
+        // 4
+        // // 3
+        // // 11
+        // // 7
+        // //
+        // ));
+
+        // System.out.println(Sep15.hammingDistance(
+        // 3, 1
+        // //
+        // ));
+
+        System.out.println(
+                Arrays.toString(Sep15.findErrorNumsBetter(new int[] {
+                        1, 1
+                })));
     }
 }

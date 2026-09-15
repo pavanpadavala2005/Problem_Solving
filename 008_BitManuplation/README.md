@@ -48,6 +48,16 @@ _> 🎯_ **\*\*Target:\*\*** _Minimum 2 — Maximum 5_ **\*\*quality problems\*\
 
 **---**
 
+## 🗓️ September 15 — `Sep15.java`
+
+|   # | Problem                             | LeetCode | Solution                      |
+| --: | ----------------------------------- | -------: | ----------------------------- |
+|  14 | Binary Number with Alternating Bits |    LC693 | [View Solution](./Sep15.java) |
+|  15 | Hamming Distance                    |    LC461 | [View Solution](./Sep15.java) |
+|  16 | Set Mismatch                        |    LC645 | [View Solution](./Sep15.java) |
+
+**---**
+
 # 📊 Problem Index
 
 |   # | LeetCode | Problem                                       | Date   | Solution                      |
@@ -65,6 +75,9 @@ _> 🎯_ **\*\*Target:\*\*** _Minimum 2 — Maximum 5_ **\*\*quality problems\*\
 |  11 |    LC405 | Convert a Number to Hexadecimal               | Sep 14 | [View Solution](./Sep14.java) |
 |  12 |     LC78 | Subsets                                       | Sep 14 | [View Solution](./Sep14.java) |
 |  13 |    LC476 | Number Complement                             | Sep 14 | [View Solution](./Sep14.java) |
+|  14 |    LC693 | Binary Number with Alternating Bits           | Sep 15 | [View Solution](./Sep15.java) |
+|  15 |    LC461 | Hamming Distance                              | Sep 15 | [View Solution](./Sep15.java) |
+|  16 |    LC645 | Set Mismatch                                  | Sep 15 | [View Solution](./Sep15.java) |
 
 **---**
 
@@ -75,15 +88,16 @@ _> 🎯_ **\*\*Target:\*\*** _Minimum 2 — Maximum 5_ **\*\*quality problems\*\
 | [`Sep12.java`](./Sep12.java) | Bit Manipulation problems and number-system conversions solved on September 12 |
 | [`Sep13.java`](./Sep13.java) | Problems solved on September 13                                                |
 | [`Sep14.java`](./Sep14.java) | Bit Manipulation problems solved on September 14                               |
+| [`Sep15.java`](./Sep15.java) | Bit Manipulation problems solved on September 15                               |
 
 **---**
 
 # 📈 Monthly Progress
 
-| Month             |      LeetCode |           GFG |       General |          Total |
-| ----------------- | ------------: | ------------: | ------------: | -------------: |
-| September 2026    |             6 |             0 |             7 |             13 |
-| **\*\*Total\*\*** | **\*\*6\*\*** | **\*\*0\*\*** | **\*\*7\*\*** | **\*\*13\*\*** |
+| Month             |       LeetCode |           GFG |       General |          Total |
+| ----------------- | -------------: | ------------: | ------------: | -------------: |
+| September 2026    |             10 |             0 |             7 |             16 |
+| **\*\*Total\*\*** | **\*\*10\*\*** | **\*\*0\*\*** | **\*\*7\*\*** | **\*\*16\*\*** |
 
 **---**
 
