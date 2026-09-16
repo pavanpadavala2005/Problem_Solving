@@ -1,6 +1,4 @@
 
-import java.util.Arrays;
-
 public class Demo {
     public static void main(String[] args) {
         // ! ============== Sep 12 Problems =============
@@ -80,9 +78,41 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(
-                Arrays.toString(Sep15.findErrorNumsBetter(new int[] {
-                        1, 1
-                })));
+        // System.out.println(
+        // Arrays.toString(Sep15.findErrorNumsBetter(new int[] {
+        // 1, 1
+        // })));
+
+        // ! ============== Sep 16 Problems =============
+        // System.out.println(Sep16.binaryGapBrute(5));
+        // System.out.println(Sep16.binaryGapBetter(5));
+
+        // System.out.println(Sep16.prefixesDivBy5(new int[] {
+        // 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0,
+        // 0, 0, 1, 1, 1, 0, 0, 0, 0,
+        // 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1,
+        // 0, 1, 1, 1, 0, 0, 1, 0
+        // //
+        // }));
+
+        // System.out.println(Sep16.divide(
+        // -2147483648,
+        // -1
+        // //
+        // ));
+
+        // System.out.println(Math.abs(-2147483648));
+
+        // System.out.println(Sep16.divide(
+        // -2147483648, -1
+        // //
+        // ));
+
+        // System.out.println(Sep16.reverse(Integer.MIN_VALUE));
+
+        System.out.println(Sep16.countDistinctIntegers(
+                new int[] { 1, 13, 10, 12, 31 }
+        //
+        ));
     }
 }
