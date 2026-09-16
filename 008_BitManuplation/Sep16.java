@@ -1,9 +1,38 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Sep16 {
+    // ! ============== LC1545. Find Kth Bit in Nth Binary String =============
+    public static char findKthBit(int n, int k) {
+        StringBuilder sb = new StringBuilder();
+        findKthBitHelper(n - 1, sb);
+        return sb.charAt(k - 1);
+    }
+
+    // @ TC --> O(N) --> recursion
+    // @ SC --> O(1) --> Stack Space
+    public static void findKthBitHelper(int n, StringBuilder sb) {
+        if (n == 0) {
+            sb.append('0');
+            return;
+        }
+        findKthBitHelper(n - 1, sb);
+        sb.append(1);
+        int ln = sb.length();
+        for (int i = ln - 2; i >= 0; i--)
+            sb.append(sb.charAt(i) == '0' ? '1' : '0');
+    }
+
+    public static String findKthBitHelperBrute(int n) {
+        if (n == 0)
+            return "0";
+        String res = findKthBitHelperBrute(n - 1);
+        StringBuilder sb = new StringBuilder();
+        sb.append(res).append(1);
+        for (int i = res.length() - 1; i >= 0; i--)
+            sb.append(res.charAt(i) == '0' ? '1' : '0');
+        return sb.toString();
+    }
+
     // ! ============== LC2442. Count Number of Distinct Integers After Reverse
     // Operations =============
     public static int countDistinctIntegers(int[] nums) {
@@ -110,3 +139,4 @@ public class Sep16 {
 // 3. LC7. Reverse Integer ✅
 // 4. LC2119. A Number After a Double Reversal ✅
 // 5. LC2442. Count Number of Distinct Integers After Reverse Operations ✅
+// 6. LC1545. Find Kth Bit in Nth Binary String ✅

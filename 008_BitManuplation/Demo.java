@@ -110,9 +110,11 @@ public class Demo {
 
         // System.out.println(Sep16.reverse(Integer.MIN_VALUE));
 
-        System.out.println(Sep16.countDistinctIntegers(
-                new int[] { 1, 13, 10, 12, 31 }
-        //
-        ));
+        // System.out.println(Sep16.countDistinctIntegers(
+        // new int[] { 1, 13, 10, 12, 31 }
+        // //
+        // ));
+
+        System.out.println(Sep16.findKthBit(4, 11));
     }
 }
