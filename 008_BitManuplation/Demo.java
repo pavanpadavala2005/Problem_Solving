@@ -152,9 +152,5 @@ public class Demo {
         // //
         // ));
 
-        System.out.println(Sep17.getSum(
-                -6, 4
-        //
-        ));
     }
 }
