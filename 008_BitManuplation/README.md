@@ -57,6 +57,16 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  21 | Count Number of Distinct Integers After Reverse Operations | LC2442 | Medium | [View Solution](./Sep16.java) |
 |  22 | Find Kth Bit in Nth Binary String                          | LC1545 | Medium | [View Solution](./Sep16.java) |
 
+## 🗓️ September 17 — `Sep17.java`
+
+|   # | Problem                      | Source | Level  | Solution                      |
+| --: | ---------------------------- | ------ | ------ | ----------------------------- |
+|  23 | Divide Two Integers          | LC29   | Medium | [View Solution](./Sep17.java) |
+|  24 | XOR of a Number Range L to R | GFG    | Easy   | [View Solution](./Sep17.java) |
+|  25 | Single Number II             | LC137  | Medium | [View Solution](./Sep17.java) |
+|  26 | Gray Code                    | LC89   | Medium | [View Solution](./Sep17.java) |
+|  27 | Bitwise AND of Numbers Range | LC201  | Medium | [View Solution](./Sep17.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -85,6 +95,11 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  20 | A Number After a Double Reversal                           | LC2119  | Easy   | [Sep16.java](./Sep16.java) |
 |  21 | Count Number of Distinct Integers After Reverse Operations | LC2442  | Medium | [Sep16.java](./Sep16.java) |
 |  22 | Find Kth Bit in Nth Binary String                          | LC1545  | Medium | [Sep16.java](./Sep16.java) |
+|  23 | Divide Two Integers                                        | LC29    | Medium | [Sep17.java](./Sep17.java) |
+|  24 | XOR of a Number Range L to R                               | GFG     | Easy   | [Sep17.java](./Sep17.java) |
+|  25 | Single Number II                                           | LC137   | Medium | [Sep17.java](./Sep17.java) |
+|  26 | Gray Code                                                  | LC89    | Medium | [Sep17.java](./Sep17.java) |
+|  27 | Bitwise AND of Numbers Range                               | LC201   | Medium | [Sep17.java](./Sep17.java) |
 
 **---**
 
@@ -92,10 +107,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |      9 |     0 |     0 |       7 | **16** |
-| **MEDIUM** |      7 |     0 |     0 |       0 |  **7** |
+| **EASY**   |      9 |     1 |     0 |       7 | **17** |
+| **MEDIUM** |     11 |     0 |     0 |       0 | **11** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **16** | **0** | **0** |   **7** | **23** |
+| **TOTAL**  | **20** | **1** | **0** |   **7** | **28** |
 
 **---**
 
@@ -108,6 +123,7 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 | [`Sep14.java`](./Sep14.java) | Problems solved on September 14 | Hexadecimal Conversion, Subsets, Number Complement                                     |
 | [`Sep15.java`](./Sep15.java) | Problems solved on September 15 | Alternating Bits, Hamming Distance, Set Mismatch                                       |
 | [`Sep16.java`](./Sep16.java) | Problems solved on September 16 | Binary Gap, Binary Prefix, Integer Reversal, Double Reversal, Number Reversal, Kth Bit |
+| [`Sep17.java`](./Sep17.java) | Problems solved on September 17 | Bitwise AND, Gray Code, Single Number II, XOR Range, Integer Division                  |
 
 **---**
 
@@ -129,16 +145,16 @@ For every new practice day:
 
 ### Example — New Day
 
-If the next practice session is on September 17 and the new file is:
+If the next practice session is on September 18 and the new file is:
 
-`Sep17.java`
+`Sep18.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 17 — `Sep17.java`
+## 🗓️ September 18 — `Sep18.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  23 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep17.java) |
+|  28 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep18.java) |
 ```

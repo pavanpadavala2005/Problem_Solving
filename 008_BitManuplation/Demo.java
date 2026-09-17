@@ -114,7 +114,47 @@ public class Demo {
         // new int[] { 1, 13, 10, 12, 31 }
         // //
         // ));
+        // System.out.println(Sep16.findKthBit(4, 11));
 
-        System.out.println(Sep16.findKthBit(4, 11));
+        // ! ============== Sep 17 Problems =============
+        // System.out.println(Sep17.divideBrute(
+        // -2147483648,
+        // -1
+        // //
+        // ));
+        // System.out.println(2147483648 - 1);
+
+        // int a = -2147483648;
+        // int b = -1;
+        // int ans = (a - a % b) / b;
+        // System.out.println(ans);
+        // System.out.println(Sep17.singleNumberIIBettr(new int[] {
+        // 2, 2, 3, 2
+        // }));
+
+        // System.out.println(Sep17.singleNumberIIOptimal(new int[] {
+        // 2, 2, 3, 5, 3, 3, 2
+        // }));
+
+        // System.out.println(Sep17.grayCode(3));
+
+        // System.out.println(Sep17.rangeBitwiseAnd(
+        // 3,
+        // 10
+        // //
+        // ));
+
+        // System.out.println(Sep17.printRangeAndBetter(20, 126));
+
+        // System.out.println(Sep17.rangeBitwiseAndOptimal(
+        // 5,
+        // 7
+        // //
+        // ));
+
+        System.out.println(Sep17.getSum(
+                -6, 4
+        //
+        ));
     }
 }
