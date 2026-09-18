@@ -67,6 +67,16 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  26 | Gray Code                    | LC89   | Medium | [View Solution](./Sep17.java) |
 |  27 | Bitwise AND of Numbers Range | LC201  | Medium | [View Solution](./Sep17.java) |
 
+## 🗓️ September 18 — `Sep18.java`
+
+|   # | Problem                   | Source | Level  | Solution                      |
+| --: | ------------------------- | ------ | ------ | ----------------------------- |
+|  28 | Sum of Two Integers       | LC371  | Medium | [View Solution](./Sep18.java) |
+|  29 | Subsets II                | LC90   | Medium | [View Solution](./Sep18.java) |
+|  30 | XOR Operation in an Array | LC1486 | Easy   | [View Solution](./Sep18.java) |
+|  31 | Decode XORed Array        | LC1720 | Easy   | [View Solution](./Sep18.java) |
+|  32 | XOR Queries of a Subarray | LC1310 | Medium | [View Solution](./Sep18.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -100,6 +110,11 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  25 | Single Number II                                           | LC137   | Medium | [Sep17.java](./Sep17.java) |
 |  26 | Gray Code                                                  | LC89    | Medium | [Sep17.java](./Sep17.java) |
 |  27 | Bitwise AND of Numbers Range                               | LC201   | Medium | [Sep17.java](./Sep17.java) |
+|  28 | Sum of Two Integers                                        | LC371   | Medium | [Sep18.java](./Sep18.java) |
+|  29 | Subsets II                                                 | LC90    | Medium | [Sep18.java](./Sep18.java) |
+|  30 | XOR Operation in an Array                                  | LC1486  | Easy   | [Sep18.java](./Sep18.java) |
+|  31 | Decode XORed Array                                         | LC1720  | Easy   | [Sep18.java](./Sep18.java) |
+|  32 | XOR Queries of a Subarray                                  | LC1310  | Medium | [Sep18.java](./Sep18.java) |
 
 **---**
 
@@ -107,10 +122,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |      9 |     1 |     0 |       7 | **17** |
-| **MEDIUM** |     11 |     0 |     0 |       0 | **11** |
+| **EASY**   |     11 |     1 |     0 |       7 | **19** |
+| **MEDIUM** |     14 |     0 |     0 |       0 | **14** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **20** | **1** | **0** |   **7** | **28** |
+| **TOTAL**  | **25** | **1** | **0** |   **7** | **33** |
 
 **---**
 
@@ -124,6 +139,7 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 | [`Sep15.java`](./Sep15.java) | Problems solved on September 15 | Alternating Bits, Hamming Distance, Set Mismatch                                       |
 | [`Sep16.java`](./Sep16.java) | Problems solved on September 16 | Binary Gap, Binary Prefix, Integer Reversal, Double Reversal, Number Reversal, Kth Bit |
 | [`Sep17.java`](./Sep17.java) | Problems solved on September 17 | Bitwise AND, Gray Code, Single Number II, XOR Range, Integer Division                  |
+| [`Sep18.java`](./Sep18.java) | Problems solved on September 18 | XOR Queries, XOR Array, XORed Array, Subsets II, Bitwise Addition                      |
 
 **---**
 
@@ -145,16 +161,16 @@ For every new practice day:
 
 ### Example — New Day
 
-If the next practice session is on September 18 and the new file is:
+If the next practice session is on September 19 and the new file is:
 
-`Sep18.java`
+`Sep19.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 18 — `Sep18.java`
+## 🗓️ September 19 — `Sep19.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  28 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep18.java) |
+|  33 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep19.java) |
 ```

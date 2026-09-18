@@ -1,4 +1,6 @@
 
+import java.util.Arrays;
+
 public class Demo {
     public static void main(String[] args) {
         // ! ============== Sep 12 Problems =============
@@ -152,5 +154,54 @@ public class Demo {
         // //
         // ));
 
+        // ! ============== Sep 18 Problems =============
+
+        // System.out.println(Sep18.getSumBrute(
+        // 6, -6
+        // //
+        // ));
+
+        // System.out.println(Sep18.subsetsWithDup(new int[] {
+        // 1, 2, 2
+        // }));
+
+        // System.out.println(Sep18.totalHammingDistance(new int[] {
+        // 4, 14, 2
+        // }));
+
+        // int n = 5;
+        // int s = 4;
+        // int res = 0;
+        // for (int i = 0; i < n; i++) {
+        // int num = s + (2 * i);
+        // res ^= num;
+        // System.out.println(num);
+        // }
+        // System.out.println("RES --> " + res);
+
+        // System.out.println(Sep18.xorOperation(
+        // 4,
+        // 3
+        // //
+        // ));
+
+        // System.out.println(Sep18.decode(
+        // new int[] { 1, 2, 3 },
+        // 1
+        // //
+        // ));
+
+        System.out.println(
+                Arrays.toString(
+                        Sep18.xorQueries(
+                                new int[] { 1, 3, 4, 8 },
+                                new int[][] {
+                                        new int[] { 0, 1 },
+                                        new int[] { 1, 2 },
+                                        new int[] { 0, 3 },
+                                        new int[] { 3, 3 }
+                                }
+                        //
+                        )));
     }
 }
