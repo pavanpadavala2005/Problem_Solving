@@ -1,24 +1,6 @@
 import java.util.*;
 
 public class Sep18 {
-    // @ TC --> O( N * N * log N) --> two loops for permutation of 2 and counting
-    // difference bits -->O(log N)
-    // @ SC --> O(1);
-    public static int totalHammingDistanceBrute(int[] nums) {
-        int n = nums.length;
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int num = nums[i] ^ nums[j];
-                while (num > 0) {
-                    count += num & 1;
-                    num = num >> 1;
-                }
-            }
-        }
-        return count;
-    }
-
     // ! ============== LC1310. XOR Queries of a Subarray =============
     // @ TC --> O(N)+O(Q) --> length of Arr + length of Queries
     // @ SC --> O(1) + O(Q) --> O(Q) for returning answer only so Not considerable

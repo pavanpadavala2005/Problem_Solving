@@ -77,44 +77,57 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  31 | Decode XORed Array        | LC1720 | Easy   | [View Solution](./Sep18.java) |
 |  32 | XOR Queries of a Subarray | LC1310 | Medium | [View Solution](./Sep18.java) |
 
+## 🗓️ September 19 — `Sep19.java`
+
+|   # | Problem                                                            | Source | Level  | Solution                      |
+| --: | ------------------------------------------------------------------ | ------ | ------ | ----------------------------- |
+|  33 | Total Hamming Distance                                             | LC477  | Medium | [View Solution](./Sep19.java) |
+|  34 | Number of Steps to Reduce a Number to Zero                         | LC1342 | Easy   | [View Solution](./Sep19.java) |
+|  35 | Maximum Odd Binary Number                                          | LC2864 | Easy   | [View Solution](./Sep19.java) |
+|  36 | Number of Steps to Reduce a Number in Binary Representation to One | LC1404 | Medium | [View Solution](./Sep19.java) |
+
 **---**
 
 # 📊 Problem Index
 
-|   # | Problem                                                    | Source  | Level  | Solution                   |
-| --: | ---------------------------------------------------------- | ------- | ------ | -------------------------- |
-|   1 | Number of 1 Bits                                           | LC191   | Easy   | [Sep12.java](./Sep12.java) |
-|   2 | Convert Integer to Any Base (up to Base 36)                | General | Easy   | [Sep12.java](./Sep12.java) |
-|   3 | Convert Any Base (up to Base 36) to Integer                | General | Easy   | [Sep12.java](./Sep12.java) |
-|   4 | Integer to Binary                                          | General | Easy   | [Sep12.java](./Sep12.java) |
-|   5 | Binary to Integer                                          | General | Easy   | [Sep12.java](./Sep12.java) |
-|   6 | Count set bits from 0 to Nth Bit                           | General | Easy   | [Sep13.java](./Sep13.java) |
-|   7 | Find the number of set bits in a range [L, R]              | General | Easy   | [Sep13.java](./Sep13.java) |
-|   8 | Counting Bits                                              | LC338   | Easy   | [Sep13.java](./Sep13.java) |
-|   9 | Add Binary                                                 | LC67    | Easy   | [Sep13.java](./Sep13.java) |
-|  10 | Reverse Bits                                               | LC190   | Easy   | [Sep13.java](./Sep13.java) |
-|  11 | Convert a Number to Hexadecimal                            | LC405   | Easy   | [Sep14.java](./Sep14.java) |
-|  12 | Subsets                                                    | LC78    | Medium | [Sep14.java](./Sep14.java) |
-|  13 | Number Complement                                          | LC476   | Easy   | [Sep14.java](./Sep14.java) |
-|  14 | Binary Number with Alternating Bits                        | LC693   | Easy   | [Sep15.java](./Sep15.java) |
-|  15 | Hamming Distance                                           | LC461   | Easy   | [Sep15.java](./Sep15.java) |
-|  16 | Set Mismatch                                               | LC645   | Easy   | [Sep15.java](./Sep15.java) |
-|  17 | Binary Gap                                                 | LC868   | Easy   | [Sep16.java](./Sep16.java) |
-|  18 | Binary Prefix Divisible By 5                               | LC1018  | Medium | [Sep16.java](./Sep16.java) |
-|  19 | Reverse Integer                                            | LC7     | Medium | [Sep16.java](./Sep16.java) |
-|  20 | A Number After a Double Reversal                           | LC2119  | Easy   | [Sep16.java](./Sep16.java) |
-|  21 | Count Number of Distinct Integers After Reverse Operations | LC2442  | Medium | [Sep16.java](./Sep16.java) |
-|  22 | Find Kth Bit in Nth Binary String                          | LC1545  | Medium | [Sep16.java](./Sep16.java) |
-|  23 | Divide Two Integers                                        | LC29    | Medium | [Sep17.java](./Sep17.java) |
-|  24 | XOR of a Number Range L to R                               | GFG     | Easy   | [Sep17.java](./Sep17.java) |
-|  25 | Single Number II                                           | LC137   | Medium | [Sep17.java](./Sep17.java) |
-|  26 | Gray Code                                                  | LC89    | Medium | [Sep17.java](./Sep17.java) |
-|  27 | Bitwise AND of Numbers Range                               | LC201   | Medium | [Sep17.java](./Sep17.java) |
-|  28 | Sum of Two Integers                                        | LC371   | Medium | [Sep18.java](./Sep18.java) |
-|  29 | Subsets II                                                 | LC90    | Medium | [Sep18.java](./Sep18.java) |
-|  30 | XOR Operation in an Array                                  | LC1486  | Easy   | [Sep18.java](./Sep18.java) |
-|  31 | Decode XORed Array                                         | LC1720  | Easy   | [Sep18.java](./Sep18.java) |
-|  32 | XOR Queries of a Subarray                                  | LC1310  | Medium | [Sep18.java](./Sep18.java) |
+|   # | Problem                                                            | Source  | Level  | Solution                   |
+| --: | ------------------------------------------------------------------ | ------- | ------ | -------------------------- |
+|   1 | Number of 1 Bits                                                   | LC191   | Easy   | [Sep12.java](./Sep12.java) |
+|   2 | Convert Integer to Any Base (up to Base 36)                        | General | Easy   | [Sep12.java](./Sep12.java) |
+|   3 | Convert Any Base (up to Base 36) to Integer                        | General | Easy   | [Sep12.java](./Sep12.java) |
+|   4 | Integer to Binary                                                  | General | Easy   | [Sep12.java](./Sep12.java) |
+|   5 | Binary to Integer                                                  | General | Easy   | [Sep12.java](./Sep12.java) |
+|   6 | Count set bits from 0 to Nth Bit                                   | General | Easy   | [Sep13.java](./Sep13.java) |
+|   7 | Find the number of set bits in a range [L, R]                      | General | Easy   | [Sep13.java](./Sep13.java) |
+|   8 | Counting Bits                                                      | LC338   | Easy   | [Sep13.java](./Sep13.java) |
+|   9 | Add Binary                                                         | LC67    | Easy   | [Sep13.java](./Sep13.java) |
+|  10 | Reverse Bits                                                       | LC190   | Easy   | [Sep13.java](./Sep13.java) |
+|  11 | Convert a Number to Hexadecimal                                    | LC405   | Easy   | [Sep14.java](./Sep14.java) |
+|  12 | Subsets                                                            | LC78    | Medium | [Sep14.java](./Sep14.java) |
+|  13 | Number Complement                                                  | LC476   | Easy   | [Sep14.java](./Sep14.java) |
+|  14 | Binary Number with Alternating Bits                                | LC693   | Easy   | [Sep15.java](./Sep15.java) |
+|  15 | Hamming Distance                                                   | LC461   | Easy   | [Sep15.java](./Sep15.java) |
+|  16 | Set Mismatch                                                       | LC645   | Easy   | [Sep15.java](./Sep15.java) |
+|  17 | Binary Gap                                                         | LC868   | Easy   | [Sep16.java](./Sep16.java) |
+|  18 | Binary Prefix Divisible By 5                                       | LC1018  | Medium | [Sep16.java](./Sep16.java) |
+|  19 | Reverse Integer                                                    | LC7     | Medium | [Sep16.java](./Sep16.java) |
+|  20 | A Number After a Double Reversal                                   | LC2119  | Easy   | [Sep16.java](./Sep16.java) |
+|  21 | Count Number of Distinct Integers After Reverse Operations         | LC2442  | Medium | [Sep16.java](./Sep16.java) |
+|  22 | Find Kth Bit in Nth Binary String                                  | LC1545  | Medium | [Sep16.java](./Sep16.java) |
+|  23 | Divide Two Integers                                                | LC29    | Medium | [Sep17.java](./Sep17.java) |
+|  24 | XOR of a Number Range L to R                                       | GFG     | Easy   | [Sep17.java](./Sep17.java) |
+|  25 | Single Number II                                                   | LC137   | Medium | [Sep17.java](./Sep17.java) |
+|  26 | Gray Code                                                          | LC89    | Medium | [Sep17.java](./Sep17.java) |
+|  27 | Bitwise AND of Numbers Range                                       | LC201   | Medium | [Sep17.java](./Sep17.java) |
+|  28 | Sum of Two Integers                                                | LC371   | Medium | [Sep18.java](./Sep18.java) |
+|  29 | Subsets II                                                         | LC90    | Medium | [Sep18.java](./Sep18.java) |
+|  30 | XOR Operation in an Array                                          | LC1486  | Easy   | [Sep18.java](./Sep18.java) |
+|  31 | Decode XORed Array                                                 | LC1720  | Easy   | [Sep18.java](./Sep18.java) |
+|  32 | XOR Queries of a Subarray                                          | LC1310  | Medium | [Sep18.java](./Sep18.java) |
+|  33 | Total Hamming Distance                                             | LC477   | Medium | [Sep19.java](./Sep19.java) |
+|  34 | Number of Steps to Reduce a Number to Zero                         | LC1342  | Easy   | [Sep19.java](./Sep19.java) |
+|  35 | Maximum Odd Binary Number                                          | LC2864  | Easy   | [Sep19.java](./Sep19.java) |
+|  36 | Number of Steps to Reduce a Number in Binary Representation to One | LC1404  | Medium | [Sep19.java](./Sep19.java) |
 
 **---**
 
@@ -122,10 +135,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     11 |     1 |     0 |       7 | **19** |
-| **MEDIUM** |     14 |     0 |     0 |       0 | **14** |
+| **EASY**   |     13 |     1 |     0 |       7 | **21** |
+| **MEDIUM** |     16 |     0 |     0 |       0 | **16** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **25** | **1** | **0** |   **7** | **33** |
+| **TOTAL**  | **29** | **1** | **0** |   **7** | **37** |
 
 **---**
 
@@ -140,6 +153,7 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 | [`Sep16.java`](./Sep16.java) | Problems solved on September 16 | Binary Gap, Binary Prefix, Integer Reversal, Double Reversal, Number Reversal, Kth Bit |
 | [`Sep17.java`](./Sep17.java) | Problems solved on September 17 | Bitwise AND, Gray Code, Single Number II, XOR Range, Integer Division                  |
 | [`Sep18.java`](./Sep18.java) | Problems solved on September 18 | XOR Queries, XOR Array, XORed Array, Subsets II, Bitwise Addition                      |
+| [`Sep19.java`](./Sep19.java) | Problems solved on September 19 | Hamming Distance, Binary Number Reduction, Odd Binary Number, Bit Manipulation         |
 
 **---**
 
@@ -161,16 +175,16 @@ For every new practice day:
 
 ### Example — New Day
 
-If the next practice session is on September 19 and the new file is:
+If the next practice session is on September 20 and the new file is:
 
-`Sep19.java`
+`Sep20.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 19 — `Sep19.java`
+## 🗓️ September 20 — `Sep20.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  33 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep19.java) |
+|  37 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep20.java) |
 ```
