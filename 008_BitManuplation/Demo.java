@@ -223,10 +223,39 @@ public class Demo {
                 // //
                 // ));
 
-                System.out.println(Sep19.integerReplacement(
-                                8
+                // System.out.println(Sep19.integerReplacement(
+                // 8
+                // //
+                // ));
+
+                // System.out.println(Sep20.integerReplacementBest(
+                // Integer.MAX_VALUE
+                // //
+                // ));
+
+                // System.out.println(Sep20.isPrime(36));
+
+                // Sep20.printFactors(36);
+
+                // System.out.println(Sep20.countPrimeSetBits(
+                //                 10,
+                //                 15
+                // // 
+                // ));
+
+                // System.out.println(Sep20.primeFactorsOptimal2(
+                //                 780
+                // // 
+                // ));
+
+                // System.out.println(Sep20.largestPrimeFactor(
+                //                 13195
+                // //
+                // ));
+
+                System.out.println(Sep20.sumOfPowers(
+                                9, 12
                 //
                 ));
-
         }
 }

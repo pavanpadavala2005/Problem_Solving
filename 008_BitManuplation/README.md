@@ -86,6 +86,15 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  35 | Maximum Odd Binary Number                                          | LC2864 | Easy   | [View Solution](./Sep19.java) |
 |  36 | Number of Steps to Reduce a Number in Binary Representation to One | LC1404 | Medium | [View Solution](./Sep19.java) |
 
+## 🗓️ September 20 — `Sep20.java`
+
+|   # | Problem                                           | Source | Level  | Solution                      |
+| --: | ------------------------------------------------- | ------ | ------ | ----------------------------- |
+|  37 | Integer Replacement                               | LC397  | Medium | [View Solution](./Sep20.java) |
+|  38 | Prime Number of Set Bits in Binary Representation | LC762  | Easy   | [View Solution](./Sep20.java) |
+|  39 | Largest Prime Factors of Number                   | GFG    | Easy   | [View Solution](./Sep20.java) |
+|  40 | Prime Factors Powers Sum for Range                | GFG    | Medium | [View Solution](./Sep20.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -128,6 +137,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 |  34 | Number of Steps to Reduce a Number to Zero                         | LC1342  | Easy   | [Sep19.java](./Sep19.java) |
 |  35 | Maximum Odd Binary Number                                          | LC2864  | Easy   | [Sep19.java](./Sep19.java) |
 |  36 | Number of Steps to Reduce a Number in Binary Representation to One | LC1404  | Medium | [Sep19.java](./Sep19.java) |
+|  37 | Integer Replacement                                                | LC397   | Medium | [Sep20.java](./Sep20.java) |
+|  38 | Prime Number of Set Bits in Binary Representation                  | LC762   | Easy   | [Sep20.java](./Sep20.java) |
+|  39 | Largest Prime Factors of Number                                    | GFG     | Easy   | [Sep20.java](./Sep20.java) |
+|  40 | Prime Factors Powers Sum for Range                                 | GFG     | Medium | [Sep20.java](./Sep20.java) |
 
 **---**
 
@@ -135,10 +148,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     13 |     1 |     0 |       7 | **21** |
-| **MEDIUM** |     16 |     0 |     0 |       0 | **16** |
+| **EASY**   |     14 |     2 |     0 |       7 | **23** |
+| **MEDIUM** |     17 |     1 |     0 |       0 | **18** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **29** | **1** | **0** |   **7** | **37** |
+| **TOTAL**  | **31** | **3** | **0** |   **7** | **41** |
 
 **---**
 
@@ -154,6 +167,7 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 | [`Sep17.java`](./Sep17.java) | Problems solved on September 17 | Bitwise AND, Gray Code, Single Number II, XOR Range, Integer Division                  |
 | [`Sep18.java`](./Sep18.java) | Problems solved on September 18 | XOR Queries, XOR Array, XORed Array, Subsets II, Bitwise Addition                      |
 | [`Sep19.java`](./Sep19.java) | Problems solved on September 19 | Hamming Distance, Binary Number Reduction, Odd Binary Number, Bit Manipulation         |
+| [`Sep20.java`](./Sep20.java) | Problems solved on September 20 | Prime Factors, Prime Numbers, Factorization, Integer Replacement                       |
 
 **---**
 
@@ -175,16 +189,16 @@ For every new practice day:
 
 ### Example — New Day
 
-If the next practice session is on September 20 and the new file is:
+If the next practice session is on September 21 and the new file is:
 
-`Sep20.java`
+`Sep21.java`
 
 Then add this section **at the end of the daily problems**:
 
 ```md
-## 🗓️ September 20 — `Sep20.java`
+## 🗓️ September 21 — `Sep21.java`
 
 |   # | Problem          | Source         | Level            | Solution                      |
 | --: | ---------------- | -------------- | ---------------- | ----------------------------- |
-|  37 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep20.java) |
+|  41 | New Problem Name | LC/GFG/General | Easy/Medium/Hard | [View Solution](./Sep21.java) |
 ```
