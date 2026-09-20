@@ -221,3 +221,4 @@ public class Sep20 {
 // 2. LC762. Prime Number of Set Bits in Binary Representation ✅
 // 3. GFG. Largest Prime Factors of Number ✅
 // 4. GFG. Prime Factors Powers Sum for Range✅
+// 5. GEN. Prime Factors of Number ✅

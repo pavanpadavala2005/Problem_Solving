@@ -88,12 +88,13 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 ## 🗓️ September 20 — `Sep20.java`
 
-|   # | Problem                                           | Source | Level  | Solution                      |
-| --: | ------------------------------------------------- | ------ | ------ | ----------------------------- |
-|  37 | Integer Replacement                               | LC397  | Medium | [View Solution](./Sep20.java) |
-|  38 | Prime Number of Set Bits in Binary Representation | LC762  | Easy   | [View Solution](./Sep20.java) |
-|  39 | Largest Prime Factors of Number                   | GFG    | Easy   | [View Solution](./Sep20.java) |
-|  40 | Prime Factors Powers Sum for Range                | GFG    | Medium | [View Solution](./Sep20.java) |
+|   # | Problem                                           | Source  | Level  | Solution                      |
+| --: | ------------------------------------------------- | ------- | ------ | ----------------------------- |
+|  37 | Integer Replacement                               | LC397   | Medium | [View Solution](./Sep20.java) |
+|  38 | Prime Number of Set Bits in Binary Representation | LC762   | Easy   | [View Solution](./Sep20.java) |
+|  39 | Largest Prime Factors of Number                   | GFG     | Easy   | [View Solution](./Sep20.java) |
+|  40 | Prime Factors Powers Sum for Range                | GFG     | Medium | [View Solution](./Sep20.java) |
+|  41 | Prime Factors of Number                           | General | Easy   | [View Solution](./Sep20.java) |
 
 **---**
 
@@ -148,10 +149,10 @@ _> Each day's Java file contains the actual solutions. This README tracks:_
 
 | Level      |     LC |   GFG |  C360 | General |  Total |
 | ---------- | -----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     14 |     2 |     0 |       7 | **23** |
-| **MEDIUM** |     17 |     1 |     0 |       0 | **18** |
+| **EASY**   |     14 |     2 |     0 |       9 | **25** |
+| **MEDIUM** |     15 |     1 |     0 |       0 | **16** |
 | **HARD**   |      0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **31** | **3** | **0** |   **7** | **41** |
+| **TOTAL**  | **29** | **3** | **0** |   **9** | **41** |
 
 **---**
 
