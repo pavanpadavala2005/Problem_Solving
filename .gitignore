@@ -29,7 +29,6 @@ Thumbs.db
 
 # Safe folders anywhere in the project
 Safe/
-dummy.md
 Excalidraw_Files/
 
 *.png

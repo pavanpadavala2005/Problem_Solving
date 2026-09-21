@@ -116,8 +116,8 @@ public class Aug25 {
         return numSubseqHelperV1(nums, target, 0, new ArrayList<>());
     }
 
-    // @ TC --> O(2^n) --> We are not using any Extra Loop inside
-    // @ SC --> O(2^N) --> recursion Stack Space only we are using
+    // @ TC --> O(2ⁿ) --> We are not using any Extra Loop inside
+    // @ SC --> O(2ⁿ) --> recursion Stack Space only we are using
     public static int numSubseqHelperV2(int[] nums, int i, ArrayList<Integer> seen, int target, int mx, int mi) {
         if (i >= nums.length) {
             if (mx + mi <= target)
@@ -131,9 +131,9 @@ public class Aug25 {
         return left + right;
     }
 
-    // @ TC --> O(2^n) * O(N) --> because in every recursion call we are running a
+    // @ TC --> O(2ⁿ) * O(N) --> because in every recursion call we are running a
     // Loop
-    // @ SC --> O(2^N) --> recursion Stack Space only we are using
+    // @ SC --> O(2ⁿ) --> recursion Stack Space only we are using
     public static int numSubseqHelperV1(int[] nums, int target, int i, ArrayList<Integer> seen) {
         if (i >= nums.length) {
             int mx = -1;

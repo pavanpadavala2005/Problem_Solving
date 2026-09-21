@@ -62,9 +62,9 @@ public class Sep18 {
     }
 
     // ! ============== LC90. Subsets II =============
-    // @ TC --> O(Nl log N) + O(2^N)*O(N) --> Sorting and getting subsets and
+    // @ TC --> O(N log N) + O(2ⁿ)*O(N) --> Sorting and getting subsets and
     // getting unq subsets
-    // @ SC --> O(2^N) --> returning answer only so Not considerable
+    // @ SC --> O(2ⁿ) --> returning answer only so Not considerable
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();

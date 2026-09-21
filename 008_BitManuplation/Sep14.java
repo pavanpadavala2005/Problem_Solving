@@ -44,8 +44,8 @@ public class Sep14 {
     }
 
     // ! ============== LC78. Subsets =============
-    // @ TC --> O(2^n) --> we need to get every combination
-    // @ SC --> O(n^n) --> Store all Possible combos
+    // @ TC --> O(2ⁿ) --> we need to get every combination
+    // @ SC --> O(nⁿ) --> Store all Possible combos
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < 1 << nums.length; i++) {

@@ -107,7 +107,7 @@ public class Sep04 {
         return countStrings(n, new StringBuilder());
     }
 
-    // @ TC --> O(2^N)
+    // @ TC --> O(2ⁿ)
     // @ SC --> O(N) -- using a string builder of size N
     public static int countStrings(int n, StringBuilder sb) {
         if (n == 0) {

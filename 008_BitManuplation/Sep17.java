@@ -38,8 +38,8 @@ public class Sep17 {
     }
 
     // ! ============== LC89. Gray Code =============
-    // @ TC --> O(2^N)
-    // @ SC --> O(2^N) --> returning answer
+    // @ TC --> O(2ⁿ)
+    // @ SC --> O(2ⁿ) --> returning answer
     public static List<Integer> grayCode(int n) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < (1 << n); i++)
@@ -47,8 +47,8 @@ public class Sep17 {
         return res;
     }
 
-    // @ TC --> O(2^N)
-    // @ SC --> O(2^N) --> stack Space
+    // @ TC --> O(2ⁿ)
+    // @ SC --> O(2ⁿ) --> stack Space
     public static void subSets(int num, int i, int n, List<Integer> res) {
         if (i >= n)
             return;

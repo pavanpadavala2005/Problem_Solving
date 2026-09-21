@@ -1,130 +1,102 @@
-# 📐 Maths
+# 🧮 002 — Maths
 
-> 📌 **This README is the central tracker for all Mathematics-related problem-solving practice.**
->
-> Each Java file contains the actual solutions. This README keeps track of the
->
-> > ### Problem Name, source, and Java file
+_> 📌_ **This README is the central tracker for all Maths-related problem-solving practice.**
 
----
+_> The folder contains both standalone Maths concepts/practice and day-wise problem-solving files._
 
-# 📚 Examples
+\*> **Problem Name · Source · Difficulty · Date · Java File**
 
-## 📘 Example 1 — `Example1.java`
+**---**
 
-|   # | Problem          | Solution                         |
-| --: | ---------------- | -------------------------------- |
-|   1 | Unique Element   | [View Solution](./Example1.java) |
-|   2 | Check Odd Number | [View Solution](./Example1.java) |
-|   3 | Check Ith Bit    | [View Solution](./Example1.java) |
-|   4 | Set Ith Bit      | [View Solution](./Example1.java) |
-|   5 | Clear Ith Bit    | [View Solution](./Example1.java) |
-|   6 | Toggle Ith Bit   | [View Solution](./Example1.java) |
-|   7 | Power of Two     | [View Solution](./Example1.java) |
-|   8 | Power            | [View Solution](./Example1.java) |
-|   9 | Count Set Bits   | [View Solution](./Example1.java) |
+# 📚 Standalone Maths Practice
 
----
+## `Maths.java`
 
-## 📘 Example 2 — `Example2.java`
+> This is a standalone Maths file for practicing and maintaining reusable mathematical concepts, techniques, and implementations.
 
-|   # | Problem                           | Solution                         |
-| --: | --------------------------------- | -------------------------------- |
-|  10 | Check Prime                       | [View Solution](./Example2.java) |
-|  11 | Factors                           | [View Solution](./Example2.java) |
-|  12 | Primes in Range                   | [View Solution](./Example2.java) |
-|  13 | Square Root                       | [View Solution](./Example2.java) |
-|  14 | Square Root using Newton's Method | [View Solution](./Example2.java) |
-|  15 | Factors V2                        | [View Solution](./Example2.java) |
+> Unlike the day-wise files, `Maths.java` may be updated over time — problems/functions can be added, modified, or removed as the Maths practice evolves.
 
----
+### Current Target Problems
 
-# 📅 July 2026
+|   # | Problem                      | Source  | Level | Solution                      |
+| --: | ---------------------------- | ------- | ----- | ----------------------------- |
+|   1 | Printing Factors of a Number | General | Easy  | [View Solution](./Maths.java) |
+|   2 | Checking Prime Number or Not | General | Easy  | [View Solution](./Maths.java) |
+|   3 | Prime Factors of Number      | General | Easy  | [View Solution](./Maths.java) |
 
-## 🗓️ July 23 — `July23.java`
+**---**
 
-|   # | Problem              | Solution                       |
-| --: | -------------------- | ------------------------------ |
-|  16 | Binary to Decimal V1 | [View Solution](./July23.java) |
-|  17 | Decimal to Binary V1 | [View Solution](./July23.java) |
-|  18 | Decimal to Binary V2 | [View Solution](./July23.java) |
+# 📅 September 2026
 
----
+## 🗓️ September 21 — `Sep21.java`
 
-# 📅 June 2026
+|   # | Problem                            | Source  | Level  | Solution                      |
+| --: | ---------------------------------- | ------- | ------ | ----------------------------- |
+|   4 | Power Exponentiation               | General | Medium | [View Solution](./Sep21.java) |
+|   5 | Prime Factors Powers Sum for Range | GFG     | Medium | [View Solution](./Sep21.java) |
+|   6 | Largest Prime Factors of Number    | GFG     | Easy   | [View Solution](./Sep21.java) |
 
-## 🗓️ June 02 — `June02.java`
-
-|   # | Problem                                 | LeetCode | Solution                       |
-| --: | --------------------------------------- | -------: | ------------------------------ |
-|  19 | Find Numbers with Even Number of Digits |   LC1295 | [View Solution](./June02.java) |
-
----
+**---**
 
 # 📊 Problem Index
 
-|   # | Problem                                 | Source    | File                             |
-| --: | --------------------------------------- | --------- | -------------------------------- |
-|   1 | Unique Element                          | Example 1 | [Example1.java](./Example1.java) |
-|   2 | Check Odd Number                        | Example 1 | [Example1.java](./Example1.java) |
-|   3 | Check Ith Bit                           | Example 1 | [Example1.java](./Example1.java) |
-|   4 | Set Ith Bit                             | Example 1 | [Example1.java](./Example1.java) |
-|   5 | Clear Ith Bit                           | Example 1 | [Example1.java](./Example1.java) |
-|   6 | Toggle Ith Bit                          | Example 1 | [Example1.java](./Example1.java) |
-|   7 | Power of Two                            | Example 1 | [Example1.java](./Example1.java) |
-|   8 | Power                                   | Example 1 | [Example1.java](./Example1.java) |
-|   9 | Count Set Bits                          | Example 1 | [Example1.java](./Example1.java) |
-|  10 | Check Prime                             | Example 2 | [Example2.java](./Example2.java) |
-|  11 | Factors                                 | Example 2 | [Example2.java](./Example2.java) |
-|  12 | Primes in Range                         | Example 2 | [Example2.java](./Example2.java) |
-|  13 | Square Root                             | Example 2 | [Example2.java](./Example2.java) |
-|  14 | Square Root using Newton's Method       | Example 2 | [Example2.java](./Example2.java) |
-|  15 | Factors V2                              | Example 2 | [Example2.java](./Example2.java) |
-|  16 | Binary to Decimal V1                    | July 23   | [July23.java](./July23.java)     |
-|  17 | Decimal to Binary V1                    | July 23   | [July23.java](./July23.java)     |
-|  18 | Decimal to Binary V2                    | July 23   | [July23.java](./July23.java)     |
-|  19 | Find Numbers with Even Number of Digits | LC1295    | [June02.java](./June02.java)     |
+|   # | Problem                            | Source  | Level  | Solution                   |
+| --: | ---------------------------------- | ------- | ------ | -------------------------- |
+|   1 | Printing Factors of a Number       | General | Easy   | [Maths.java](./Maths.java) |
+|   2 | Checking Prime Number or Not       | General | Easy   | [Maths.java](./Maths.java) |
+|   3 | Prime Factors of Number            | General | Easy   | [Maths.java](./Maths.java) |
+|   4 | Power Exponentiation               | General | Medium | [Sep21.java](./Sep21.java) |
+|   5 | Prime Factors Powers Sum for Range | GFG     | Medium | [Sep21.java](./Sep21.java) |
+|   6 | Largest Prime Factors of Number    | GFG     | Easy   | [Sep21.java](./Sep21.java) |
 
----
+**---**
+
+# 📈 Source Legend
+
+| Level      |    LC |   GFG |  C360 | General | Total |
+| ---------- | ----: | ----: | ----: | ------: | ----: |
+| **EASY**   |     0 |     2 |     0 |       3 | **5** |
+| **MEDIUM** |     0 |     1 |     0 |       1 | **2** |
+| **HARD**   |     0 |     0 |     0 |       0 | **0** |
+| **TOTAL**  | **0** | **3** | **0** |   **4** | **7** |
+
+**---**
 
 # 📁 Files
 
-| File                               | Purpose                                 |
-| ---------------------------------- | --------------------------------------- |
-| [`Example1.java`](./Example1.java) | Basic bit manipulation problems         |
-| [`Example2.java`](./Example2.java) | Prime, factor, and square-root problems |
-| [`July23.java`](./July23.java)     | Number system conversion problems       |
-| [`June02.java`](./June02.java)     | LeetCode mathematics problem            |
+| File                         | Purpose                                                  | Topics Covered                                           |
+| ---------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| [`Maths.java`](./Maths.java) | Standalone Maths practice file that can evolve over time | Factors, Prime Numbers, Prime Factorization              |
+| [`Sep21.java`](./Sep21.java) | Problems solved on September 21                          | Prime Factors, Prime Factorization, Power Exponentiation |
 
----
-
-# 📈 Progress
-
-| Category       | Problems |
-| -------------- | -------: |
-| Total Problems |   **19** |
-| Example 1      |    **9** |
-| Example 2      |    **6** |
-| July 23        |    **3** |
-| June 02        |    **1** |
-
----
+**---**
 
 # 🔄 Daily Update
 
-Whenever I solve a new problem:
+For every new practice day:
 
-1. Add the solution to the appropriate Java file.
-2. Add the problem to the corresponding **Example** or **Date** section.
-3. Continue the global problem number.
-4. Add the problem to the **Problem Index**.
-5. Update the **Files** section if a new Java file is added.
-6. Update the **Progress** count.
+1. Add the new `MonthDate.java` file.
 
-### Example
+2. Add the day's **target problems** with **Source + Level + Solution**.
 
-If the next problem is added to `June02.java`:
+3. Add the problems to the **Problem Index**.
 
-```md
-| 20 | New Problem | [View Solution](./June02.java) |
+4. Update the **Source Legend counts**.
+
+5. Add the new Java file under **Files**.
+
+6. Add **Topics Covered** for the new Java file.
+
+### Standalone `Maths.java`
+
+`Maths.java` is different from the day-wise files.
+
+-   It is a **living Maths practice file**.
+-   Functions can be **added, modified, or deleted**.
+-   Only the current **✅ Target Problems** are tracked as problems
+
+### Target Rule
+
+```text
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
 ```

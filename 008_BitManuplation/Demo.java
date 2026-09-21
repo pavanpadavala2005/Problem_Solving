@@ -203,8 +203,8 @@ public class Demo {
                 // )));
 
                 // System.out.println(Integer.toBinaryString(1 & 0xAAAAAAAA));
-                // ! ============== Sep 19 Problems =============
 
+                // ! ============== Sep 19 Problems =============
                 // System.out.println(Sep19.totalHammingDistance(
                 // new int[] {
                 // 4, 14, 2
@@ -253,9 +253,9 @@ public class Demo {
                 // //
                 // ));
 
-                System.out.println(Sep20.sumOfPowers(
-                                9, 12
-                //
-                ));
+                // System.out.println(Sep20.sumOfPowers(
+                //                 9, 12
+                // //
+                // ));
         }
 }

@@ -110,7 +110,7 @@ public class Aug30 {
 
     // @ TC --> O(2^unq(N)) * O(N) --> in every recursion call we are calling only
     // UNQ elements , O(N) --> every time copying elements to the Res
-    // @ SC --> O(2^N) * K --> ultimately we have 2^N subsets and each subset having
+    // @ SC --> O(2ⁿ) * K --> ultimately we have 2ⁿ subsets and each subset having
     // an average size of K (ASSUME)
     public static void subsetsWithDupBetter(int[] nums, int i, ArrayList<Integer> elems, List<List<Integer>> res) {
         if (i >= nums.length)
@@ -125,8 +125,8 @@ public class Aug30 {
         }
     }
 
-    // @ TC --> O(2^N) * O(K) --> O(K) for copying elements to Res and adding to Set
-    // @ SC --> O(2^N) * K --> K elements and 2^n subsets
+    // @ TC --> O(2ⁿ) * O(K) --> O(K) for copying elements to Res and adding to Set
+    // @ SC --> O(2ⁿ) * K --> K elements and 2ⁿ subsets
     public static void subsetsWithDupBrute(int[] nums, int i, ArrayList<Integer> elems, Set<List<Integer>> res) {
         if (i >= nums.length) {
             res.add(new ArrayList<>(elems)); // @ O(K) --> copying K Elements and creating new List
@@ -138,11 +138,11 @@ public class Aug30 {
         subsetsWithDupBrute(nums, i + 1, elems, res);
     }
 
-    // TODO : LOOK BACK IN DP SERIES
+    // * CHECK: Back in DP Series
     // ! ============== GFG. Count Subsets with Sum =============
     // * https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
-    // @ TC --> O(2^n)
-    // @ SC --> O(2^n) --> recursive Stack Space --> negligible
+    // @ TC --> O(2ⁿ)
+    // @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
     static int perfectSum(int arr[], int sum) {
         Arrays.sort(arr);
         return perfectSum(arr, 0, sum);
@@ -163,8 +163,8 @@ public class Aug30 {
 
     // ! ============== GFG. Subset Sum Problem =============
     // * https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
-    // @ TC --> O(2^n)
-    // @ SC --> O(2^n) --> recursive Stack Space --> negligible
+    // @ TC --> O(2ⁿ)
+    // @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
     static boolean isSubsetSum(int arr[], int sum) {
         return isSubsetSum(arr, 0, sum);
     }
@@ -187,7 +187,7 @@ public class Aug30 {
     // ! ============== GFG. Subset Sum =============
     // * https://www.geeksforgeeks.org/problems/subset-sums2234/1
 
-    // @ TC --> O(2^N) --> using recursion
+    // @ TC --> O(2ⁿ) --> using recursion
     // @ SC --> O(n^2) --> because we are generating subsets
     public static ArrayList<Integer> subsetSums(int[] arr) {
         ArrayList<Integer> res = new ArrayList<>();
