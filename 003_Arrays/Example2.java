@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Example2 {
 
-    // ! =============== General. Intersection of Two Sorted Arrays ================
+    // ! =============== GEN. Intersection of Two Sorted Arrays ================
     public static int[] intersectionSortedOptimal(int[] nums1, int[] nums2) {
         // ! Optimal Approach
         int i = 0, j = 0, n1 = nums1.length, n2 = nums2.length;
@@ -28,8 +28,8 @@ public class Example2 {
         return resArr;
     }
 
-    // @ Time Complexity: O(N1 * N2)
-    // @ Space Complexity: O(N2 + M)
+    // @ TC --> O(N1 * N2)
+    // @ SC --> O(N2 + M)
     public static int[] intersectionSortedBrute(int[] nums1, int[] nums2) {
         // ! BruteForce
         int n1 = nums1.length, n2 = nums2.length;
@@ -54,8 +54,8 @@ public class Example2 {
     }
 
     // ! =============== GFG. Missing in Array ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int findMissingNumberOptimal(int[] nums, int n) {
         // ! Better --> Using hash Array
         // ! Best --> using XOR
@@ -87,9 +87,9 @@ public class Example2 {
         return -1;
     }
 
-    // ! =============== LC 485. Max Consecutive Ones ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC485. Max Consecutive Ones ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int maxConsequtiveOnesOptimal(int[] nums) {
         // ! Optimal --> Tracking Max with a Counter
         int max = 0, ctr = 0;
@@ -122,9 +122,9 @@ public class Example2 {
 
     }
 
-    // ! =============== LC 136. Single Number ================
-    // @ Time Complexity: O(N log N)
-    // @ Space Complexity: O(log N)
+    // ! =============== LC136. Single Number ================
+    // @ TC --> O(N log N)
+    // @ SC --> O(log N)
     public static int numberAppearsOnceOptimal(int[] nums) {
         // ! Another Approach Adding All
         // @ But Sorting O(N log N) + O(N) --> iterating
@@ -179,8 +179,8 @@ public class Example2 {
     }
 
     // ! =============== C360. Longest Subarray with Sum K ================
-    // @ Time Complexity: Average: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> Average: O(N)
+    // @ SC --> O(N)
     public static long longestSubArraySumKPositivesOptimal(int[] nums, int k) {
         // ! Optimal Approach --> using HashMap
         int n = nums.length;
@@ -239,8 +239,8 @@ public class Example2 {
 
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int longestSubArraySumKNegatives(int[] nums, int k) {
         // ! Optimal Approach --> using two pointers i and j
         int runSum = 0;

@@ -4,8 +4,8 @@ import java.util.HashMap;
 public class June15 {
 
     // ! =============== GFG. Largest Subarray with 0 Sum ================
-    // @ Time Complexity: O(N^2)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N^2)
+    // @ SC --> O(1)
     public static int longestSubArrayWithSumZero(int[] nums) {
         int longest = 0;
         int n = nums.length;
@@ -22,8 +22,8 @@ public class June15 {
     }
 
     // ! =============== GFG. Longest Subarray with Sum K ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static int longestSubArrayWithSumZeroBetter(int[] nums, int target) {
         int longest = 0;
         int prefix = 0;

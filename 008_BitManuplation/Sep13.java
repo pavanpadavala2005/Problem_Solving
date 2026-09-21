@@ -74,8 +74,7 @@ public class Sep13 {
         }
         return count;
     }
-    // ! ============== GEN. Find the number of set bits in a range [L, R].
-    // =============
+    // ! ============== GEN. Find the number of set bits in a range [L, R]. =============
 
     public static int countSetBitsInRange(int num, int l, int r) {
         int count = 0;

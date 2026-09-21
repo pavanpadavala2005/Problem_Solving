@@ -28,8 +28,7 @@ public class Sep09 {
         }
         return count;
     }
-    // ! ============== LC3304. Find the K-th Character in String Game I
-    // =============
+    // ! ============== LC3304. Find the K-th Character in String Game I =============
 
     public static char kthCharacter(int k) {
         return getString(new StringBuilder("a"), 1, 10, k).charAt(k - 1);

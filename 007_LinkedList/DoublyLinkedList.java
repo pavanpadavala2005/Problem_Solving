@@ -1,5 +1,5 @@
 
-// ! =============== GENERAL. Doubly Linked List Implementation ================
+// ! =============== GEN. Doubly Linked List Implementation ================
 class DNode {
     DNode prev;
     int data;
@@ -35,15 +35,15 @@ public class DoublyLinkedList {
     }
 
     // * ============ UTILS ===========
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public boolean isEmpty() {
         return (this.head == null) && (this.tail == null);
     }
 
     // ! ========= INSERTION OPERATIONS ===========
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public void insertAtHead(int data) {
         DNode newNode = new DNode(data);
         if (this.isEmpty()) {
@@ -56,8 +56,8 @@ public class DoublyLinkedList {
         this.head = newNode;
     }
 
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public void insertAtTail(int data) {
         DNode newNode = new DNode(data);
         if (this.isEmpty()) {
@@ -70,8 +70,8 @@ public class DoublyLinkedList {
         this.tail = newNode;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public void insertAtPos(int pos, int data) {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty can't Insert");
@@ -102,8 +102,8 @@ public class DoublyLinkedList {
     }
 
     // ! ========= DELETE OPERATIONS ===============
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public void deleteHead() {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty Can't Delete Head !!");
@@ -118,8 +118,8 @@ public class DoublyLinkedList {
         this.head.prev = null;
     }
 
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public void deleteTail() {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty Can't Delete Head !!");
@@ -134,8 +134,8 @@ public class DoublyLinkedList {
         this.tail.next = null;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public void deletePos(int pos) {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty Can't Delete At Position");
@@ -159,8 +159,8 @@ public class DoublyLinkedList {
     }
 
     // ! ========= TRAVERSING OPERATIONS ===========
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public void printForward() {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty !! can't Print Forward");
@@ -176,8 +176,8 @@ public class DoublyLinkedList {
         System.out.println();
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public void printBackward() {
         if (this.isEmpty()) {
             System.out.println("Doubly Linked List is Empty !! can't Print Backward");

@@ -1,7 +1,7 @@
 public class July15 {
     // ! =============== GFG. Median in a Row-Wise Sorted Matrix ================
-    // @ Time Complexity: O(log C)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(log C)
+    // @ SC --> O(1)
     public static int upperBound(int[] nums, int target) {
         int i = 0;
         int j = nums.length - 1;
@@ -15,8 +15,8 @@ public class July15 {
         return i;
     }
 
-    // @ Time Complexity: O(R log C)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(R log C)
+    // @ SC --> O(1)
     public static int numsLessThanElement(int[][] mat, int mid) {
         int ctr = 0;
         for (int i = 0; i < mat.length; i++)
@@ -24,8 +24,8 @@ public class July15 {
         return ctr;
     }
 
-    // @ Time Complexity: O(R log C log V)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(R log C log V)
+    // @ SC --> O(1)
     public static int medianOfMatrix(int[][] mat) {
         int n = mat.length;
         int m = mat[0].length;
@@ -50,8 +50,8 @@ public class July15 {
     }
 
     // ! =============== GFG. K-th Element of Two Sorted Arrays ================
-    // @ Time Complexity: O(N1 + N2)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N1 + N2)
+    // @ SC --> O(1)
     public static int kThElementOfSortedArrays(int[] nums1, int[] nums2, int k) {
         k = k - 1; // ! Because 1 Based Indexing
         int n1 = nums1.length;
@@ -82,8 +82,8 @@ public class July15 {
     }
 
     // ! =============== GFG. Row with Max 1s in Row-Wise Sorted Matrix ================
-    // @ Time Complexity: O(R + C)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(R + C)
+    // @ SC --> O(1)
     public static int[] rowWithMax1s(int[][] mat) {
         int m = mat.length;
         int n = mat[0].length;

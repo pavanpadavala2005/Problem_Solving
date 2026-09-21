@@ -1,5 +1,5 @@
 
-// ! =============== GENERAL. Linked List Practice Runner ================
+// ! =============== GEN. Linked List Practice Runner ================
 public class Demo {
         public static void main(String[] args) {
 

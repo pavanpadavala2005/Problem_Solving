@@ -9,7 +9,7 @@ public class June10 {
         return res;
     }
 
-    // ! =============== General. Calculate nCr ================
+    // ! =============== GEN. Calculate nCr ================
     // @ TC --> O(N)
     // @ SC --> O(1)
     public static int ncrBrute(int n, int r) {
@@ -36,7 +36,7 @@ public class June10 {
         return factorial(row) / (factorial(col) * factorial(row - col));
     }
 
-    // ! =============== General. Print a Row of Pascal's Triangle ================
+    // ! =============== GEN. Print a Row of Pascal's Triangle ================
     // @ TC --> O(Row^2)
     // @ SC --> O(1)
     public static void pascalRow(int row) {
@@ -68,7 +68,7 @@ public class June10 {
         }
     }
 
-    // ! =============== LC 118. Pascal's Triangle ================
+    // ! =============== LC118. Pascal's Triangle ================
     // @ TC --> O(N^2)
     // @ SC --> O(1), excluding printed output
     public static void pascalTriangle(int n) {
@@ -111,7 +111,7 @@ public class June10 {
         return resArr;
     }
 
-    // ! =============== LC 119. Pascal's Triangle II ================
+    // ! =============== LC119. Pascal's Triangle II ================
     // @ TC --> O(RowIndex)
     // @ SC --> O(RowIndex)
     public List<Integer> getRow(int rowIndex) {

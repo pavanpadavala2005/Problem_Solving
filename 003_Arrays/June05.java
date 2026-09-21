@@ -3,10 +3,9 @@ import java.util.HashMap;
 
 public class June05 {
 
-    // ! =============== LC 1295. Find Numbers with Even Number of Digits
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1295. Find Numbers with Even Number of Digits ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int findNumbers(int[] nums) {
 
         // ! Using and Searching in the Range
@@ -34,8 +33,7 @@ public class June05 {
         return count;
     }
 
-    // ! =============== LC 2006. Count Number of Pairs with Absolute Difference K
-    // ================
+    // ! =============== LC2006. Count Number of Pairs with Absolute Difference K ================
     public static int countKDifferenceBrute(int[] nums, int k) {
         // ! Brute force Approach
         int count = 0;
@@ -46,8 +44,8 @@ public class June05 {
         return count;
     }
 
-    // @ Time Complexity: Average: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> Average: O(N)
+    // @ SC --> O(N)
     public static int countKDifference(int[] nums, int k) {
 
         // ! Better Approach
@@ -77,10 +75,9 @@ public class June05 {
         return res;
     }
 
-    // ! =============== LC 2011. Final Value of Variable After Performing
-    // Operations ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC2011. Final Value of Variable After Performing Operations ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int finalValueAfterOperations(String[] operations) {
         int x = 0;
         for (String s : operations) {
@@ -93,9 +90,9 @@ public class June05 {
         return x;
     }
 
-    // ! =============== LC 3467. Transform Array by Parity ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC3467. Transform Array by Parity ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {

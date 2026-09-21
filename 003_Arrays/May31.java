@@ -8,9 +8,9 @@ public class May31 {
         nums[j] = temp;
     }
 
-    // ! =============== LC 75. Sort Colors ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC75. Sort Colors ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static void sortColors(int[] nums) {
         // ! Better Approach --> O(2N)
 
@@ -63,9 +63,9 @@ public class May31 {
         System.out.println(Arrays.toString(nums));
     }
 
-    // ! =============== LC 169. Majority Element ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC169. Majority Element ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int majorityElement(int[] nums) {
         // ! Brute --> Using two for Loops and Searching for ELement and count and
         // ! maintaining a max variable
@@ -114,9 +114,9 @@ public class May31 {
         return elem;
     }
 
-    // ! =============== LC 229. Majority Element II ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // ! =============== LC229. Majority Element II ================
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static List<Integer> majorityElement2(int[] nums) {
         // ! Better Approach --> Using Frequency
         // @ This can be optimized
@@ -133,10 +133,10 @@ public class May31 {
 
     }
 
-    // ! =============== General. Check Whether a Majority Element Exists in a
+    // ! =============== GEN. Check Whether a Majority Element Exists in a
     // Sorted Array ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static boolean majorityElementSortedArray(int[] nums) {
         int left = 0;
         for (int right = 1; right < nums.length; right++) {
@@ -148,18 +148,18 @@ public class May31 {
         return false;
     }
 
-    // ! =============== General. Nested Ternary Operator Practice ================
-    // @ Time Complexity: O(1)
-    // @ Space Complexity: O(1)
+    // ! =============== GEN. Nested Ternary Operator Practice ================
+    // @ TC --> O(1)
+    // @ SC --> O(1)
     public static int returnVal(int a, int b) {
         int x = 10;
         int y = 11;
         return (a > b) ? x : (b > a ? y : (x > y ? y : x));
     }
 
-    // ! =============== LC 53. Maximum Subarray ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC53. Maximum Subarray ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int maxSumOfSubArray(int[] nums) {
         // ! Very Brute force -->O(N2)
         // int maxSum = Integer.MIN_VALUE;

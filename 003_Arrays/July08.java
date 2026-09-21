@@ -1,9 +1,9 @@
 
 public class July08 {
 
-    // ! =============== LC 69. Sqrt(x) ================
-    // @ Time Complexity: O(log X)
-    // @ Space Complexity: O(1)
+    // ! =============== LC69. Sqrt(x) ================
+    // @ TC --> O(log X)
+    // @ SC --> O(1)
     public static int sqrtOptimal(int x) {
         int i = 1;
         int j = x;
@@ -17,9 +17,9 @@ public class July08 {
         return j;
     }
 
-    // ! =============== LC 540. Single Element in a Sorted Array ================
-    // @ Time Complexity: O(log N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC540. Single Element in a Sorted Array ================
+    // @ TC --> O(log N)
+    // @ SC --> O(1)
     public static int singleNonDuplicateOptimal(int[] nums) {
         int n = nums.length;
         if (n == 1 || nums[0] != nums[1])
@@ -43,8 +43,8 @@ public class July08 {
         return 0;
     }
 
-    // @ Time Complexity: O(log N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(log N)
+    // @ SC --> O(1)
     public static int singleNonDuplicateBetter(int[] nums) {
         int n = nums.length;
         if (n == 1 || nums[0] != nums[1])
@@ -76,8 +76,8 @@ public class July08 {
         return val;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int singleNonDuplicateBrute(int[] nums) {
         int n = nums.length;
         if (n == 1)
@@ -96,9 +96,9 @@ public class July08 {
         return elem;
     }
 
-    // ! =============== LC 367. Valid Perfect Square ================
-    // @ Time Complexity: O(log X)
-    // @ Space Complexity: O(1)
+    // ! =============== LC367. Valid Perfect Square ================
+    // @ TC --> O(log X)
+    // @ SC --> O(1)
     public static boolean perfcetSquare(int x) {
         if (x == 0 || x == 1)
             return true;
@@ -117,9 +117,9 @@ public class July08 {
         return false;
     }
 
-    // ! =============== LC 69. Sqrt(x) ================
-    // @ Time Complexity: O(log X)
-    // @ Space Complexity: O(1)
+    // ! =============== LC69. Sqrt(x) ================
+    // @ TC --> O(log X)
+    // @ SC --> O(1)
     public static int sqrt(int x) {
         if (x == 0 || x == 1)
             return x;

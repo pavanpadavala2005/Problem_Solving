@@ -1,9 +1,9 @@
 
 public class July10 {
 
-    // ! =============== LC 1539. Kth Missing Positive Number ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1539. Kth Missing Positive Number ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int kThMissingNumber(int[] nums, int k) {
         int[] freq = new int[1001];
         for (int i : nums)
@@ -18,10 +18,9 @@ public class July10 {
         return -1;
     }
 
-    // ! =============== LC 1011. Capacity To Ship Packages Within D Days
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1011. Capacity To Ship Packages Within D Days ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int daysCaluclator(int[] nums, int capacity) {
         int days = 1, sum = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -34,8 +33,8 @@ public class July10 {
         return days;
     }
 
-    // @ Time Complexity: O(N log S)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log S)
+    // @ SC --> O(1)
     public static int shipWithinDaysOptimal(int[] nums, int days) {
         int mi = Integer.MAX_VALUE;
         int ma = 0;
@@ -54,8 +53,8 @@ public class July10 {
         return i;
     }
 
-    // @ Time Complexity: O(N * S)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N * S)
+    // @ SC --> O(1)
     public static int shipWithinDaysBrute(int[] nums, int days) {
         int mi = Integer.MAX_VALUE;
         int ma = 0;
@@ -70,10 +69,9 @@ public class July10 {
         return -1;
     }
 
-    // ! =============== LC 1283. Find the Smallest Divisor Given a Threshold
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1283. Find the Smallest Divisor Given a Threshold ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int smallestDivisorHelper(int[] nums, int divisor) {
         int sum = 0;
         for (int i : nums)
@@ -81,8 +79,8 @@ public class July10 {
         return sum;
     }
 
-    // @ Time Complexity: O(N log M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log M)
+    // @ SC --> O(1)
     public static int smallestDivisorOptimal(int[] nums, int threshold) {
         int mx = Integer.MIN_VALUE;
         for (int i : nums)
@@ -99,8 +97,8 @@ public class July10 {
         return i;
     }
 
-    // @ Time Complexity: O(N * M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N * M)
+    // @ SC --> O(1)
     public static int smallestDivisorBrute(int[] nums, int threshold) {
         int mx = Integer.MIN_VALUE;
         for (int i : nums)
@@ -112,10 +110,9 @@ public class July10 {
         return -1;
     }
 
-    // ! =============== LC 1482. Minimum Number of Days to Make m Bouquets
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1482. Minimum Number of Days to Make m Bouquets ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int bouquetsCounter(int[] nums, int day, int k) {
         int bouquets = 0, ctr = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -130,8 +127,8 @@ public class July10 {
         return bouquets;
     }
 
-    // @ Time Complexity: O(N log R)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log R)
+    // @ SC --> O(1)
     public static int minDaysToBloom(int[] nums, int m, int k) {
         int mi = Integer.MAX_VALUE;
         int mx = Integer.MIN_VALUE;
@@ -158,9 +155,9 @@ public class July10 {
         return i;
     }
 
-    // ! =============== LC 875. Koko Eating Bananas ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC875. Koko Eating Bananas ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int calcTime(int[] nums, int speed) {
         int totalTime = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -169,8 +166,8 @@ public class July10 {
         return totalTime;
     }
 
-    // @ Time Complexity: O(N log M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log M)
+    // @ SC --> O(1)
     public static int kokoEatingBananasOptimal(int[] nums, int h) {
         int mx = -1;
         for (int i : nums)
@@ -187,8 +184,8 @@ public class July10 {
         return i;
     }
 
-    // @ Time Complexity: O(N * M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N * M)
+    // @ SC --> O(1)
     public static int kokoEatingBananasBrute(int[] nums, int h) {
         int mx = -1;
         for (int i : nums)

@@ -1,10 +1,9 @@
 import java.util.*;
 
 public class June04 {
-
     // ! =============== GFG. Array Leaders ================
-    // @ Time Complexity: O(N^2) in the worst case
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N^2) in the worst case
+    // @ SC --> O(N)
     public static ArrayList<Integer> findLeadersBetter(int[] nums) {
         Stack<Integer> st = new Stack<>();
         ArrayList<Integer> res = new ArrayList<>();
@@ -35,12 +34,9 @@ public class June04 {
         return res;
     }
 
-    // ! Leet 1304
-
-    // ! =============== LC 1304. Find N Unique Integers Sum up to Zero
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // ! =============== LC1304. Find N Unique Integers Sum up to Zero ================
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static int[] setZero(int n) {
         int[] res = new int[n];
         int idx = 0;
@@ -59,9 +55,9 @@ public class June04 {
 
     // ! Leet 66
 
-    // ! =============== LC 66. Plus One ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N) in the worst case
+    // ! =============== LC66. Plus One ================
+    // @ TC --> O(N)
+    // @ SC --> O(N) in the worst case
     public static int[] plusOneOptimal(int[] digits) {
         // ! Optimal Approach
         int n = digits.length;

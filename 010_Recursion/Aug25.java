@@ -52,8 +52,7 @@ public class Aug25 {
         return arr;
     }
 
-    // ! =============== Gen. Print number of SubSequence Whose Sum equal
-    // ================
+    // ! =============== Gen. Print number of SubSequence Whose Sum equal ================
     public static int countSubSequencesSumToK(int[] nums, int i, int target, int sum) {
         if (i >= nums.length) {
             if (sum == target)
@@ -65,8 +64,7 @@ public class Aug25 {
         return left + right;
     }
 
-    // ! =============== Gen. Print AnyOne SubSequence Whose Sum equal to K
-    // ================
+    // ! =============== Gen. Print AnyOne SubSequence Whose Sum equal to K ================
     // @ This is FUNCTIONAL RECURSION --> everything done by passing the Value to
     // Parent
     // * PARENT <-----data------ CHILD (Last Recursion Call) BOTTOM-UP
@@ -108,8 +106,7 @@ public class Aug25 {
         printSubSequencesSumToK(nums, i + 1, target, res, sum);
     }
 
-    // ! =============== LC1498. Number of Subsequences Satisfy Given Sum Condition
-    // ================
+    // ! =============== LC1498. Number of Subsequences Satisfy Given Sum Condition ================
     public static int numSubseq(int[] nums, int target) {
         // return numSubseqHelperV2(nums, 0, new ArrayList<>(), target, -1,
         // Integer.MAX_VALUE);

@@ -2,10 +2,10 @@ import java.util.Stack;
 
 public class Aug03 {
 
-    // ! =============== LC 445. Add Two Numbers II ================
+    // ! =============== LC445. Add Two Numbers II ================
     // ! ============= ADD TWO NUMBERS BRUTE USING STACK ==================
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(N + M)
+    // @ TC --> O(N + M)
+    // @ SC --> O(N + M)
     public static Node addTwoNumbersBrute(Node head1, Node head2) {
         Stack<Integer> st1 = new Stack<>();
         Stack<Integer> st2 = new Stack<>();
@@ -36,8 +36,8 @@ public class Aug03 {
     }
 
     // ! ============= ADD TWO NUMBERS ==================
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N + M)
+    // @ SC --> O(1)
     public static Node addTwoNumbers(Node head1, Node head2) {
         Node temp1 = reverse(head1);
         Node temp2 = reverse(head2);
@@ -63,8 +63,8 @@ public class Aug03 {
         return reverse(dummy.next);
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node reverse(Node head) {
         Node prev = null;
         while (head != null) {

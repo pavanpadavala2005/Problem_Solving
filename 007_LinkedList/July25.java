@@ -2,10 +2,10 @@ import java.util.HashSet;
 
 public class July25 {
 
-    // ! =============== LC 148. Sort List ================
+    // ! =============== LC148. Sort List ================
     // ! ======= MERGE SORT OF TWO LINKED LIST ========
-    // @ Time Complexity: O(N log N)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N log N)
+    // @ SC --> O(N)
     public static Node mergeSort(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -23,8 +23,8 @@ public class July25 {
         return merge(head, left, right);
     }
 
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(N + M)
+    // @ TC --> O(N + M)
+    // @ SC --> O(N + M)
     public static Node merge(Node head, Node head1, Node head2) {
         Node temp = new Node(-1);
         Node dummy = temp;
@@ -97,10 +97,10 @@ public class July25 {
 
     // }
 
-    // ! =============== LC 21. Merge Two Sorted Lists ================
+    // ! =============== LC21. Merge Two Sorted Lists ================
     // ! ======= MERGE TWO SORTED LINKED LIST =========
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(N + M)
+    // @ TC --> O(N + M)
+    // @ SC --> O(N + M)
     public static Node mergeSortedLists(Node head1, Node head2) {
         Node temp = new Node(-1);
         Node dummy = temp;
@@ -130,8 +130,8 @@ public class July25 {
     }
 
     // * ! ======= SORT LINKED LIST =========
-    // @ Time Complexity: O(N^2)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N^2)
+    // @ SC --> O(1)
     public static Node sortList(Node head) {
         Node i = head;
         while (i != null) {
@@ -151,10 +151,10 @@ public class July25 {
         return head;
     }
 
-    // ! =============== LC 2. Add Two Numbers ================
+    // ! =============== LC2. Add Two Numbers ================
     // ! ======= ADD TWO NUMBERS ==========
-    // @ Time Complexity: O(max(N, M))
-    // @ Space Complexity: O(max(N, M))
+    // @ TC --> O(max(N, M))
+    // @ SC --> O(max(N, M))
     public static Node addTwoNumbers(Node l1, Node l2) {
         Node dummy = new Node(-1);
         Node temp = dummy;
@@ -183,8 +183,8 @@ public class July25 {
 
     // ! =============== GFG. Add 1 to a Linked List Number ================
     // ! ======= ADD ONE TO LINKED LIST ==========
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static Node addOneToLLOptimal(Node head) {
         int carry = addOneToLLHelper(head);
         if (carry >= 1) {
@@ -195,8 +195,8 @@ public class July25 {
         return head;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static int addOneToLLHelper(Node temp) {
         if (temp == null)
             return 1;
@@ -206,8 +206,8 @@ public class July25 {
         return sum / 10;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node addOneToLLBrute(Node head) {
         int carry = 1;
         head = SinglyLinkedListUtils.reverseLinkedList(head);
@@ -229,10 +229,10 @@ public class July25 {
         return head;
     }
 
-    // ! =============== LC 160. Intersection of Two Linked Lists ================
+    // ! =============== LC160. Intersection of Two Linked Lists ================
     // ! ======= INTERSECTION POINT OF LL ========
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N + M)
+    // @ SC --> O(1)
     public static Node intersectionPointOptimal(Node headA, Node headB) {
         Node temp1 = headA;
         Node temp2 = headB;
@@ -249,8 +249,8 @@ public class July25 {
         return temp1;
     }
 
-    // @ Time Complexity: O(N + M)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N + M)
+    // @ SC --> O(N)
     public static Node intersectionPointBrute(Node headA, Node headB) {
         HashSet<Node> elems = new HashSet<>();
         while (headA != null) {
@@ -265,10 +265,10 @@ public class July25 {
         return null;
     }
 
-    // ! =============== LC 2095. Delete the Middle Node of a Linked List ================
+    // ! =============== LC2095. Delete the Middle Node of a Linked List ================
     // ! ======= DELETE MIDDLE NODE OF LL ========
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node deleteMiddleNodeOptimal(Node head) {
         if (head == null || head.next == null)
             return null;
@@ -282,8 +282,8 @@ public class July25 {
         return head;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node deleteMiddleNodeBrute(Node head) {
         if (head.next == null)
             return null;
@@ -305,10 +305,10 @@ public class July25 {
         return head;
     }
 
-    // ! =============== LC 19. Remove Nth Node From End of List ================
+    // ! =============== LC19. Remove Nth Node From End of List ================
     // ! ======= REMOVE N TH NODE FORM BACK =======
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node removeNthFromEndOptimal(Node head, int n) {
         Node fast = head;
         for (int i = 0; i < n; i++) {
@@ -325,8 +325,8 @@ public class July25 {
         return head;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static Node removeNthFromEndBrute(Node head, int n) {
         if (head == null)
             return null;

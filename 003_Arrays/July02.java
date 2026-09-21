@@ -1,8 +1,8 @@
 public class July02 {
 
-    // ! =============== LC 31. Next Permutation ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC31. Next Permutation ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static void nextPermutation(int[] nums) {
         int idx = -1;
         int n = nums.length;

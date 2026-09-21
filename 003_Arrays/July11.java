@@ -1,8 +1,8 @@
 public class July11 {
 
-    // ! =============== LC 1539. Kth Missing Positive Number ================
-    // @ Time Complexity: O(log N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1539. Kth Missing Positive Number ================
+    // @ TC --> O(log N)
+    // @ SC --> O(1)
     public static int findKthMisingNumberOptimal(int[] nums, int k) {
         int n = nums.length;
         if (n > 0 && nums[0] > k)
@@ -33,8 +33,8 @@ public class July11 {
         return k + j + 1;
     }
 
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int findKthMisingNumberBrute(int[] nums, int k) {
         int n = nums.length;
         if (n > 0 && nums[0] > k)
@@ -47,10 +47,9 @@ public class July11 {
         return k;
     }
 
-    // ! =============== LC 1011. Capacity To Ship Packages Within D Days
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1011. Capacity To Ship Packages Within D Days ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static boolean shipHelper(int[] nums, int capacity, int days) {
         int sm = 0, day = 1;
         for (int i = 0; i < nums.length; i++) {
@@ -63,8 +62,8 @@ public class July11 {
         return day >= days;
     }
 
-    // @ Time Complexity: O(N log S)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log S)
+    // @ SC --> O(1)
     public static int minDaysToShip(int[] nums, int days) {
         int i = Integer.MIN_VALUE;
         int j = 0;
@@ -83,10 +82,9 @@ public class July11 {
         return i;
     }
 
-    // ! =============== LC 1482. Minimum Number of Days to Make m Bouquets
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC1482. Minimum Number of Days to Make m Bouquets ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static boolean isBoquetsPossible(int[] nums, int day, int m, int k) {
         int ctr = 0, bouqets = 0;
         for (int i : nums) {
@@ -102,8 +100,8 @@ public class July11 {
         return bouqets >= m;
     }
 
-    // @ Time Complexity: O(N log M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N log M)
+    // @ SC --> O(1)
     public static int minBoquetsOptimal(int[] nums, int m, int k) {
         int n = nums.length;
         if ((long) m * n > n)
@@ -123,8 +121,8 @@ public class July11 {
         return i;
     }
 
-    // @ Time Complexity: O(N * M)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N * M)
+    // @ SC --> O(1)
     public static int minBoquetsBrute(int[] nums, int m, int k) {
         int n = nums.length;
         if ((long) m * n > n)
@@ -140,8 +138,8 @@ public class July11 {
     }
 
     // ! =============== GFG. Aggressive Cows ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static boolean aggressiveCowsCanDo(int[] nums, int k, int dist) {
         int cows = 1;
         int prev = 0;
@@ -161,8 +159,8 @@ public class July11 {
         return false;
     }
 
-    // @ Time Complexity: O(N * R)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N * R)
+    // @ SC --> O(1)
     public static int aggressiveCountHelper(int[] nums, int k) {
         int min = Integer.MAX_VALUE;
         int mi = Integer.MAX_VALUE;

@@ -1,6 +1,6 @@
 
 public class July14 {
-    // ! =============== LC 4. Median of Two Sorted Arrays ================
+    // ! =============== LC4. Median of Two Sorted Arrays ================
     // @ TC --> O(N1 + N2)
     // @ SC --> O(1)
     public static double MedianOfSortedArraysOptimal(int[] nums1, int[] nums2) {
@@ -69,7 +69,7 @@ public class July14 {
         return (double) res[n / 2];
     }
 
-    // ! =============== LC 1901. Find a Peak Element II ================
+    // ! =============== LC1901. Find a Peak Element II ================
     // @ TC --> O(log C)
     // @ SC --> O(1)
     public static int peakIndex(int[] nums) {
@@ -178,7 +178,7 @@ public class July14 {
         return res;
     }
 
-    // ! =============== LC 240. Search a 2D Matrix II ================
+    // ! =============== LC240. Search a 2D Matrix II ================
     // @ TC --> O(log C)
     // @ SC --> O(1)
     public static boolean binarySearch(int[] nums, int target) {

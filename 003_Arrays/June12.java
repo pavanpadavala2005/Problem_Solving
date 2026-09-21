@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 public class June12 {
 
-    // ! =============== LC 560. Subarray Sum Equals K ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // ! =============== LC560. Subarray Sum Equals K ================
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public static int numberOfSubArrays(int[] nums, int k) {
         HashMap<Integer, Integer> prev = new HashMap<>();
         prev.put(0, 1);
@@ -42,10 +42,9 @@ public class June12 {
 
     }
 
-    // ! =============== LC 2798. Number of Employees Who Met the Target
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC2798. Number of Employees Who Met the Target ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int ctr = 0;
         for (int i : hours)
@@ -54,9 +53,9 @@ public class June12 {
         return ctr;
     }
 
-    // ! =============== LC 3467. Transform Array by Parity ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC3467. Transform Array by Parity ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         int left = 0;
@@ -75,10 +74,9 @@ public class June12 {
         return nums;
     }
 
-    // ! =============== LC 3289. The Two Sneaky Numbers of Digitville
-    // ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC3289. The Two Sneaky Numbers of Digitville ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int[] getSneakyNumbers(int[] nums) {
         int[] freqArr = new int[101];
         for (int i = 0; i < nums.length; i++)
@@ -105,9 +103,9 @@ public class June12 {
         }
     }
 
-    // ! =============== LC 189. Rotate Array ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC189. Rotate Array ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         reverse(nums, n - k, n - 1);

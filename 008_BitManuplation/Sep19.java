@@ -98,8 +98,7 @@ public class Sep19 {
         return sb.toString();
     }
 
-    // ! ============== LC1342. Number of Steps to Reduce a Number to Zero
-    // =============
+    // ! ============== LC1342. Number of Steps to Reduce a Number to Zero =============
     // @ TC --> O(log N)
     // @ SC --> O(1)
     public int numberOfSteps(int num) {

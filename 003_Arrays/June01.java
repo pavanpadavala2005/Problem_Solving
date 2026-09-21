@@ -1,9 +1,9 @@
 import java.util.HashMap;
 
 public class June01 {
-    // ! =============== General. Minimum Sum Subarray ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== GEN. Minimum Sum Subarray ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int[] minSumSubArray(int[] nums) {
         int minSum = Integer.MAX_VALUE;
         // for (int i = 0; i < nums.length; i++) {
@@ -31,9 +31,9 @@ public class June01 {
         return new int[] { len, minSum };
     }
 
-    // ! =============== LC 53. Maximum Subarray ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // ! =============== LC53. Maximum Subarray ================
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public static int maxSubArray(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
         int runSum = 0;
@@ -47,8 +47,8 @@ public class June01 {
     }
 
     // ! =============== GFG. Longest Subarray with Sum K ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(N)
+    // @ TC --> O(N)
+    // @ SC --> O(N)
     public int longestSubarray(int[] nums, int k) {
         // code here
         int n = nums.length, currSum = 0, maxLen = 0;
@@ -67,8 +67,8 @@ public class June01 {
     }
 
     // ! =============== GFG. Longest Subarray with Sum K ================
-    // @ Time Complexity: O(N)
-    // @ Space Complexity: O(1)
+    // @ TC --> O(N)
+    // @ SC --> O(1)
     public int longestSubarrayBrute(int[] nums, int k) {
         int n = nums.length;
         // To store the maximum length of the subarray

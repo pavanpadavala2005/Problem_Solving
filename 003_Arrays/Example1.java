@@ -7,15 +7,15 @@ public class Example1 {
             return -1;
 
         // Brute Force: Sorting
-        // Time Complexity: O(N log N)
+        // TC --> O(N log N)
         /*
          * Arrays.sort(nums);
          * return nums[nums.length - 1];
          */
 
         // Optimal: Linear Traversal
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         int maxElement = nums[0];
 
         for (int i = 1; i < nums.length; i++)
@@ -30,7 +30,7 @@ public class Example1 {
             return -1;
 
         // Brute Force: Sorting
-        // Time Complexity: O(N log N)
+        // TC --> O(N log N)
         /*
          * Arrays.sort(nums);
          * int largest = nums[nums.length - 1];
@@ -44,8 +44,8 @@ public class Example1 {
          */
 
         // Optimal: Single Traversal
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         long largest = Long.MIN_VALUE;
         long secondLargest = Long.MIN_VALUE;
 
@@ -67,8 +67,8 @@ public class Example1 {
             return -1;
 
         // Optimal: Single Traversal
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         long smallest = Long.MAX_VALUE;
         long secondSmallest = Long.MAX_VALUE;
 
@@ -89,8 +89,8 @@ public class Example1 {
         if (nums == null)
             return false;
 
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] < nums[i - 1])
                 return false;
@@ -99,18 +99,18 @@ public class Example1 {
         return true;
     }
 
-    // ! =============== LC 26. Remove Duplicates from Sorted Array ================
+    // ! =============== LC26. Remove Duplicates from Sorted Array ================
     public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0)
             return 0;
 
         // Brute Force: LinkedHashSet
-        // Time Complexity: O(N)
-        // Space Complexity: O(N)
+        // TC --> O(N)
+        // SC --> O(N)
 
         // Optimal: Two Pointers
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         int uniqueIndex = 0;
 
         for (int currentIndex = 1; currentIndex < nums.length; currentIndex++) {
@@ -126,8 +126,8 @@ public class Example1 {
         if (nums == null || nums.length <= 1)
             return nums;
 
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         int firstElement = nums[0];
 
         for (int i = 1; i < nums.length; i++)
@@ -149,8 +149,8 @@ public class Example1 {
             return nums;
 
         // Reversal Algorithm
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         reverse(nums, 0, k - 1);
         reverse(nums, k, n - 1);
         reverse(nums, 0, n - 1);
@@ -158,7 +158,7 @@ public class Example1 {
         return nums;
     }
 
-    // ! =============== LC 189. Rotate Array ================
+    // ! =============== LC189. Rotate Array ================
     public static int[] rightRotateK(int[] nums, int k) {
         if (nums == null || nums.length <= 1)
             return nums;
@@ -170,8 +170,8 @@ public class Example1 {
             return nums;
 
         // Reversal Algorithm
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         reverse(nums, 0, n - 1);
         reverse(nums, 0, k - 1);
         reverse(nums, k, n - 1);
@@ -191,14 +191,14 @@ public class Example1 {
         }
     }
 
-    // ! =============== LC 283. Move Zeroes ================
+    // ! =============== LC283. Move Zeroes ================
     public static int[] moveZeroes(int[] nums) {
         if (nums == null || nums.length <= 1)
             return nums;
 
         // Optimal: Two Pointers
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
+        // TC --> O(N)
+        // SC --> O(1)
         int insertionIndex = 0;
 
         for (int num : nums) {
