@@ -1,6 +1,4 @@
 public class July15 {
-    // ! ==================== FIND MEDIAN OF MATRIX ====================
-
     // ! =============== GFG. Median in a Row-Wise Sorted Matrix ================
     // @ Time Complexity: O(log C)
     // @ Space Complexity: O(1)
@@ -51,8 +49,6 @@ public class July15 {
         return i;
     }
 
-    // ! ==================== FIND K TH ELEMENT SORTED ARRAYS ====================
-
     // ! =============== GFG. K-th Element of Two Sorted Arrays ================
     // @ Time Complexity: O(N1 + N2)
     // @ Space Complexity: O(1)
@@ -84,8 +80,6 @@ public class July15 {
                 return nums2[j];
         return -1;
     }
-
-    // ! ==================== FIND ROWS WITH MAX 1's OPTIMAL ====================
 
     // ! =============== GFG. Row with Max 1s in Row-Wise Sorted Matrix ================
     // @ Time Complexity: O(R + C)

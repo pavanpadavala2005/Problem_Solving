@@ -1,11 +1,8 @@
 
 public class June09 {
-
-    // !@ Matrix related Problems
-
-    // ! =============== LC 54. Spiral Matrix ================
-    // @ Time Complexity: O(R * C)
-    // @ Space Complexity: O(1)
+    // ! =============== LC54. Spiral Matrix ================
+    // @ TC --> O(R * C)
+    // @ SC --> O(1)
     public static void spiralMatrix(int[][] matrix) {
         int top = 0;
         int left = 0;
