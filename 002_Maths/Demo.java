@@ -21,14 +21,3 @@ public class Demo {
         // System.out.println(Sep22.isUglyV1(-2147483648));
     }
 }
-
-// TODO:
-// ! ============= GEN. Newton Raphson Square Root method =============
-public static double newtonSquareRootBrute(int num) {
-    double error = 0.01;
-    double x = 1.0;
-    while (Math.abs(((x + (num / x)) / 2) - x) > error) {
-        x = (x + (num / x)) / 2;
-    }
-    return x;
-}
