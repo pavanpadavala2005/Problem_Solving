@@ -36,6 +36,13 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |   5 | Prime Factors Powers Sum for Range | GFG     | Medium | [View Solution](./Sep21.java) |
 |   6 | Largest Prime Factors of Number    | GFG     | Easy   | [View Solution](./Sep21.java) |
 
+## 🗓️ September 22 — `Sep22.java`
+
+|   # | Problem               | Source  | Level | Solution                      |
+| --: | --------------------- | ------- | ----- | ----------------------------- |
+|   7 | Sieve of Eratosthenes | General | Easy  | [View Solution](./Sep22.java) |
+|   8 | Ugly Number           | LC263   | Easy  | [View Solution](./Sep22.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -48,17 +55,19 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |   4 | Power Exponentiation               | General | Medium | [Sep21.java](./Sep21.java) |
 |   5 | Prime Factors Powers Sum for Range | GFG     | Medium | [Sep21.java](./Sep21.java) |
 |   6 | Largest Prime Factors of Number    | GFG     | Easy   | [Sep21.java](./Sep21.java) |
+|   7 | Sieve of Eratosthenes              | General | Easy   | [Sep22.java](./Sep22.java) |
+|   8 | Ugly Number                        | LC263   | Easy   | [Sep22.java](./Sep22.java) |
 
 **---**
 
 # 📈 Source Legend
 
-| Level      |    LC |   GFG |  C360 | General | Total |
-| ---------- | ----: | ----: | ----: | ------: | ----: |
-| **EASY**   |     0 |     2 |     0 |       3 | **5** |
-| **MEDIUM** |     0 |     1 |     0 |       1 | **2** |
-| **HARD**   |     0 |     0 |     0 |       0 | **0** |
-| **TOTAL**  | **0** | **3** | **0** |   **4** | **7** |
+| Level      |    LC |   GFG |  C360 | General |  Total |
+| ---------- | ----: | ----: | ----: | ------: | -----: |
+| **EASY**   |     1 |     2 |     0 |       5 |  **8** |
+| **MEDIUM** |     0 |     1 |     0 |       1 |  **2** |
+| **HARD**   |     0 |     0 |     0 |       0 |  **0** |
+| **TOTAL**  | **1** | **3** | **0** |   **6** | **10** |
 
 **---**
 
@@ -68,6 +77,7 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 | ---------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
 | [`Maths.java`](./Maths.java) | Standalone Maths practice file that can evolve over time | Factors, Prime Numbers, Prime Factorization              |
 | [`Sep21.java`](./Sep21.java) | Problems solved on September 21                          | Prime Factors, Prime Factorization, Power Exponentiation |
+| [`Sep22.java`](./Sep22.java) | Problems solved on September 22                          | Ugly Number, Square Root, Sieve of Eratosthenes          |
 
 **---**
 
@@ -93,7 +103,10 @@ For every new practice day:
 
 -   It is a **living Maths practice file**.
 -   Functions can be **added, modified, or deleted**.
--   Only the current **✅ Target Problems** are tracked as problems
+-   Only problems marked with `✅` in the target list are tracked as problems.
+-   Changes inside the file do not create a new date/day section.
+-   If a target problem is removed from `Maths.java`, remove it from the README as well.
+-   If a new target problem is added, add it to the README and update the counts.
 
 ### Target Rule
 

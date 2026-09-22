@@ -1,8 +1,10 @@
 public class Sep21 {
 
     // ! ============= GFG. Largest Prime Factors of Number =============
-    // @ TC --> O(√N) --> for all numbers
-    // @ SC --> O(1)
+    /*
+    @ TC --> O(√N) --> for all numbers
+    @ SC --> O(1)
+    */
     public static int largestPrimeFactor(int num) {
         for (int i = 2; i * i <= num; i++) {
             while (num % i == 0) {
@@ -15,8 +17,10 @@ public class Sep21 {
     }
 
     // ! ============= GFG. Prime Factors Powers Sum for Range =============
-    // @ TC --> O(√N) --> for all numbers
-    // @ SC --> O(1)
+    /*
+    @ TC --> O(√N) --> for all numbers
+    @ SC --> O(1)
+    */
     public static long sumOfPowers(long a, long b) {
         int count = 0;
         for (long i = a; i <= b; i++) {
@@ -34,8 +38,10 @@ public class Sep21 {
     }
 
     // ! ============= GEN. Power Exponentiation =============
-    // @ TC --> O(log N) --> every time number getting half so that log N
-    // @ SC --> O(1)
+    /*
+    @ TC --> O(log N) --> every time number getting half so that log N
+    @ SC --> O(1)
+    */
     public static int powerExponentiationV2(int b, long n) {
         if (n == 0)
             return 1;
@@ -45,6 +51,10 @@ public class Sep21 {
         return res * res;
     }
 
+    /*
+    @ TC -->
+    @ SC -->
+    */
     public static double powerExponentiationV1(double b, int n) {
         long pow = n;
         if (pow < 0)
