@@ -515,12 +515,12 @@ While solving problems, I focus on understanding both **time complexity** and **
 
 ```text
 O(1)        → Constant
-O(log n)    → Logarithmic
-O(n)        → Linear
-O(n log n)  → Linearithmic
-O(n²)       → Quadratic
+O(log N)    → Logarithmic
+O(N)        → Linear
+O(N log N)  → Linearithmic
+O(N²)       → Quadratic
 O(2ⁿ)       → Exponential
-O(n!)       → Factorial
+O(N!)       → Factorial
 ```
 
 </details>
@@ -532,8 +532,8 @@ O(n!)       → Factorial
 
 ```text
 O(1)
-O(n)
-O(n²)
+O(N)
+O(N²)
 ...
 ```
 

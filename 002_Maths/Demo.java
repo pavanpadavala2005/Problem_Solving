@@ -19,5 +19,10 @@ public class Demo {
         // ));
 
         // System.out.println(Sep22.isUglyV1(-2147483648));
+
+        // ! ============== Sep 22 Problems =============
+        // System.out.println(Sep23.newtonSquareRootBetter(20));
+        // System.out.println(Sep23.powerExponentation(2, 3));
+        System.out.println(Sep23.countPrimes(13));
     }
 }

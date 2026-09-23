@@ -43,20 +43,31 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |   7 | Sieve of Eratosthenes | General | Easy  | [View Solution](./Sep22.java) |
 |   8 | Ugly Number           | LC263   | Easy  | [View Solution](./Sep22.java) |
 
+## 🗓️ September 23 — `Sep23.java`
+
+|   # | Problem                               | Source  | Level  | Solution                      |
+| --: | ------------------------------------- | ------- | ------ | ----------------------------- |
+|   9 | Power Exponentiation Bit Manipulation | General | Medium | [View Solution](./Sep23.java) |
+|  10 | Newton Raphson Square Root method     | General | Medium | [View Solution](./Sep23.java) |
+|  11 | Count Primes                          | LC204   | Medium | [View Solution](./Sep23.java) |
+
 **---**
 
 # 📊 Problem Index
 
-|   # | Problem                            | Source  | Level  | Solution                   |
-| --: | ---------------------------------- | ------- | ------ | -------------------------- |
-|   1 | Printing Factors of a Number       | General | Easy   | [Maths.java](./Maths.java) |
-|   2 | Checking Prime Number or Not       | General | Easy   | [Maths.java](./Maths.java) |
-|   3 | Prime Factors of Number            | General | Easy   | [Maths.java](./Maths.java) |
-|   4 | Power Exponentiation               | General | Medium | [Sep21.java](./Sep21.java) |
-|   5 | Prime Factors Powers Sum for Range | GFG     | Medium | [Sep21.java](./Sep21.java) |
-|   6 | Largest Prime Factors of Number    | GFG     | Easy   | [Sep21.java](./Sep21.java) |
-|   7 | Sieve of Eratosthenes              | General | Easy   | [Sep22.java](./Sep22.java) |
-|   8 | Ugly Number                        | LC263   | Easy   | [Sep22.java](./Sep22.java) |
+|   # | Problem                               | Source  | Level  | Solution                   |
+| --: | ------------------------------------- | ------- | ------ | -------------------------- |
+|   1 | Printing Factors of a Number          | General | Easy   | [Maths.java](./Maths.java) |
+|   2 | Checking Prime Number or Not          | General | Easy   | [Maths.java](./Maths.java) |
+|   3 | Prime Factors of Number               | General | Easy   | [Maths.java](./Maths.java) |
+|   4 | Power Exponentiation                  | General | Medium | [Sep21.java](./Sep21.java) |
+|   5 | Prime Factors Powers Sum for Range    | GFG     | Medium | [Sep21.java](./Sep21.java) |
+|   6 | Largest Prime Factors of Number       | GFG     | Easy   | [Sep21.java](./Sep21.java) |
+|   7 | Sieve of Eratosthenes                 | General | Easy   | [Sep22.java](./Sep22.java) |
+|   8 | Ugly Number                           | LC263   | Easy   | [Sep22.java](./Sep22.java) |
+|   9 | Power Exponentiation Bit Manipulation | General | Medium | [Sep23.java](./Sep23.java) |
+|  10 | Newton Raphson Square Root method     | General | Medium | [Sep23.java](./Sep23.java) |
+|  11 | Count Primes                          | LC204   | Medium | [Sep23.java](./Sep23.java) |
 
 **---**
 
@@ -64,20 +75,21 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 
 | Level      |    LC |   GFG |  C360 | General |  Total |
 | ---------- | ----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     1 |     2 |     0 |       5 |  **8** |
-| **MEDIUM** |     0 |     1 |     0 |       1 |  **2** |
+| **EASY**   |     1 |     2 |     0 |       4 |  **7** |
+| **MEDIUM** |     1 |     1 |     0 |       4 |  **6** |
 | **HARD**   |     0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **1** | **3** | **0** |   **6** | **10** |
+| **TOTAL**  | **2** | **3** | **0** |   **8** | **13** |
 
 **---**
 
 # 📁 Files
 
-| File                         | Purpose                                                  | Topics Covered                                           |
-| ---------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
-| [`Maths.java`](./Maths.java) | Standalone Maths practice file that can evolve over time | Factors, Prime Numbers, Prime Factorization              |
-| [`Sep21.java`](./Sep21.java) | Problems solved on September 21                          | Prime Factors, Prime Factorization, Power Exponentiation |
-| [`Sep22.java`](./Sep22.java) | Problems solved on September 22                          | Ugly Number, Square Root, Sieve of Eratosthenes          |
+| File                         | Purpose                                                  | Topics Covered                                                             |
+| ---------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [`Maths.java`](./Maths.java) | Standalone Maths practice file that can evolve over time | Factors, Prime Numbers, Prime Factorization                                |
+| [`Sep21.java`](./Sep21.java) | Problems solved on September 21                          | Prime Factors, Prime Factorization, Power Exponentiation                   |
+| [`Sep22.java`](./Sep22.java) | Problems solved on September 22                          | Ugly Number, Square Root, Sieve of Eratosthenes                            |
+| [`Sep23.java`](./Sep23.java) | Problems solved on September 23                          | Power Exponentiation, Newton Raphson, Sieve of Eratosthenes, Prime Numbers |
 
 **---**
 
