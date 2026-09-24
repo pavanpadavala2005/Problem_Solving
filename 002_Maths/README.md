@@ -4,7 +4,7 @@ _> 📌_ **This README is the central tracker for all Maths-related problem-solv
 
 _> The folder contains both standalone Maths concepts/practice and day-wise problem-solving files._
 
-\*> **Problem Name · Source · Difficulty · Date · Java File**
+\*> **Problem Name · Difficulty · Source · Date · Java File**
 
 **---**
 
@@ -51,6 +51,14 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |  10 | Newton Raphson Square Root method     | General | Medium | [View Solution](./Sep23.java) |
 |  11 | Count Primes                          | LC204   | Medium | [View Solution](./Sep23.java) |
 
+## 🗓️ September 24 — `Sep24.java`
+
+|   # | Problem                     | Source  | Level | Solution                      |
+| --: | --------------------------- | ------- | ----- | ----------------------------- |
+|  12 | Finding GCD of Two Numbers  | General | Easy  | [View Solution](./Sep24.java) |
+|  13 | Euclidean Algorithm for GCD | General | Easy  | [View Solution](./Sep24.java) |
+|  14 | Happy Number                | LC202   | Easy  | [View Solution](./Sep24.java) |
+
 **---**
 
 # 📊 Problem Index
@@ -68,6 +76,9 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |   9 | Power Exponentiation Bit Manipulation | General | Medium | [Sep23.java](./Sep23.java) |
 |  10 | Newton Raphson Square Root method     | General | Medium | [Sep23.java](./Sep23.java) |
 |  11 | Count Primes                          | LC204   | Medium | [Sep23.java](./Sep23.java) |
+|  12 | Finding GCD of Two Numbers            | General | Easy   | [Sep24.java](./Sep24.java) |
+|  13 | Euclidean Algorithm for GCD           | General | Easy   | [Sep24.java](./Sep24.java) |
+|  14 | Happy Number                          | LC202   | Easy   | [Sep24.java](./Sep24.java) |
 
 **---**
 
@@ -75,10 +86,10 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 
 | Level      |    LC |   GFG |  C360 | General |  Total |
 | ---------- | ----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     1 |     2 |     0 |       4 |  **7** |
+| **EASY**   |     2 |     2 |     0 |       6 | **10** |
 | **MEDIUM** |     1 |     1 |     0 |       4 |  **6** |
 | **HARD**   |     0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **2** | **3** | **0** |   **8** | **13** |
+| **TOTAL**  | **3** | **3** | **0** |  **10** | **16** |
 
 **---**
 
@@ -90,6 +101,7 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 | [`Sep21.java`](./Sep21.java) | Problems solved on September 21                          | Prime Factors, Prime Factorization, Power Exponentiation                   |
 | [`Sep22.java`](./Sep22.java) | Problems solved on September 22                          | Ugly Number, Square Root, Sieve of Eratosthenes                            |
 | [`Sep23.java`](./Sep23.java) | Problems solved on September 23                          | Power Exponentiation, Newton Raphson, Sieve of Eratosthenes, Prime Numbers |
+| [`Sep24.java`](./Sep24.java) | Problems solved on September 24                          | Happy Number, GCD, Euclidean Algorithm                                     |
 
 **---**
 

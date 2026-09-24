@@ -23,6 +23,14 @@ public class Demo {
         // ! ============== Sep 22 Problems =============
         // System.out.println(Sep23.newtonSquareRootBetter(20));
         // System.out.println(Sep23.powerExponentation(2, 3));
-        System.out.println(Sep23.countPrimes(13));
+        // System.out.println(Sep23.countPrimes(13));
+
+        // ! ============== Sep 22 Problems =============
+        // System.out.println(Sep24.euclideanAlgorithmOptimal(Integer.MAX_VALUE, 15));
+
+        // System.out.println(Sep24.isHappyBrute(Integer.MAX_VALUE));
+        // System.out.println(Sep24.isHappyBetter(2));
+        System.out.println(Sep24.isPowerOfThree(9));
+
     }
 }

@@ -35,6 +35,9 @@ public class Sep06 {
         return isPowerOfThreeBetter(n);
     }
 
+    // @ TC --> O(log3(N)) --> Every time Divide by 3 until get Zero
+    // @ SC --> O(log3(N)) --.=> Recursive Stack Space So ignorable
+
     public static boolean isPowerOfThreeBetter(int n) {
         if (n <= 0)
             return false;
