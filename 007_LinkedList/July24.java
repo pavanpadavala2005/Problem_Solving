@@ -6,8 +6,10 @@ public class July24 {
     // ! =============== LC328. Odd Even Linked List ================
     // ! ============= ODD EVEN LINKED LIST ==============
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node oddEvenListOptimalV2(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -24,8 +26,10 @@ public class July24 {
         return head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node oddEvenListOptimalV1(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -44,8 +48,10 @@ public class July24 {
         return head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static Node oddEvenListBrute(Node head) {
         ArrayList<Integer> res = new ArrayList<>();
         Node temp = head;
@@ -70,8 +76,10 @@ public class July24 {
 
     // ! =============== GEN. Rearrange Array by Odd and Even Positions ================
     // ! ============= ODD EVEN LIST ==============
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static void oddEvenListBrute(int[] nums) {
         int pos = 1;
         for (int i = 2; i < nums.length; i += 2) {
@@ -83,8 +91,10 @@ public class July24 {
         }
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static void oddEvenList(int[] nums) {
         int i = 0;
         for (int j = 0; j < nums.length; j++) {
@@ -98,8 +108,10 @@ public class July24 {
 
     // ! =============== GFG. Find Length of Loop ================
     // ! =========== LENGTH OF LOOP IN LL ===========
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int lengthOfCycle(Node head) {
         Node slow = head;
         Node fast = head;
@@ -126,8 +138,10 @@ public class July24 {
 
     // ! =============== LC234. Palindrome Linked List ================
     // ! =========== PALINDROME LIST ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static boolean isPalindrome(Node head) {
         Node slow = head;
         Node fast = head;
@@ -152,8 +166,10 @@ public class July24 {
         return true;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static boolean isPalindromeBrute(Node head) {
         ArrayList<Integer> lis = new ArrayList<>();
         while (head != null) {

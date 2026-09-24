@@ -3,8 +3,10 @@ import java.util.HashMap;
 public class June18 {
 
     // ! =============== GFG. Count Subarrays with Given XOR ================
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static int countSubArraysWithXor(int[] nums, int k) {
         HashMap<Integer, Integer> freq = new HashMap<>();
         int count = 0;
@@ -25,8 +27,10 @@ public class June18 {
     }
 
     // ! =============== LC560. Subarray Sum Equals K ================
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static int countSubArraysSumK(int[] nums, int k) {
         HashMap<Integer, Integer> prev = new HashMap<>();
         prev.put(0, 1);

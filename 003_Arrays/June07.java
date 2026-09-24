@@ -9,8 +9,10 @@ public class June07 {
     }
 
     // ! =============== LC128. Longest Consecutive Sequence ================
-    // @ TC --> Average: O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> Average: O(N)
+     @ SC --> O(N)
+    */
     public static int longestConsecutive(int[] nums) {
         // ! Brute Force Solution --> O(N2)
         // int longest = 1;

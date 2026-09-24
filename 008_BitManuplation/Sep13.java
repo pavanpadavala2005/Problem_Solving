@@ -23,8 +23,10 @@ public class Sep13 {
     }
 
     // ! ============== LC190. Reverse Bits =============
-    // @ TC --> O(log N) --> number is being reduced by 2 every time
-    // @ SC --> O(1) --> not using any extra variables
+    /*
+     @ TC --> O(log N) --> number is being reduced by 2 every time
+     @ SC --> O(1) --> not using any extra variables
+    */
     public static int reverseBitsBetter(int num) {
         int count = 0;
         int res = 0;
@@ -37,8 +39,10 @@ public class Sep13 {
         return res;
     }
 
-    // @ TC --> O(31) --> iterating total 31 Bits every time
-    // @ SC --> O(1) --> not using any extra variables
+    /*
+     @ TC --> O(31) --> iterating total 31 Bits every time
+     @ SC --> O(1) --> not using any extra variables
+    */
     public static int reverseBitsBrute(int num) {
         int res = 0;
         for (int i = 0; i < 32; i++) {

@@ -3,10 +3,11 @@ import java.util.HashSet;
 import java.util.Stack;
 
 public class Aug18 {
-    // ! =============== LC1358. Number of Substrings Containing All Three
-    // Characters =========
-    // @ TC --> O(N);
-    // @ SC --> O(3) --> O(1)
+    // ! =============== LC1358. Number of Substrings Containing All Three Characters =========
+    /*
+     @ TC --> O(N);
+     @ SC --> O(3) --> O(1)
+    */
     public static int countSubstringOptimal(String s) {
         int n = s.length();
         int[] freq = new int[3];
@@ -25,8 +26,10 @@ public class Aug18 {
         return count;
     }
 
-    // @ TC --> O(N^3) (NEAR TO)
-    // @ SC --> O(N) --> HashSet to store All characters
+    /*
+     @ TC --> O(N^3) (NEAR TO)
+     @ SC --> O(N) --> HashSet to store All characters
+    */
     public static int countSubstringBetter(String s) {
         ArrayList<String> res = new ArrayList<>();
         for (int i = 0; i < s.length(); i++) {
@@ -142,8 +145,10 @@ public class Aug18 {
     }
 
     // ! =============== LC1614. Maximum Nesting Depth of the Parentheses =========
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int maxDepthBetter(String s) {
         if (s == null || s.equals(""))
             return 0;
@@ -161,8 +166,10 @@ public class Aug18 {
         return maxDepth;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static int maxDepthBrute(String s) {
         if (s == null || s.equals(""))
             return 0;

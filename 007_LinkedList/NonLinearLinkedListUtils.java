@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 public class NonLinearLinkedListUtils {
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static NlNode getHead(int[] nums) {
         NonLinearLinkedList nll = new NonLinearLinkedList();
         for (int i : nums)
@@ -13,8 +15,10 @@ public class NonLinearLinkedListUtils {
         return nll.head;
     }
 
-    // @ TC --> O(P + K)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(P + K)
+     @ SC --> O(1)
+    */
     public static void putBottomList(NlNode head, int pos, int[] nums) {
         NlNode temp = head;
         while (temp != null && pos > 1) {
@@ -30,8 +34,10 @@ public class NonLinearLinkedListUtils {
         }
     }
 
-    // @ TC --> O(N + B)
-    // @ SC --> O(N + B)
+    /*
+     @ TC --> O(N + B)
+     @ SC --> O(N + B)
+    */
     public static LinkedHashMap<Integer, ArrayList<Integer>> getList(NlNode head) {
         LinkedHashMap<Integer, ArrayList<Integer>> res = new LinkedHashMap<>();
         NlNode temp = head;
@@ -50,8 +56,10 @@ public class NonLinearLinkedListUtils {
         return res;
     }
 
-    // @ TC --> O(B)
-    // @ SC --> O(B)
+    /*
+     @ TC --> O(B)
+     @ SC --> O(B)
+    */
     public static ArrayList<Integer> getChildList(NlNode head) {
         ArrayList<Integer> res = new ArrayList<>();
         NlNode temp = head;

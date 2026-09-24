@@ -3,8 +3,10 @@ public class Sep19 {
 
     // ! ============== LC1404. Number of Steps to Reduce a Number in Binary
     // Representation to One =============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     // * GOOD problem took 2 hrs
     public static int numStepsBetter(String s) {
         int steps = 0;
@@ -22,8 +24,10 @@ public class Sep19 {
         return steps;
     }
 
-    // @ TC --> O(N^2) --> two loops
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N^2) --> two loops
+     @ SC --> O(N)
+    */
     public static int numStepsBrute(String s) {
         int count = 0;
         StringBuilder sb = new StringBuilder(s);
@@ -78,8 +82,10 @@ public class Sep19 {
     }
 
     // ! ============== LC2864. Maximum Odd Binary Number =============
-    // @ TC --> O(N + N) -- counting and putting elements
-    // @ SC --> O(N) --> for returning answer so negligible
+    /*
+     @ TC --> O(N + N) -- counting and putting elements
+     @ SC --> O(N) --> for returning answer so negligible
+    */
     public static String maximumOddBinaryNumber(String s) {
         int count = 0;
         for (char ch : s.toCharArray())
@@ -99,8 +105,10 @@ public class Sep19 {
     }
 
     // ! ============== LC1342. Number of Steps to Reduce a Number to Zero =============
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public int numberOfSteps(int num) {
         int count = 0;
         while (num > 0) {
@@ -114,8 +122,10 @@ public class Sep19 {
     }
 
     // ! ============== LC477. Total Hamming Distance =============
-    // @ TC --> O(32 * O(N)) -->we can say Linear because every time 32*
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(32 * O(N)) -->we can say Linear because every time 32*
+     @ SC --> O(1)
+    */
     public static int totalHammingDistance(int[] nums) {
         int count = 0;
         for (int bit = 0; bit < 32; bit++) {

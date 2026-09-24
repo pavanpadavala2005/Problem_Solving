@@ -3,8 +3,10 @@ import java.util.*;
 public class June30 {
 
     // ! =============== GFG. Distinct Triplets with Given Sum ================
-    // @ TC --> O(N^3)
-    // @ SC --> O(M)
+    /*
+     @ TC --> O(N^3)
+     @ SC --> O(M)
+    */
     public static List<List<Integer>> threeSumBrute(int[] nums, int target) {
         Set<List<Integer>> set = new HashSet<>();
         int n = nums.length;
@@ -22,8 +24,10 @@ public class June30 {
         return new ArrayList<>(set);
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(N + M)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(N + M)
+    */
     public static List<List<Integer>> threeSumBetter(int[] nums, int target) {
         Set<List<Integer>> set = new HashSet<>();
         int n = nums.length;
@@ -42,8 +46,10 @@ public class June30 {
         return new ArrayList<>(set);
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(1), excluding output
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1), excluding output
+    */
     public static List<List<Integer>> threeSumOptimal(int[] nums, int target) {
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));

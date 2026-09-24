@@ -2,8 +2,10 @@ import java.util.*;
 
 public class June07 {
     // ! =============== GEN. Create a Matrix with User Input ================
-    // @ TC --> O(N^2)
-    // @ SC --> O(N^2)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(N^2)
+    */
     public static void basicMatrixWithInput(int n) {
         Scanner sc = new Scanner(System.in);
         int[][] matrix = new int[n][n];
@@ -17,8 +19,10 @@ public class June07 {
     }
 
     // ! =============== GEN. Print a Matrix ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(1)
+    */
     public static void printMatrix(int[][] matrix) {
         // int rows = matrix.length;
         // int cols = matrix[0].length;
@@ -36,8 +40,10 @@ public class June07 {
     }
 
     // ! =============== GEN. Print a Three-Dimensional Matrix ================
-    // @ TC --> O(R * C * E)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(R * C * E)
+     @ SC --> O(1)
+    */
     public static void threeDMatrixPrint() {
         int[][][] matrix = new int[][][] {
                 new int[][] {
@@ -72,8 +78,10 @@ public class June07 {
     }
 
     // ! =============== GEN. Traverse a Jagged Array ================
-    // @ TC --> O(E)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(E)
+     @ SC --> O(1)
+    */
     public static void jaggedArrays() {
         int[][] matrix = new int[][] {
                 new int[] { 1, 2, 3 },
@@ -94,8 +102,10 @@ public class June07 {
     // ! Matrix Problems --> Very Basic Problems
 
     // ! =============== GFG. Row Sum in a Matrix ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(R)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(R)
+    */
     public static int[] sumOfEachRow(int[][] matrix) {
         int[] resArr = new int[matrix.length];
         for (int i = 0; i < matrix.length; i++) {
@@ -109,8 +119,10 @@ public class June07 {
     }
 
     // ! =============== GEN. Column Sum in a Matrix ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(C)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(C)
+    */
     public static int[] sumOfEachColumn(int[][] matrix) {
         int[] resArr = new int[matrix[0].length];
         for (int i = 0; i < matrix[0].length; i++) {
@@ -124,8 +136,10 @@ public class June07 {
     }
 
     // ! =============== GEN. Primary Diagonal Sum ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int diagonalSum(int[][] matrix) {
         int sum = 0;
         for (int i = 0; i < matrix.length; i++)
@@ -134,8 +148,10 @@ public class June07 {
     }
 
     // ! =============== LC867. Transpose Matrix ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(R * C)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(R * C)
+    */
     public static int[][] transposeMatrix(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -147,8 +163,10 @@ public class June07 {
     }
 
     // ! =============== GFG. Add Two Square Matrices ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(R * C)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(R * C)
+    */
     public static int[][] addTwoMatrix(int[][] matrix1, int[][] matrix2) {
         int rows = matrix1.length;
         int cols = matrix1[0].length;
@@ -173,8 +191,10 @@ public class June07 {
     }
 
     // ! =============== LC73. Set Matrix Zeroes ================
-    // @ TC --> O(R * C)
-    // @ SC --> O(R + C)
+    /*
+     @ TC --> O(R * C)
+     @ SC --> O(R + C)
+    */
     public static int[][] setMatrixZeros(int[][] matrix) {
         // ! Time Complexity is Somewhere around O(N3)
         // int rows = matrix.length;
@@ -210,8 +230,10 @@ public class June07 {
     }
 
     // ! =============== LC48. Rotate Image ================
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static int[][] rotateMatrix90Degree(int[][] matrix) {
         // int n = matrix.length;
         // int[][] resMatrix = new int[n][n];

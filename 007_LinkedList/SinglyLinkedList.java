@@ -28,8 +28,10 @@ public class SinglyLinkedList {
     }
 
     // ! ============== HELPER FUNCTIONS FOR LINKED LIST =============
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     private boolean isEmpty() {
         return this.head == null;
     }
@@ -37,8 +39,10 @@ public class SinglyLinkedList {
     // ! ============== OPERATIONS FOR LINKED LIST =============
 
     // **************** INSERTION ****************
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public void insertAtHead(int data) {
         Node newNode = new Node(data);
         if (this.isEmpty()) {
@@ -50,8 +54,10 @@ public class SinglyLinkedList {
         this.head = newNode;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void insertAtTail(int data) {
         Node newNode = new Node(data);
         if (this.isEmpty()) {
@@ -64,8 +70,10 @@ public class SinglyLinkedList {
         temp.next = newNode;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void insertAfterIndex(int index, int data) {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");
@@ -87,8 +95,10 @@ public class SinglyLinkedList {
         temp.next = newNode;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void insertAfterNode(int node, int data) {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");
@@ -111,8 +121,10 @@ public class SinglyLinkedList {
 
     // ***************** DELETION ******************
 
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public void deleteAtHead() {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");
@@ -125,8 +137,10 @@ public class SinglyLinkedList {
         this.head = this.head.next;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void deleteAtTail() {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");
@@ -143,8 +157,10 @@ public class SinglyLinkedList {
         temp.next = null;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void deleteIndex(int index) {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");
@@ -163,8 +179,10 @@ public class SinglyLinkedList {
         }
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void printList() {
         if (this.isEmpty()) {
             System.out.println("LinkedList is Empty !!");

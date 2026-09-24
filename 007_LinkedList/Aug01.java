@@ -5,8 +5,10 @@ import java.util.List;
 public class Aug01 {
 
     // ! =============== LC83. Remove Duplicates from Sorted List ===============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node removeDuplicatesOptimal(Node head) {
         Node temp = head;
         while (temp != null && temp.next != null)
@@ -17,8 +19,10 @@ public class Aug01 {
         return head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node removeDuplicatesBrute(Node head) {
         if (head == null || head.next == null)
             return head;
@@ -36,8 +40,10 @@ public class Aug01 {
     }
 
     // ! =============== GFG. Flattening a Linked List ===============
-    // @ TC --> O(N * K)
-    // @ SC --> O(K)
+    /*
+     @ TC --> O(N * K)
+     @ SC --> O(K)
+    */
     public static NlNode flattenListV2(NlNode head) {
         if (head == null || head.next == null)
             return head;
@@ -45,8 +51,10 @@ public class Aug01 {
         return mergeListsV2(head, rightPart);
     }
 
-    // @ TC --> O(N + M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N + M)
+     @ SC --> O(1)
+    */
     public static NlNode mergeListsV2(NlNode head1, NlNode head2) {
         NlNode temp = new NlNode(-1);
         NlNode dummy = temp;
@@ -69,8 +77,10 @@ public class Aug01 {
         return temp.bottom;
     }
 
-    // @ TC --> O(N * K)
-    // @ SC --> O(K)
+    /*
+     @ TC --> O(N * K)
+     @ SC --> O(K)
+    */
     public static NlNode flattenList(NlNode head) {
         if (head == null || head.next == null)
             return head;
@@ -79,8 +89,10 @@ public class Aug01 {
         return mergeLists(head, mergedHead);
     }
 
-    // @ TC --> O(N + M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N + M)
+     @ SC --> O(1)
+    */
     public static NlNode mergeLists(NlNode head1, NlNode head2) {
         NlNode temp = new NlNode(-1);
         NlNode dummy = temp;
@@ -102,8 +114,10 @@ public class Aug01 {
     }
 
     // ! =============== GFG. Find Pairs with Given Sum in Doubly Linked List ===============
-    // @ TC --> O(N)
-    // @ SC --> O(P)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(P)
+    */
     public static ArrayList<ArrayList<Integer>> pairsWithTargetSum(DNode head, int target) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         if (head == null)

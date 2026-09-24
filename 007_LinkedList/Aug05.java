@@ -1,9 +1,10 @@
 
 public class Aug05 {
     // ! =============== LC1290. Convert Binary Number in a Linked List to Integer ================
-    // ! ===== 1290. Convert Binary Number in a Linked List to Integer ====
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int getDecimalValue(Node head) {
         if (head == null)
             return 0;
@@ -26,9 +27,10 @@ public class Aug05 {
     }
 
     // ! =============== LC203. Remove Linked List Elements ================
-    // ! ============ 203. Remove Linked List Elements ==========
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node removeElementsOptimal(Node head, int val) {
         Node dummy = new Node(-1);
         Node temp = dummy;
@@ -43,8 +45,10 @@ public class Aug05 {
         return temp.next;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node removeElementsBrute(Node head, int val) {
         if (head == null)
             return head;

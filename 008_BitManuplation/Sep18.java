@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Sep18 {
     // ! ============== LC1310. XOR Queries of a Subarray =============
-    // @ TC --> O(N)+O(Q) --> length of Arr + length of Queries
-    // @ SC --> O(1) + O(Q) --> O(Q) for returning answer only so Not considerable
+    /*
+     @ TC --> O(N)+O(Q) --> length of Arr + length of Queries
+     @ SC --> O(1) + O(Q) --> O(Q) for returning answer only so Not considerable
+    */
     public static int[] xorQueries(int[] arr, int[][] queries) {
         // int[] xorArr = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
@@ -23,8 +25,10 @@ public class Sep18 {
     }
 
     // ! ============== LC1720. Decode XORed Array =============
-    // @ TC --> O(N);
-    // @ SC --> O(N+1) --> returning answer only so Not considerable
+    /*
+     @ TC --> O(N);
+     @ SC --> O(N+1) --> returning answer only so Not considerable
+    */
     public static int[] decode(int[] encoded, int first) {
         int n = encoded.length;
         int[] resArr = new int[n + 1];
@@ -37,8 +41,10 @@ public class Sep18 {
 
     // ! ============== LC1486. XOR Operation in an Array =============
     // * VERY VERY Interesting Problem
-    // @ TC --> O(1) -- No Loop just logic
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1) -- No Loop just logic
+     @ SC --> O(1)
+    */
     public static int xorOperation(int n, int start) {
         int left = start;
         int right = start + 2 * (n - 1);
@@ -88,8 +94,10 @@ public class Sep18 {
     }
 
     // ! ============== LC371. Sum of Two Integers =============
-    // @ TC --> O(32) --> iterating through 32 bits Each time
-    // @ SC --> O(1) --> using only integer and 32 bits
+    /*
+     @ TC --> O(32) --> iterating through 32 bits Each time
+     @ SC --> O(1) --> using only integer and 32 bits
+    */
     public static int getSumBrute(int a, int b) {
         int carry = 0;
         int res = 0;

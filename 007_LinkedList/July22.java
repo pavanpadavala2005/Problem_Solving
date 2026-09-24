@@ -3,8 +3,10 @@ import java.util.*;
 public class July22 {
     // ! =============== LC141. Linked List Cycle ================
     // !============= CYCLE IN LINKED LIST =============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static boolean hasCycleOptimal(Node head) {
         Node slow = head;
         Node fast = head;
@@ -17,8 +19,10 @@ public class July22 {
         return false;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static boolean hasCycleBrute(Node head) {
         HashSet<Node> nodes = new HashSet<>();
         Node temp = head;
@@ -33,8 +37,10 @@ public class July22 {
 
     // ! =============== LC142. Linked List Cycle II ================
     // !======= STARTING NODE OF CYCLE =========
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static Node startingNodeOfCycle(Node head) {
         HashSet<Node> nodes = new HashSet<>();
         Node temp = head;

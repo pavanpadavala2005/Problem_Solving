@@ -34,8 +34,10 @@ public class Sep09 {
         return getString(new StringBuilder("a"), 1, 10, k).charAt(k - 1);
     }
 
-    // @ TC --> O(Limit * 2^count) --> 2^count --> compounding
-    // @ SC --> O(2^count)
+    /*
+     @ TC --> O(Limit * 2^count) --> 2^count --> compounding
+     @ SC --> O(2^count)
+    */
     public static String getString(StringBuilder sb, int count, int limit, int k) {
         if (count == limit)
             return sb.toString();

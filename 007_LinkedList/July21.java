@@ -4,8 +4,10 @@ import java.util.Stack;
 
 public class July21 {
     // ! ================ UTILITY METHODS =================
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static Node getHead(int[] nums) {
         SinglyLinkedList sll = new SinglyLinkedList();
         for (int i : nums)
@@ -13,8 +15,10 @@ public class July21 {
         return sll.head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node getNode(Node head, int target) {
         Node temp = head;
         while (temp != null) {
@@ -25,8 +29,10 @@ public class July21 {
         return temp;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static ArrayList getList(Node head) {
         ArrayList<Integer> res = new ArrayList<>();
         Node temp = head;
@@ -39,8 +45,10 @@ public class July21 {
 
     // ! =============== LC237. Delete Node in a Linked List ================
     // ! ================= DELETE NODE ===============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static void deletNodeBrute(Node node) {
         Node prev = node;
         Node curr = prev.next;
@@ -53,8 +61,10 @@ public class July21 {
         prev.next = null;
     }
 
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public void deleteNodeOptimal(Node node) {
         node.data = node.next.data;
         node.next = node.next.next;
@@ -62,8 +72,10 @@ public class July21 {
 
     // ! =============== LC876. Middle of the Linked List ================
     // ! ================ FIND MIDDLE NODE ===================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node middleOfLinkedListBrute(Node head) {
         Node temp = head;
         int n = 0;
@@ -83,8 +95,10 @@ public class July21 {
         return temp;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node middleOfLinkedListOptimal(Node head) {
         Node fast = head;
         Node slow = head;
@@ -97,8 +111,10 @@ public class July21 {
 
     // ! =============== LC206. Reverse Linked List ================
     // ! ============= REVERSE LINKED LIST ============
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static Node reverseLinkedListBrute(Node head) {
         Stack<Integer> elems = new Stack<>();
         Node temp = head;
@@ -114,8 +130,10 @@ public class July21 {
         return head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node reverseLinkedListOptimal(Node head) {
         Node prev = null;
         Node curr = head;
@@ -129,8 +147,10 @@ public class July21 {
         return prev;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static Node reverseLinkedListRec(Node prev, Node curr, Node after) {
         if (curr == null)
             return prev;

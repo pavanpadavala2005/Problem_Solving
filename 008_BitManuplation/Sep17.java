@@ -3,8 +3,10 @@ import java.util.*;
 public class Sep17 {
 
     // ! ============== LC201. Bitwise AND of Numbers Range [L to R] =============
-    // @ TC --> O(log N) --> every time number is Getting half right shift
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N) --> every time number is Getting half right shift
+     @ SC --> O(1)
+    */
     public static int rangeBitwiseAndOptimal(int left, int right) {
         int count = 0;
         while (left != right) {
@@ -15,8 +17,10 @@ public class Sep17 {
         return left << count;
     }
 
-    // @ TC --> O(right-left)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(right-left)
+     @ SC --> O(1)
+    */
     public static int printRangeAndBetter(int left, int right) {
         int res = left;
         for (int i = left + 1; i <= right; i++)
@@ -24,8 +28,10 @@ public class Sep17 {
         return res;
     }
 
-    // @ TC --> O(2 ^ right-left)
-    // @ SC --> O(2 ^ right-left)
+    /*
+     @ TC --> O(2 ^ right-left)
+     @ SC --> O(2 ^ right-left)
+    */
     public static int rangeBitwiseAndHelper(int low, int high) {
         if (low > high)
             return -1;
@@ -38,8 +44,10 @@ public class Sep17 {
     }
 
     // ! ============== LC89. Gray Code =============
-    // @ TC --> O(2ⁿ)
-    // @ SC --> O(2ⁿ) --> returning answer
+    /*
+     @ TC --> O(2ⁿ)
+     @ SC --> O(2ⁿ) --> returning answer
+    */
     public static List<Integer> grayCode(int n) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < (1 << n); i++)
@@ -47,8 +55,10 @@ public class Sep17 {
         return res;
     }
 
-    // @ TC --> O(2ⁿ)
-    // @ SC --> O(2ⁿ) --> stack Space
+    /*
+     @ TC --> O(2ⁿ)
+     @ SC --> O(2ⁿ) --> stack Space
+    */
     public static void subSets(int num, int i, int n, List<Integer> res) {
         if (i >= n)
             return;
@@ -101,8 +111,10 @@ public class Sep17 {
         }
     }
 
-    // @ TC --> O(32 * N) --> nested Loop
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(32 * N) --> nested Loop
+     @ SC --> O(1)
+    */
     public static int singleNumberIIBettr(int[] nums) {
         int res = 0;
         for (int i = 0; i < 32; i++) {
@@ -121,8 +133,10 @@ public class Sep17 {
         return getXor(l - 1) ^ getXor(r);
     }
 
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public static int getXor(int num) {
         switch (num % 4) {
             case 0:
@@ -165,8 +179,10 @@ public class Sep17 {
         return (int) ans;
     }
 
-    // @ TC --> O(divided) --> if divisor is 1 then it should run for dividend times
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(divided) --> if divisor is 1 then it should run for dividend times
+     @ SC --> O(1)
+    */
     public static int divideBrute(int dividend, int divisor) {
         if (dividend == divisor)
             return 1;

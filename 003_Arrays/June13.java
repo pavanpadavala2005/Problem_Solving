@@ -2,8 +2,10 @@ import java.util.*;
 
 public class June13 {
     // ! =============== LC229. Majority Element II ================
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static List<Integer> majorityElementIIBrute(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         int n = nums.length;
@@ -20,8 +22,10 @@ public class June13 {
         return res;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static List<Integer> majorityElementIIBetter(int[] nums) {
         ArrayList<Integer> res = new ArrayList<>();
         HashMap<Integer, Integer> freq = new HashMap<>();
@@ -34,8 +38,10 @@ public class June13 {
         return res;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static List<Integer> majorityElementIIOptimal(int[] nums) {
         int ctr1 = 0;
         int ctr2 = 0;

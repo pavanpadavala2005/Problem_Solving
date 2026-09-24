@@ -3,8 +3,10 @@ import java.util.*;
 public class June14 {
 
     // ! =============== LC15. 3Sum ================
-    // @ TC --> O(N^3)
-    // @ SC --> O(M)
+    /*
+     @ TC --> O(N^3)
+     @ SC --> O(M)
+    */
     public static List<List<Integer>> threeSumBrute(int[] nums) {
         Set<List<Integer>> unq = new HashSet<>();
         int n = nums.length;
@@ -22,8 +24,10 @@ public class June14 {
         return new ArrayList<>(unq);
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(N + M)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(N + M)
+    */
     public static List<List<Integer>> threeSumBetter(int[] nums) {
         Set<List<Integer>> pairs = new HashSet<>();
         int n = nums.length;
@@ -42,8 +46,10 @@ public class June14 {
         return new ArrayList<>(pairs);
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(1), excluding output
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1), excluding output
+    */
     public static List<List<Integer>> threeSumOptimal(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
@@ -74,8 +80,10 @@ public class June14 {
     }
 
     // ! =============== LC18. 4Sum ================
-    // @ TC --> O(N^3)
-    // @ SC --> O(N + M)
+    /*
+     @ TC --> O(N^3)
+     @ SC --> O(N + M)
+    */
     public static List<List<Integer>> fourSumBetter(int[] nums, int target) {
         Set<List<Integer>> pairs = new HashSet<>();
         int n = nums.length;

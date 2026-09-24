@@ -103,8 +103,10 @@ public class Sep02 {
         return false;
     }
 
-    // @ TC --> O(3*3) + O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(3*3) + O(N)
+     @ SC --> O(1)
+    */
     public static boolean canWePlaceNumberBetter(char[][] board, int row, int col, char val) {
         int x = row / 3;
         int y = col / 3;

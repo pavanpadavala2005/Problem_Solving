@@ -3,8 +3,10 @@
 import java.util.ArrayList;
 
 public class DoublyLinkedListUtils {
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static DNode getHead(int[] nums) {
         DoublyLinkedList dll = new DoublyLinkedList();
         for (int i : nums)
@@ -12,8 +14,10 @@ public class DoublyLinkedListUtils {
         return dll.head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static DNode getDNode(DNode head, int target) {
         DNode temp = head;
         while (temp != null) {
@@ -24,8 +28,10 @@ public class DoublyLinkedListUtils {
         return temp;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static ArrayList getList(DNode head) {
         ArrayList<Integer> res = new ArrayList<>();
         DNode temp = head;

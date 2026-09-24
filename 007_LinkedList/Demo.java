@@ -3,7 +3,7 @@
 public class Demo {
         public static void main(String[] args) {
 
-                // * ========= UTILITIES STUFF =========
+                // * ========= UTILITIES Problems  =========
                 // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 3, 4, 5, 6 });
                 // SinglyLinkedListUtils.keepCycle(head, 2);
                 // Node target = SinglyLinkedListUtils.getNode(
@@ -13,8 +13,7 @@ public class Demo {
                 //
                 // );
 
-                // * ============================================
-                // ! July 21 Stuff
+                // ! ============== July 21 Problems  =============
                 // System.out.println(July21.middleOfLinkedListBrute(head).data);
                 // System.out.println(July21.getList(head));
 
@@ -22,11 +21,11 @@ public class Demo {
                 // System.out.println(July21.getList(July21.reverseLinkedListRec(null, head,
                 // head)));
 
-                // ! July 22 Stuff
+                // ! ============== July 22 Problems  =============
                 // System.out.println(July22.hasCycleBrute(head));
                 // System.out.println(July22.startingNodeOfCycle(head).data);
 
-                // ! July 24 Stuff
+                // ! ============== July 24 Problems  =============
                 // Node head = SinglyLinkedListUtils.getHead(new int[] { 1, 2, 3, 2, 1 });
                 // SinglyLinkedListUtils.keepCycle(head, 4);
 
@@ -44,7 +43,7 @@ public class Demo {
                 // System.out.println(SinglyLinkedListUtils.getList(
                 // July24.oddEvenListOptimalV2(head)));
 
-                // ! July 25 Stuff
+                // ! ============== July 25 Problems  =============
                 // Node head = SinglyLinkedListUtils.getHead(new int[] {
                 // 1, 2, 3, 4, 5, 6
                 // 1, 2
@@ -84,7 +83,7 @@ public class Demo {
                 // System.out.println(SinglyLinkedListUtils.getList(
                 // July25.mergeSort(head)));
 
-                // ! July 29 Stuff
+                // ! ============== July 29 Problems  =============
 
                 // Node head = DoublyLinkedListUtils.getHead(new int[] {
                 // 4, 3, 2, 1
@@ -103,7 +102,7 @@ public class Demo {
                 //
                 // ));
 
-                // ! July 3, Stuff
+                // ! ============== July03 Problems  =============
 
                 // Node head = SinglyLinkedListUtils.getHead(new int[] {
                 // //
@@ -117,7 +116,7 @@ public class Demo {
                 //
                 // ));
 
-                // ! Aug 1 Stuff
+                // ! ============== Aug 1 Problems =============
 
                 // DoublyLinkedList dll = new DoublyLinkedList();
                 // dll.insertAtHead(100);

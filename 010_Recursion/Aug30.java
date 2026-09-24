@@ -18,8 +18,10 @@ public class Aug30 {
         return res;
     }
 
-    // @ TC --> ( O(N!) * O(N) ) + O(N * N!) --> in last only Executing
-    // @ SC --> O(N!) + O(N) --> recursive Stack Space only
+    /*
+     @ TC --> ( O(N!) * O(N) ) + O(N * N!) --> in last only Executing
+     @ SC --> O(N!) + O(N) --> recursive Stack Space only
+    */
     public static void permuteOptimal(int[] nums, int i, ArrayList<Integer> elems, List<List<Integer>> res) {
         if (i >= nums.length) {
             ArrayList<Integer> result = new ArrayList<>();
@@ -35,8 +37,10 @@ public class Aug30 {
         }
     }
 
-    // @ TC --> O(N! * N) --> Every Time running a Loop for size of Array times
-    // @ SC --> O(N!) + O(N) + O(N) --> (N!)--> for Answer, O(N)--> for Tracking
+    /*
+     @ TC --> O(N! * N) --> Every Time running a Loop for size of Array times
+     @ SC --> O(N!) + O(N) + O(N) --> (N!)--> for Answer, O(N)--> for Tracking
+    */
     // elements, O(N)--> for Recursion Depth of Recursion
     public static void permute(int[] nums, ArrayList<Integer> elems, List<List<Integer>> res, boolean[] map) {
         if (elems.size() == nums.length) {
@@ -125,8 +129,10 @@ public class Aug30 {
         }
     }
 
-    // @ TC --> O(2ⁿ) * O(K) --> O(K) for copying elements to Res and adding to Set
-    // @ SC --> O(2ⁿ) * K --> K elements and 2ⁿ subsets
+    /*
+     @ TC --> O(2ⁿ) * O(K) --> O(K) for copying elements to Res and adding to Set
+     @ SC --> O(2ⁿ) * K --> K elements and 2ⁿ subsets
+    */
     public static void subsetsWithDupBrute(int[] nums, int i, ArrayList<Integer> elems, Set<List<Integer>> res) {
         if (i >= nums.length) {
             res.add(new ArrayList<>(elems)); // @ O(K) --> copying K Elements and creating new List
@@ -141,8 +147,10 @@ public class Aug30 {
     // * CHECK: Back in DP Series
     // ! ============== GFG. Count Subsets with Sum =============
     // * https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
-    // @ TC --> O(2ⁿ)
-    // @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
+    /*
+     @ TC --> O(2ⁿ)
+     @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
+    */
     static int perfectSum(int arr[], int sum) {
         Arrays.sort(arr);
         return perfectSum(arr, 0, sum);
@@ -163,8 +171,10 @@ public class Aug30 {
 
     // ! ============== GFG. Subset Sum Problem =============
     // * https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
-    // @ TC --> O(2ⁿ)
-    // @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
+    /*
+     @ TC --> O(2ⁿ)
+     @ SC --> O(2ⁿ) --> recursive Stack Space --> negligible
+    */
     static boolean isSubsetSum(int arr[], int sum) {
         return isSubsetSum(arr, 0, sum);
     }
@@ -187,8 +197,10 @@ public class Aug30 {
     // ! ============== GFG. Subset Sum =============
     // * https://www.geeksforgeeks.org/problems/subset-sums2234/1
 
-    // @ TC --> O(2ⁿ) --> using recursion
-    // @ SC --> O(n^2) --> because we are generating subsets
+    /*
+     @ TC --> O(2ⁿ) --> using recursion
+     @ SC --> O(n^2) --> because we are generating subsets
+    */
     public static ArrayList<Integer> subsetSums(int[] arr) {
         ArrayList<Integer> res = new ArrayList<>();
         subsetSums(arr, 0, 0, res);

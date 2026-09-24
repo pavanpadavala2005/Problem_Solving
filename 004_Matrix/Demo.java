@@ -11,7 +11,7 @@ public class Demo {
         }
 
         public static void main(String[] args) {
-                // ! June07 Stuff
+                // ! ============== June07 Problems  =============
                 // June07.basicMatrixWithInput(4);
 
                 // June07.printMatrix(
@@ -130,12 +130,12 @@ public class Demo {
 
                 //
 
-                // June10 Stuff
+                // ! ============== June10 Problems  =============
                 // System.out.println(June10.pascalTriangleCompute(5));
                 // System.out.println();
                 // System.out.println(June11.subarraySum(new int[] { 1 }, 0));\
 
-                // ! July 13 Stuff
+                // ! July ============== 13 Problems  =============
                 // System.out.println(July13.firstOccurance(new int[] { 0 }, 1));
                 // System.out.println(July13.SearchIn2DMatrixOptimal(
                 // new int[][] {
@@ -144,7 +144,7 @@ public class Demo {
                 // new int[] { 11, 12, 13, 14, 15 },
                 // }, 90));
 
-                // ! July 14 Stuff
+                // ! July ============== 14 Problems  =============
 
                 // System.out.println(July14.countOnes(new int[] { 1, 0 }));
 

@@ -20,7 +20,7 @@ public class Demo {
         // mq.enqueue(200);
         // mq.printQueue();
 
-        // ! =============== Aug 08 Stuff ======================
+        // ! =============== Aug 08 Problems  ======================
         // Aug08 ag8 = new Aug08();
         // StackUsingQueue sq = ag8.implementStackUsingQueue();
         // sq.push(100);
@@ -30,7 +30,7 @@ public class Demo {
         // System.out.println("Top" + sq.pop());
         // sq.printStack();
 
-        // ! =================== Aug 10 Stuff ====================
+        // ! =================== Aug 10 Problems  ====================
 
         // MinStack ms = new MinStack();
         // ms.push(10);

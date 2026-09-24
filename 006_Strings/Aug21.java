@@ -4,8 +4,10 @@ import java.util.HashSet;
 public class Aug21 {
 
     // ! ============ LC567. Permutation in String ==============
-    // @ TC --> O(N) --> We are using only one For Loop and Pointers
-    // @ SC --> O(M) or O(N) --> because in worst case we will be storing all the
+    /*
+     @ TC --> O(N) --> We are using only one For Loop and Pointers
+     @ SC --> O(M) or O(N) --> because in worst case we will be storing all the
+    */
     // characters in it
     public static boolean checkInclusionOptimal(String s1, String s2) {
         if (s2.length() < s1.length())
@@ -31,8 +33,10 @@ public class Aug21 {
         }
         return false;
     }
-    // @ TC --> O(N) --> Only one For loop
-    // @ SC --> O(M)+O(N) --> in worst case M == N we are storing O(2N)
+    /*
+     @ TC --> O(N) --> Only one For loop
+     @ SC --> O(M)+O(N) --> in worst case M == N we are storing O(2N)
+    */
 
     public static boolean checkInclusionBetterV2(String s1, String s2) {
         if (s2.length() < s1.length())
@@ -124,8 +128,10 @@ public class Aug21 {
     }
 
     // ! ============ GFG. Longest Substring with K Uniques ==============
-    // @ TC --> O(N) + O(N) --> We are running While loop once i stop so O(2N)
-    // @ SC --> O(N) --> We are Using HashMap to store chars(if all Unique --> O(N))
+    /*
+     @ TC --> O(N) + O(N) --> We are running While loop once i stop so O(2N)
+     @ SC --> O(N) --> We are Using HashMap to store chars(if all Unique --> O(N))
+    */
     public static int longestKSubstrBetter(String s, int k) {
         int maxLen = -1;
         int ctr = 0;
@@ -153,8 +159,10 @@ public class Aug21 {
         return maxLen;
     }
 
-    // @ TC --> O(N^2)*O(N) --> for checking num of characters
-    // @ SC --> O(N) --> for storing num of characters
+    /*
+     @ TC --> O(N^2)*O(N) --> for checking num of characters
+     @ SC --> O(N) --> for storing num of characters
+    */
     public static int longestKSubstrBrute(String s, int k) {
         int maxLen = -1;
         for (int i = 0; i < s.length(); i++)

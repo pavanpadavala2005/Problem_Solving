@@ -15,16 +15,20 @@ public class Aug31 {
         return mat[m][n];
     }
 
-    // @ TC --> O(2^(m*n)) --> it will take more time
-    // @ SC --> O(1) --> we are not using anything other than variables
+    /*
+     @ TC --> O(2^(m*n)) --> it will take more time
+     @ SC --> O(1) --> we are not using anything other than variables
+    */
     public static int uniquePathsRec(int m, int n) {
         if (m == 0 || n == 0)
             return 1;
         return uniquePathsRec(m, n - 1) + uniquePathsRec(m - 1, n);
     }
 
-    // @ TC --> O(M*N) --> two Loops
-    // @ SC --> O(N*N) --> using a matrix to Store Data
+    /*
+     @ TC --> O(M*N) --> two Loops
+     @ SC --> O(N*N) --> using a matrix to Store Data
+    */
     public static int uniquePathsbrute(int m, int n) {
         int[][] mat = new int[m][n];
         for (int i = 0; i < m; i++) {

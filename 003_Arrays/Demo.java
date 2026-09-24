@@ -1,7 +1,7 @@
 
 public class Demo {
     public static void main(String[] args) {
-        // ! ==================== Example1 & Example2 Method Calls ====================
+        // ! ==================== Example1 & Example2 Problems ====================
 
         // int[] nums = new int[] {
         // 3,3,0,99,-40
@@ -134,7 +134,7 @@ public class Demo {
         // System.out.println(
         // May30.numIdenticalPairs(new int[] { 1,2,3,1,1,3 }));
 
-        // ! ==================== May31 Stuff ====================
+        // ! ==================== May31 Problems  ====================
 
         // May31.sortColors(
         // new int[] {
@@ -164,12 +164,12 @@ public class Demo {
         // -2,-3,4,-1,-2,1,5,-3
         // })));
 
-        // ! ==================== June01 Stuff ====================
+        // ! ==================== June01 Problems  ====================
         // System.out.println(June01.maxSubArray(
         // new int[] { -7,-8,-16,-4,-8,-5,-7,-11,-10,-12,-4,-6,-4,-16,-10
         // }));
 
-        // ! ==================== June04 Stuff ====================
+        // ! ==================== June04 Problems  ====================
         // System.out.println(
         // June04.findLeaders(
         // new int[] {
@@ -210,7 +210,7 @@ public class Demo {
         // June06.nextPermutation(arr);
         // System.out.println(Arrays.toString(arr));
 
-        // ! ==================== June 07 Stuff ====================
+        // ! ==================== June 07 Problems  ====================
 
         // System.out.println(
         // June07.longestConsecutive(new int[] {
@@ -237,14 +237,14 @@ public class Demo {
         // June12.reverse(arr,n - 3 + 1,n);
         // System.out.println(Arrays.toString(arr));
 
-        // ! ==================== June 13 Stuff ====================
+        // ! ==================== June 13 Problems  ====================
         // System.out.println(
         // June13.majorityElementIIBetter(new int[] {
         // 1,1,1,1,3,2,2,2
         // 3,2,3
         // }));
 
-        // June 14 Stuff
+        // June 14 Problems 
         // System.out.println(
         // June14.threeSumBetter(new int[] {
         // -1,0,1,2,-1,-4
@@ -259,14 +259,14 @@ public class Demo {
         // 1,0,-1,0,-2,2
         // }));
 
-        // ! ==================== June 15 Stuff ====================
+        // ! ==================== June 15 Problems  ====================
         // System.out.println(June15.longestSubArrayWithSumZeroBetter(
         // new int[] {
         // 1,-1,3,2,-2,-8,1,7,10,23
         // },
         // 0));
 
-        // ! ==================== June 18 Stuff ====================
+        // ! ==================== June 18 Problems  ====================
         // System.out.println(
         // June18.countSubArraysWithXor(
         // new int[] { 1,2,4,7,2 },6));
@@ -274,13 +274,13 @@ public class Demo {
         // System.out.println(
         // June18.countSubArraysSumK(
         // new int[] { 1,1,1 },2));
-        // ! ==================== June 30 Stuff ====================
+        // ! ==================== June 30 Problems  ====================
         // System.out.println(
         // June30.threeSumOptimal(new int[] { -2,0,-1,-1,0,0,-1,2,-2,-2,2,2,
         // 2 },
         // 0));
 
-        // ! ==================== July 01 Stuff ====================
+        // ! ==================== July 01 Problems  ====================
         // System.out.println(July01.majorityElementIIOptimal(new int[] { 1,1,1,3,3,
         // 2,2,2 }));
         // System.out.println(July01.missingNumber(new int[] {
@@ -299,7 +299,7 @@ public class Demo {
         // July02.nextPermutation(nums);
         // System.out.println(Arrays.toString(nums));
 
-        // ! ==================== July04 Stuff ====================
+        // ! ==================== July04 Problems  ====================
         // ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         // res.add(new ArrayList<>(List.of(2, 5)));
         // res.add(new ArrayList<>(List.of(2, 5)));
@@ -340,7 +340,7 @@ public class Demo {
         // System.out.println("Hi");
         // }
 
-        // ! ==================== July06 Stuff ====================
+        // ! ==================== July06 Problems  ====================
 
         // System.out.println(July06.searchInsert(new int[] { 2,3,7,10,11,11,25 },
         // 11));
@@ -357,14 +357,14 @@ public class Demo {
         // System.out.println(July06.searchRotatedArrayRec(new int[] { 7,8,9,1,2,3,
         // 4,5,6 },1));
 
-        // ! ==================== July 07 Stuff ====================
+        // ! ==================== July 07 Problems  ====================
         // System.out.println(July07.findMinInSortedArray(
         // new int[] {
         // 4,5,6,7,0,1,2,3
         // 4,5,1,2,3
         // }));
 
-        // ! ==================== July 08 Stuff ====================
+        // ! ==================== July 08 Problems  ====================
         // System.out.println(July08.sqrt(8));
         // System.out.println(July08.perfcetSquare(
         // 8
@@ -379,7 +379,7 @@ public class Demo {
 
         // System.out.println(July08.sqrtOptimal(16));
 
-        // ! ==================== July 09 Stuff ====================
+        // ! ==================== July 09 Problems  ====================
         // System.out.println(July09.nThRootBrute(3,27));
         // System.out.println(July09.nThRootBrute(4,69));
         // System.out.println(Math.ceil(3 / 4) + 1);
@@ -403,7 +403,7 @@ public class Demo {
         // 1,2,3,2,1
         // }));
 
-        // ! ==================== July 10 Stuff ====================
+        // ! ==================== July 10 Problems  ====================
         // System.out.println(July10.kokoEatingBananasBrute(new int[] { 3,6,7,11 },
         // 8));
         // System.out.println(July10.kokoEatingBananasOptimal(new int[] { 3,6,7,11 },
@@ -431,7 +431,7 @@ public class Demo {
         // new int[] { 2,3,4,7,11 },
         // 5));
 
-        // ! ==================== July 11 Stuff ====================
+        // ! ==================== July 11 Problems  ====================
         // System.out.println(July11.aggressiveCowsCanDo(
         // new int[] { 1,2,4,8,9 },3,2));
         // System.out.println(July11.minBoquetsOptimal(
@@ -460,7 +460,7 @@ public class Demo {
         // 5
         // 2));
 
-        // ! ==================== July 12 Stuff ====================
+        // ! ==================== July 12 Problems  ====================
 
         // System.out.println(July12.aggressiveCowsOptimal(
         // new int[] {
@@ -518,7 +518,7 @@ public class Demo {
         // 1, 1, 1, 1, 1, 1, 1, 1
         // }, 11));
 
-        // ! July 20 Stuff
+        // ! July 20 Problems 
 
         System.out.println(July20.minSumHelper(
                 new int[] { 2, 3, 1, 2, 4, 3 },

@@ -4,8 +4,10 @@ import java.util.HashMap;
 public class June05 {
 
     // ! =============== LC1295. Find Numbers with Even Number of Digits ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int findNumbers(int[] nums) {
 
         // ! Using and Searching in the Range
@@ -44,8 +46,10 @@ public class June05 {
         return count;
     }
 
-    // @ TC --> Average: O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> Average: O(N)
+     @ SC --> O(N)
+    */
     public static int countKDifference(int[] nums, int k) {
 
         // ! Better Approach
@@ -76,8 +80,10 @@ public class June05 {
     }
 
     // ! =============== LC2011. Final Value of Variable After Performing Operations ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int finalValueAfterOperations(String[] operations) {
         int x = 0;
         for (String s : operations) {
@@ -91,8 +97,10 @@ public class June05 {
     }
 
     // ! =============== LC3467. Transform Array by Parity ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {

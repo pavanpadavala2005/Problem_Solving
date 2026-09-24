@@ -21,8 +21,10 @@ public class Sep15 {
         return new int[] { repeated, missing };
     }
 
-    // @ TC --> O(N log N) + O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N log N) + O(N)
+     @ SC --> O(1)
+    */
     public static int[] findErrorNumsBrute(int[] nums) {
         int n = nums.length;
         int sum = (n * (n + 1)) / 2;
@@ -40,8 +42,10 @@ public class Sep15 {
     }
 
     // ! ============== LC461. Hamming Distance =============
-    // @ TC --> O(log N) --> reducing by 2 every time
-    // @ SC --> O(1) --> nothing other than variables
+    /*
+     @ TC --> O(log N) --> reducing by 2 every time
+     @ SC --> O(1) --> nothing other than variables
+    */
     public static int hammingDistance(int x, int y) {
         int num = x ^ y;
         int count = 0;
@@ -53,8 +57,10 @@ public class Sep15 {
     }
 
     // ! ============== LC693. Binary Number with Alternating Bits =============
-    // @ TC --> O(log N) --> number reducing by 2 every time
-    // @ SC --> O(1) --> nothing other than variables
+    /*
+     @ TC --> O(log N) --> number reducing by 2 every time
+     @ SC --> O(1) --> nothing other than variables
+    */
     public static boolean hasAlternatingBits(int num) {
         int prev = num & 1;
         num = num >> 1;

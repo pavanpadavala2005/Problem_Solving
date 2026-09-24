@@ -107,8 +107,10 @@ public class Sep04 {
         return countStrings(n, new StringBuilder());
     }
 
-    // @ TC --> O(2ⁿ)
-    // @ SC --> O(N) -- using a string builder of size N
+    /*
+     @ TC --> O(2ⁿ)
+     @ SC --> O(N) -- using a string builder of size N
+    */
     public static int countStrings(int n, StringBuilder sb) {
         if (n == 0) {
             System.out.println(sb);
@@ -161,8 +163,10 @@ public class Sep04 {
         System.out.println(st);
     }
 
-    // @ TC --> O(N)*O(N) -->O(N) --> recursion, O(N)--> inner loops
-    // @ SC --> O(N) --> using extra space to store stack elements
+    /*
+     @ TC --> O(N)*O(N) -->O(N) --> recursion, O(N)--> inner loops
+     @ SC --> O(N) --> using extra space to store stack elements
+    */
     public static void reverseStackHelper(Stack<Integer> st, Stack<Integer> temp) {
         if (st.isEmpty())
             return;

@@ -5,8 +5,10 @@ import java.util.*;
 public class SinglyLinkedListUtils {
 
     // * =============== NORMAL UTILS =============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node reverseLinkedList(Node head) {
         Node prev = null;
         Node temp = head;
@@ -21,8 +23,10 @@ public class SinglyLinkedListUtils {
     }
 
     // ! ================ UTILITY METHODS =================
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static Node getHead(int[] nums) {
         SinglyLinkedList sll = new SinglyLinkedList();
         for (int i : nums)
@@ -30,8 +34,10 @@ public class SinglyLinkedListUtils {
         return sll.head;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node getNode(Node head, int target) {
         Node temp = head;
         while (temp != null) {
@@ -42,8 +48,10 @@ public class SinglyLinkedListUtils {
         return temp;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static ArrayList getList(Node head) {
         ArrayList<Integer> res = new ArrayList<>();
         Node temp = head;
@@ -54,8 +62,10 @@ public class SinglyLinkedListUtils {
         return res;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static void keepCycle(Node head, int pos) {
         if (pos == -1)
             return;
@@ -71,8 +81,10 @@ public class SinglyLinkedListUtils {
         temp.next = curr;
     }
 
-    // @ TC --> O(N + M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N + M)
+     @ SC --> O(1)
+    */
     public static void createIntersection(Node headA, Node headB, int skipA, int skipB, boolean isIntersect) {
         if (isIntersect == false)
             return;

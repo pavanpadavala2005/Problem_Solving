@@ -16,8 +16,10 @@ public class July05 {
     }
 
     // ! =============== GFG. Merge Sort ================
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static void mergeV2(int[] nums, int low, int mid, int high) {
         int n = high - low;
         int[] resArr = new int[n];
@@ -38,8 +40,10 @@ public class July05 {
             nums[idx + low] = resArr[idx];
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static void merge(int[] nums) {
         int low = 0;
         int high = nums.length;
@@ -78,8 +82,10 @@ public class July05 {
         }
     }
 
-    // @ TC --> O(N log N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N log N)
+     @ SC --> O(N)
+    */
     public static void mergeSort(int[] nums) {
         mergeSort(nums, 0, nums.length);
     }
@@ -105,8 +111,10 @@ public class July05 {
     }
 
     // ! =============== GFG. Quick Sort ================
-    // @ TC --> Average: O(N log N), Worst: O(N^2)
-    // @ SC --> Average: O(log N), Worst: O(N)
+    /*
+     @ TC --> Average: O(N log N), Worst: O(N^2)
+     @ SC --> Average: O(log N), Worst: O(N)
+    */
     public static void quickSort(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
     }

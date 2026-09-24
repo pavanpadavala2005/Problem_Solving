@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Sep20 {
     // ! ============= GEN. Prime Factors of Number =============
-    // @ TC --> O(√N) --> for all numbers
-    // @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    /*
+     @ TC --> O(√N) --> for all numbers
+     @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    */
     public static List<Integer> primeFactorsOptimal2(int num) {
         List<Integer> res = new ArrayList<>();
         for (int i = 2; i * i <= num; i++)
@@ -17,8 +19,10 @@ public class Sep20 {
         return res;
     }
 
-    // @ TC --> O(√N) or O(N)  * most of the times(NON PRIME Numbers) it was O(√N) for Larger Prime numbers it was O(N)
-    // @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    /*
+     @ TC --> O(√N) or O(N)  * most of the times(NON PRIME Numbers) it was O(√N) for Larger Prime numbers it was O(N)
+     @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    */
     public static List<Integer> primeFactorsOptimal(int num) {
         List<Integer> res = new ArrayList<>();
         int i = 2;
@@ -33,8 +37,10 @@ public class Sep20 {
         return res;
     }
 
-    // @ TC --> O(√N) * (O(√N)+O(√N)) --> outer loop is running for O(√N) and inside we are checking isPrime two times so X * (X+X)
-    // @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    /*
+     @ TC --> O(√N) * (O(√N)+O(√N)) --> outer loop is running for O(√N) and inside we are checking isPrime two times so X * (X+X)
+     @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    */
     public static List<Integer> primeFactorsBetter(int num) {
         List<Integer> res = new ArrayList<>();
         for (int i = 2; i * i <= num; i++) {
@@ -49,8 +55,10 @@ public class Sep20 {
         return res;
     }
 
-    // @ TC --> O(N)*O(√N)) --> checking is Prime every time for a factor
-    // @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    /*
+     @ TC --> O(N)*O(√N)) --> checking is Prime every time for a factor
+     @ SC --> O(prime factors) --> storing all the for Answer so negligible
+    */
     public static List<Integer> primeFactorsBrute(int num) {
         List<Integer> res = new ArrayList<>();
         for (int i = 2; i <= num; i++)
@@ -60,8 +68,10 @@ public class Sep20 {
     }
 
     // ! ============= GFG. Largest Prime Factors of Number =============
-    // @ TC --> O(√N) --> for all numbers
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(√N) --> for all numbers
+     @ SC --> O(1)
+    */
     public static int largestPrimeFactor(int num) {
         for (int i = 2; i * i <= num; i++) {
             while (num % i == 0) {
@@ -74,8 +84,10 @@ public class Sep20 {
     }
 
     // ! ============= GFG. Prime Factors Powers Sum for Range =============
-    // @ TC --> O(√N) --> for all numbers
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(√N) --> for all numbers
+     @ SC --> O(1)
+    */
     public static long sumOfPowers(long a, long b) {
         int count = 0;
         for (long i = a; i <= b; i++) {
@@ -93,8 +105,10 @@ public class Sep20 {
     }
 
     // ! ============= LC762. Prime Number of Set Bits in Binary Representation =============
-    // @ TC --> O(N log N) --> outer loop and Inner While loop
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N log N) --> outer loop and Inner While loop
+     @ SC --> O(1)
+    */
     public static int countPrimeSetBits(int left, int right) {
         int count = 0;
         for (int i = left; i <= right; i++) {
@@ -112,8 +126,10 @@ public class Sep20 {
         return count;
     }
 
-    // @ TC --> O(N * (O(log N) + O(√N))) --> running all the things inside
-    // @ SC --> O(1) --> not using any Extra space
+    /*
+     @ TC --> O(N * (O(log N) + O(√N))) --> running all the things inside
+     @ SC --> O(1) --> not using any Extra space
+    */
     public static int countPrimeSetBitsBrute(int left, int right) {
         int count = 0;
         for (int i = left; i <= right; i++) {
@@ -129,8 +145,10 @@ public class Sep20 {
         return count;
     }
 
-    // @ TC --> O(√N) --> we are getting factors till Sqrt(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(√N) --> we are getting factors till Sqrt(N)
+     @ SC --> O(1)
+    */
     public static boolean isPrime(int num) {
         if (num <= 1)
             return false;
@@ -143,8 +161,10 @@ public class Sep20 {
         return true;
     }
 
-    // @ TC --> O(√N) --> we are getting factors till Sqrt(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(√N) --> we are getting factors till Sqrt(N)
+     @ SC --> O(1)
+    */
     public static void printFactors(int num) {
         int i = 1;
         while (i * i <= num) {
@@ -158,8 +178,10 @@ public class Sep20 {
     }
 
     // ! ============= LC397. Integer Replacement =============
-    // @ TC --> O(log N) --> Number is get reduced by 2 every time
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N) --> Number is get reduced by 2 every time
+     @ SC --> O(1)
+    */
     public static int integerReplacementBest(int n) {
         int count = 0;
         while (n != 1) {
@@ -180,8 +202,10 @@ public class Sep20 {
         return count;
     }
 
-    // @ TC --> O(log N) --> but unnecessary recursion calls
-    // @ SC --> O(Log N) --> recursive Stack Space ignorable
+    /*
+     @ TC --> O(log N) --> but unnecessary recursion calls
+     @ SC --> O(Log N) --> recursive Stack Space ignorable
+    */
     public static int integerReplacementBetter(int n) {
         if (n == 1)
             return 0;
@@ -196,8 +220,10 @@ public class Sep20 {
                 integerReplacementBetter(n - 1));
     }
 
-    // @ TC --> O(log N)
-    // @ SC --> O(Log N) --> recursive Stack Space ignorable
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(Log N) --> recursive Stack Space ignorable
+    */
     public static int integerReplacementBrute(int n) {
         if (n == 1)
             return 0;

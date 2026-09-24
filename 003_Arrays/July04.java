@@ -3,8 +3,10 @@ import java.util.*;
 public class July04 {
 
     // ! =============== LC56. Merge Intervals ================
-    // @ TC --> O(N log N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N log N)
+     @ SC --> O(N)
+    */
     public static int[][] mergeOverlappingIntervalsV4(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<int[]> res = new ArrayList<>();
@@ -24,8 +26,10 @@ public class July04 {
         return res.toArray(new int[res.size()][]);
     }
 
-    // @ TC --> O(N log N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N log N)
+     @ SC --> O(N)
+    */
     public static int[][] mergeOverlappingIntervalsV3(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<List<Integer>> res = new ArrayList<>();
@@ -54,8 +58,10 @@ public class July04 {
 
     }
 
-    // @ TC --> O(N log N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N log N)
+     @ SC --> O(N)
+    */
     public static int[][] mergeOverlappingIntervalsV2(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<List<Integer>> res = new ArrayList<>();
@@ -91,8 +97,10 @@ public class July04 {
         return mat;
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(N)
+    */
     public static int[][] mergeOverlappingIntervalsV1(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         System.out.println(Arrays.deepToString(intervals));

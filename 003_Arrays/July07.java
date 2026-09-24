@@ -1,8 +1,10 @@
 public class July07 {
 
     // ! =============== LC153. Find Minimum in Rotated Sorted Array ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int findMinInSortedArray(int[] nums) {
         int i = 0;
         int j = nums.length - 1;

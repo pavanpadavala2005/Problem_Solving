@@ -91,8 +91,10 @@ public class Aug20 {
         return res;
     }
 
-    // @ TC --> O(N)*O(N) --> in worst case we are getting subString of length N
-    // @ SC --> O(1) --> everything is done by pointers other than checking is
+    /*
+     @ TC --> O(N)*O(N) --> in worst case we are getting subString of length N
+     @ SC --> O(1) --> everything is done by pointers other than checking is
+    */
     // @ Anagram --> O(26) We can say Fixed Size for every time --> O(1)
     public static List<Integer> findAnagramsOptimalV1(String s, String p) {
         if (s == null || s.length() == 0 || p == null || p.length() == 0)
@@ -123,8 +125,10 @@ public class Aug20 {
         return true;
     }
 
-    // @ TC --> O(N*M) + O(M) -> Checking for ANAGRAM or not size of(p)
-    // @ SC --> O(M) --> every time creating a (p) size Sub String
+    /*
+     @ TC --> O(N*M) + O(M) -> Checking for ANAGRAM or not size of(p)
+     @ SC --> O(M) --> every time creating a (p) size Sub String
+    */
     public static List<Integer> findAnagramsBetter(String s, String p) {
         if (s == null || s.length() == 0 || p == null || p.length() == 0)
             return new ArrayList<>();
@@ -138,8 +142,10 @@ public class Aug20 {
         return res;
     }
 
-    // @ TC --> O(N*M) + O(2M) -> Checking for ANAGRAM or not size of(p)
-    // @ SC --> O(M) --> every time creating a (p) size Sub String
+    /*
+     @ TC --> O(N*M) + O(2M) -> Checking for ANAGRAM or not size of(p)
+     @ SC --> O(M) --> every time creating a (p) size Sub String
+    */
     public static List<Integer> findAnagramsBrute(String s, String p) {
         if (s == null || s.length() == 0 || p == null || p.length() == 0)
             return new ArrayList<>();
@@ -209,8 +215,10 @@ public class Aug20 {
         return ctr;
     }
 
-    // @ TC --> O(N ^ 2)
-    // @ SC --> O(1) --> Not using Extra String
+    /*
+     @ TC --> O(N ^ 2)
+     @ SC --> O(1) --> Not using Extra String
+    */
     public static int countSubstringsBetter(String s) {
         int n = s.length();
         if (n == 1)
@@ -223,8 +231,10 @@ public class Aug20 {
         return ctr;
     }
 
-    // @ TC --> O(N ^ 2)
-    // @ SC --> O(N) --> Using a String Builder to Store Every String
+    /*
+     @ TC --> O(N ^ 2)
+     @ SC --> O(N) --> Using a String Builder to Store Every String
+    */
     public static int countSubstringsBrute(String s) {
         int n = s.length();
         if (n == 1)
@@ -242,8 +252,10 @@ public class Aug20 {
     }
 
     // ! ============ LC680. Valid Palindrome II ==============
-    // @ TC --> O(N)
-    // @ SC --> O(1) --> Not using Extra Space
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1) --> Not using Extra Space
+    */
     public static boolean validPalindromeOptimal(String s) {
         int n = s.length();
         if (n == 1)
@@ -259,8 +271,10 @@ public class Aug20 {
         return true;
     }
 
-    // @ TC --> O(N^2) --> Outer and Inner Loops
-    // @ SC --> O(1) --> Done Using pointers
+    /*
+     @ TC --> O(N^2) --> Outer and Inner Loops
+     @ SC --> O(1) --> Done Using pointers
+    */
     public boolean validPalindromeBetter(String s) {
         for (int i = 0; i < s.length(); i++) {
             if (isPalindrome(s, i))
@@ -269,8 +283,10 @@ public class Aug20 {
         return false;
     }
 
-    // @ TC --> O(N^2)+O(N)
-    // @ SC --> O(N) --> ultimately we are storing n-1 Chars
+    /*
+     @ TC --> O(N^2)+O(N)
+     @ SC --> O(N) --> ultimately we are storing n-1 Chars
+    */
     public static boolean validPalindromeBrute(String s) {
         StringBuilder sb = new StringBuilder();
         int n = s.length();

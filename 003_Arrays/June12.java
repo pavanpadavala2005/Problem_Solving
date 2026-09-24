@@ -4,8 +4,10 @@ import java.util.HashMap;
 public class June12 {
 
     // ! =============== LC560. Subarray Sum Equals K ================
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static int numberOfSubArrays(int[] nums, int k) {
         HashMap<Integer, Integer> prev = new HashMap<>();
         prev.put(0, 1);
@@ -43,8 +45,10 @@ public class June12 {
     }
 
     // ! =============== LC2798. Number of Employees Who Met the Target ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int ctr = 0;
         for (int i : hours)
@@ -54,8 +58,10 @@ public class June12 {
     }
 
     // ! =============== LC3467. Transform Array by Parity ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int[] transformArray(int[] nums) {
         int n = nums.length;
         int left = 0;
@@ -75,8 +81,10 @@ public class June12 {
     }
 
     // ! =============== LC3289. The Two Sneaky Numbers of Digitville ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int[] getSneakyNumbers(int[] nums) {
         int[] freqArr = new int[101];
         for (int i = 0; i < nums.length; i++)
@@ -104,8 +112,10 @@ public class June12 {
     }
 
     // ! =============== LC189. Rotate Array ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         reverse(nums, n - k, n - 1);

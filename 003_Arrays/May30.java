@@ -6,8 +6,10 @@ public class May30 {
     // https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399?leftPanelTabValue=PROBLEM
 
     // ! =============== C360. Longest Subarray with Sum K ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int longestSubArraySumKPositives(int[] nums, int k) {
         // @ When we have +ves and -ves the Hashmap Method will Work Well
 
@@ -31,8 +33,10 @@ public class May30 {
     // https://leetcode.com/problems/two-sum/description/
 
     // ! =============== LC1. Two Sum ================
-    // @ TC --> Average: O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> Average: O(N)
+     @ SC --> O(N)
+    */
     public static int[] twoSum(int[] nums, int target) {
         // ! BruteForce --> Checking Every Pair --> O(N2)
         // int n = nums.length;
@@ -85,8 +89,10 @@ public class May30 {
     // }
 
     // ! =============== GFG. Find All Pairs with Zero Sum ================
-    // @ TC --> Average: O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> Average: O(N)
+     @ SC --> O(N)
+    */
     public static ArrayList<ArrayList<Integer>> getPairs(int[] arr) {
         ArrayList<ArrayList<Integer>> pairs = new ArrayList<>();
         HashMap<Integer, Integer> req = new HashMap<>();
@@ -118,8 +124,10 @@ public class May30 {
     // }
 
     // ! =============== LC1512. Number of Good Pairs ================
-    // @ TC --> Average: O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> Average: O(N)
+     @ SC --> O(N)
+    */
     public static int numIdenticalPairs(int[] nums) {
         int count = 0;
         HashMap<Integer, Integer> freq = new HashMap<>();

@@ -1,8 +1,10 @@
 public class July30 {
     // ! =============== LC92. Reverse Linked List II ================
     // ! ============= REVERSE LL II ============
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node reverseLinkedListIIV2(Node head, int start, int end) {
         if (head == null || head.next == null || start == end)
             return head;
@@ -25,8 +27,10 @@ public class July30 {
         return dummy.next;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static Node reverseLinkedListIIV1(Node head, int start, int end) {
         Node temp = head;
         while (temp != null && start > 1) {

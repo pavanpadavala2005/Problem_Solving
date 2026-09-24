@@ -30,7 +30,7 @@ public class Demo {
 
         // System.out.println(Sep24.isHappyBrute(Integer.MAX_VALUE));
         // System.out.println(Sep24.isHappyBetter(2));
-        System.out.println(Sep24.isPowerOfThree(9));
+        // System.out.println(Sep24.isPowerOfThree(9));
 
     }
 }

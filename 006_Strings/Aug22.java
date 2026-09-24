@@ -5,8 +5,10 @@ import java.util.List;
 
 public class Aug22 {
     // ! ============ LC1781. Sum of Beauty of All Substrings ==============
-    // @ TC --> O(N*N*26) --> we are not counting specially, in the loop it has been done
-    // @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
+    /*
+     @ TC --> O(N*N*26) --> we are not counting specially, in the loop it has been done
+     @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
+    */
     public static int beautySumBetter(String s) {
         if (s.length() == 1)
             return 0;
@@ -27,8 +29,10 @@ public class Aug22 {
         return count;
     }
 
-    // @ TC --> O(N*N*N*26) --> two loops O(N*N) --> helper function --> O(N+26) --> O(N^3) --> 26 --> O(1) for every input
-    // @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
+    /*
+     @ TC --> O(N*N*N*26) --> two loops O(N*N) --> helper function --> O(N+26) --> O(N^3) --> 26 --> O(1) for every input
+     @ SC --> O(1) --> Not using any Extra Space other than 26 --> O(1)
+    */
     public static int beautySumBrute(String s) {
         if (s.length() == 1)
             return 0;
@@ -89,8 +93,10 @@ public class Aug22 {
     }
 
     // ! ============ LC76. Minimum Window Substring ==============
-    // @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
-    // @ SC --> O(128) --> we are using an Array fixed size --> O(1) ultimately
+    /*
+     @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
+     @ SC --> O(128) --> we are using an Array fixed size --> O(1) ultimately
+    */
     public static String minWindowSuperOptimal(String s, String t) {
         if (s.length() < t.length())
             return "";
@@ -121,8 +127,10 @@ public class Aug22 {
         return s.substring(st, ed + 1);
     }
 
-    // @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
-    // @ SC --> O(S) --> it is atchually O(T) but in worst case we may be store all Chars of S
+    /*
+     @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
+     @ SC --> O(S) --> it is atchually O(T) but in worst case we may be store all Chars of S
+    */
     public static String minWindowOptimal(String s, String t) {
         if (s.length() < t.length())
             return "";
@@ -151,8 +159,10 @@ public class Aug22 {
         return s.substring(st, ed + 1);
     }
 
-    // @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
-    // @ SC --> O(T) + O(S) + O(subString) --> in worst case we may be store all chars of S in freqMap
+    /*
+     @ TC --> O(S) * O(S) --> in worst case while loop may be runs for O(S) times RARE
+     @ SC --> O(T) + O(S) + O(subString) --> in worst case we may be store all chars of S in freqMap
+    */
     public static String minWindowBetter(String s, String t) {
         if (s.length() < t.length())
             return "";
@@ -180,8 +190,10 @@ public class Aug22 {
         return res;
     }
 
-    // @ TC --> O(S^2) * O(T) --> every time we are checking that Math or not
-    // @ SC --> O(T) + O(S) --> may be in the worst case we will store all chars in String
+    /*
+     @ TC --> O(S^2) * O(T) --> every time we are checking that Math or not
+     @ SC --> O(T) + O(S) --> may be in the worst case we will store all chars in String
+    */
     public static String minWindowVeryBrute(String s, String t) {
         if (s.length() < t.length())
             return "";

@@ -2,7 +2,7 @@
 public class Demo {
 
     public static void main(String[] args) {
-        // ! Aug 15 Stuff
+        // ! ============== Aug 15 Problems  ============= 
         // System.out.println(Aug15.reverseStringBrute("Hello"));
         // System.out.println(Aug15.isPalindromeSentence(
         // "Too hot to hoot"
@@ -75,7 +75,7 @@ public class Demo {
         // //
         // ));
 
-        // ! Aug 16 Stuff
+        // ! ============== Aug 16 Problems  ==============
         // System.out.println(
         // Aug16.reverseWordsBetter(
         // "the sky is blue"
@@ -84,7 +84,7 @@ public class Demo {
         //
         // ));
 
-        // ! Aug 17 Stuff
+        // ! ============= Aug 17 Problems  =============
 
         // System.out.println(Aug17.rotateStringOptimal(
         // "abcde",
@@ -103,7 +103,7 @@ public class Demo {
         // //
         // ));
 
-        // ! ============= Aug 18 Stuff ============
+        // ! ============= Aug 18 Problems  ============
         // System.out.println(Aug18.frequencySortMoreBetter(
         // "tree"
         // "Aabb"

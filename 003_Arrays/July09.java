@@ -1,8 +1,10 @@
 
 public class July09 {
     // ! =============== LC162. Find Peak Element ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int findPeakElementOptimal(int[] nums) {
         int n = nums.length;
         if (n == 1)
@@ -25,8 +27,10 @@ public class July09 {
         return -1;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int findPeakElementBetter(int[] nums) {
         int n = nums.length;
         if (n == 1)
@@ -37,8 +41,10 @@ public class July09 {
         return -1;
     }
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int findPeakElementBrute(int[] nums) {
         int n = nums.length;
         if (n == 1)
@@ -55,8 +61,10 @@ public class July09 {
     }
 
     // ! =============== LC875. Koko Eating Bananas ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int calcTime(int[] nums, int speed) {
         int totalTime = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -65,8 +73,10 @@ public class July09 {
         return totalTime;
     }
 
-    // @ TC --> O(N log M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N log M)
+     @ SC --> O(1)
+    */
     public static int kokoEatingBananasOptimal(int[] nums, int h) {
         int mx = -1;
         for (int i : nums)
@@ -83,8 +93,10 @@ public class July09 {
         return i;
     }
 
-    // @ TC --> O(N * M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N * M)
+     @ SC --> O(1)
+    */
     public static int kokoEatingBananasBrute(int[] nums, int h) {
         int mx = -1;
         for (int i : nums)
@@ -114,8 +126,10 @@ public class July09 {
     // }
 
     // ! =============== GFG. Find nth Root of m ================
-    // @ TC --> O(N log M)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N log M)
+     @ SC --> O(1)
+    */
     public static int nThRootOptimal(int n, int m) {
         if (n <= 1)
             return m;
@@ -136,8 +150,10 @@ public class July09 {
         return -1;
     }
 
-    // @ TC --> O(N^2)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N^2)
+     @ SC --> O(1)
+    */
     public static int nThRootBrute(int n, int m) {
         for (int i = 1; i <= n; i++) {
             int sqr = 1;

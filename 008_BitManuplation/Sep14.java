@@ -2,8 +2,10 @@ import java.util.*;
 
 public class Sep14 {
     // ! ============== LC476. Number Complement =============
-    // @ TC --> O(log N) --> every time number is reducing by 2
-    // @ SC --> O(1) --> not using anything other than variables
+    /*
+     @ TC --> O(log N) --> every time number is reducing by 2
+     @ SC --> O(1) --> not using anything other than variables
+    */
     public static int findComplement(int num) {
         int res = 0;
         int i = 0;
@@ -44,8 +46,10 @@ public class Sep14 {
     }
 
     // ! ============== LC78. Subsets =============
-    // @ TC --> O(2ⁿ) --> we need to get every combination
-    // @ SC --> O(nⁿ) --> Store all Possible combos
+    /*
+     @ TC --> O(2ⁿ) --> we need to get every combination
+     @ SC --> O(nⁿ) --> Store all Possible combos
+    */
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < 1 << nums.length; i++) {

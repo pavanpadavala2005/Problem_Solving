@@ -20,16 +20,20 @@ public class NonLinearLinkedList {
     }
 
     // ! =========== UTIL METHODS ===========
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public boolean isEmpty() {
         return this.head == null;
     }
 
     // ! ========== INSERTION ===============
 
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void insertAtTail(int data) {
         NlNode newNode = new NlNode(data);
         if (this.isEmpty()) {
@@ -45,8 +49,10 @@ public class NonLinearLinkedList {
     }
 
     // ! ======== TRAVERSAL =========
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public void printLL() {
         if (this.isEmpty()) {
             System.out.println("Non Linear Linked List is Empty can't Print LL !!");

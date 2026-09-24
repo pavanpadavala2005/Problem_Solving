@@ -8,8 +8,10 @@ public class Sep16 {
         return sb.charAt(k - 1);
     }
 
-    // @ TC --> O(N) --> recursion
-    // @ SC --> O(1) --> Stack Space
+    /*
+     @ TC --> O(N) --> recursion
+     @ SC --> O(1) --> Stack Space
+    */
     public static void findKthBitHelper(int n, StringBuilder sb) {
         if (n == 0) {
             sb.append('0');
@@ -60,8 +62,10 @@ public class Sep16 {
     }
 
     // ! ============== LC7. Reverse Integer =============
-    // @ TC --> O(log 10 (N)) --> every time number / 10
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log 10 (N)) --> every time number / 10
+     @ SC --> O(1)
+    */
     public static int reverse(int x) {
         int num = x;
         if (x < 0)
@@ -91,8 +95,10 @@ public class Sep16 {
     }
 
     // ! ============== LC868. Binary Gap =============
-    // @ TC --> O(log N) --> reducing by 2 every time
-    // @ SC --> O(1) --> nothing other than variablesd
+    /*
+     @ TC --> O(log N) --> reducing by 2 every time
+     @ SC --> O(1) --> nothing other than variablesd
+    */
     public static int binaryGapBetter(int num) {
         int i = 0;
         while ((num & 1) == 0) {
@@ -114,8 +120,10 @@ public class Sep16 {
         return mx;
     }
 
-    // @ TC --> o(32) --> running a loop
-    // @ SC --> O(1) --> using only variables
+    /*
+     @ TC --> o(32) --> running a loop
+     @ SC --> O(1) --> using only variables
+    */
     public static int binaryGap(int num) {
         int i = 0;
         int mx = 0;

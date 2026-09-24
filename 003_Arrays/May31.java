@@ -9,8 +9,10 @@ public class May31 {
     }
 
     // ! =============== LC75. Sort Colors ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static void sortColors(int[] nums) {
         // ! Better Approach --> O(2N)
 
@@ -64,13 +66,17 @@ public class May31 {
     }
 
     // ! =============== LC169. Majority Element ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int majorityElement(int[] nums) {
         // ! Brute --> Using two for Loops and Searching for ELement and count and
         // ! maintaining a max variable
-        // @ TC --> O(N2)
-        // @ SC --> O(1)
+        /*
+         @ TC --> O(N2)
+         @ SC --> O(1)
+        */
 
         // int elem = -1;
         // int n = nums.length;
@@ -85,8 +91,10 @@ public class May31 {
         // return elem;
 
         // ! Better Approach --> Using a HashTable and count
-        // @ TC --> O(2N) --> 2 conseq for loops
-        // @ SC --> O(N) --> Worst case scenario(All elements are Unique)
+        /*
+         @ TC --> O(2N) --> 2 conseq for loops
+         @ SC --> O(N) --> Worst case scenario(All elements are Unique)
+        */
         // HashMap<Integer, Integer> freq = new HashMap<>();
         // for (int i : nums)
         // freq.put(i, freq.getOrDefault(i, 0) + 1);
@@ -115,8 +123,10 @@ public class May31 {
     }
 
     // ! =============== LC229. Majority Element II ================
-    // @ TC --> O(N)
-    // @ SC --> O(N)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(N)
+    */
     public static List<Integer> majorityElement2(int[] nums) {
         // ! Better Approach --> Using Frequency
         // @ This can be optimized
@@ -133,10 +143,11 @@ public class May31 {
 
     }
 
-    // ! =============== GEN. Check Whether a Majority Element Exists in a
-    // Sorted Array ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    // ! =============== GEN. Check Whether a Majority Element Exists in a Sorted Array ================
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static boolean majorityElementSortedArray(int[] nums) {
         int left = 0;
         for (int right = 1; right < nums.length; right++) {
@@ -149,8 +160,10 @@ public class May31 {
     }
 
     // ! =============== GEN. Nested Ternary Operator Practice ================
-    // @ TC --> O(1)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(1)
+     @ SC --> O(1)
+    */
     public static int returnVal(int a, int b) {
         int x = 10;
         int y = 11;
@@ -158,8 +171,10 @@ public class May31 {
     }
 
     // ! =============== LC53. Maximum Subarray ================
-    // @ TC --> O(N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(N)
+     @ SC --> O(1)
+    */
     public static int maxSumOfSubArray(int[] nums) {
         // ! Very Brute force -->O(N2)
         // int maxSum = Integer.MIN_VALUE;

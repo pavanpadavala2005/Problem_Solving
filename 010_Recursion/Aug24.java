@@ -28,16 +28,20 @@ public class Aug24 {
     }
 
     // ! =============== Fibonacci Number ================
-    // @ TC --> O(N) --> Calling Recursion N times
-    // @ SC --> O(N) --> Using recursion Stack Space only
+    /*
+     @ TC --> O(N) --> Calling Recursion N times
+     @ SC --> O(N) --> Using recursion Stack Space only
+    */
     public static int nthFibonacciRec(int n) {
         if (n < 2)
             return n;
         return nthFibonacciRec(n - 1) + nthFibonacciRec(n - 2);
     }
 
-    // @ TC --> O(N) -> iterating just in N times
-    // @ SC --> O(2) --> O(1) ==> we are not using any extra space other than 2
+    /*
+     @ TC --> O(N) -> iterating just in N times
+     @ SC --> O(2) --> O(1) ==> we are not using any extra space other than 2
+    */
     public static int nthFibonacci(int n) {
         if (n >= 0 && n < 2)
             return n;

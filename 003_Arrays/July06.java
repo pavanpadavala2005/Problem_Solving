@@ -1,8 +1,10 @@
 public class July06 {
 
     // ! =============== LC33. Search in Rotated Sorted Array ================
-    // @ TC --> O(log N)
-    // @ SC --> O(log N)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(log N)
+    */
     public static int searchRotatedArrayRec(int[] nums, int target) {
         return searchRotatedArrayRec(nums, target, 0, nums.length - 1);
     }
@@ -30,8 +32,10 @@ public class July06 {
         }
     }
 
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int searchRotatedArray(int[] nums, int target) {
         int i = 0;
         int j = nums.length - 1;
@@ -108,10 +112,11 @@ public class July06 {
         return f;
     }
 
-    // ! =============== LC34. Find First and Last Position of Element in Sorted
-    // Array ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    // ! =============== LC34. Find First and Last Position of Element in Sorted Array ================
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int[] getFirstAndLastOccuranceOptimal(int[] nums, int target) {
         int lb = firstOccurance(nums, target);
         if (lb == -1)
@@ -120,8 +125,10 @@ public class July06 {
         return new int[] { lb, ub };
     }
 
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int[] getFirstAndLastOccuranceBrute(int[] nums, int target) {
         int lb = lowerBound(nums, target);
         int ub = upperBound(nums, target);
@@ -132,8 +139,10 @@ public class July06 {
     }
 
     // ! =============== GFG. Floor in a Sorted Array ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int findFloor(int[] nums, int target) {
         int n = nums.length;
         int i = 0;
@@ -152,8 +161,10 @@ public class July06 {
     }
 
     // ! =============== GFG. Lower Bound ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int lowerBound(int[] nums, int target) {
         // Need to Find an smallest possible index whew arr[index] >= target
         int n = nums.length;
@@ -172,8 +183,10 @@ public class July06 {
     }
 
     // ! =============== GFG. Upper Bound ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int upperBound(int[] nums, int target) {
         // Need to Find an smallest possible index whew arr[index] > target
         int n = nums.length;
@@ -192,8 +205,10 @@ public class July06 {
     }
 
     // ! =============== LC35. Search Insert Position ================
-    // @ TC --> O(log N)
-    // @ SC --> O(1)
+    /*
+     @ TC --> O(log N)
+     @ SC --> O(1)
+    */
     public static int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int i = 0;
