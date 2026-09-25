@@ -59,26 +59,37 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 |  13 | Euclidean Algorithm for GCD | General | Easy  | [View Solution](./Sep24.java) |
 |  14 | Happy Number                | LC202   | Easy  | [View Solution](./Sep24.java) |
 
+## 🗓️ September 25 — `Sep25.java`
+
+|   # | Problem                                    | Source | Level | Solution                      |
+| --: | ------------------------------------------ | ------ | ----- | ----------------------------- |
+|  15 | Power of Three                             | LC326  | Easy  | [View Solution](./Sep25.java) |
+|  16 | Minimum Addition to Make Integer Beautiful | LC2457 | Easy  | [View Solution](./Sep25.java) |
+|  17 | Factorial Trailing Zeroes                  | LC172  | Easy  | [View Solution](./Sep25.java) |
+
 **---**
 
 # 📊 Problem Index
 
-|   # | Problem                               | Source  | Level  | Solution                   |
-| --: | ------------------------------------- | ------- | ------ | -------------------------- |
-|   1 | Printing Factors of a Number          | General | Easy   | [Maths.java](./Maths.java) |
-|   2 | Checking Prime Number or Not          | General | Easy   | [Maths.java](./Maths.java) |
-|   3 | Prime Factors of Number               | General | Easy   | [Maths.java](./Maths.java) |
-|   4 | Power Exponentiation                  | General | Medium | [Sep21.java](./Sep21.java) |
-|   5 | Prime Factors Powers Sum for Range    | GFG     | Medium | [Sep21.java](./Sep21.java) |
-|   6 | Largest Prime Factors of Number       | GFG     | Easy   | [Sep21.java](./Sep21.java) |
-|   7 | Sieve of Eratosthenes                 | General | Easy   | [Sep22.java](./Sep22.java) |
-|   8 | Ugly Number                           | LC263   | Easy   | [Sep22.java](./Sep22.java) |
-|   9 | Power Exponentiation Bit Manipulation | General | Medium | [Sep23.java](./Sep23.java) |
-|  10 | Newton Raphson Square Root method     | General | Medium | [Sep23.java](./Sep23.java) |
-|  11 | Count Primes                          | LC204   | Medium | [Sep23.java](./Sep23.java) |
-|  12 | Finding GCD of Two Numbers            | General | Easy   | [Sep24.java](./Sep24.java) |
-|  13 | Euclidean Algorithm for GCD           | General | Easy   | [Sep24.java](./Sep24.java) |
-|  14 | Happy Number                          | LC202   | Easy   | [Sep24.java](./Sep24.java) |
+|   # | Problem                                    | Source  | Level  | Solution                   |
+| --: | ------------------------------------------ | ------- | ------ | -------------------------- |
+|   1 | Printing Factors of a Number               | General | Easy   | [Maths.java](./Maths.java) |
+|   2 | Checking Prime Number or Not               | General | Easy   | [Maths.java](./Maths.java) |
+|   3 | Prime Factors of Number                    | General | Easy   | [Maths.java](./Maths.java) |
+|   4 | Power Exponentiation                       | General | Medium | [Sep21.java](./Sep21.java) |
+|   5 | Prime Factors Powers Sum for Range         | GFG     | Medium | [Sep21.java](./Sep21.java) |
+|   6 | Largest Prime Factors of Number            | GFG     | Easy   | [Sep21.java](./Sep21.java) |
+|   7 | Sieve of Eratosthenes                      | General | Easy   | [Sep22.java](./Sep22.java) |
+|   8 | Ugly Number                                | LC263   | Easy   | [Sep22.java](./Sep22.java) |
+|   9 | Power Exponentiation Bit Manipulation      | General | Medium | [Sep23.java](./Sep23.java) |
+|  10 | Newton Raphson Square Root method          | General | Medium | [Sep23.java](./Sep23.java) |
+|  11 | Count Primes                               | LC204   | Medium | [Sep23.java](./Sep23.java) |
+|  12 | Finding GCD of Two Numbers                 | General | Easy   | [Sep24.java](./Sep24.java) |
+|  13 | Euclidean Algorithm for GCD                | General | Easy   | [Sep24.java](./Sep24.java) |
+|  14 | Happy Number                               | LC202   | Easy   | [Sep24.java](./Sep24.java) |
+|  15 | Power of Three                             | LC326   | Easy   | [Sep25.java](./Sep25.java) |
+|  16 | Minimum Addition to Make Integer Beautiful | LC2457  | Easy   | [Sep25.java](./Sep25.java) |
+|  17 | Factorial Trailing Zeroes                  | LC172   | Easy   | [Sep25.java](./Sep25.java) |
 
 **---**
 
@@ -86,10 +97,10 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 
 | Level      |    LC |   GFG |  C360 | General |  Total |
 | ---------- | ----: | ----: | ----: | ------: | -----: |
-| **EASY**   |     2 |     2 |     0 |       6 | **10** |
+| **EASY**   |     4 |     2 |     0 |       6 | **12** |
 | **MEDIUM** |     1 |     1 |     0 |       4 |  **6** |
 | **HARD**   |     0 |     0 |     0 |       0 |  **0** |
-| **TOTAL**  | **3** | **3** | **0** |  **10** | **16** |
+| **TOTAL**  | **5** | **3** | **0** |  **10** | **18** |
 
 **---**
 
@@ -102,6 +113,7 @@ _> The folder contains both standalone Maths concepts/practice and day-wise prob
 | [`Sep22.java`](./Sep22.java) | Problems solved on September 22                          | Ugly Number, Square Root, Sieve of Eratosthenes                            |
 | [`Sep23.java`](./Sep23.java) | Problems solved on September 23                          | Power Exponentiation, Newton Raphson, Sieve of Eratosthenes, Prime Numbers |
 | [`Sep24.java`](./Sep24.java) | Problems solved on September 24                          | Happy Number, GCD, Euclidean Algorithm                                     |
+| [`Sep25.java`](./Sep25.java) | Problems solved on September 25                          | Power of Three, Integer Digit Sum, Factorial Trailing Zeroes               |
 
 **---**
 
