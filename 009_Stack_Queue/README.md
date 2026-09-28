@@ -35,22 +35,23 @@
 
 ## 🗓️ September 28 — `Sep28.java`
 
-|   # | Problem | Source | Level | Solution                      |
-| --: | ------- | ------ | ----- | ----------------------------- |
-|     |         |        |       | [View Solution](./Sep28.java) |
+|   # | Problem                   | Source  | Level  | Solution                      |
+| --: | ------------------------- | ------- | ------ | ----------------------------- |
+|   7 | Infix to PostFix Notation | General | Medium | [View Solution](./Sep28.java) |
 
 ---
 
 # 📊 Problem Index
 
-|   # | Problem                 | Source  | Level  | Solution                                                 |
-| --: | ----------------------- | ------- | ------ | -------------------------------------------------------- |
-|   1 | Stack Using Array       | General | Easy   | [StackUsingArray.java](./StackUsingArray.java)           |
-|   2 | Stack Using Linked List | General | Easy   | [StackUsingLinkedList.java](./StackUsingLinkedList.java) |
-|   3 | Stack Using Queue       | General | Medium | [StackUsingQueue.java](./StackUsingQueue.java)           |
-|   4 | Queue Using Array       | General | Easy   | [QueueUsingArray.java](./QueueUsingArray.java)           |
-|   5 | Queue Using Linked List | General | Easy   | [QueueUsingLinkedList.java](./QueueUsingLinkedList.java) |
-|   6 | Queue Using Stack       | General | Medium | [QueueUsingStack.java](./QueueUsingStack.java)           |
+|   # | Problem                   | Source  | Level  | Solution                                                 |
+| --: | ------------------------- | ------- | ------ | -------------------------------------------------------- |
+|   1 | Stack Using Array         | General | Easy   | [StackUsingArray.java](./StackUsingArray.java)           |
+|   2 | Stack Using Linked List   | General | Easy   | [StackUsingLinkedList.java](./StackUsingLinkedList.java) |
+|   3 | Stack Using Queue         | General | Medium | [StackUsingQueue.java](./StackUsingQueue.java)           |
+|   4 | Queue Using Array         | General | Easy   | [QueueUsingArray.java](./QueueUsingArray.java)           |
+|   5 | Queue Using Linked List   | General | Easy   | [QueueUsingLinkedList.java](./QueueUsingLinkedList.java) |
+|   6 | Queue Using Stack         | General | Medium | [QueueUsingStack.java](./QueueUsingStack.java)           |
+|   7 | Infix to PostFix Notation | General | Medium | [Sep28.java](./Sep28.java)                               |
 
 ---
 
@@ -59,22 +60,23 @@
 | Level      |    LC |   GFG |  C360 | General | Total |
 | ---------- | ----: | ----: | ----: | ------: | ----: |
 | **EASY**   |     0 |     0 |     0 |       4 | **4** |
-| **MEDIUM** |     0 |     0 |     0 |       2 | **2** |
+| **MEDIUM** |     0 |     0 |     0 |       3 | **3** |
 | **HARD**   |     0 |     0 |     0 |       0 | **0** |
-| **TOTAL**  | **0** | **0** | **0** |   **6** | **6** |
+| **TOTAL**  | **0** | **0** | **0** |   **7** | **7** |
 
 ---
 
 # 📁 Files
 
-| File                                                       | Purpose                                  | Topics Covered                                |
-| ---------------------------------------------------------- | ---------------------------------------- | --------------------------------------------- |
-| [`StackUsingArray.java`](./StackUsingArray.java)           | Stack implementation using an array      | Stack, Array, Push, Pop, Peek                 |
-| [`StackUsingLinkedList.java`](./StackUsingLinkedList.java) | Stack implementation using a linked list | Stack, Linked List                            |
-| [`StackUsingQueue.java`](./StackUsingQueue.java)           | Stack implementation using queues        | Stack, Queue, Costly Push, Costly Pop         |
-| [`QueueUsingArray.java`](./QueueUsingArray.java)           | Queue implementation using an array      | Queue, Circular Queue, Enqueue, Dequeue, Peek |
-| [`QueueUsingLinkedList.java`](./QueueUsingLinkedList.java) | Queue implementation using a linked list | Queue, Linked List                            |
-| [`QueueUsingStack.java`](./QueueUsingStack.java)           | Queue implementation using stacks        | Queue, Stack, Costly Push, Costly Pop         |
+| File                                                       | Purpose                                  | Topics Covered                                         |
+| ---------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------ |
+| [`StackUsingArray.java`](./StackUsingArray.java)           | Stack implementation using an array      | Stack, Array, Push, Pop, Peek                          |
+| [`StackUsingLinkedList.java`](./StackUsingLinkedList.java) | Stack implementation using a linked list | Stack, Linked List                                     |
+| [`StackUsingQueue.java`](./StackUsingQueue.java)           | Stack implementation using queues        | Stack, Queue, Costly Push, Costly Pop                  |
+| [`QueueUsingArray.java`](./QueueUsingArray.java)           | Queue implementation using an array      | Queue, Circular Queue, Enqueue, Dequeue, Peek          |
+| [`QueueUsingLinkedList.java`](./QueueUsingLinkedList.java) | Queue implementation using a linked list | Queue, Linked List                                     |
+| [`QueueUsingStack.java`](./QueueUsingStack.java)           | Queue implementation using stacks        | Queue, Stack, Costly Push, Costly Pop                  |
+| [`Sep28.java`](./Sep28.java)                               | Problems solved on September 28          | Infix to Prefix, Infix to PostFix, Operator Precedence |
 
 ---
 
