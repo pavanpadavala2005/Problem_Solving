@@ -1,6 +1,24 @@
 import java.util.*;
 
 public class Sep29 {
+    // ! ============= LC150. Evaluate Reverse Polish Notation =============
+    /*
+    @ TC --> O(N)
+    @ SC --> O(N)
+    */
+    public static int evalRPN(String[] tokens) {
+        Stack<Integer> st = new Stack<>();
+        for (int i = 0; i < tokens.length; i++) {
+            if (isOperator(tokens[i])) {
+                int op2 = st.pop();
+                int op1 = st.pop();
+                st.push(eval(op1, op2, tokens[i]));
+            } else
+                st.push(Integer.valueOf(tokens[i]));
+        }
+        return st.pop();
+    }
+
     // * https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1
     // ! ============= GFG. Postfix to Prefix Conversion =============
     /*
@@ -125,7 +143,8 @@ public class Sep29 {
             case "*":
                 return val1 * val2;
             case "/":
-                return Math.floorDiv(val1, val2);
+                // return Math.floorDiv(val1, val2);
+                return val1 / val2;
             case "%":
                 return val1 % val2;
             default:
@@ -147,3 +166,4 @@ public class Sep29 {
 // 4. GFG. Prefix Expression to Infix Expression ✅
 // 5. GFG. Prefix to Postfix Conversion ✅
 // 6. GFG. Postfix to Prefix Conversion ✅
+// 7. LC150. Evaluate Reverse Polish Notation ✅

@@ -99,9 +99,15 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Sep29.postToPre(
-                "ab+c*"
+        // System.out.println(Sep29.postToPre(
+        // "ab+c*"
         //  
-        ));
+        // ));
+
+        System.out.println(Sep29.evalRPN(new String[] {
+                // "2", "1", "+", "3", "*"
+                "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"
+                // "4", "13", "5", "/", "+"
+        }));
     }
 }
