@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Sep28 {
     // * https://www.geeksforgeeks.org/problems/infix-to-prefix-notation/1
-    // ! ============= GEN. Infix to PreFix Notation =============
+    // ! ============= GFG. Infix to PreFix Notation =============
     /*
     @ TC --> O(N) --> because the inner while loops are not running for every i value
     @ SC --> O(N) --> for returning answer so ignorable
@@ -35,7 +35,7 @@ public class Sep28 {
         return sb.reverse().toString();
     }
 
-    // ! ============= GEN.Infix to PostFix Notation =============
+    // ! ============= GFG.Infix to PostFix Notation =============
     // *https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
     /*
     @ TC --> O(N) --> because the inner while loops are not running for every i value
@@ -89,5 +89,5 @@ public class Sep28 {
     }
 }
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
-// 1. GEN.Infix to PostFix Notation ✅
-// 2. GEN. Infix to PreFix Notation ✅
+// 1. GFG.Infix to PostFix Notation ✅
+// 2. GFG. Infix to PreFix Notation ✅

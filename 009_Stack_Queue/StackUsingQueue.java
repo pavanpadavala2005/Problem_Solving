@@ -1,10 +1,12 @@
 import java.util.*;
 
+// ! ============= LC225. Implement Stack using Queues =============
 public class StackUsingQueue {
+    // * keeping this **CostlyPush** and **CostlyPop** class inside **StackUsingQueue** is for Scope, Getting access form Demo class 
     /*
-    * keeping this **CostlyPush** and **CostlyPop** class inside **StackUsingQueue** is for Scope, Getting access form Demo class 
+    @ TC --> O(N) Only push Operation TC --> O(N) remaining is O(1)
+    @ SC --> O(N) --> at most we are Storing all the elements in Q1
     */
-
     public class CostlyPush {
         Queue<Integer> q1;
         Queue<Integer> q2;
@@ -40,6 +42,10 @@ public class StackUsingQueue {
         }
     }
 
+    /*
+    @ TC --> O(N) Only Pop Operation TC --> O(N) remaining is O(1)
+    @ SC --> O(N) --> at most we are Storing all the elements in Q1
+    */
     public class CostlyPop {
         Queue<Integer> q1;
         Queue<Integer> q2;
@@ -80,6 +86,7 @@ public class StackUsingQueue {
         }
     }
 
+    // * Helper Methods to Test code in Demo
     public CostlyPush getCostlyPush() {
         return new CostlyPush();
     }
@@ -88,3 +95,6 @@ public class StackUsingQueue {
         return new CostlyPop();
     }
 }
+
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
+// 1. LC225. Implement Stack using Queues ✅

@@ -68,5 +68,40 @@ public class Demo {
         // 'h^m^q^(7-4)"
         //
         // ));
+
+        // ! ============= Sep 29 Problems =============
+        // System.out.println(Sep29.prefixEvaluation(
+        // new String[] {
+        // "+", "*", "/", "+", "100", "200", "2", "5", "7"
+        // "^", "+", "2", "3", "2"
+        // "+", "/", "-24", "5", "/", "-91", "-20"
+        // }));
+
+        // System.out.println(Sep29.postfixEvaluation(new String[] {
+        // "2", "3", "1", "*", "+", "9", "-"
+        // "2", "3", "^", "10", "+"
+        // }));
+
+        // System.out.println(Sep29.postToInfix(
+        // "ab*c+"
+        // "abc/-"
+        // 
+        // ));
+
+        // System.out.println(Sep29.preToInfix(
+        // "*-A/BC-/AKL"
+        // "+A*BC"
+        // 
+        // ));
+
+        // System.out.println(Sep29.preToPost(
+        // "*+ABC"
+        // 
+        // ));
+
+        System.out.println(Sep29.postToPre(
+                "ab+c*"
+        //  
+        ));
     }
 }

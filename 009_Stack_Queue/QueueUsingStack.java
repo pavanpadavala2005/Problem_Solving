@@ -1,7 +1,16 @@
 
 import java.util.Stack;
 
+// ! ============= LC232. Implement Queue using Stacks =============
+/*
+*/
 public class QueueUsingStack {
+    // * keeping this **CostlyPush** and **CostlyPop** class inside **StackUsingQueue** is for Scope, Getting access form Demo class 
+
+    /*
+    @ TC --> O(N) Only Pop Operation TC --> O(N) remaining is O(1)
+    @ SC --> O(N) --> at most we are Storing all the elements in S1
+    */
     public class CostlyPop {
         Stack<Integer> s1;
         Stack<Integer> s2;
@@ -40,6 +49,10 @@ public class QueueUsingStack {
         }
     }
 
+    /*
+    @ TC --> O(N) Only Push Operation TC --> O(N) remaining is O(1)
+    @ SC --> O(N) --> at most we are Storing all the elements in S1
+    */
     public class CostlyPush {
         Stack<Integer> s1;
         Stack<Integer> s2;
@@ -77,6 +90,7 @@ public class QueueUsingStack {
 
     }
 
+    // * Helper Methods to Test code in Demo
     public CostlyPop getCostlyPop() {
         return new CostlyPop();
     }
@@ -85,3 +99,6 @@ public class QueueUsingStack {
         return new CostlyPush();
     }
 }
+
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
+// 1. LC232. Implement Queue using Stacks ✅
