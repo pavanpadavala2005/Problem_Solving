@@ -38,6 +38,7 @@
 |   # | Problem                   | Source  | Level  | Solution                      |
 | --: | ------------------------- | ------- | ------ | ----------------------------- |
 |   7 | Infix to PostFix Notation | General | Medium | [View Solution](./Sep28.java) |
+|   8 | Infix to PreFix Notation  | General | Medium | [View Solution](./Sep28.java) |
 
 ---
 
@@ -52,6 +53,7 @@
 |   5 | Queue Using Linked List   | General | Easy   | [QueueUsingLinkedList.java](./QueueUsingLinkedList.java) |
 |   6 | Queue Using Stack         | General | Medium | [QueueUsingStack.java](./QueueUsingStack.java)           |
 |   7 | Infix to PostFix Notation | General | Medium | [Sep28.java](./Sep28.java)                               |
+|   8 | Infix to PreFix Notation  | General | Medium | [Sep28.java](./Sep28.java)                               |
 
 ---
 
@@ -60,9 +62,9 @@
 | Level      |    LC |   GFG |  C360 | General | Total |
 | ---------- | ----: | ----: | ----: | ------: | ----: |
 | **EASY**   |     0 |     0 |     0 |       4 | **4** |
-| **MEDIUM** |     0 |     0 |     0 |       3 | **3** |
+| **MEDIUM** |     0 |     0 |     0 |       4 | **4** |
 | **HARD**   |     0 |     0 |     0 |       0 | **0** |
-| **TOTAL**  | **0** | **0** | **0** |   **7** | **7** |
+| **TOTAL**  | **0** | **0** | **0** |   **8** | **8** |
 
 ---
 
@@ -76,7 +78,7 @@
 | [`QueueUsingArray.java`](./QueueUsingArray.java)           | Queue implementation using an array      | Queue, Circular Queue, Enqueue, Dequeue, Peek          |
 | [`QueueUsingLinkedList.java`](./QueueUsingLinkedList.java) | Queue implementation using a linked list | Queue, Linked List                                     |
 | [`QueueUsingStack.java`](./QueueUsingStack.java)           | Queue implementation using stacks        | Queue, Stack, Costly Push, Costly Pop                  |
-| [`Sep28.java`](./Sep28.java)                               | Problems solved on September 28          | Infix to Prefix, Infix to PostFix, Operator Precedence |
+| [`Sep28.java`](./Sep28.java)                               | Problems solved on September 28          | Infix to PostFix, Infix to PreFix, Operator Precedence |
 
 ---
 

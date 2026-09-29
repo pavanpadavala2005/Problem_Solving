@@ -61,12 +61,12 @@ public class Demo {
         // "h^m^q^(7-4)"
         // ));
 
-        System.out.println(Sep28.infixToPrefix(
-                // "a+(b*c)+d"
-                // "(a-b/c)*(a/k-l)"
-                // "a*(b+c)/d"
-                "h^m^q^(7-4)"
-        // 
-        ));
+        // System.out.println(Sep28.infixToPrefix(
+        // "a+(b*c)+d"
+        // "(a-b/c)*(a/k-l)"
+        // "a*(b+c)/d"
+        // 'h^m^q^(7-4)"
+        //
+        // ));
     }
 }

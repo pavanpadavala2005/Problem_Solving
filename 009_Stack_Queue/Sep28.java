@@ -1,7 +1,12 @@
 import java.util.*;
 
 public class Sep28 {
-    // ! ============= GEN.Infix to PreFix Notation =============
+    // * https://www.geeksforgeeks.org/problems/infix-to-prefix-notation/1
+    // ! ============= GEN. Infix to PreFix Notation =============
+    /*
+    @ TC --> O(N) --> because the inner while loops are not running for every i value
+    @ SC --> O(N) --> for returning answer so ignorable
+    */
     public static String infixToPrefix(String s) {
         StringBuilder sb = new StringBuilder();
         Stack<Character> st = new Stack<>();
@@ -19,10 +24,8 @@ public class Sep28 {
                 if (!st.isEmpty())
                     st.pop();
             } else {
-                while (!st.isEmpty()
-                        && st.peek() != ')'
-                        && (getPrecedence(st.peek()) > getPrecedence(ch)
-                                || (getPrecedence(st.peek()) == getPrecedence(ch) && ch != '^')))
+                while (!st.isEmpty() && st.peek() != ')' && (getPrecedence(st.peek()) > getPrecedence(ch)
+                        || getPrecedence(st.peek()) == getPrecedence(ch) && ch == '^'))
                     sb.append(st.pop());
                 st.push(ch);
             }
@@ -35,8 +38,8 @@ public class Sep28 {
     // ! ============= GEN.Infix to PostFix Notation =============
     // *https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
     /*
-    @ TC -->
-    @ SC -->
+    @ TC --> O(N) --> because the inner while loops are not running for every i value
+    @ SC --> O(N) --> for returning answer so ignorable
     */
     public static String infixToPostFix(String s) {
         Stack<Character> st = new Stack<>();
@@ -59,7 +62,9 @@ public class Sep28 {
                 while (!st.isEmpty()
                         && st.peek() != '('
                         && (getPrecedence(st.peek()) > getPrecedence(ch)
-                                || (getPrecedence(st.peek()) == getPrecedence(ch) && ch != '^')))
+                                || (getPrecedence(st.peek()) == getPrecedence(ch) && ch != '^')
+                        // 
+                        ))
                     sb.append(st.pop());
                 st.push(ch);
             }
@@ -85,3 +90,4 @@ public class Sep28 {
 }
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
 // 1. GEN.Infix to PostFix Notation ✅
+// 2. GEN. Infix to PreFix Notation ✅
