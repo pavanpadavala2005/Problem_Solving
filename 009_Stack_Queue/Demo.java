@@ -70,6 +70,7 @@ public class Demo {
         // ));
 
         // ! ============= Sep 29 Problems =============
+
         // System.out.println(Sep29.prefixEvaluation(
         // new String[] {
         // "+", "*", "/", "+", "100", "200", "2", "5", "7"
@@ -104,10 +105,33 @@ public class Demo {
         //  
         // ));
 
-        System.out.println(Sep29.evalRPN(new String[] {
-                // "2", "1", "+", "3", "*"
-                "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"
-                // "4", "13", "5", "/", "+"
-        }));
+        // System.out.println(Sep29.evalRPN(new String[] {
+        // "2", "1", "+", "3", "*"
+        // "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"
+        // "4", "13", "5", "/", "+"
+        // }));
+
+        // ! ============= Sep 30 Problems =============
+
+        // MinStack.MinStackExtraSpace ms = new MinStack().getMinStackExtraSpace();
+        // ms.push(10);
+        // ms.push(4);
+        // ms.push(20);
+        // ms.push(-2);
+        // System.out.println(ms.getMin());
+        // MinStack.MinStackNoExtraSpace ms = new MinStack().getMinStackNoExtraSpace();
+        // ms.push(10);
+        // ms.push(15);
+        // ms.push(5);
+        // ms.pop();
+        // ms.printStack();
+
+        // MinStack.MinStackWithLinkedList ms = new MinStack().getMinStackWithLinkedList();
+        // ms.push(-2);
+        // ms.push(0);
+        // ms.push(-1);
+        // System.out.println(ms.getMin());
+        // ms.pop();
+
     }
 }
