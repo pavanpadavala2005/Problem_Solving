@@ -63,6 +63,17 @@
 
 ---
 
+# 📅 October 2026
+
+## 🗓️ October 1 — `Oct01.java`
+
+|   # | Problem             | Source | Level  | Solution                      |
+| --: | ------------------- | ------ | ------ | ----------------------------- |
+|  20 | Basic Calculator    | LC224  | Hard   | [View Solution](./Oct01.java) |
+|  21 | Basic Calculator II | LC227  | Medium | [View Solution](./Oct01.java) |
+
+---
+
 # 📊 Problem Index
 
 |   # | Problem                                | Source  | Level  | Solution                                                 |
@@ -86,6 +97,8 @@
 |  17 | Get Min from Stack                     | GFG     | Medium | [Sep30.java](./Sep30.java)                               |
 |  18 | Get Min with Stack Pop                 | GFG     | Easy   | [Sep30.java](./Sep30.java)                               |
 |  19 | Get Max from Stack                     | GFG     | Medium | [Sep30.java](./Sep30.java)                               |
+|  20 | Basic Calculator                       | LC224   | Hard   | [Oct01.java](./Oct01.java)                               |
+|  21 | Basic Calculator II                    | LC227   | Medium | [Oct01.java](./Oct01.java)                               |
 
 ---
 
@@ -94,9 +107,9 @@
 | Level      |    LC |    GFG |  C360 | General |  Total |
 | ---------- | ----: | -----: | ----: | ------: | -----: |
 | **EASY**   |     2 |      1 |     0 |       4 |  **7** |
-| **MEDIUM** |     2 |     10 |     0 |       0 | **12** |
-| **HARD**   |     0 |      0 |     0 |       0 |  **0** |
-| **TOTAL**  | **4** | **11** | **0** |   **4** | **19** |
+| **MEDIUM** |     3 |     10 |     0 |       0 | **13** |
+| **HARD**   |     1 |      0 |     0 |       0 |  **1** |
+| **TOTAL**  | **6** | **11** | **0** |   **4** | **21** |
 
 ---
 
@@ -114,6 +127,7 @@
 | [`Sep28.java`](./Sep28.java)                               | Problems solved on September 28                             | Infix to PostFix, Infix to PreFix, Operator Precedence                                     |
 | [`Sep29.java`](./Sep29.java)                               | Problems solved on September 29                             | Prefix Evaluation, Postfix Evaluation, Expression Conversion, Expression Evaluation, Stack |
 | [`Sep30.java`](./Sep30.java)                               | Problems solved on September 30                             | Min Stack, Max Stack, Stack Encoding, Stack Pop                                            |
+| [`Oct01.java`](./Oct01.java)                               | Problems solved on October 1                                | Basic Calculator, Basic Calculator II, Expression Evaluation, Stack, Operator Precedence   |
 
 ---
 

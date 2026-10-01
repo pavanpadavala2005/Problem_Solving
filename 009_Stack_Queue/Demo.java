@@ -133,5 +133,18 @@ public class Demo {
         // System.out.println(ms.getMin());
         // ms.pop();
 
+        // ! ============= Oct 01 Problems =============
+        // System.out.println(Oct01.calculateIIBetter(
+        //         "256+482-46/5*7"
+        // " 3+5/2"
+        // " 3/ 2"
+        // 
+        // ));
+
+        // System.out.println(Oct01.decodeString(
+        // "3[a]2[bc]"
+        // "30[abc]"
+        // 
+        // ));
     }
 }
