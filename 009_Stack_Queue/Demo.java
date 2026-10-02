@@ -140,11 +140,41 @@ public class Demo {
         // " 3/ 2"
         // 
         // ));
+        // ! ============= Oct 02 Problems =============
 
-        // System.out.println(Oct01.decodeString(
-        // "3[a]2[bc]"
-        // "30[abc]"
+        // System.out.println(Oct02.decodeString(
+        //         // "3[a]2[bc]"
+        //         // "3[a2[b]]"
+        //         "3[a]2[b]4[c]"
+        // ));
+
+        // Oct02.FreqStack st = new Oct02().new FreqStack();
+        // st.push(5);
+        // st.push(7);
+        // st.push(5);
+        // st.push(7);
+        // st.push(4);
+        // st.push(5);
+        // st.pop();
+        // st.pop();
+        // st.printStacks();
+
+        // System.out.println(Oct02.nextLargerElement(
+        // new int[] {
+        // 1, 3, 2, 4
+        // 6, 8, 0, 1, 3
+        // }));
+
+        // System.out.println(Oct02.nextGreaterElement(
+        // new int[] { 4, 1, 2 },
+        // new int[] { 1, 3, 4, 2 }
         // 
         // ));
+
+        System.out.println(Oct02.getString(
+                // "ab##"
+                "c#d#"
+        // 
+        ));
     }
 }
