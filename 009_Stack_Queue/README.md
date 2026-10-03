@@ -1,187 +1,170 @@
 # 🧮 009 — Stack & Queue
 
 > 📌 **This README is the central tracker for all Stack & Queue-related problem-solving practice.**
-
+>
 > The folder contains both standalone Stack & Queue implementations and day-wise problem-solving files.
-
+>
 > **Problem Name · Difficulty · Source · Date · Java File**
 
 ---
 
 # 📚 Stack & Queue Implementations
 
-## 📁 `Implementations/`
+## 📁 Implementations/
 
-> This folder contains implementations of Stack and Queue using different underlying data structures and approaches.
-
-> Unlike the day-wise files, the implementation files are **living files** and may be updated over time — implementations can be added, modified, or removed as the Stack & Queue practice evolves.
+This folder contains standalone implementations of Stack and Queue data structures.
 
 ### Current Implementations
 
-|   # | Implementation          | Source  | Level  | Solution                                     |
-| --: | ----------------------- | ------- | ------ | -------------------------------------------- |
-|   1 | Stack Using Array       | General | Easy   | [View Solution](./StackUsingArray.java)      |
-|   2 | Stack Using Linked List | General | Easy   | [View Solution](./StackUsingLinkedList.java) |
-|   3 | Stack Using Queue       | LC225   | Easy   | [View Solution](./StackUsingQueue.java)      |
-|   4 | Queue Using Array       | General | Easy   | [View Solution](./QueueUsingArray.java)      |
-|   5 | Queue Using Linked List | General | Easy   | [View Solution](./QueueUsingLinkedList.java) |
-|   6 | Queue Using Stack       | LC232   | Easy   | [View Solution](./QueueUsingStack.java)      |
-|   7 | Min Stack               | LC155   | Medium | [View Solution](./MinStack.java)             |
+| #   | Problem Name            | Difficulty | Source  | Java File                                                |
+| --- | ----------------------- | ---------- | ------- | -------------------------------------------------------- |
+| 1   | Stack Using Array       | Easy       | General | [StackUsingArray.java](./StackUsingArray.java)           |
+| 2   | Stack Using Linked List | Easy       | General | [StackUsingLinkedList.java](./StackUsingLinkedList.java) |
+| 3   | Stack Using Queue       | Easy       | LC225   | [StackUsingQueue.java](./StackUsingQueue.java)           |
+| 4   | Queue Using Array       | Easy       | General | [QueueUsingArray.java](./QueueUsingArray.java)           |
+| 5   | Queue Using Linked List | Easy       | General | [QueueUsingLinkedList.java](./QueueUsingLinkedList.java) |
+| 6   | Queue Using Stack       | Easy       | LC232   | [QueueUsingStack.java](./QueueUsingStack.java)           |
+| 7   | Min Stack               | Medium     | LC155   | [MinStack.java](./MinStack.java)                         |
 
 ---
 
-# 📅 September 2026
+# 📅 Daily Problem Solving
 
-> **Day-wise problem-solving starts from September 28, 2026.**
+## September 2026
 
-## 🗓️ September 28 — `Sep28.java`
+### 📆 September 28 — Sep28.java
 
-|   # | Problem                   | Source | Level  | Solution                      |
-| --: | ------------------------- | ------ | ------ | ----------------------------- |
-|   8 | Infix to PostFix Notation | GFG    | Medium | [View Solution](./Sep28.java) |
-|   9 | Infix to PreFix Notation  | GFG    | Medium | [View Solution](./Sep28.java) |
+| #   | Problem Name              | Difficulty | Source | Java File                  |
+| --- | ------------------------- | ---------- | ------ | -------------------------- |
+| 8   | Infix to PostFix Notation | Medium     | GFG    | [Sep28.java](./Sep28.java) |
+| 9   | Infix to PreFix Notation  | Medium     | GFG    | [Sep28.java](./Sep28.java) |
 
-## 🗓️ September 29 — `Sep29.java`
+### 📆 September 29 — Sep29.java
 
-|   # | Problem                                | Source | Level  | Solution                      |
-| --: | -------------------------------------- | ------ | ------ | ----------------------------- |
-|  10 | Prefix Expression Evaluation           | GFG    | Medium | [View Solution](./Sep29.java) |
-|  11 | Postfix Expression Evaluation          | GFG    | Medium | [View Solution](./Sep29.java) |
-|  12 | Postfix Expression to Infix Expression | GFG    | Medium | [View Solution](./Sep29.java) |
-|  13 | Prefix Expression to Infix Expression  | GFG    | Medium | [View Solution](./Sep29.java) |
-|  14 | Prefix to Postfix Conversion           | GFG    | Medium | [View Solution](./Sep29.java) |
-|  15 | Postfix to Prefix Conversion           | GFG    | Medium | [View Solution](./Sep29.java) |
-|  16 | Evaluate Reverse Polish Notation       | LC150  | Medium | [View Solution](./Sep29.java) |
+| #   | Problem Name                           | Difficulty | Source | Java File                  |
+| --- | -------------------------------------- | ---------- | ------ | -------------------------- |
+| 10  | Prefix Expression Evaluation           | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 11  | Postfix Expression Evaluation          | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 12  | Postfix Expression to Infix Expression | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 13  | Prefix Expression to Infix Expression  | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 14  | Prefix to Postfix Conversion           | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 15  | Postfix to Prefix Conversion           | Medium     | GFG    | [Sep29.java](./Sep29.java) |
+| 16  | Evaluate Reverse Polish Notation       | Medium     | LC150  | [Sep29.java](./Sep29.java) |
 
-## 🗓️ September 30 — `Sep30.java`
+### 📆 September 30 — Sep30.java
 
-|   # | Problem                | Source | Level  | Solution                      |
-| --: | ---------------------- | ------ | ------ | ----------------------------- |
-|  17 | Get Min from Stack     | GFG    | Medium | [View Solution](./Sep30.java) |
-|  18 | Get Min with Stack Pop | GFG    | Easy   | [View Solution](./Sep30.java) |
-|  19 | Get Max from Stack     | GFG    | Medium | [View Solution](./Sep30.java) |
+| #   | Problem Name           | Difficulty | Source | Java File                  |
+| --- | ---------------------- | ---------- | ------ | -------------------------- |
+| 17  | Get Min from Stack     | Medium     | GFG    | [Sep30.java](./Sep30.java) |
+| 18  | Get Min with Stack Pop | Easy       | GFG    | [Sep30.java](./Sep30.java) |
+| 19  | Get Max from Stack     | Medium     | GFG    | [Sep30.java](./Sep30.java) |
 
----
+## October 2026
 
-# 📅 October 2026
+### 📆 October 01 — Oct01.java
 
-## 🗓️ October 1 — `Oct01.java`
+| #   | Problem Name        | Difficulty | Source | Java File                  |
+| --- | ------------------- | ---------- | ------ | -------------------------- |
+| 20  | Basic Calculator    | Hard       | LC224  | [Oct01.java](./Oct01.java) |
+| 21  | Basic Calculator II | Medium     | LC227  | [Oct01.java](./Oct01.java) |
 
-|   # | Problem             | Source | Level  | Solution                      |
-| --: | ------------------- | ------ | ------ | ----------------------------- |
-|  20 | Basic Calculator    | LC224  | Hard   | [View Solution](./Oct01.java) |
-|  21 | Basic Calculator II | LC227  | Medium | [View Solution](./Oct01.java) |
+### 📆 October 02 — Oct02.java
 
-## 🗓️ October 2 — `Oct02.java`
+| #   | Problem Name                                    | Difficulty | Source | Java File                  |
+| --- | ----------------------------------------------- | ---------- | ------ | -------------------------- |
+| 22  | Minimum String Length After Removing Substrings | Easy       | LC2696 | [Oct02.java](./Oct02.java) |
+| 23  | Remove All Adjacent Duplicates In String        | Easy       | LC1047 | [Oct02.java](./Oct02.java) |
+| 24  | Backspace String Compare                        | Easy       | LC844  | [Oct02.java](./Oct02.java) |
+| 25  | Maximum Frequency Stack                         | Hard       | LC895  | [Oct02.java](./Oct02.java) |
+| 26  | Next Greater Element I                          | Easy       | LC496  | [Oct02.java](./Oct02.java) |
+| 27  | Next Larger Element                             | Medium     | GFG    | [Oct02.java](./Oct02.java) |
+| 28  | Decode String                                   | Medium     | LC394  | [Oct02.java](./Oct02.java) |
 
-|   # | Problem                                         | Source | Level  | Solution                      |
-| --: | ----------------------------------------------- | ------ | ------ | ----------------------------- |
-|  22 | Minimum String Length After Removing Substrings | LC2696 | Easy   | [View Solution](./Oct02.java) |
-|  23 | Remove All Adjacent Duplicates In String        | LC1047 | Easy   | [View Solution](./Oct02.java) |
-|  24 | Backspace String Compare                        | LC844  | Easy   | [View Solution](./Oct02.java) |
-|  25 | Maximum Frequency Stack                         | LC895  | Hard   | [View Solution](./Oct02.java) |
-|  26 | Next Greater Element I                          | LC496  | Easy   | [View Solution](./Oct02.java) |
-|  27 | Next Greater Element                            | GFG    | Medium | [View Solution](./Oct02.java) |
-|  28 | Decode String                                   | LC394  | Medium | [View Solution](./Oct02.java) |
+### 📆 October 03 — Oct03.java
+
+| #   | Problem Name             | Difficulty | Source | Java File                  |
+| --- | ------------------------ | ---------- | ------ | -------------------------- |
+| 29  | Previous Smaller Element | Medium     | GFG    | [Oct03.java](./Oct03.java) |
+| 30  | Trapping Rain Water      | Hard       | LC42   | [Oct03.java](./Oct03.java) |
 
 ---
 
 # 📊 Problem Index
 
-|   # | Problem                                         | Source  | Level  | Solution                                                 |
-| --: | ----------------------------------------------- | ------- | ------ | -------------------------------------------------------- |
-|   1 | Stack Using Array                               | General | Easy   | [StackUsingArray.java](./StackUsingArray.java)           |
-|   2 | Stack Using Linked List                         | General | Easy   | [StackUsingLinkedList.java](./StackUsingLinkedList.java) |
-|   3 | Stack Using Queue                               | LC225   | Easy   | [StackUsingQueue.java](./StackUsingQueue.java)           |
-|   4 | Queue Using Array                               | General | Easy   | [QueueUsingArray.java](./QueueUsingArray.java)           |
-|   5 | Queue Using Linked List                         | General | Easy   | [QueueUsingLinkedList.java](./QueueUsingLinkedList.java) |
-|   6 | Queue Using Stack                               | LC232   | Easy   | [QueueUsingStack.java](./QueueUsingStack.java)           |
-|   7 | Min Stack                                       | LC155   | Medium | [MinStack.java](./MinStack.java)                         |
-|   8 | Infix to PostFix Notation                       | GFG     | Medium | [Sep28.java](./Sep28.java)                               |
-|   9 | Infix to PreFix Notation                        | GFG     | Medium | [Sep28.java](./Sep28.java)                               |
-|  10 | Prefix Expression Evaluation                    | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  11 | Postfix Expression Evaluation                   | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  12 | Postfix Expression to Infix Expression          | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  13 | Prefix Expression to Infix Expression           | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  14 | Prefix to Postfix Conversion                    | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  15 | Postfix to Prefix Conversion                    | GFG     | Medium | [Sep29.java](./Sep29.java)                               |
-|  16 | Evaluate Reverse Polish Notation                | LC150   | Medium | [Sep29.java](./Sep29.java)                               |
-|  17 | Get Min from Stack                              | GFG     | Medium | [Sep30.java](./Sep30.java)                               |
-|  18 | Get Min with Stack Pop                          | GFG     | Easy   | [Sep30.java](./Sep30.java)                               |
-|  19 | Get Max from Stack                              | GFG     | Medium | [Sep30.java](./Sep30.java)                               |
-|  20 | Basic Calculator                                | LC224   | Hard   | [Oct01.java](./Oct01.java)                               |
-|  21 | Basic Calculator II                             | LC227   | Medium | [Oct01.java](./Oct01.java)                               |
-|  22 | Minimum String Length After Removing Substrings | LC2696  | Easy   | [Oct02.java](./Oct02.java)                               |
-|  23 | Remove All Adjacent Duplicates In String        | LC1047  | Easy   | [Oct02.java](./Oct02.java)                               |
-|  24 | Backspace String Compare                        | LC844   | Easy   | [Oct02.java](./Oct02.java)                               |
-|  25 | Maximum Frequency Stack                         | LC895   | Hard   | [Oct02.java](./Oct02.java)                               |
-|  26 | Next Greater Element I                          | LC496   | Easy   | [Oct02.java](./Oct02.java)                               |
-|  27 | Next Greater Element                            | GFG     | Medium | [Oct02.java](./Oct02.java)                               |
-|  28 | Decode String                                   | LC394   | Medium | [Oct02.java](./Oct02.java)                               |
+| #   | Problem Name                                    | Difficulty | Source  | Date           |
+| --- | ----------------------------------------------- | ---------- | ------- | -------------- |
+| 1   | Stack Using Array                               | Easy       | General | Implementation |
+| 2   | Stack Using Linked List                         | Easy       | General | Implementation |
+| 3   | Stack Using Queue                               | Easy       | LC225   | Implementation |
+| 4   | Queue Using Array                               | Easy       | General | Implementation |
+| 5   | Queue Using Linked List                         | Easy       | General | Implementation |
+| 6   | Queue Using Stack                               | Easy       | LC232   | Implementation |
+| 7   | Min Stack                                       | Medium     | LC155   | September 30   |
+| 8   | Infix to PostFix Notation                       | Medium     | GFG     | September 28   |
+| 9   | Infix to PreFix Notation                        | Medium     | GFG     | September 28   |
+| 10  | Prefix Expression Evaluation                    | Medium     | GFG     | September 29   |
+| 11  | Postfix Expression Evaluation                   | Medium     | GFG     | September 29   |
+| 12  | Postfix Expression to Infix Expression          | Medium     | GFG     | September 29   |
+| 13  | Prefix Expression to Infix Expression           | Medium     | GFG     | September 29   |
+| 14  | Prefix to Postfix Conversion                    | Medium     | GFG     | September 29   |
+| 15  | Postfix to Prefix Conversion                    | Medium     | GFG     | September 29   |
+| 16  | Evaluate Reverse Polish Notation                | Medium     | LC150   | September 29   |
+| 17  | Get Min from Stack                              | Medium     | GFG     | September 30   |
+| 18  | Get Min with Stack Pop                          | Easy       | GFG     | September 30   |
+| 19  | Get Max from Stack                              | Medium     | GFG     | September 30   |
+| 20  | Basic Calculator                                | Hard       | LC224   | October 01     |
+| 21  | Basic Calculator II                             | Medium     | LC227   | October 01     |
+| 22  | Minimum String Length After Removing Substrings | Easy       | LC2696  | October 02     |
+| 23  | Remove All Adjacent Duplicates In String        | Easy       | LC1047  | October 02     |
+| 24  | Backspace String Compare                        | Easy       | LC844   | October 02     |
+| 25  | Maximum Frequency Stack                         | Hard       | LC895   | October 02     |
+| 26  | Next Greater Element I                          | Easy       | LC496   | October 02     |
+| 27  | Next Larger Element                             | Medium     | GFG     | October 02     |
+| 28  | Decode String                                   | Medium     | LC394   | October 02     |
+| 29  | Previous Smaller Element                        | Medium     | GFG     | October 03     |
+| 30  | Trapping Rain Water                             | Hard       | LC42    | October 03     |
 
 ---
 
 # 📈 Source Legend
 
-| Level      |     LC |    GFG |  C360 | General |  Total |
-| ---------- | -----: | -----: | ----: | ------: | -----: |
-| **EASY**   |      6 |      1 |     0 |       4 | **11** |
-| **MEDIUM** |      5 |     11 |     0 |       0 | **16** |
-| **HARD**   |      2 |      0 |     0 |       0 |  **2** |
-| **TOTAL**  | **13** | **12** | **0** |   **4** | **31** |
+| Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
+| ---------- | -------: | -----: | ---------: | ------: | -----: |
+| **EASY**   |        6 |      1 |          0 |       4 | **11** |
+| **MEDIUM** |        4 |     12 |          0 |       0 | **16** |
+| **HARD**   |        3 |      0 |          0 |       0 |  **3** |
+| **TOTAL**  |   **13** | **13** |      **0** |   **4** | **30** |
 
 ---
 
 # 📁 Files
 
-| File                                                       | Purpose                                                     | Topics Covered                                                                                                      |
-| ---------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [`StackUsingArray.java`](./StackUsingArray.java)           | Stack implementation using an array                         | Stack, Array, Push, Pop, Peek                                                                                       |
-| [`StackUsingLinkedList.java`](./StackUsingLinkedList.java) | Stack implementation using a linked list                    | Stack, Linked List                                                                                                  |
-| [`StackUsingQueue.java`](./StackUsingQueue.java)           | LC225 implementation of Stack using Queues                  | Stack, Queue, Costly Push, Costly Pop                                                                               |
-| [`QueueUsingArray.java`](./QueueUsingArray.java)           | Queue implementation using an array                         | Queue, Circular Queue, Enqueue, Dequeue, Peek                                                                       |
-| [`QueueUsingLinkedList.java`](./QueueUsingLinkedList.java) | Queue implementation using a linked list                    | Queue, Linked List                                                                                                  |
-| [`QueueUsingStack.java`](./QueueUsingStack.java)           | LC232 implementation of Queue using Stacks                  | Queue, Stack, Costly Push, Costly Pop                                                                               |
-| [`MinStack.java`](./MinStack.java)                         | LC155 implementation of Min Stack using multiple approaches | Stack, Min Stack, Constant Time Minimum, Encoding, Linked List                                                      |
-| [`Sep28.java`](./Sep28.java)                               | Problems solved on September 28                             | Infix to PostFix, Infix to PreFix, Operator Precedence                                                              |
-| [`Sep29.java`](./Sep29.java)                               | Problems solved on September 29                             | Prefix Evaluation, Postfix Evaluation, Expression Conversion, Expression Evaluation, Stack                          |
-| [`Sep30.java`](./Sep30.java)                               | Problems solved on September 30                             | Min Stack, Max Stack, Stack Encoding, Stack Pop                                                                     |
-| [`Oct01.java`](./Oct01.java)                               | Problems solved on October 1                                | Basic Calculator, Basic Calculator II, Expression Evaluation, Stack, Operator Precedence                            |
-| [`Oct02.java`](./Oct02.java)                               | Problems solved on October 2                                | String Stack, Adjacent Duplicates, Backspace, Frequency Stack, Monotonic Stack, Next Greater Element, Decode String |
+| File                        | Description                                      |
+| --------------------------- | ------------------------------------------------ |
+| `StackUsingArray.java`      | Stack implementation using an array              |
+| `StackUsingLinkedList.java` | Stack implementation using a linked list         |
+| `StackUsingQueue.java`      | Stack implementation using a queue               |
+| `QueueUsingArray.java`      | Queue implementation using an array              |
+| `QueueUsingLinkedList.java` | Queue implementation using a linked list         |
+| `QueueUsingStack.java`      | Queue implementation using stacks                |
+| `MinStack.java`             | Min Stack implementations                        |
+| `Sep28.java`                | Infix notation conversions                       |
+| `Sep29.java`                | Prefix and postfix expression problems           |
+| `Sep30.java`                | Min and max stack problems                       |
+| `Oct01.java`                | Basic Calculator problems                        |
+| `Oct02.java`                | String and monotonic stack problems              |
+| `Oct03.java`                | Previous Smaller Element and Trapping Rain Water |
 
 ---
 
 # 🔄 Daily Update
 
-For every new practice day:
-
-1. Add the new `MonthDate.java` file.
-
-2. Add the day's **target problems** with **Source + Level + Solution**.
-
-3. Add the problems to the **Problem Index**.
-
-4. Update the **Source Legend counts**.
-
-5. Add the new Java file under **Files**.
-
-6. Add **Topics Covered** for the new Java file.
-
 ### Implementations
 
-The `Implementations/` folder is different from the day-wise files.
-
--   It is a **living Stack & Queue implementation folder**.
--   The implementation files can be **added, modified, or deleted**.
--   The **contents of these files may change in the future**.
--   Changes inside an implementation file do not create a new date/day section.
--   If an implementation is modified, update its description or topics in the README only when necessary.
--   If an implementation is removed from the folder, remove it from the README as well.
--   If a new implementation is added, add it to the README and update the counts.
--   Implementation files should remain inside the `Implementations/` folder.
+Add new standalone Stack & Queue implementations under the Implementations section.
 
 ### Target Rule
 
-```text
+```java
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
 ```

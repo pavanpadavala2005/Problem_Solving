@@ -140,6 +140,7 @@ public class Demo {
         // " 3/ 2"
         // 
         // ));
+
         // ! ============= Oct 02 Problems =============
 
         // System.out.println(Oct02.decodeString(
@@ -171,10 +172,29 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct02.getString(
-                // "ab##"
-                "c#d#"
+        // System.out.println(Oct02.getString(
+        // "ab##"
+        //         "c#d#"
         // 
-        ));
+        // ));
+        // ! ============= Oct 03 Problems =============
+        // System.out.println(Oct03.trapOptimal(new int[] {
+        // 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1
+        // 4, 2, 0, 3, 2, 5
+        // 0, 2, 0
+        // 
+        // }));
+
+        // System.out.println(Oct03.countGreater(
+        //         new int[] { 3, 4, 2, 7, 5, 8, 10, 6 },
+        //         new int[] { 0, 5 }
+        // 
+        // ));
+
+        System.out.println(Oct03.sumSubarrayMinsBetter(new int[] {
+                // 3, 1, 2, 4
+                11, 81, 94, 43, 3
+                // 
+        }));
     }
 }
