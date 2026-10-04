@@ -1,3 +1,4 @@
+
 public class Demo {
     public static void main(String[] args) {
         // ! ============= Sep 27 Problems and Implementations =============
@@ -191,10 +192,30 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct03.sumSubarrayMinsBetter(new int[] {
-                // 3, 1, 2, 4
-                11, 81, 94, 43, 3
-                // 
-        }));
+        // System.out.println(Oct03.sumSubarrayMinsBetter(new int[] {
+        // 3, 1, 2, 4
+        // 11, 81, 94, 43, 3
+        // 
+        // }));
+
+        // ! ============= Oct 04 Problems =============
+
+        // System.out.println(Oct04.sumSubarrayMins(new int[] {
+        //         3, 1, 2, 4
+        // }));
+        // System.out.println(Arrays.toString(Oct04.asteroidCollision(new int[] {
+        // 5, 10, -5
+        // 4, 7, 1, 1, 2, -3, -7, 17, 15, -16
+        // 8, -8
+        // 8, -8
+        // 10, 2, -5
+        // 3, 5, -6, 2, -1, 4
+        // -2, -1, 1, 2
+        // })));
+
+        // System.out.println(Oct04.removeKdigits(
+                // "1432219", 3
+        // 
+        // ));
     }
 }

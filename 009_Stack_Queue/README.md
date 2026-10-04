@@ -87,6 +87,13 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 29  | Previous Smaller Element | Medium     | GFG    | [Oct03.java](./Oct03.java) |
 | 30  | Trapping Rain Water      | Hard       | LC42   | [Oct03.java](./Oct03.java) |
 
+### 📆 October 04 — Oct04.java
+
+| #   | Problem Name             | Difficulty | Source | Java File                  |
+| --- | ------------------------ | ---------- | ------ | -------------------------- |
+| 31  | Asteroid Collision       | Medium     | LC735  | [Oct04.java](./Oct04.java) |
+| 32  | Sum of Subarray Minimums | Medium     | LC907  | [Oct04.java](./Oct04.java) |
+
 ---
 
 # 📊 Problem Index
@@ -123,6 +130,8 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 28  | Decode String                                   | Medium     | LC394   | October 02     |
 | 29  | Previous Smaller Element                        | Medium     | GFG     | October 03     |
 | 30  | Trapping Rain Water                             | Hard       | LC42    | October 03     |
+| 31  | Asteroid Collision                              | Medium     | LC735   | October 04     |
+| 32  | Sum of Subarray Minimums                        | Medium     | LC907   | October 04     |
 
 ---
 
@@ -131,9 +140,9 @@ This folder contains standalone implementations of Stack and Queue data structur
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
 | **EASY**   |        6 |      1 |          0 |       4 | **11** |
-| **MEDIUM** |        4 |     12 |          0 |       0 | **16** |
+| **MEDIUM** |        6 |     12 |          0 |       0 | **18** |
 | **HARD**   |        3 |      0 |          0 |       0 |  **3** |
-| **TOTAL**  |   **13** | **13** |      **0** |   **4** | **30** |
+| **TOTAL**  |   **15** | **13** |      **0** |   **4** | **32** |
 
 ---
 
@@ -154,6 +163,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | `Oct01.java`                | Basic Calculator problems                        |
 | `Oct02.java`                | String and monotonic stack problems              |
 | `Oct03.java`                | Previous Smaller Element and Trapping Rain Water |
+| `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums  |
 
 ---
 
