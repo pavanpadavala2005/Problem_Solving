@@ -29,6 +29,29 @@ public class Oct04 {
     }
 
     // ! ============= LC907. Sum of Subarray Minimums =============
+    public static int sumSubarrayMinsOptimal(int[] arr) {
+        long res = 0;
+        int n = arr.length;
+        Stack<Integer> st = new Stack<>();
+        long MOD = (long) 1e9 + 7;
+        st.push(-1);
+        for (int i = 0; i < n + 1; i++) {
+            int val = i < n ? arr[i] : 0;
+            while (st.peek() != -1 && val < arr[st.peek()]) {
+                int idx = st.pop();
+                int j = st.peek();
+                long sum = (long) (idx - j) * (i - idx) * arr[idx];
+                res = (res + sum) % MOD;
+            }
+            st.push(i);
+        }
+        return (int) res;
+    }
+
+    /*
+    @ TC --> O(3N) --> computing two Prev Smaller and Next Greator Elements
+    @ SC --> O(3N)
+    */
     public static int sumSubarrayMins(int[] arr) {
         int n = arr.length;
         int[] leftArr = new int[n];

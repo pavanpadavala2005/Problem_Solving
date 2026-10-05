@@ -212,10 +212,12 @@ public class Demo {
         // 3, 5, -6, 2, -1, 4
         // -2, -1, 1, 2
         // })));
-
-        // System.out.println(Oct04.removeKdigits(
+        // ! ============= Oct 05 Problems =============
+        System.out.println(Oct05.removeKdigitsBetter(
                 // "1432219", 3
-        // 
-        // ));
+                // "10200", 1
+                "10", 2
+        //  
+        ));
     }
 }
