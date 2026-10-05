@@ -94,6 +94,16 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 31  | Asteroid Collision       | Medium     | LC735  | [Oct04.java](./Oct04.java) |
 | 32  | Sum of Subarray Minimums | Medium     | LC907  | [Oct04.java](./Oct04.java) |
 
+### 📆 October 05 — Oct05.java
+
+| #   | Problem Name            | Difficulty | Source | Java File                  |
+| --- | ----------------------- | ---------- | ------ | -------------------------- |
+| 33  | Sum of Max of Subarrays | Medium     | GFG    | [Oct05.java](./Oct05.java) |
+| 34  | Remove K Digits         | Medium     | LC402  | [Oct05.java](./Oct05.java) |
+| 35  | Sum of Subarray Ranges  | Medium     | LC2104 | [Oct05.java](./Oct05.java) |
+| 36  | Daily Temperatures      | Medium     | LC739  | [Oct05.java](./Oct05.java) |
+| 37  | Online Stock Span       | Medium     | LC901  | [Oct05.java](./Oct05.java) |
+
 ---
 
 # 📊 Problem Index
@@ -106,7 +116,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 4   | Queue Using Array                               | Easy       | General | Implementation |
 | 5   | Queue Using Linked List                         | Easy       | General | Implementation |
 | 6   | Queue Using Stack                               | Easy       | LC232   | Implementation |
-| 7   | Min Stack                                       | Medium     | LC155   | September 30   |
+| 7   | Min Stack                                       | Medium     | LC155   | Implementation |
 | 8   | Infix to PostFix Notation                       | Medium     | GFG     | September 28   |
 | 9   | Infix to PreFix Notation                        | Medium     | GFG     | September 28   |
 | 10  | Prefix Expression Evaluation                    | Medium     | GFG     | September 29   |
@@ -132,6 +142,11 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 30  | Trapping Rain Water                             | Hard       | LC42    | October 03     |
 | 31  | Asteroid Collision                              | Medium     | LC735   | October 04     |
 | 32  | Sum of Subarray Minimums                        | Medium     | LC907   | October 04     |
+| 33  | Sum of Max of Subarrays                         | Medium     | GFG     | October 05     |
+| 34  | Remove K Digits                                 | Medium     | LC402   | October 05     |
+| 35  | Sum of Subarray Ranges                          | Medium     | LC2104  | October 05     |
+| 36  | Daily Temperatures                              | Medium     | LC739   | October 05     |
+| 37  | Online Stock Span                               | Medium     | LC901   | October 05     |
 
 ---
 
@@ -140,30 +155,31 @@ This folder contains standalone implementations of Stack and Queue data structur
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
 | **EASY**   |        6 |      1 |          0 |       4 | **11** |
-| **MEDIUM** |        6 |     12 |          0 |       0 | **18** |
+| **MEDIUM** |        9 |     13 |          0 |       0 | **22** |
 | **HARD**   |        3 |      0 |          0 |       0 |  **3** |
-| **TOTAL**  |   **15** | **13** |      **0** |   **4** | **32** |
+| **TOTAL**  |   **18** | **14** |      **0** |   **4** | **37** |
 
 ---
 
 # 📁 Files
 
-| File                        | Description                                      |
-| --------------------------- | ------------------------------------------------ |
-| `StackUsingArray.java`      | Stack implementation using an array              |
-| `StackUsingLinkedList.java` | Stack implementation using a linked list         |
-| `StackUsingQueue.java`      | Stack implementation using a queue               |
-| `QueueUsingArray.java`      | Queue implementation using an array              |
-| `QueueUsingLinkedList.java` | Queue implementation using a linked list         |
-| `QueueUsingStack.java`      | Queue implementation using stacks                |
-| `MinStack.java`             | Min Stack implementations                        |
-| `Sep28.java`                | Infix notation conversions                       |
-| `Sep29.java`                | Prefix and postfix expression problems           |
-| `Sep30.java`                | Min and max stack problems                       |
-| `Oct01.java`                | Basic Calculator problems                        |
-| `Oct02.java`                | String and monotonic stack problems              |
-| `Oct03.java`                | Previous Smaller Element and Trapping Rain Water |
-| `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums  |
+| File                        | Description                                             |
+| --------------------------- | ------------------------------------------------------- |
+| `StackUsingArray.java`      | Stack implementation using an array                     |
+| `StackUsingLinkedList.java` | Stack implementation using a linked list                |
+| `StackUsingQueue.java`      | Stack implementation using a queue                      |
+| `QueueUsingArray.java`      | Queue implementation using an array                     |
+| `QueueUsingLinkedList.java` | Queue implementation using a linked list                |
+| `QueueUsingStack.java`      | Queue implementation using stacks                       |
+| `MinStack.java`             | Min Stack implementations                               |
+| `Sep28.java`                | Infix notation conversions                              |
+| `Sep29.java`                | Prefix and postfix expression problems                  |
+| `Sep30.java`                | Min and max stack problems                              |
+| `Oct01.java`                | Basic Calculator problems                               |
+| `Oct02.java`                | String and monotonic stack problems                     |
+| `Oct03.java`                | Previous Smaller Element and Trapping Rain Water        |
+| `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums         |
+| `Oct05.java`                | Monotonic Stack problems and Stack-based array problems |
 
 ---
 

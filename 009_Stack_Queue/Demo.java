@@ -213,11 +213,18 @@ public class Demo {
         // -2, -1, 1, 2
         // })));
         // ! ============= Oct 05 Problems =============
-        System.out.println(Oct05.removeKdigitsBetter(
-                // "1432219", 3
-                // "10200", 1
-                "10", 2
+        // System.out.println(Oct05.removeKdigitsOptimal(
+        // "1432219", 3
+        // "10200", 1
+        // "10", 2
+        // "1234", 1
+        // "10001", 1
         //  
-        ));
+        // ));
+
+        System.out.println(Oct05.largestRectangleArea(new int[] {
+                2, 1, 5, 6, 2, 3
+                // 2, 4
+        }));
     }
 }
