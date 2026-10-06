@@ -104,6 +104,13 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 36  | Daily Temperatures      | Medium     | LC739  | [Oct05.java](./Oct05.java) |
 | 37  | Online Stock Span       | Medium     | LC901  | [Oct05.java](./Oct05.java) |
 
+### 📆 October 06 — Oct06.java
+
+| #   | Problem Name                   | Difficulty | Source | Java File                  |
+| --- | ------------------------------ | ---------- | ------ | -------------------------- |
+| 38  | Largest Rectangle in Histogram | Hard       | LC84   | [Oct06.java](./Oct06.java) |
+| 39  | Maximal Rectangle              | Hard       | LC85   | [Oct06.java](./Oct06.java) |
+
 ---
 
 # 📊 Problem Index
@@ -147,6 +154,8 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 35  | Sum of Subarray Ranges                          | Medium     | LC2104  | October 05     |
 | 36  | Daily Temperatures                              | Medium     | LC739   | October 05     |
 | 37  | Online Stock Span                               | Medium     | LC901   | October 05     |
+| 38  | Largest Rectangle in Histogram                  | Hard       | LC84    | October 06     |
+| 39  | Maximal Rectangle                               | Hard       | LC85    | October 06     |
 
 ---
 
@@ -156,8 +165,8 @@ This folder contains standalone implementations of Stack and Queue data structur
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
 | **EASY**   |        6 |      1 |          0 |       4 | **11** |
 | **MEDIUM** |        9 |     13 |          0 |       0 | **22** |
-| **HARD**   |        3 |      0 |          0 |       0 |  **3** |
-| **TOTAL**  |   **18** | **14** |      **0** |   **4** | **37** |
+| **HARD**   |        5 |      0 |          0 |       0 |  **5** |
+| **TOTAL**  |   **20** | **14** |      **0** |   **4** | **39** |
 
 ---
 
@@ -180,6 +189,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | `Oct03.java`                | Previous Smaller Element and Trapping Rain Water        |
 | `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums         |
 | `Oct05.java`                | Monotonic Stack problems and Stack-based array problems |
+| `Oct06.java`                | Largest Rectangle in Histogram and Maximal Rectangle    |
 
 ---
 
