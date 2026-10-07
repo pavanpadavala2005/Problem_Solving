@@ -111,6 +111,14 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 38  | Largest Rectangle in Histogram | Hard       | LC84   | [Oct06.java](./Oct06.java) |
 | 39  | Maximal Rectangle              | Hard       | LC85   | [Oct06.java](./Oct06.java) |
 
+### 📆 October 07 — Oct07.java
+
+| #   | Problem Name                                   | Difficulty | Source | Java File                  |
+| --- | ---------------------------------------------- | ---------- | ------ | -------------------------- |
+| 40  | Maximal Square                                 | Medium     | LC221  | [Oct07.java](./Oct07.java) |
+| 41  | Final Prices With a Special Discount in a Shop | Easy       | LC1475 | [Oct07.java](./Oct07.java) |
+| 42  | Next Greater Element II                        | Medium     | LC503  | [Oct07.java](./Oct07.java) |
+
 ---
 
 # 📊 Problem Index
@@ -156,6 +164,9 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 37  | Online Stock Span                               | Medium     | LC901   | October 05     |
 | 38  | Largest Rectangle in Histogram                  | Hard       | LC84    | October 06     |
 | 39  | Maximal Rectangle                               | Hard       | LC85    | October 06     |
+| 40  | Maximal Square                                  | Medium     | LC221   | October 07     |
+| 41  | Final Prices With a Special Discount in a Shop  | Easy       | LC1475  | October 07     |
+| 42  | Next Greater Element II                         | Medium     | LC503   | October 07     |
 
 ---
 
@@ -163,33 +174,34 @@ This folder contains standalone implementations of Stack and Queue data structur
 
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
-| **EASY**   |        6 |      1 |          0 |       4 | **11** |
-| **MEDIUM** |        9 |     13 |          0 |       0 | **22** |
+| **EASY**   |        7 |      1 |          0 |       4 | **12** |
+| **MEDIUM** |       10 |     13 |          0 |       0 | **23** |
 | **HARD**   |        5 |      0 |          0 |       0 |  **5** |
-| **TOTAL**  |   **20** | **14** |      **0** |   **4** | **39** |
+| **TOTAL**  |   **22** | **14** |      **0** |   **4** | **40** |
 
 ---
 
 # 📁 Files
 
-| File                        | Description                                             |
-| --------------------------- | ------------------------------------------------------- |
-| `StackUsingArray.java`      | Stack implementation using an array                     |
-| `StackUsingLinkedList.java` | Stack implementation using a linked list                |
-| `StackUsingQueue.java`      | Stack implementation using a queue                      |
-| `QueueUsingArray.java`      | Queue implementation using an array                     |
-| `QueueUsingLinkedList.java` | Queue implementation using a linked list                |
-| `QueueUsingStack.java`      | Queue implementation using stacks                       |
-| `MinStack.java`             | Min Stack implementations                               |
-| `Sep28.java`                | Infix notation conversions                              |
-| `Sep29.java`                | Prefix and postfix expression problems                  |
-| `Sep30.java`                | Min and max stack problems                              |
-| `Oct01.java`                | Basic Calculator problems                               |
-| `Oct02.java`                | String and monotonic stack problems                     |
-| `Oct03.java`                | Previous Smaller Element and Trapping Rain Water        |
-| `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums         |
-| `Oct05.java`                | Monotonic Stack problems and Stack-based array problems |
-| `Oct06.java`                | Largest Rectangle in Histogram and Maximal Rectangle    |
+| File                        | Description                                              |
+| --------------------------- | -------------------------------------------------------- |
+| `StackUsingArray.java`      | Stack implementation using an array                      |
+| `StackUsingLinkedList.java` | Stack implementation using a linked list                 |
+| `StackUsingQueue.java`      | Stack implementation using a queue                       |
+| `QueueUsingArray.java`      | Queue implementation using an array                      |
+| `QueueUsingLinkedList.java` | Queue implementation using a linked list                 |
+| `QueueUsingStack.java`      | Queue implementation using stacks                        |
+| `MinStack.java`             | Min Stack implementations                                |
+| `Sep28.java`                | Infix notation conversions                               |
+| `Sep29.java`                | Prefix and postfix expression problems                   |
+| `Sep30.java`                | Min and max stack problems                               |
+| `Oct01.java`                | Basic Calculator problems                                |
+| `Oct02.java`                | String and monotonic stack problems                      |
+| `Oct03.java`                | Previous Smaller Element and Trapping Rain Water         |
+| `Oct04.java`                | Asteroid Collision and Sum of Subarray Minimums          |
+| `Oct05.java`                | Monotonic Stack problems and Stack-based array problems  |
+| `Oct06.java`                | Largest Rectangle in Histogram and Maximal Rectangle     |
+| `Oct07.java`                | Next Greater Element, Discount Prices and Maximal Square |
 
 ---
 

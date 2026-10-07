@@ -222,6 +222,8 @@ public class Demo {
         //  
         // ));
 
+        // ! ============= Oct 06 Problems =============
+
         // System.out.println(Oct06.largestRectangleAreaOptimalV2(new int[] {
         // 2, 1, 5, 6, 2, 3
         // 2, 4
@@ -237,9 +239,22 @@ public class Demo {
         // new char[] { '1' }
         // }));
 
-        System.out.println(Oct06.maximalSquareHelper(new int[] {
-                // 3, 3, 0, 3, 3, 3
-                3, 1, 3, 2, 2
-        }));
+        // ! ============= Oct 07 Problems =============
+        // System.out.println(Oct07.maximalSquareHelper(new int[] {
+        // 3, 3, 0, 3, 3, 3
+        // 3, 1, 3, 2, 2
+        // 1, 1, 1, 1, 2, 2, 2
+        // }));
+
+        // System.out.println(Oct07.maximalSquare(new char[][] {
+        //         new char[] { '1', '0', '0', '1', '1', '0', '1', '1' },
+        //         new char[] { '1', '0', '0', '0', '0', '1', '0', '0' },
+        //         new char[] { '0', '1', '1', '1', '0', '0', '1', '1' },
+        //         new char[] { '0', '0', '0', '1', '0', '0', '0', '1' },
+        //         new char[] { '0', '0', '0', '0', '0', '1', '1', '1' },
+        //         new char[] { '1', '1', '1', '1', '1', '1', '1', '1' },
+        //         new char[] { '1', '0', '0', '1', '0', '1', '1', '0' },
+        //         new char[] { '0', '1', '1', '0', '1', '1', '1', '0' },
+        // }));
     }
 }
