@@ -256,5 +256,22 @@ public class Demo {
         //         new char[] { '1', '0', '0', '1', '0', '1', '1', '0' },
         //         new char[] { '0', '1', '1', '0', '1', '1', '1', '0' },
         // }));
+        // ! ============= Oct 08 Problems =============
+
+        // System.out.println(Oct08.nextGreaterElement(
+        // 12443322
+        // 12
+        // 
+        // ));
+
+        System.out.println(Oct08.find132patternBetter(new int[] {
+                // 1, 2, 3, 4
+                // 3, 1, 4, 2
+                -1, 3, 2, 0
+                // 9, 7, 5, 1, 8, 3, 6, 2
+                // 3, 5, 0, 3, 4
+                // 
+        }));
     }
+
 }

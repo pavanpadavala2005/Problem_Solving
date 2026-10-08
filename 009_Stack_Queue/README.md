@@ -119,6 +119,12 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 41  | Final Prices With a Special Discount in a Shop | Easy       | LC1475 | [Oct07.java](./Oct07.java) |
 | 42  | Next Greater Element II                        | Medium     | LC503  | [Oct07.java](./Oct07.java) |
 
+### 📆 October 08 — Oct08.java
+
+| #   | Problem Name             | Difficulty | Source | Java File                  |
+| --- | ------------------------ | ---------- | ------ | -------------------------- |
+| 43  | Next Greater Element III | Medium     | LC556  | [Oct08.java](./Oct08.java) |
+
 ---
 
 # 📊 Problem Index
@@ -167,6 +173,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 40  | Maximal Square                                  | Medium     | LC221   | October 07     |
 | 41  | Final Prices With a Special Discount in a Shop  | Easy       | LC1475  | October 07     |
 | 42  | Next Greater Element II                         | Medium     | LC503   | October 07     |
+| 43  | Next Greater Element III                        | Medium     | LC556   | October 08     |
 
 ---
 
@@ -175,9 +182,9 @@ This folder contains standalone implementations of Stack and Queue data structur
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
 | **EASY**   |        7 |      1 |          0 |       4 | **12** |
-| **MEDIUM** |       10 |     13 |          0 |       0 | **23** |
+| **MEDIUM** |       11 |     13 |          0 |       0 | **24** |
 | **HARD**   |        5 |      0 |          0 |       0 |  **5** |
-| **TOTAL**  |   **22** | **14** |      **0** |   **4** | **40** |
+| **TOTAL**  |   **23** | **14** |      **0** |   **4** | **41** |
 
 ---
 
@@ -202,6 +209,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | `Oct05.java`                | Monotonic Stack problems and Stack-based array problems  |
 | `Oct06.java`                | Largest Rectangle in Histogram and Maximal Rectangle     |
 | `Oct07.java`                | Next Greater Element, Discount Prices and Maximal Square |
+| `Oct08.java`                | Next Greater Element III                                 |
 
 ---
 
