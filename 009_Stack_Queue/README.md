@@ -125,6 +125,13 @@ This folder contains standalone implementations of Stack and Queue data structur
 | --- | ------------------------ | ---------- | ------ | -------------------------- |
 | 43  | Next Greater Element III | Medium     | LC556  | [Oct08.java](./Oct08.java) |
 
+### 📆 October 09 — Oct09.java
+
+| #   | Problem Name                       | Difficulty | Source | Java File                  |
+| --- | ---------------------------------- | ---------- | ------ | -------------------------- |
+| 44  | 132 Pattern                        | Medium     | LC456  | [Oct09.java](./Oct09.java) |
+| 45  | Steps to Make Array Non-decreasing | Medium     | LC2289 | [Oct09.java](./Oct09.java) |
+
 ---
 
 # 📊 Problem Index
@@ -174,6 +181,8 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 41  | Final Prices With a Special Discount in a Shop  | Easy       | LC1475  | October 07     |
 | 42  | Next Greater Element II                         | Medium     | LC503   | October 07     |
 | 43  | Next Greater Element III                        | Medium     | LC556   | October 08     |
+| 44  | 132 Pattern                                     | Medium     | LC456   | October 09     |
+| 45  | Steps to Make Array Non-decreasing              | Hard       | LC2289  | October 09     |
 
 ---
 
@@ -182,9 +191,9 @@ This folder contains standalone implementations of Stack and Queue data structur
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
 | **EASY**   |        7 |      1 |          0 |       4 | **12** |
-| **MEDIUM** |       11 |     13 |          0 |       0 | **24** |
-| **HARD**   |        5 |      0 |          0 |       0 |  **5** |
-| **TOTAL**  |   **23** | **14** |      **0** |   **4** | **41** |
+| **MEDIUM** |       12 |     13 |          0 |       0 | **25** |
+| **HARD**   |        6 |      0 |          0 |       0 |  **6** |
+| **TOTAL**  |   **25** | **14** |      **0** |   **4** | **43** |
 
 ---
 
@@ -210,6 +219,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | `Oct06.java`                | Largest Rectangle in Histogram and Maximal Rectangle     |
 | `Oct07.java`                | Next Greater Element, Discount Prices and Maximal Square |
 | `Oct08.java`                | Next Greater Element III                                 |
+| `Oct09.java`                | 132 Pattern and Steps to Make Array Non-decreasing       |
 
 ---
 

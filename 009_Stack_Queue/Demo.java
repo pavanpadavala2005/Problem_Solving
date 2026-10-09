@@ -256,6 +256,7 @@ public class Demo {
         //         new char[] { '1', '0', '0', '1', '0', '1', '1', '0' },
         //         new char[] { '0', '1', '1', '0', '1', '1', '1', '0' },
         // }));
+
         // ! ============= Oct 08 Problems =============
 
         // System.out.println(Oct08.nextGreaterElement(
@@ -264,14 +265,21 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct08.find132patternBetter(new int[] {
-                // 1, 2, 3, 4
-                // 3, 1, 4, 2
-                -1, 3, 2, 0
-                // 9, 7, 5, 1, 8, 3, 6, 2
-                // 3, 5, 0, 3, 4
+        // ! ============= Oct 09 Problems =============
+
+        // System.out.println(Oct09.find132patternBetterV1(new int[] {
+        // 1, 2, 3, 4
+        // 3, 1, 4, 2
+        // -1, 3, 2, 0
+        // 9, 7, 5, 1, 8, 3, 6, 2
+        // 3, 5, 0, 3, 4
+        // 
+        // }));
+
+        System.out.println(Oct09.totalStepsBetter(new int[] {
+                5, 3, 4, 4, 7, 3, 6, 11, 8, 5, 11
+                // 4, 5, 7, 7, 13
                 // 
         }));
     }
-
 }
