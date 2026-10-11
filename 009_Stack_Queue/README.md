@@ -139,6 +139,13 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 46  | Maximum Width Ramp | Medium     | LC962  | [Oct10.java](./Oct10.java) |
 | 47  | Car Fleet          | Medium     | LC853  | [Oct10.java](./Oct10.java) |
 
+### 📆 October 11 — Oct11.java
+
+| #   | Problem Name          | Difficulty | Source | Java File                  |
+| --- | --------------------- | ---------- | ------ | -------------------------- |
+| 48  | Make The String Great | Easy       | LC1544 | [Oct11.java](./Oct11.java) |
+| 49  | Valid Parentheses     | Easy       | LC20   | [Oct11.java](./Oct11.java) |
+
 ---
 
 # 📊 Problem Index
@@ -192,6 +199,8 @@ This folder contains standalone implementations of Stack and Queue data structur
 | 45  | Steps to Make Array Non-decreasing              | Hard       | LC2289  | October 09     |
 | 46  | Maximum Width Ramp                              | Medium     | LC962   | October 10     |
 | 47  | Car Fleet                                       | Medium     | LC853   | October 10     |
+| 48  | Make The String Great                           | Easy       | LC1544  | October 11     |
+| 49  | Valid Parentheses                               | Easy       | LC20    | October 11     |
 
 ---
 
@@ -199,10 +208,10 @@ This folder contains standalone implementations of Stack and Queue data structur
 
 | Difficulty | LeetCode |    GFG | CodeStudio | General |  Total |
 | ---------- | -------: | -----: | ---------: | ------: | -----: |
-| **EASY**   |        7 |      1 |          0 |       4 | **12** |
+| **EASY**   |        9 |      1 |          0 |       4 | **14** |
 | **MEDIUM** |       14 |     13 |          0 |       0 | **27** |
 | **HARD**   |        6 |      0 |          0 |       0 |  **6** |
-| **TOTAL**  |   **27** | **14** |      **0** |   **4** | **45** |
+| **TOTAL**  |   **29** | **14** |      **0** |   **4** | **47** |
 
 ---
 
@@ -230,6 +239,7 @@ This folder contains standalone implementations of Stack and Queue data structur
 | `Oct08.java`                | Next Greater Element III                                 |
 | `Oct09.java`                | 132 Pattern and Steps to Make Array Non-decreasing       |
 | `Oct10.java`                | Maximum Width Ramp and Car Fleet                         |
+| `Oct11.java`                | Valid Parentheses and Make The String Great              |
 
 ---
 

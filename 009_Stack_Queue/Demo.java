@@ -289,17 +289,34 @@ public class Demo {
                 // 
                 // }));
 
-                System.out.println(Oct10.carFleetOptimal(
-                                12,
-                                // 10,
-                                new int[] {
-                                                10, 8, 0, 5, 3
-                                // 6, 8
-                                },
-                                new int[] {
-                                                2, 4, 1, 1, 3
-                                // 3, 2
-                                }
+                // System.out.println(Oct10.carFleetOptimal(
+                // 12,
+                // 10,
+                // new int[] {
+                // 10, 8, 0, 5, 3
+                // 6, 8
+                // },
+                // new int[] {
+                // 2, 4, 1, 1, 3
+                // 3, 2
+                // }
+                // 
+                // ));
+
+                // System.out.println(Oct11.totalStrength(new int[] {
+                // 1, 3, 1, 2
+                // 5, 4, 6
+                // 
+                // }));
+
+                // System.out.println(Oct11.makeGood(
+                // "abBAcC"
+                // 
+                // ));
+
+                System.out.println(Oct11.isValid(
+                                "()[]{}"
+                // ")}"
                 // 
                 ));
         }

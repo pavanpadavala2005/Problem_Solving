@@ -30,6 +30,7 @@ Thumbs.db
 # Safe folders anywhere in the project
 Safe/
 Excalidraw_Files/
+Leetcode/
 
 *.png
 *.excalidraw
