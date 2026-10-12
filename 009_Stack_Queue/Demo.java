@@ -303,6 +303,8 @@ public class Demo {
                 // 
                 // ));
 
+                // ! ============= Oct 11 Problems =============
+
                 // System.out.println(Oct11.totalStrength(new int[] {
                 // 1, 3, 1, 2
                 // 5, 4, 6
@@ -314,9 +316,21 @@ public class Demo {
                 // 
                 // ));
 
-                System.out.println(Oct11.isValid(
-                                "()[]{}"
+                // System.out.println(Oct11.isValid(
+                // "()[]{}"
                 // ")}"
+                // 
+                // ));
+
+                // ! ============= Oct 12 Problems =============
+                // System.out.println(Oct12.minAddToMakeValid(
+                // "((("
+                // "())"
+                // 
+                // ));
+
+                System.out.println(Oct12.scoreOfParentheses(
+                                "(()())"
                 // 
                 ));
         }
