@@ -19,13 +19,28 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct13.longestOnes(new int[] {
-                // 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0
-                0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1
-        },
-                // 2
-                3
+        // System.out.println(Oct13.longestOnes(new int[] {
+        // 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0
+        // 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1
+        // },
+        // 2
+        // 3
         // 
-        ));
+        // ));
+
+        // ! ============= Oct 14 Problems =============
+        // System.out.println(Oct14.totalFruitOptimalV2(new int[] {
+        // 0, 1, 2, 2
+        // 1, 2, 3, 2, 2
+        // }));
+
+        // System.out.println(Oct14.longestKSubstrOptimal(
+        // "aabacbebebe",
+        // 3
+        // "aaaa", 2
+        // "aabaaab", 2
+        // 
+        // ));
+
     }
 }
