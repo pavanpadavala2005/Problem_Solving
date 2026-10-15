@@ -42,5 +42,36 @@ public class Demo {
         // 
         // ));
 
+        // ! ============= Oct 15 Problems =============
+        // System.out.println(Oct15.numberOfSubstrings(
+        // "abcabc"
+        // 
+        // ));
+
+        // System.out.println(Oct15.characterReplacementBetter(
+        // "ABAB",
+        // 2
+        // "AABABBA", 1
+        // "AAABBCD", 2
+        // 
+        // ));
+
+        // System.out.println(
+        // Oct15.numSubarraysWithSum(
+        // new int[] { 0, 0, 0, 0, 0 }, 0
+        // new int[] { 1, 0, 1, 0, 1 }, 2
+        // 
+        // ));
+
+        System.out.println(Oct15.subarraysWithKDistinct(
+                new int[] {
+                        // 1, 2, 1, 2, 3
+                        1, 2, 1, 3, 4
+                },
+                // 2
+                3
+        // 
+        ));
     }
+
 }
