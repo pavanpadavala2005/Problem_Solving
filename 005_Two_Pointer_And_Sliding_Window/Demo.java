@@ -63,13 +63,57 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct15.subarraysWithKDistinct(
-                new int[] {
-                        // 1, 2, 1, 2, 3
-                        1, 2, 1, 3, 4
-                },
-                // 2
-                3
+        // System.out.println(Oct15.subarraysWithKDistinct(
+        // new int[] {
+        // 1, 2, 1, 2, 3
+        // 1, 2, 1, 3, 4
+        // },
+        // 2
+        // 3
+        // 
+        // ));
+
+        // ! ============= Oct 16 Problems =============
+        // System.out.println(Oct16.minWindowBetter(
+        // "ADOBECODEBANC",
+        // "ABC"
+        // "a",
+        // "taa"
+        // "a",
+        // "a"
+        // 
+        // ));
+
+        // System.out.println(Oct16.minWindow(
+        // "geeksforgeeks",
+        // "eksrg"
+
+        // "abcdebdde",
+        // "bde"
+
+        // "ad",
+        // "b"
+        // 
+        // ));
+
+        // TODO:
+        // System.out.println(Oct16.findSubstring(
+        // "barfoofoobarthefoobarman"
+        // "barfoothefoobarman"
+        // 
+        // ,
+        // new String[] {
+        // "bar", "foo", "the"
+        // "foo", "bar"
+        // }
+        // 
+        // ));
+
+        System.out.println(Oct16.maxConsecutiveAnswers(
+                // "TTFF",
+                //  2
+                "TFFT",
+                1
         // 
         ));
     }

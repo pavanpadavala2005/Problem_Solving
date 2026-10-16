@@ -35,6 +35,14 @@
 |   9 | Count Number of Nice Subarrays                       | Medium     | LC1248 | Oct 15, 2026 | [Oct15.java](./Oct15.java) |
 |  10 | Subarrays with K Different Integers                  | Hard       | LC992  | Oct 15, 2026 | [Oct15.java](./Oct15.java) |
 
+## 📆 October 16, 2026 — `Oct16.java`
+
+| No. | Problem Name                      | Difficulty | Source | Date         | Java File                  |
+| --: | --------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  11 | Minimum Window Substring          | Hard       | LC76   | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
+|  12 | Minimum Window Subsequence        | Hard       | GFG    | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
+|  13 | Maximize the Confusion of an Exam | Medium     | LC2024 | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
+
 ---
 
 # 📊 Problem Index
@@ -51,6 +59,9 @@
 |   8 | Binary Subarrays With Sum                            | Medium     | LC930  | Oct 15, 2026 | [Oct15.java](./Oct15.java) |
 |   9 | Count Number of Nice Subarrays                       | Medium     | LC1248 | Oct 15, 2026 | [Oct15.java](./Oct15.java) |
 |  10 | Subarrays with K Different Integers                  | Hard       | LC992  | Oct 15, 2026 | [Oct15.java](./Oct15.java) |
+|  11 | Minimum Window Substring                             | Hard       | LC76   | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
+|  12 | Minimum Window Subsequence                           | Hard       | GFG    | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
+|  13 | Maximize the Confusion of an Exam                    | Medium     | LC2024 | Oct 16, 2026 | [Oct16.java](./Oct16.java) |
 
 ---
 
@@ -59,9 +70,9 @@
 | Difficulty | LeetCode |   GFG | Other |  Total |
 | ---------- | -------: | ----: | ----: | -----: |
 | Easy       |        0 |     0 |     0 |      0 |
-| Medium     |        8 |     1 |     0 |      9 |
-| Hard       |        1 |     0 |     0 |      1 |
-| **TOTAL**  |    **9** | **1** | **0** | **10** |
+| Medium     |        9 |     1 |     0 |     10 |
+| Hard       |        2 |     1 |     0 |      3 |
+| **TOTAL**  |   **11** | **2** | **0** | **13** |
 
 ---
 
@@ -72,6 +83,7 @@
 | [Oct13.java](./Oct13.java) | Maximum Points You Can Obtain from Cards, Longest Substring Without Repeating Characters, and Max Consecutive Ones III                                                                            |
 | [Oct14.java](./Oct14.java) | Fruit Into Baskets and Longest Substring with K Uniques                                                                                                                                           |
 | [Oct15.java](./Oct15.java) | Number of Substrings Containing All Three Characters, Longest Repeating Character Replacement, Binary Subarrays With Sum, Count Number of Nice Subarrays, and Subarrays with K Different Integers |
+| [Oct16.java](./Oct16.java) | Minimum Window Substring, Minimum Window Subsequence, and Maximize the Confusion of an Exam                                                                                                       |
 
 ---
 
@@ -80,7 +92,7 @@
 - Add only problems marked with ✅ in the Java file's target list.
 - Continue the problem numbering sequentially.
 - Update the daily section, Problem Index, Source Legend, and Files table.
-- Keep LeetCode IDs in the `LC1358` format without spaces.
+- Keep LeetCode IDs in the `LC76` format without spaces.
 - Exclude pending or unchecked problems from the README.
 
 ### Target Rule
