@@ -42,10 +42,10 @@
 
 | Difficulty | LeetCode |   GFG | Other | Total |
 | ---------- | -------: | ----: | ----: | ----: |
-| Easy       |        0 |     0 |     0 |     0 |
-| Medium     |        0 |     0 |     0 |     0 |
+| Easy       |        0 |     0 |     4 |     4 |
+| Medium     |        1 |     2 |     0 |     3 |
 | Hard       |        0 |     0 |     0 |     0 |
-| **TOTAL**  |    **0** | **0** | **0** | **0** |
+| **TOTAL**  |    **1** | **2** | **4** | **7** |
 
 ---
 
@@ -64,7 +64,8 @@
 - Update the daily section, Problem Index, Source Legend, and Files table.
 - Keep LeetCode IDs in the `LC{number}` format without spaces.
 - For LeetCode, GFG, and other online platforms, use the platform-provided difficulty.
-- For general problems, analyze the algorithm, implementation, and conceptual complexity to assign Easy, Medium, or Hard.
+- For general problems, analyze the algorithm, implementation, and conceptual difficulty to assign Easy, Medium, or Hard.
+- Count all checked problems accurately in the Source Legend by difficulty and source.
 - Exclude pending or unchecked problems from the README.
 
 ### Target Rule
