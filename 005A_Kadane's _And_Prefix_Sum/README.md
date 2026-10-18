@@ -22,6 +22,14 @@
 | 6   | Compute Before Matrix for Suffix | Medium     | GFG    | Oct 17, 2026 | [Oct17.java](Oct17.java) |
 | 7   | Compute Before Matrix for Prefix | Medium     | GFG    | Oct 17, 2026 | [Oct17.java](Oct17.java) |
 
+## 📆 October 18, 2026 — `Oct18.java`
+
+| No. | Problem Name                 | Difficulty | Source | Date         | Java File                |
+| --- | ---------------------------- | ---------- | ------ | ------------ | ------------------------ |
+| 8   | Continuous Subarray Sum      | Medium     | LC523  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+| 9   | Product of Array Except Self | Medium     | LC238  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+| 10  | Matrix Block Sum             | Medium     | LC1314 | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+
 ---
 
 # 📊 Problem Index
@@ -35,17 +43,20 @@
 | 5   | Generate Prefix Matrix           | Easy       | GEN    | Oct 17, 2026 | [Oct17.java](Oct17.java) |
 | 6   | Compute Before Matrix for Suffix | Medium     | GFG    | Oct 17, 2026 | [Oct17.java](Oct17.java) |
 | 7   | Compute Before Matrix for Prefix | Medium     | GFG    | Oct 17, 2026 | [Oct17.java](Oct17.java) |
+| 8   | Continuous Subarray Sum          | Medium     | LC523  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+| 9   | Product of Array Except Self     | Medium     | LC238  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+| 10  | Matrix Block Sum                 | Medium     | LC1314 | Oct 18, 2026 | [Oct18.java](Oct18.java) |
 
 ---
 
 # 📈 Source Legend
 
-| Difficulty | LeetCode |   GFG | Other | Total |
-| ---------- | -------: | ----: | ----: | ----: |
-| Easy       |        0 |     0 |     4 |     4 |
-| Medium     |        1 |     2 |     0 |     3 |
-| Hard       |        0 |     0 |     0 |     0 |
-| **TOTAL**  |    **1** | **2** | **4** | **7** |
+| Difficulty | LeetCode |   GFG | Other |  Total |
+| ---------- | -------: | ----: | ----: | -----: |
+| Easy       |        0 |     0 |     4 |      4 |
+| Medium     |        4 |     2 |     0 |      6 |
+| Hard       |        0 |     0 |     0 |      0 |
+| **TOTAL**  |    **4** | **2** | **4** | **10** |
 
 ---
 
@@ -54,13 +65,14 @@
 | File                     | Purpose                                                                                                                              |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [Oct17.java](Oct17.java) | Subarray Sum Equals K, Generate Prefix/Suffix Arrays, Generate Prefix/Suffix Matrices, and Compute Before Matrices for Prefix/Suffix |
+| [Oct18.java](Oct18.java) | Continuous Subarray Sum, Product of Array Except Self, and Matrix Block Sum                                                          |
 
 ---
 
 # 🔄 Daily Update
 
 - Add only problems marked with ✅ in the Java file's target list.
-- Continue problem numbering sequentially.
+- Continue problem numbering sequentially across daily files.
 - Update the daily section, Problem Index, Source Legend, and Files table.
 - Keep LeetCode IDs in the `LC{number}` format without spaces.
 - For LeetCode, GFG, and other online platforms, use the platform-provided difficulty.
@@ -73,5 +85,3 @@
 ```java
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
 ```
-
-**Note:** All seven problems are included because they are marked with ✅ in the supplied Java file.
