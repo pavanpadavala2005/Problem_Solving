@@ -30,6 +30,15 @@
 | 9   | Product of Array Except Self | Medium     | LC238  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
 | 10  | Matrix Block Sum             | Medium     | LC1314 | Oct 18, 2026 | [Oct18.java](Oct18.java) |
 
+## 📆 October 19, 2026 — `Oct19.java`
+
+| No. | Problem Name                 | Difficulty | Source | Date         | Java File                |
+| --- | ---------------------------- | ---------- | ------ | ------------ | ------------------------ |
+| 11  | Subarray Sums Divisible by K | Medium     | LC974  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 12  | Maximum Sum of an Hourglass  | Medium     | LC2428 | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 13  | Find Pivot Index             | Easy       | LC724  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 14  | Maximum Subarray             | Medium     | LC53   | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+
 ---
 
 # 📊 Problem Index
@@ -46,6 +55,10 @@
 | 8   | Continuous Subarray Sum          | Medium     | LC523  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
 | 9   | Product of Array Except Self     | Medium     | LC238  | Oct 18, 2026 | [Oct18.java](Oct18.java) |
 | 10  | Matrix Block Sum                 | Medium     | LC1314 | Oct 18, 2026 | [Oct18.java](Oct18.java) |
+| 11  | Subarray Sums Divisible by K     | Medium     | LC974  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 12  | Maximum Sum of an Hourglass      | Medium     | LC2428 | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 13  | Find Pivot Index                 | Easy       | LC724  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 14  | Maximum Subarray                 | Medium     | LC53   | Oct 19, 2026 | [Oct19.java](Oct19.java) |
 
 ---
 
@@ -53,10 +66,10 @@
 
 | Difficulty | LeetCode |   GFG | Other |  Total |
 | ---------- | -------: | ----: | ----: | -----: |
-| Easy       |        0 |     0 |     4 |      4 |
-| Medium     |        4 |     2 |     0 |      6 |
+| Easy       |        1 |     0 |     4 |      5 |
+| Medium     |        7 |     2 |     0 |      9 |
 | Hard       |        0 |     0 |     0 |      0 |
-| **TOTAL**  |    **4** | **2** | **4** | **10** |
+| **TOTAL**  |    **8** | **2** | **4** | **14** |
 
 ---
 
@@ -66,6 +79,7 @@
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [Oct17.java](Oct17.java) | Subarray Sum Equals K, Generate Prefix/Suffix Arrays, Generate Prefix/Suffix Matrices, and Compute Before Matrices for Prefix/Suffix |
 | [Oct18.java](Oct18.java) | Continuous Subarray Sum, Product of Array Except Self, and Matrix Block Sum                                                          |
+| [Oct19.java](Oct19.java) | Subarray Sums Divisible by K, Maximum Sum of an Hourglass, Find Pivot Index, and Maximum Subarray                                    |
 
 ---
 

@@ -52,17 +52,37 @@ public class Demo {
         // 
         // })));
 
-        System.out.println(Oct18.checkSubarraySum(new int[] {
-                // 23, 2, 4, 6, 7
-                // 23, 2, 6, 4, 7
-                5, 0, 0, 0
+        // System.out.println(Oct18.checkSubarraySum(new int[] {
+        // 23, 2, 4, 6, 7
+        // 23, 2, 6, 4, 7
+        // 5, 0, 0, 0
 
-        },
-                3
+        // },
+        // 3
         // 6
         // 13
         // 
-        ));
+        // ));
 
+        // ! ============= Oct 19 Problems =============
+        // System.out.println(Oct19.subarraysDivByK(
+        // new int[] {
+        // 4, 5, 0, -2, -3, 1
+        // -1, 2, 9
+        // 2, -2, 2, -4
+        // },
+        // 5
+        // 2
+        // 6
+        // 
+        // ));
+
+        System.out.println(Oct19.maxSumOptimal(
+                new int[][] {
+                        new int[] { 6, 2, 1, 3 },
+                        new int[] { 4, 2, 1, 5 },
+                        new int[] { 9, 2, 8, 7 },
+                        new int[] { 4, 1, 2, 9 }
+                }));
     }
 }
