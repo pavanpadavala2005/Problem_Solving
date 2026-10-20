@@ -77,12 +77,17 @@ public class Demo {
         // 
         // ));
 
-        System.out.println(Oct19.maxSumOptimal(
-                new int[][] {
-                        new int[] { 6, 2, 1, 3 },
-                        new int[] { 4, 2, 1, 5 },
-                        new int[] { 9, 2, 8, 7 },
-                        new int[] { 4, 1, 2, 9 }
-                }));
+        // System.out.println(Oct19.maxSumOptimal(
+        //         new int[][] {
+        //                 new int[] { 6, 2, 1, 3 },
+        //                 new int[] { 4, 2, 1, 5 },
+        //                 new int[] { 9, 2, 8, 7 },
+        //                 new int[] { 4, 1, 2, 9 }
+        //         }));
+
+        // ! ============= Oct 20 Problems =============
+        System.out.println(Oct20.maxProduct(new int[] {
+                2, 3, -2, 4
+        }));
     }
 }

@@ -39,6 +39,12 @@
 | 13  | Find Pivot Index             | Easy       | LC724  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
 | 14  | Maximum Subarray             | Medium     | LC53   | Oct 19, 2026 | [Oct19.java](Oct19.java) |
 
+## 📆 October 20, 2026 — `Oct20.java`
+
+| No. | Problem Name             | Difficulty | Source | Date         | Java File                |
+| --- | ------------------------ | ---------- | ------ | ------------ | ------------------------ |
+| 15  | Maximum Product Subarray | Medium     | LC152  | Oct 20, 2026 | [Oct20.java](Oct20.java) |
+
 ---
 
 # 📊 Problem Index
@@ -59,6 +65,7 @@
 | 12  | Maximum Sum of an Hourglass      | Medium     | LC2428 | Oct 19, 2026 | [Oct19.java](Oct19.java) |
 | 13  | Find Pivot Index                 | Easy       | LC724  | Oct 19, 2026 | [Oct19.java](Oct19.java) |
 | 14  | Maximum Subarray                 | Medium     | LC53   | Oct 19, 2026 | [Oct19.java](Oct19.java) |
+| 15  | Maximum Product Subarray         | Medium     | LC152  | Oct 20, 2026 | [Oct20.java](Oct20.java) |
 
 ---
 
@@ -67,9 +74,9 @@
 | Difficulty | LeetCode |   GFG | Other |  Total |
 | ---------- | -------: | ----: | ----: | -----: |
 | Easy       |        1 |     0 |     4 |      5 |
-| Medium     |        7 |     2 |     0 |      9 |
+| Medium     |        8 |     2 |     0 |     10 |
 | Hard       |        0 |     0 |     0 |      0 |
-| **TOTAL**  |    **8** | **2** | **4** | **14** |
+| **TOTAL**  |    **9** | **2** | **4** | **15** |
 
 ---
 
@@ -80,6 +87,7 @@
 | [Oct17.java](Oct17.java) | Subarray Sum Equals K, Generate Prefix/Suffix Arrays, Generate Prefix/Suffix Matrices, and Compute Before Matrices for Prefix/Suffix |
 | [Oct18.java](Oct18.java) | Continuous Subarray Sum, Product of Array Except Self, and Matrix Block Sum                                                          |
 | [Oct19.java](Oct19.java) | Subarray Sums Divisible by K, Maximum Sum of an Hourglass, Find Pivot Index, and Maximum Subarray                                    |
+| [Oct20.java](Oct20.java) | Maximum Product Subarray                                                                                                             |
 
 ---
 
