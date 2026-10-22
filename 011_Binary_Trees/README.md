@@ -12,21 +12,36 @@
 
 ## 📁 Implementations/
 
-| No. | Implementation | Difficulty | Source  | Java File                              |
-| --: | -------------- | ---------- | ------- | -------------------------------------- |
-|   1 | Binary Tree    | Easy       | General | [Binary_Tree.java](./Binary_Tree.java) |
+| No. | Implementation        | Difficulty | Source  | Java File                                          |
+| --: | --------------------- | ---------- | ------- | -------------------------------------------------- |
+|   1 | Binary Tree           | Easy       | General | [Binary_Tree.java](./Binary_Tree.java)             |
+|   2 | Binary Tree Utilities | Easy       | General | [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) |
 
 ---
 
 # 📅 Daily Problem Solving
 
-_No daily problem-solving entries have been added yet._
+## 📆 October 22, 2026 — `Oct22.java`
+
+| No. | Problem Name                    | Difficulty | Source  | Date         | Java File                  |
+| --: | ------------------------------- | ---------- | ------- | ------------ | -------------------------- |
+|   2 | Binary Tree Inorder Traversal   | Easy       | LC94    | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   3 | Binary Tree Preorder Traversal  | Easy       | LC144   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   4 | Binary Tree Postorder Traversal | Easy       | LC145   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   5 | PreOrder InOrder PostOrder      | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   6 | Maximum Depth of Binary Tree    | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 
 ---
 
 # 📊 Problem Index
 
-_No qualifying problem-solving entries have been added yet._
+| No. | Problem Name                    | Difficulty | Source  | Date         | Java File                  |
+| --: | ------------------------------- | ---------- | ------- | ------------ | -------------------------- |
+|   2 | Binary Tree Inorder Traversal   | Easy       | LC94    | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   3 | Binary Tree Preorder Traversal  | Easy       | LC144   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   4 | Binary Tree Postorder Traversal | Easy       | LC145   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   5 | PreOrder InOrder PostOrder      | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   6 | Maximum Depth of Binary Tree    | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 
 ---
 
@@ -34,18 +49,20 @@ _No qualifying problem-solving entries have been added yet._
 
 | Difficulty | LeetCode |   GFG | Other | General | Total |
 | ---------- | -------: | ----: | ----: | ------: | ----: |
-| Easy       |        0 |     0 |     0 |       0 |     0 |
-| Medium     |        0 |     0 |     0 |       0 |     0 |
+| Easy       |        4 |     0 |     0 |       0 |     4 |
+| Medium     |        0 |     0 |     0 |       1 |     1 |
 | Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **0** | **0** | **0** |   **0** | **0** |
+| **TOTAL**  |    **4** | **0** | **0** |   **1** | **5** |
 
 ---
 
 # 📁 Files
 
-| File                                   | Purpose                            |
-| -------------------------------------- | ---------------------------------- |
-| [Binary_Tree.java](./Binary_Tree.java) | General Binary Tree implementation |
+| File                                               | Purpose                                                         |
+| -------------------------------------------------- | --------------------------------------------------------------- |
+| [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                              |
+| [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array      |
+| [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree |
 
 ---
 
