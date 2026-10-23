@@ -31,6 +31,13 @@
 |   5 | PreOrder InOrder PostOrder      | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 |   6 | Maximum Depth of Binary Tree    | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 
+## 📆 October 23, 2026 — `Oct23.java`
+
+| No. | Problem Name            | Difficulty | Source | Date         | Java File                  |
+| --: | ----------------------- | ---------- | ------ | ------------ | -------------------------- |
+|   7 | Balanced Binary Tree    | Easy       | LC110  | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
+|   8 | Diameter of Binary Tree | Easy       | LC543  | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
+
 ---
 
 # 📊 Problem Index
@@ -42,6 +49,8 @@
 |   4 | Binary Tree Postorder Traversal | Easy       | LC145   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 |   5 | PreOrder InOrder PostOrder      | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
 |   6 | Maximum Depth of Binary Tree    | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   7 | Balanced Binary Tree            | Easy       | LC110   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
+|   8 | Diameter of Binary Tree         | Easy       | LC543   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
 
 ---
 
@@ -49,10 +58,10 @@
 
 | Difficulty | LeetCode |   GFG | Other | General | Total |
 | ---------- | -------: | ----: | ----: | ------: | ----: |
-| Easy       |        4 |     0 |     0 |       0 |     4 |
+| Easy       |        6 |     0 |     0 |       0 |     6 |
 | Medium     |        0 |     0 |     0 |       1 |     1 |
 | Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **4** | **0** | **0** |   **1** | **5** |
+| **TOTAL**  |    **6** | **0** | **0** |   **1** | **7** |
 
 ---
 
@@ -63,6 +72,7 @@
 | [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                              |
 | [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array      |
 | [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree |
+| [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                |
 
 ---
 

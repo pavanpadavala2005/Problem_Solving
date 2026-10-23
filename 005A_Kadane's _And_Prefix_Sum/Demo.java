@@ -86,8 +86,16 @@ public class Demo {
         //         }));
 
         // ! ============= Oct 20 Problems =============
-        System.out.println(Oct20.maxProduct(new int[] {
-                2, 3, -2, 4
-        }));
+        // System.out.println(Oct20.maxProduct(new int[] {
+        //         2, 3, -2, 4
+        // }));
+
+        // System.out.println(Oct20.maximumSubarraySumOptimal(
+        // new int[] {
+        // 1, 5, 4, 2, 9, 9, 9
+        // 4, 4, 4
+        // }, 3
+        // 
+        // ));
     }
 }

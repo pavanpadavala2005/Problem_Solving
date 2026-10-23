@@ -41,10 +41,27 @@ public class Demo {
         //                 1, 2, 3, 4, 5, null, 8, null, null, 6, 7, 9
         //         })));
 
-        System.out.println(Oct22.maxDepth(bt.constructBinaryTree(
+        // System.out.println(Oct22.maxDepth(bt.constructBinaryTree(
+        //         new Integer[] {
+        //  3, 9, 20, null, null, 15, 7
+        // 1, null, 2
+        // })));
+
+        // ! ============= Oct 23  Problems =============
+
+        // System.out.println(Oct23.isBalancedBetter(bt.constructBinaryTree(
+        // new Integer[] {
+        // 1, 2, 2, 3, 3, null, null, 4, 4
+        // 3, 9, 20, null, null, 15, 7
+        // })));
+
+        System.out.println(Oct23.diameterOfBinaryTreeOptimal(bt.constructBinaryTree(
                 new Integer[] {
-                        //  3, 9, 20, null, null, 15, 7
-                        1, null, 2
+                        1, 2, 3, 4, 5
+                // 1, 2
+                // 1
+                // 1, null, 2, null, 3, 4, null, 5, 6, 7, 8, 9, 10, 11, 12, 13
+                // 
                 })));
     }
 }
