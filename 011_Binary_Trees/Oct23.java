@@ -44,8 +44,6 @@ public class Oct23 {
         diameterUtilBrute(root.right);
     }
 
-    
-
     // ! ============= LC110. Balanced Binary Tree ============
     /*
     @ TC --> O(N)
