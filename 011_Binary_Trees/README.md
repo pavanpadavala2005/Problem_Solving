@@ -47,23 +47,34 @@
 |  11 | Same Tree                                | Easy       | LC100  | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
 |  12 | Binary Tree Zigzag Level Order Traversal | Medium     | LC103  | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
 
+## 📆 October 25, 2026 — `Oct25.java`
+
+| No. | Problem Name                              | Difficulty | Source | Date         | Java File                  |
+| --: | ----------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  13 | Tree Boundary Traversal                   | Medium     | GFG    | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
+|  14 | Vertical Order Traversal of a Binary Tree | Hard       | LC987  | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
+|  15 | Top View of Binary Tree                   | Medium     | GFG    | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
+
 ---
 
 # 📊 Problem Index
 
-| No. | Problem Name                             | Difficulty | Source  | Date         | Java File                  |
-| --: | ---------------------------------------- | ---------- | ------- | ------------ | -------------------------- |
-|   2 | Binary Tree Inorder Traversal            | Easy       | LC94    | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
-|   3 | Binary Tree Preorder Traversal           | Easy       | LC144   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
-|   4 | Binary Tree Postorder Traversal          | Easy       | LC145   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
-|   5 | PreOrder InOrder PostOrder               | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
-|   6 | Maximum Depth of Binary Tree             | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
-|   7 | Balanced Binary Tree                     | Easy       | LC110   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
-|   8 | Diameter of Binary Tree                  | Easy       | LC543   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
-|   9 | Maximum Width of Binary Tree             | Medium     | LC662   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
-|  10 | Binary Tree Maximum Path Sum             | Hard       | LC124   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
-|  11 | Same Tree                                | Easy       | LC100   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
-|  12 | Binary Tree Zigzag Level Order Traversal | Medium     | LC103   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
+| No. | Problem Name                              | Difficulty | Source  | Date         | Java File                  |
+| --: | ----------------------------------------- | ---------- | ------- | ------------ | -------------------------- |
+|   2 | Binary Tree Inorder Traversal             | Easy       | LC94    | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   3 | Binary Tree Preorder Traversal            | Easy       | LC144   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   4 | Binary Tree Postorder Traversal           | Easy       | LC145   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   5 | PreOrder InOrder PostOrder                | Medium     | General | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   6 | Maximum Depth of Binary Tree              | Easy       | LC104   | Oct 22, 2026 | [Oct22.java](./Oct22.java) |
+|   7 | Balanced Binary Tree                      | Easy       | LC110   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
+|   8 | Diameter of Binary Tree                   | Easy       | LC543   | Oct 23, 2026 | [Oct23.java](./Oct23.java) |
+|   9 | Maximum Width of Binary Tree              | Medium     | LC662   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
+|  10 | Binary Tree Maximum Path Sum              | Hard       | LC124   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
+|  11 | Same Tree                                 | Easy       | LC100   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
+|  12 | Binary Tree Zigzag Level Order Traversal  | Medium     | LC103   | Oct 24, 2026 | [Oct24.java](./Oct24.java) |
+|  13 | Tree Boundary Traversal                   | Medium     | GFG     | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
+|  14 | Vertical Order Traversal of a Binary Tree | Hard       | LC987   | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
+|  15 | Top View of Binary Tree                   | Medium     | GFG     | Oct 25, 2026 | [Oct25.java](./Oct25.java) |
 
 ---
 
@@ -72,9 +83,9 @@
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
 | Easy       |        7 |     0 |     0 |       0 |      7 |
-| Medium     |        2 |     0 |     0 |       1 |      3 |
-| Hard       |        1 |     0 |     0 |       0 |      1 |
-| **TOTAL**  |   **10** | **0** | **0** |   **1** | **11** |
+| Medium     |        2 |     2 |     0 |       1 |      5 |
+| Hard       |        2 |     0 |     0 |       0 |      2 |
+| **TOTAL**  |   **11** | **2** | **0** |   **1** | **14** |
 
 ---
 
@@ -87,6 +98,7 @@
 | [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree              |
 | [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                             |
 | [Oct24.java](./Oct24.java)                         | Zigzag Level Order Traversal, Same Tree, Maximum Path Sum, and Maximum Width |
+| [Oct25.java](./Oct25.java)                         | Tree Boundary Traversal, Vertical Order Traversal, and Top View              |
 
 ---
 

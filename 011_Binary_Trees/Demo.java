@@ -1,3 +1,4 @@
+
 public class Demo {
     public static void main(String[] args) {
         // ! ============= Oct 21  Problems =============
@@ -65,6 +66,7 @@ public class Demo {
         // })));
 
         // ! ============= Oct 24 Problems =============
+
         // System.out.println(Oct24.widthOfBinaryTree(bt.constructBinaryTree(
         // new Integer[] {
         // // 1, 3, 2, 5, 3, null, 9
@@ -96,6 +98,33 @@ public class Demo {
         // 3, 9, 20, null, null, 15, 7
         // }
         // )));
+
+        // ! ============= Oct 25 Problems =============
+
+        // System.out.println(Oct25.boundaryTraversal(
+        //         bt.constructBinaryTree(new Integer[] {
+        // 1, 2, 3, 4, 5, 6, 7, null, null, 8, 9, null, null, null, null
+        // 1, null, 2, 3, 4, null, null, null, null
+        // 1, null, 2, null, 3, null, 4, null, null
+        // 1, 2, 3, null, null, 4, null, 5, null, null, null
+        // 1, 3, 2, null, 4, 6, 5, null, 11, 7, 8, null, 9, null, null, null, null, 10
+        // 1, null, 2, null, 3, null, 4, null, null
+        // 1, null, null
+        // })));
+
+        // System.out.println(Oct25.verticalTraversal(bt.constructBinaryTree(
+        //         new Integer[] {
+        // 3, 9, 20, null, null, 15, 7
+        // 3, 1, 4, 0, 2, 2
+        //         1, 2, 3, 4, 5, 6, 7
+        // })));
+
+        // System.out.println(Oct25.topView(bt.constructBinaryTree(
+        //         new Integer[] {
+        //                 1, 2, 3
+        // 10, 20, 30, 40, 60, 90, 100
+        // 6, 3, 4, null, 2, 9, 3, null, 9
+        // })));
 
     }
 }
