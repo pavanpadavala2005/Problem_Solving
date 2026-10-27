@@ -155,12 +155,49 @@ public class Demo {
                 // 1, 2, null, 3
                 // })));
 
-                System.out.println(Oct26.printPaths(bt.constructBinaryTree(
-                                new Integer[] {
-                                                // 1, 20, 3, null, null, 4, 15, 6, null, null, null, null, null
-                                                10, 28, 13, null, null, 14, 15, 21, 22, 23, 24, null, null, null, null,
-                                                null, null, null, null
+                // System.out.println(Oct26.printPaths(bt.constructBinaryTree(
+                //                 new Integer[] {
+                //                                 // 1, 20, 3, null, null, 4, 15, 6, null, null, null, null, null
+                //                                 10, 28, 13, null, null, 14, 15, 21, 22, 23, 24, null, null, null, null,
+                //                                 null, null, null, null
+                //                 }),
+                // 38));
+                // ! ============= Oct 27 Problems =============
+
+                // System.out.println(Oct27.lcaOptimal(bt.constructBinaryTree(
+                // new Integer[] {
+                //  1, 2, 3, 4, 5, 6, 7
+                // 1, 2, 3, null, null, 6, 7, 8
+                // }),
+                // 4,
+                //  5
+                // ).val);
+
+                // System.out.println(Oct27.isSumProperty(bt.constructBinaryTree(
+                //                 new Integer[] {
+                // 35, 20, 15, 15, 5, 10, 5
+                // 2, null, 1, null, 2, null, 1, null, 1, null, 2, null, 1
+                // 1, 4, 3, 5
+                // 10, 10
+                // })));
+
+                // TreeNode root = bt.constructBinaryTree(new Integer[] {
+                //                 // 10, -2, 6, 8, -4, 7, 5
+                //                 1, 2, 3, 4, 5, -6, 2
+                // });
+
+                // bt.levelOrder(root);
+                // Oct27.toSumTree(root);
+                // bt.levelOrder(root);
+
+                System.out.println(Oct27.distanceK(
+                                bt.constructBinaryTree(new Integer[] {
+                                                3, 5, 1, 6, 2, 0, 8, null, null, 7, 4
                                 }),
-                                38));
+                                new TreeNode(5),
+                                2
+                // 
+                ));
+
         }
 }

@@ -42,4 +42,25 @@ public class Binary_Tree_Utils {
         }
         return root;
     }
+
+    public void levelOrder(TreeNode root) {
+        if (root == null) {
+            System.out.println("Binary Tree is Empty Can't Print level Order");
+            return;
+        }
+        System.out.print("levelOrder : ");
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+
+        while (!q.isEmpty()) {
+            TreeNode curr = q.poll();
+            System.out.print(curr.val + " ");
+            if (curr.left != null)
+                q.offer(curr.left);
+            if (curr.right != null)
+                q.offer(curr.right);
+        }
+        System.out.println(" ");
+    }
+
 }

@@ -66,6 +66,16 @@
 |  20 | Binary Tree Right Side View | Medium     | LC199  | Oct 26, 2026 | [Oct26.java](./Oct26.java) |
 |  21 | Bottom View of Binary Tree  | Medium     | GFG    | Oct 26, 2026 | [Oct26.java](./Oct26.java) |
 
+## 📆 October 27, 2026 — `Oct27.java`
+
+| No. | Problem Name                            | Difficulty | Source | Date         | Java File                  |
+| --: | --------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  22 | Lowest Common Ancestor of a Binary Tree | Medium     | LC236  | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  23 | Children Sum in a Binary Tree           | Easy       | GFG    | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  24 | Transform to Sum Tree                   | Easy       | GFG    | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  25 | Sum Tree                                | Easy       | GFG    | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  26 | All Nodes Distance K in Binary Tree     | Medium     | LC863  | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+
 ---
 
 # 📊 Problem Index
@@ -92,6 +102,11 @@
 |  19 | Left View of Binary Tree                  | Easy       | GFG     | Oct 26, 2026 | [Oct26.java](./Oct26.java) |
 |  20 | Binary Tree Right Side View               | Medium     | LC199   | Oct 26, 2026 | [Oct26.java](./Oct26.java) |
 |  21 | Bottom View of Binary Tree                | Medium     | GFG     | Oct 26, 2026 | [Oct26.java](./Oct26.java) |
+|  22 | Lowest Common Ancestor of a Binary Tree   | Medium     | LC236   | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  23 | Children Sum in a Binary Tree             | Easy       | GFG     | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  24 | Transform to Sum Tree                     | Easy       | GFG     | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  25 | Sum Tree                                  | Easy       | GFG     | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
+|  26 | All Nodes Distance K in Binary Tree       | Medium     | LC863   | Oct 27, 2026 | [Oct27.java](./Oct27.java) |
 
 ---
 
@@ -99,24 +114,25 @@
 
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
-| Easy       |        7 |     1 |     0 |       0 |      8 |
-| Medium     |        4 |     5 |     0 |       1 |     10 |
+| Easy       |        7 |     4 |     0 |       0 |     11 |
+| Medium     |        6 |     4 |     0 |       1 |     11 |
 | Hard       |        2 |     0 |     0 |       0 |      2 |
-| **TOTAL**  |   **13** | **6** | **0** |   **1** | **20** |
+| **TOTAL**  |   **15** | **8** | **0** |   **1** | **24** |
 
 ---
 
 # 📁 Files
 
-| File                                               | Purpose                                                            |
-| -------------------------------------------------- | ------------------------------------------------------------------ |
-| [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                                 |
-| [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array         |
-| [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree    |
-| [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                   |
-| [Oct24.java](./Oct24.java)                         | Maximum Width, Maximum Path Sum, Same Tree, and Zigzag Traversal   |
-| [Oct25.java](./Oct25.java)                         | Tree Boundary Traversal, Vertical Order Traversal, and Top View    |
-| [Oct26.java](./Oct26.java)                         | Root Paths, Symmetric Tree, Left/Right Side Views, and Bottom View |
+| File                                               | Purpose                                                                               |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                                                    |
+| [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array                            |
+| [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree                       |
+| [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                                      |
+| [Oct24.java](./Oct24.java)                         | Maximum Width, Maximum Path Sum, Same Tree, and Zigzag Traversal                      |
+| [Oct25.java](./Oct25.java)                         | Tree Boundary Traversal, Vertical Order Traversal, and Top View                       |
+| [Oct26.java](./Oct26.java)                         | Root Paths, Symmetric Tree, Left/Right Side Views, and Bottom View                    |
+| [Oct27.java](./Oct27.java)                         | Lowest Common Ancestor, Children Sum, Transform to Sum Tree, Sum Tree, and Distance K |
 
 ---
 
