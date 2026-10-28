@@ -63,4 +63,41 @@ public class Binary_Tree_Utils {
         System.out.println(" ");
     }
 
+    public void preOrder(TreeNode root) {
+        if (root == null) {
+            System.out.println("Tree is Empty Can't print inroder");
+            return;
+        }
+
+        System.out.print("preOrder   : ");
+        preOrderHelper(root);
+        System.out.println();
+    }
+
+    private void preOrderHelper(TreeNode root) {
+        if (root == null)
+            return;
+        System.out.print(root.val + " ");
+        preOrderHelper(root.left);
+        preOrderHelper(root.right);
+    }
+
+    public void inOrder(TreeNode root) {
+        if (root == null) {
+            System.out.println("Tree is Empty Can't print inroder");
+            return;
+        }
+
+        System.out.print("inOrder    : ");
+        inOrderHelper(root);
+        System.out.println();
+    }
+
+    private void inOrderHelper(TreeNode root) {
+        if (root == null)
+            return;
+        inOrderHelper(root.left);
+        System.out.print(root.val + " ");
+        inOrderHelper(root.right);
+    }
 }

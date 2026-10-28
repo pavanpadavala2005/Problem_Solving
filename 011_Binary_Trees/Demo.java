@@ -162,6 +162,7 @@ public class Demo {
                 //                                 null, null, null, null
                 //                 }),
                 // 38));
+
                 // ! ============= Oct 27 Problems =============
 
                 // System.out.println(Oct27.lcaOptimal(bt.constructBinaryTree(
@@ -190,14 +191,41 @@ public class Demo {
                 // Oct27.toSumTree(root);
                 // bt.levelOrder(root);
 
-                System.out.println(Oct27.distanceK(
-                                bt.constructBinaryTree(new Integer[] {
-                                                3, 5, 1, 6, 2, 0, 8, null, null, 7, 4
-                                }),
-                                new TreeNode(5),
-                                2
+                // System.out.println(Oct27.distanceK(
+                //                 bt.constructBinaryTree(new Integer[] {
+                //                                 3, 5, 1, 6, 2, 0, 8, null, null, 7, 4
+                //                 }),
+                //                 new TreeNode(5),
+                //                 2
                 // 
-                ));
+                // ));
+
+                // ! ============= Oct 28 Problems =============
+
+                // System.out.println(Oct28.amountOfTime(bt.constructBinaryTree(
+                //                 new Integer[] {
+                //                                 1, 5, 3, null, 4, 10, 6, 9, 2
+                //                 }),
+                //                 3
+                //      
+                // ));
+
+                // System.out.println(Oct28.countNodes(
+                //                 bt.constructBinaryTree(new Integer[] {
+                //                                 1, 2, 3, 4, 5, 6
+                //                 })));
+
+                // bt.levelOrder(
+                                // Oct28.buildTree(
+                                //                 new int[] {
+                                //                                 8, 4, 2, 1, 3, 6, 5, 7, 12, 10, 9, 11, 14, 13, 15
+
+                                //                 },
+                                //                 new int[] {
+                                //                                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+                                //                 }
+                                // // 
+                                // ));
 
         }
 }

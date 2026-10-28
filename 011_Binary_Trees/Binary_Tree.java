@@ -1,18 +1,18 @@
 import java.util.*;
 
-class Node {
-    Node left;
-    int data;
-    Node right;
-
-    public Node(int data) {
-        this.left = null;
-        this.data = data;
-        this.right = null;
-    }
-}
-
 public class Binary_Tree {
+    private class Node {
+        Node left;
+        int data;
+        Node right;
+
+        public Node(int data) {
+            this.left = null;
+            this.data = data;
+            this.right = null;
+        }
+    }
+
     Node root;
 
     public Binary_Tree() {
