@@ -180,6 +180,6 @@ public class Aug21 {
     }
 }
 
-// Target Min -> 3 , Max -> 5 (Quality Problems Only)
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
 // 1. GFG. Longest Substring with K Uniques ✅
 // 2. LC567. Permutation in String ✅

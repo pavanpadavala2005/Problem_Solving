@@ -106,3 +106,7 @@ public class Aug17 {
     }
 
 }
+
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
+// 1. LC1021.Remove Outermost Parentheses ✅
+// 2. LC796. Rotate String ✅

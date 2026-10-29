@@ -1,7 +1,5 @@
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class Aug15 {
     // ! =============== LC242. Valid Anagram ================
@@ -55,7 +53,7 @@ public class Aug15 {
         return "";
     }
 
-    // ! =============== LC412. Fi zz Buzz ================
+    // ! =============== LC412. Fizz Buzz ================
     public static List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<>();
         for (int i = 1; i < n + 1; i++) {
@@ -337,3 +335,15 @@ public class Aug15 {
     }
 
 }
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
+// 1. LC242. Valid Anagram  ✅
+// 2. LC1903. Largest Odd Number  ✅
+// 3. LC412. Fizz Buzz  ✅
+// 4. LC14. Longest Common Prefix  ✅
+// 5. LC28. Find Index of  ✅
+// 6. LC205. Isomorphic Strings    ✅  
+// 7. LC13. Roman to Integer  ✅
+// 8. PALINDROME NUMBER ✅
+// 9. PALINDROME SENTENCE ✅
+// 10. PALINDROME STRING ✅
+// 11. REVERSE STRING ✅

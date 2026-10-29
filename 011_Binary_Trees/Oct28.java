@@ -175,7 +175,7 @@ public class Oct28 {
         if (level > k)
             return;
         kdistanceHelper(root.left, res, level + 1, k);
-        kdistanceHelper(root.right, res, level + 1  , k);
+        kdistanceHelper(root.right, res, level + 1, k);
     }
 }
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)

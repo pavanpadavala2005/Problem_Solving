@@ -216,16 +216,56 @@ public class Demo {
                 //                 })));
 
                 // bt.levelOrder(
-                                // Oct28.buildTree(
-                                //                 new int[] {
-                                //                                 8, 4, 2, 1, 3, 6, 5, 7, 12, 10, 9, 11, 14, 13, 15
+                // Oct28.buildTree(
+                //                 new int[] {
+                //                                 8, 4, 2, 1, 3, 6, 5, 7, 12, 10, 9, 11, 14, 13, 15
 
-                                //                 },
-                                //                 new int[] {
-                                //                                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
-                                //                 }
-                                // // 
-                                // ));
+                //                 },
+                //                 new int[] {
+                //                                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+                //                 }
+                // // 
+                // ));
+
+                // ! ============= Oct 29 Problems =============
+
+                //bt.levelOrder(
+                //Oct29.buildTree(
+                //new int[] {
+                //9, 3, 15, 20, 7
+                //},
+                //new int[] {
+                //9, 15, 7, 20, 3
+                //}));
+                // bt.levelOrder(Oct29.Codec.deserializeOptimal(
+                //                 Oct29.Codec.serialize(bt.constructBinaryTree(
+                //                                 new Integer[] {
+                //                                                 // -1, 2, -3, null, null, 4, 5
+                //                                                 1, 2, 3, null, null, 4, 5
+                //                                 }))));
+
+                // String encode = Oct29.CodecV2
+                //                 .serialize(bt.constructBinaryTree(new Integer[] { 1, 2, 3, null, null, 4, 5 }));
+
+                // TreeNode decode = Oct29.CodecV2.deserialize(encode);
+
+                // bt.levelOrder(decode);
+
+                // System.out.println(Oct29.morrisPreOrder(
+                //                 bt.constructBinaryTree(new Integer[] {
+                // 1, null, 2, 3
+                //                 1, 2, 3, 4, 5, null, 8, null, null, 6, 7, 9
+                // })));
+
+                // ! ============= Oct 30 Problems =============
+
+                // TreeNode head = bt.constructBinaryTree(new Integer[] { 1, 2, 5, 3, 4, null, 6 });
+                // Oct29.flatten(head);
+                // TreeNode temp = head;
+                // while (head != null) {
+                // System.out.print(head.val + "-->");
+                // temp = temp.right;
+                // }
 
         }
 }

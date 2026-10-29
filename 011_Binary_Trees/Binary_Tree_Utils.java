@@ -54,11 +54,15 @@ public class Binary_Tree_Utils {
 
         while (!q.isEmpty()) {
             TreeNode curr = q.poll();
+            if (curr == null) {
+                System.out.print("null" + " ");
+                continue;
+            }
             System.out.print(curr.val + " ");
-            if (curr.left != null)
-                q.offer(curr.left);
-            if (curr.right != null)
-                q.offer(curr.right);
+            q.offer(curr.left);
+
+            q.offer(curr.right);
+
         }
         System.out.println(" ");
     }
