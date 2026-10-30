@@ -95,6 +95,18 @@
 |  34 | Morris Preorder Traversal of a Binary Tree                 | Medium     | General | Oct 29, 2026 | [Oct29.java](./Oct29.java) |
 |  35 | Morris Postorder Traversal of a Binary Tree                | Medium     | General | Oct 29, 2026 | [Oct29.java](./Oct29.java) |
 
+## 📆 October 30, 2026 — `Oct30.java`
+
+| No. | Problem Name                       | Difficulty | Source | Date         | Java File                  |
+| --: | ---------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  36 | Ancestors in Binary Tree           | Medium     | GFG    | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  37 | Flatten Binary Tree to Linked List | Medium     | LC114  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  38 | Subtree of Another Tree            | Easy       | LC572  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  39 | Minimum Depth of Binary Tree       | Easy       | LC111  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  40 | Path Sum                           | Easy       | LC112  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  41 | Path Sum II                        | Medium     | LC113  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+|  42 | Path Sum III                       | Medium     | LC437  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
+
 ---
 
 # 📊 Problem Index
@@ -135,6 +147,13 @@
 |  33 | Morris Inorder Traversal of a Binary Tree                  | Medium     | General | [Oct29.java](./Oct29.java) |
 |  34 | Morris Preorder Traversal of a Binary Tree                 | Medium     | General | [Oct29.java](./Oct29.java) |
 |  35 | Morris Postorder Traversal of a Binary Tree                | Medium     | General | [Oct29.java](./Oct29.java) |
+|  36 | Ancestors in Binary Tree                                   | Medium     | GFG     | [Oct30.java](./Oct30.java) |
+|  37 | Flatten Binary Tree to Linked List                         | Medium     | LC114   | [Oct30.java](./Oct30.java) |
+|  38 | Subtree of Another Tree                                    | Easy       | LC572   | [Oct30.java](./Oct30.java) |
+|  39 | Minimum Depth of Binary Tree                               | Easy       | LC111   | [Oct30.java](./Oct30.java) |
+|  40 | Path Sum                                                   | Easy       | LC112   | [Oct30.java](./Oct30.java) |
+|  41 | Path Sum II                                                | Medium     | LC113   | [Oct30.java](./Oct30.java) |
+|  42 | Path Sum III                                               | Medium     | LC437   | [Oct30.java](./Oct30.java) |
 
 ---
 
@@ -142,10 +161,10 @@
 
 | Difficulty | LeetCode |    GFG | Other | General |  Total |
 | ---------- | -------: | -----: | ----: | ------: | -----: |
-| Easy       |        9 |      5 |     0 |       0 |     14 |
-| Medium     |        8 |      5 |     0 |       4 |     17 |
+| Easy       |       12 |      5 |     0 |       0 |     17 |
+| Medium     |       11 |      6 |     0 |       4 |     21 |
 | Hard       |        3 |      0 |     0 |       0 |      3 |
-| **TOTAL**  |   **20** | **10** | **0** |   **4** | **34** |
+| **TOTAL**  |   **26** | **11** | **0** |   **4** | **41** |
 
 ---
 
@@ -163,6 +182,7 @@
 | [Oct27.java](./Oct27.java)                         | Lowest Common Ancestor, Children Sum, Transform to Sum Tree, Sum Tree, and Distance K |
 | [Oct28.java](./Oct28.java)                         | Tree Construction, Complete Tree Node Count, Infection Time, and K-Distance Nodes     |
 | [Oct29.java](./Oct29.java)                         | Tree Construction, Serialization and Deserialization, and Morris Traversals           |
+| [Oct30.java](./Oct30.java)                         | Ancestors, Flatten Binary Tree, Subtree, Minimum Depth, and Path Sum problems         |
 
 ---
 
