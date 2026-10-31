@@ -259,12 +259,16 @@ public class Demo {
 
                 // ! ============= Oct 30 Problems =============
 
-                TreeNode head = bt.constructBinaryTree(new Integer[] { 1, 2, 5, 3, 4, null, 6 });
-                Oct30.flattenUsingMorrisMethod(head);
-                TreeNode temp = head;
-                while (temp != null) {
-                        System.out.println(temp.val);
-                        temp = temp.right;
-                }
+                // TreeNode head = bt.constructBinaryTree(new Integer[] { 1, 2, 5, 3, 4, null, 6 });
+                // Oct30.flattenUsingMorrisMethod(head);
+                // TreeNode temp = head;
+                // while (temp != null) {
+                //         System.out.println(temp.val);
+                //         temp = temp.right;
+                // }
+
+                // SpecialTreeNode sp = bt.constructSpecialTree(new Integer[] { 1, 2, 3, 4, 5, 6, 7 });
+                // SpecialTreeNode res = Oct31.connectBrute(sp);
+
         }
 }

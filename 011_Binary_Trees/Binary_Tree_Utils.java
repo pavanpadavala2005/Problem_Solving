@@ -13,6 +13,20 @@ class TreeNode {
     }
 }
 
+class SpecialTreeNode {
+    int val;
+    SpecialTreeNode left;
+    SpecialTreeNode right;
+    SpecialTreeNode next;
+
+    public SpecialTreeNode(int val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+        this.next = null;
+    }
+}
+
 public class Binary_Tree_Utils {
     // ! ============= GEN. Utility Method ============
 
@@ -41,6 +55,29 @@ public class Binary_Tree_Utils {
             i++;
         }
         return root;
+    }
+
+    public SpecialTreeNode constructSpecialTree(Integer[] nums) {
+        if (nums.length == 0)
+            return null;
+        int i = 0;
+        SpecialTreeNode spNode = new SpecialTreeNode(nums[i]);
+        i++;
+        Queue<SpecialTreeNode> q = new LinkedList<>();
+        while (!q.isEmpty() && i < nums.length) {
+            SpecialTreeNode node = q.poll();
+            if (i < nums.length) {
+                node.left = new SpecialTreeNode(nums[i]);
+                q.offer(node.left);
+            }
+            i++;
+            if (i < nums.length) {
+                node.right = new SpecialTreeNode(nums[i]);
+                q.offer(node.right);
+            }
+            i++;
+        }
+        return spNode;
     }
 
     public void levelOrder(TreeNode root) {

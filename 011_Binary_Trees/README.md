@@ -107,6 +107,14 @@
 |  41 | Path Sum II                        | Medium     | LC113  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
 |  42 | Path Sum III                       | Medium     | LC437  | Oct 30, 2026 | [Oct30.java](./Oct30.java) |
 
+## 📆 October 31, 2026 — `Oct31.java`
+
+| No. | Problem Name                                | Difficulty | Source | Date         | Java File                  |
+| --: | ------------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  43 | Populating Next Right Pointers in Each Node | Medium     | LC116  | Oct 31, 2026 | [Oct31.java](./Oct31.java) |
+|  44 | Cousins in Binary Tree                      | Easy       | LC993  | Oct 31, 2026 | [Oct31.java](./Oct31.java) |
+|  45 | Binary Tree Level Order Traversal           | Medium     | LC102  | Oct 31, 2026 | [Oct31.java](./Oct31.java) |
+
 ---
 
 # 📊 Problem Index
@@ -154,6 +162,9 @@
 |  40 | Path Sum                                                   | Easy       | LC112   | [Oct30.java](./Oct30.java) |
 |  41 | Path Sum II                                                | Medium     | LC113   | [Oct30.java](./Oct30.java) |
 |  42 | Path Sum III                                               | Medium     | LC437   | [Oct30.java](./Oct30.java) |
+|  43 | Populating Next Right Pointers in Each Node                | Medium     | LC116   | [Oct31.java](./Oct31.java) |
+|  44 | Cousins in Binary Tree                                     | Easy       | LC993   | [Oct31.java](./Oct31.java) |
+|  45 | Binary Tree Level Order Traversal                          | Medium     | LC102   | [Oct31.java](./Oct31.java) |
 
 ---
 
@@ -161,10 +172,10 @@
 
 | Difficulty | LeetCode |    GFG | Other | General |  Total |
 | ---------- | -------: | -----: | ----: | ------: | -----: |
-| Easy       |       12 |      5 |     0 |       0 |     17 |
-| Medium     |       11 |      6 |     0 |       4 |     21 |
+| Easy       |       13 |      5 |     0 |       0 |     18 |
+| Medium     |       12 |      6 |     0 |       4 |     22 |
 | Hard       |        3 |      0 |     0 |       0 |      3 |
-| **TOTAL**  |   **26** | **11** | **0** |   **4** | **41** |
+| **TOTAL**  |   **28** | **11** | **0** |   **4** | **43** |
 
 ---
 
@@ -183,6 +194,7 @@
 | [Oct28.java](./Oct28.java)                         | Tree Construction, Complete Tree Node Count, Infection Time, and K-Distance Nodes     |
 | [Oct29.java](./Oct29.java)                         | Tree Construction, Serialization and Deserialization, and Morris Traversals           |
 | [Oct30.java](./Oct30.java)                         | Ancestors, Flatten Binary Tree, Subtree, Minimum Depth, and Path Sum problems         |
+| [Oct31.java](./Oct31.java)                         | Next Right Pointers, Cousins in Binary Tree, and Level Order Traversal                |
 
 ---
 
