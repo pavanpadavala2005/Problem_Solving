@@ -267,8 +267,42 @@ public class Demo {
                 //         temp = temp.right;
                 // }
 
-                // SpecialTreeNode sp = bt.constructSpecialTree(new Integer[] { 1, 2, 3, 4, 5, 6, 7 });
                 // SpecialTreeNode res = Oct31.connectBrute(sp);
 
+                // TreeNode sp = bt.constructBinaryTree(new Integer[] { 1, 2, 3, 4, 5, 6, 7 });
+                // TreeNode dummy = new TreeNode(0);
+                // TreeNode temp = dummy;
+                // System.out.println("Before : " + dummy);
+                // System.out.println("Before : " + temp);
+
+                // temp = sp.right;
+
+                // System.out.println("Before : " + dummy);
+                // System.out.println("Before : " + temp);
+
+                // ! ============= Oct 31 Problems =============
+
+                // ! ============= Nov 01 Problems =============
+
+                // System.out.println(Nov01.lcaDeepestLeaves(
+                //                 bt.constructBinaryTree(new Integer[] {
+                // 3, 5, 1, 6, 2, 0, 8, null, null, 7, 4
+                // 0, 1, 3, null, 2
+                // 1
+                // })).val);
+
+                // bt.levelOrder(Nov01.replaceValueInTreeOptimal(
+                //                 bt.constructBinaryTree(new Integer[] {
+                //                                 5, 4, 9, 1, 10, null, 7
+                //                 })));
+
+                System.out.println(Nov01.deepestLeavesSumOptimal(bt.constructBinaryTree(
+                                new Integer[] {
+                                // 1, 2, 3, 4, 5, null, 6, 7, null, null, null, null, 8
+                                // 6, 7, 8, 2, 7, 1, 3, 9, null, 1, 4, null, null, null, 5
+                                // 1, 2, 3, 4, 5, null, 6, null, null, null, null, 7
+                                })));
+
         }
+
 }

@@ -115,6 +115,15 @@
 |  44 | Cousins in Binary Tree                      | Easy       | LC993  | Oct 31, 2026 | [Oct31.java](./Oct31.java) |
 |  45 | Binary Tree Level Order Traversal           | Medium     | LC102  | Oct 31, 2026 | [Oct31.java](./Oct31.java) |
 
+## 📆 November 01, 2026 — `Nov01.java`
+
+| No. | Problem Name                                   | Difficulty | Source | Date         | Java File                  |
+| --: | ---------------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  46 | Deepest Leaves Sum                             | Medium     | LC1302 | Nov 01, 2026 | [Nov01.java](./Nov01.java) |
+|  47 | Cousins in Binary Tree II                      | Medium     | LC2641 | Nov 01, 2026 | [Nov01.java](./Nov01.java) |
+|  48 | Lowest Common Ancestor of Deepest Leaves       | Medium     | LC1123 | Nov 01, 2026 | [Nov01.java](./Nov01.java) |
+|  49 | Populating Next Right Pointers in Each Node II | Medium     | LC117  | Nov 01, 2026 | [Nov01.java](./Nov01.java) |
+
 ---
 
 # 📊 Problem Index
@@ -165,6 +174,10 @@
 |  43 | Populating Next Right Pointers in Each Node                | Medium     | LC116   | [Oct31.java](./Oct31.java) |
 |  44 | Cousins in Binary Tree                                     | Easy       | LC993   | [Oct31.java](./Oct31.java) |
 |  45 | Binary Tree Level Order Traversal                          | Medium     | LC102   | [Oct31.java](./Oct31.java) |
+|  46 | Deepest Leaves Sum                                         | Medium     | LC1302  | [Nov01.java](./Nov01.java) |
+|  47 | Cousins in Binary Tree II                                  | Medium     | LC2641  | [Nov01.java](./Nov01.java) |
+|  48 | Lowest Common Ancestor of Deepest Leaves                   | Medium     | LC1123  | [Nov01.java](./Nov01.java) |
+|  49 | Populating Next Right Pointers in Each Node II             | Medium     | LC117   | [Nov01.java](./Nov01.java) |
 
 ---
 
@@ -173,28 +186,29 @@
 | Difficulty | LeetCode |    GFG | Other | General |  Total |
 | ---------- | -------: | -----: | ----: | ------: | -----: |
 | Easy       |       13 |      5 |     0 |       0 |     18 |
-| Medium     |       12 |      6 |     0 |       4 |     22 |
+| Medium     |       17 |      6 |     0 |       4 |     27 |
 | Hard       |        3 |      0 |     0 |       0 |      3 |
-| **TOTAL**  |   **28** | **11** | **0** |   **4** | **43** |
+| **TOTAL**  |   **33** | **11** | **0** |   **4** | **48** |
 
 ---
 
 # 📁 Files
 
-| Java File                                          | Description                                                                           |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                                                    |
-| [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array                            |
-| [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree                       |
-| [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                                      |
-| [Oct24.java](./Oct24.java)                         | Maximum Width, Maximum Path Sum, Same Tree, and Zigzag Traversal                      |
-| [Oct25.java](./Oct25.java)                         | Tree Boundary Traversal, Vertical Order Traversal, and Top View                       |
-| [Oct26.java](./Oct26.java)                         | Root Paths, Symmetric Tree, Left/Right Side Views, and Bottom View                    |
-| [Oct27.java](./Oct27.java)                         | Lowest Common Ancestor, Children Sum, Transform to Sum Tree, Sum Tree, and Distance K |
-| [Oct28.java](./Oct28.java)                         | Tree Construction, Complete Tree Node Count, Infection Time, and K-Distance Nodes     |
-| [Oct29.java](./Oct29.java)                         | Tree Construction, Serialization and Deserialization, and Morris Traversals           |
-| [Oct30.java](./Oct30.java)                         | Ancestors, Flatten Binary Tree, Subtree, Minimum Depth, and Path Sum problems         |
-| [Oct31.java](./Oct31.java)                         | Next Right Pointers, Cousins in Binary Tree, and Level Order Traversal                |
+| Java File                                          | Description                                                                                      |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [Binary_Tree.java](./Binary_Tree.java)             | General Binary Tree implementation                                                               |
+| [Binary_Tree_Utils.java](./Binary_Tree_Utils.java) | Utility class for constructing a Binary Tree from an array                                       |
+| [Oct22.java](./Oct22.java)                         | Binary Tree traversal problems and Maximum Depth of Binary Tree                                  |
+| [Oct23.java](./Oct23.java)                         | Balanced Binary Tree and Diameter of Binary Tree                                                 |
+| [Oct24.java](./Oct24.java)                         | Maximum Width, Maximum Path Sum, Same Tree, and Zigzag Traversal                                 |
+| [Oct25.java](./Oct25.java)                         | Tree Boundary Traversal, Vertical Order Traversal, and Top View                                  |
+| [Oct26.java](./Oct26.java)                         | Root Paths, Symmetric Tree, Left/Right Side Views, and Bottom View                               |
+| [Oct27.java](./Oct27.java)                         | Lowest Common Ancestor, Children Sum, Transform to Sum Tree, Sum Tree, and Distance K            |
+| [Oct28.java](./Oct28.java)                         | Tree Construction, Complete Tree Node Count, Infection Time, and K-Distance Nodes                |
+| [Oct29.java](./Oct29.java)                         | Tree Construction, Serialization and Deserialization, and Morris Traversals                      |
+| [Oct30.java](./Oct30.java)                         | Ancestors, Flatten Binary Tree, Subtree, Minimum Depth, and Path Sum problems                    |
+| [Oct31.java](./Oct31.java)                         | Next Right Pointers, Cousins in Binary Tree, and Level Order Traversal                           |
+| [Nov01.java](./Nov01.java)                         | Deepest Leaves Sum, Cousins in Binary Tree II, LCA of Deepest Leaves, and Next Right Pointers II |
 
 ---
 
