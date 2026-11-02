@@ -296,13 +296,26 @@ public class Demo {
                 //                                 5, 4, 9, 1, 10, null, 7
                 //                 })));
 
-                System.out.println(Nov01.deepestLeavesSumOptimal(bt.constructBinaryTree(
-                                new Integer[] {
-                                // 1, 2, 3, 4, 5, null, 6, 7, null, null, null, null, 8
-                                // 6, 7, 8, 2, 7, 1, 3, 9, null, 1, 4, null, null, null, 5
-                                // 1, 2, 3, 4, 5, null, 6, null, null, null, null, 7
-                                })));
+                // System.out.println(Nov01.deepestLeavesSumOptimal(bt.constructBinaryTree(
+                //                 new Integer[] {
+                // 1, 2, 3, 4, 5, null, 6, 7, null, null, null, null, 8
+                // 6, 7, 8, 2, 7, 1, 3, 9, null, 1, 4, null, null, null, 5
+                // 1, 2, 3, 4, 5, null, 6, null, null, null, null, 7
+                // })));
 
+                // ! ============= Nov 02 Problems =============
+
+                // // TreeNode root = Nov02.constructFromPrePost(
+                //                 new int[] {
+                //                                 1, 2, 4, 5, 3, 6, 7
+                //                 },
+                //                 new int[] {
+                //                                 4, 5, 2, 6, 7, 3, 1
+                //                 });
+                // bt.levelOrder(root);
+
+                System.out.println(Nov02.findMaxFork(
+                        bst.
+                ));
         }
-
 }
