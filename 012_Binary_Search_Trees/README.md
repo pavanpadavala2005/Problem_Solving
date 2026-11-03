@@ -29,6 +29,15 @@
 |   2 | Ceil in BST                      | Easy       | GFG    | Nov 02, 2026 | [Nov02.java](./Nov02.java) |
 |   3 | Insert into a Binary Search Tree | Medium     | LC701  | Nov 02, 2026 | [Nov02.java](./Nov02.java) |
 
+## 📆 November 03, 2026 — `Nov03.java`
+
+| No. | Problem Name                  | Difficulty | Source | Date         | Java File                  |
+| --: | ----------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|   1 | Minimum in BST                | Easy       | GFG    | Nov 03, 2026 | [Nov03.java](./Nov03.java) |
+|   2 | Delete Node in a BST          | Medium     | LC450  | Nov 03, 2026 | [Nov03.java](./Nov03.java) |
+|   3 | Kth Smallest Element in a BST | Medium     | LC230  | Nov 03, 2026 | [Nov03.java](./Nov03.java) |
+|   4 | Kth Largest in BST            | Medium     | GFG    | Nov 03, 2026 | [Nov03.java](./Nov03.java) |
+
 ---
 
 # 📊 Problem Index
@@ -38,6 +47,10 @@
 |   1 | Floor in BST                     | Easy       | GFG    | [Nov02.java](./Nov02.java) |
 |   2 | Ceil in BST                      | Easy       | GFG    | [Nov02.java](./Nov02.java) |
 |   3 | Insert into a Binary Search Tree | Medium     | LC701  | [Nov02.java](./Nov02.java) |
+|   4 | Minimum in BST                   | Easy       | GFG    | [Nov03.java](./Nov03.java) |
+|   5 | Delete Node in a BST             | Medium     | LC450  | [Nov03.java](./Nov03.java) |
+|   6 | Kth Smallest Element in a BST    | Medium     | LC230  | [Nov03.java](./Nov03.java) |
+|   7 | Kth Largest in BST               | Medium     | GFG    | [Nov03.java](./Nov03.java) |
 
 ---
 
@@ -45,10 +58,10 @@
 
 | Difficulty | LeetCode |   GFG | Other | General | Total |
 | ---------- | -------: | ----: | ----: | ------: | ----: |
-| Easy       |        0 |     2 |     0 |       0 |     2 |
-| Medium     |        1 |     0 |     0 |       0 |     1 |
+| Easy       |        0 |     3 |     0 |       0 |     3 |
+| Medium     |        3 |     1 |     0 |       0 |     4 |
 | Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **1** | **2** | **0** |   **0** | **3** |
+| **TOTAL**  |    **3** | **4** | **0** |   **0** | **7** |
 
 ---
 
@@ -59,6 +72,7 @@
 | [Binary_Search_Tree.java](./Binary_Search_Tree.java)             | Complete Binary Search Tree implementation including insertion, deletion, searching, minimum, maximum, and tree traversals |
 | [Binary_Search_Tree_Utils.java](./Binary_Search_Tree_Utils.java) | Utility class for constructing a Binary Search Tree from an array and performing Level Order Traversal                     |
 | [Nov02.java](./Nov02.java)                                       | Floor in BST, Ceil in BST, and Insert into a Binary Search Tree                                                            |
+| [Nov03.java](./Nov03.java)                                       | Minimum in BST, Delete Node in a BST, Kth Smallest Element in a BST, and Kth Largest in BST                                |
 
 ---
 
