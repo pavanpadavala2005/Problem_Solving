@@ -1,7 +1,11 @@
-
 public class Nov03 {
 
     // ! ============= GFG. Kth Largest in BST ============
+
+    /*
+    @ TC --> O(log N)
+    @ SC --> O(H)
+    */
     static int largerVal = -1;
 
     public static int kthLargest(TreeNode root, int k) {
@@ -31,9 +35,8 @@ public class Nov03 {
 
     // ! ============= LC230. Kth Smallest Element in a BST ============
     /*
-     * @ TC --> O(N)
-     * 
-     * @ SC --> O(H)
+    @ TC --> O(N)
+    @ SC --> O(H)
      */
     static int smallVal = -1;
 
@@ -61,9 +64,8 @@ public class Nov03 {
 
     // ! ============= LC450. Delete Node in a BST ============
     /*
-     * @ TC --> O(Log N + H)
-     * 
-     * @ SC --> O(H)
+    @ TC --> O(Log N + H)
+    @ SC --> O(H)
      */
     public static TreeNode deleteNode(TreeNode root, int key) {
         if (root == null)
@@ -96,9 +98,9 @@ public class Nov03 {
 
     // ! ============= GFG. Minimum in BST ============
     /*
-     * @ TC --> O(log N)
-     * 
-     * @ SC --> O(1)
+    @ TC --> O(log N)
+    
+    @ SC --> O(1)
      */
     public int minValue(TreeNode root) {
         if (root == null)
