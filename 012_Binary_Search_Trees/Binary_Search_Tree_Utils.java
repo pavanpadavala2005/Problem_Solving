@@ -49,4 +49,14 @@ public class Binary_Search_Tree_Utils {
         }
         System.out.println();
     }
+
+    public void inOrder(TreeNode root) {
+        if (root == null) {
+            // System.out.print(null + " ");
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.val + " ");
+        inOrder(root.right);
+    }
 }

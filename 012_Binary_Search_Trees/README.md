@@ -45,32 +45,45 @@
 |   8 | Validate Binary Search Tree                    | Medium     | LC98   | Nov 04, 2026 | [Nov04.java](./Nov04.java) |
 |   9 | Lowest Common Ancestor of a Binary Search Tree | Medium     | LC235  | Nov 04, 2026 | [Nov04.java](./Nov04.java) |
 
+## 📆 November 05, 2026 — `Nov05.java`
+
+| No. | Problem Name                                         | Difficulty | Source | Date         | Java File                  |
+| --: | ---------------------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  10 | Predecessor and Successor in BST                     | Medium     | LC285  | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
+|  11 | Construct Binary Search Tree from Preorder Traversal | Medium     | LC1008 | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
+|  12 | Construct BST from Inorder                           | Medium     | GFG    | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
+|  13 | Construct BST from Postorder                         | Medium     | GFG    | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
+
 ---
 
 # 📊 Problem Index
 
-| No. | Problem Name                                   | Difficulty | Source | Java File                  |
-| --: | ---------------------------------------------- | ---------- | ------ | -------------------------- |
-|   1 | Floor in BST                                   | Easy       | GFG    | [Nov02.java](./Nov02.java) |
-|   2 | Ceil in BST                                    | Easy       | GFG    | [Nov02.java](./Nov02.java) |
-|   3 | Insert into a Binary Search Tree               | Medium     | LC701  | [Nov02.java](./Nov02.java) |
-|   4 | Minimum in BST                                 | Easy       | GFG    | [Nov03.java](./Nov03.java) |
-|   5 | Delete Node in a BST                           | Medium     | LC450  | [Nov03.java](./Nov03.java) |
-|   6 | Kth Smallest Element in a BST                  | Medium     | LC230  | [Nov03.java](./Nov03.java) |
-|   7 | Kth Largest in BST                             | Medium     | GFG    | [Nov03.java](./Nov03.java) |
-|   8 | Validate Binary Search Tree                    | Medium     | LC98   | [Nov04.java](./Nov04.java) |
-|   9 | Lowest Common Ancestor of a Binary Search Tree | Medium     | LC235  | [Nov04.java](./Nov04.java) |
+| No. | Problem Name                                         | Difficulty | Source | Java File                  |
+| --: | ---------------------------------------------------- | ---------- | ------ | -------------------------- |
+|   1 | Floor in BST                                         | Easy       | GFG    | [Nov02.java](./Nov02.java) |
+|   2 | Ceil in BST                                          | Easy       | GFG    | [Nov02.java](./Nov02.java) |
+|   3 | Insert into a Binary Search Tree                     | Medium     | LC701  | [Nov02.java](./Nov02.java) |
+|   4 | Minimum in BST                                       | Easy       | GFG    | [Nov03.java](./Nov03.java) |
+|   5 | Delete Node in a BST                                 | Medium     | LC450  | [Nov03.java](./Nov03.java) |
+|   6 | Kth Smallest Element in a BST                        | Medium     | LC230  | [Nov03.java](./Nov03.java) |
+|   7 | Kth Largest in BST                                   | Medium     | GFG    | [Nov03.java](./Nov03.java) |
+|   8 | Validate Binary Search Tree                          | Medium     | LC98   | [Nov04.java](./Nov04.java) |
+|   9 | Lowest Common Ancestor of a Binary Search Tree       | Medium     | LC235  | [Nov04.java](./Nov04.java) |
+|  10 | Predecessor and Successor in BST                     | Medium     | LC285  | [Nov05.java](./Nov05.java) |
+|  11 | Construct Binary Search Tree from Preorder Traversal | Medium     | LC1008 | [Nov05.java](./Nov05.java) |
+|  12 | Construct BST from Inorder                           | Medium     | GFG    | [Nov05.java](./Nov05.java) |
+|  13 | Construct BST from Postorder                         | Medium     | GFG    | [Nov05.java](./Nov05.java) |
 
 ---
 
 # 📈 Source Legend
 
-| Difficulty | LeetCode |   GFG | Other | General | Total |
-| ---------- | -------: | ----: | ----: | ------: | ----: |
-| Easy       |        0 |     3 |     0 |       0 |     3 |
-| Medium     |        5 |     1 |     0 |       0 |     6 |
-| Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **5** | **4** | **0** |   **0** | **9** |
+| Difficulty | LeetCode |   GFG | Other | General |  Total |
+| ---------- | -------: | ----: | ----: | ------: | -----: |
+| Easy       |        0 |     3 |     0 |       0 |      3 |
+| Medium     |        7 |     3 |     0 |       0 |     10 |
+| Hard       |        0 |     0 |     0 |       0 |      0 |
+| **TOTAL**  |    **7** | **6** | **0** |   **0** | **13** |
 
 ---
 
@@ -83,6 +96,7 @@
 | [Nov02.java](./Nov02.java)                                       | Floor in BST, Ceil in BST, and Insert into a Binary Search Tree                                                            |
 | [Nov03.java](./Nov03.java)                                       | Minimum in BST, Delete Node in a BST, Kth Smallest Element in a BST, and Kth Largest in BST                                |
 | [Nov04.java](./Nov04.java)                                       | Validate Binary Search Tree and Lowest Common Ancestor of a Binary Search Tree                                             |
+| [Nov05.java](./Nov05.java)                                       | Predecessor and Successor in BST, Construct BST from Preorder, Inorder, and Postorder Traversals                           |
 
 ---
 
