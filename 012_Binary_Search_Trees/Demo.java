@@ -61,12 +61,38 @@ public class Demo {
                 // ))
                 //     System.out.println(i.val);
 
-                TreeNode root = bst.constructBST(new Integer[] { 0, 5, 10, 15, 20, 25, 30, 35, 40, 45 });
+                // TreeNode root = bst.constructBST(new Integer[] { 0, 5, 10, 15, 20, 25, 30, 35, 40, 45 });
 
-                bst.levelOrder(root);
+                // bst.levelOrder(root);
 
-                TreeNode res = Nov05.BSTFromInOrder(new int[] { 0, 5, 10, 15, 20, 25, 30, 35, 40, 45 });
+                // TreeNode res = Nov05.BSTFromInOrder(new int[] { 0, 5, 10, 15, 20, 25, 30, 35, 40, 45 });
 
-                bst.levelOrder(res);
+                // bst.levelOrder(res);
+
+                // ! ============= Nov 06 Problems =============
+
+                // System.out.println(Nov06.mergeBrute(
+                //                 bst.constructBST(new Integer[] {
+                //                                 3, 1, 5
+                //                 }),
+                //                 bst.constructBST(new Integer[] {
+                //                                 4, 2, 6
+                //                 })
+                // ));
+
+                // System.out.println(Nov06.mergeOptimal(
+                //                 bst.constructBST(new Integer[] {
+                //                                 3, 1, 5
+                //                 }),
+                //                 bst.constructBST(new Integer[] {
+                //                                 4, 2, 6
+                //                 })
+                // // 
+                // ));
+
+                // Nov06.correctBST(
+                //                 bst.constructBST(new Integer[] {
+                //                                 10, 5, 8, 2, 20
+                //                 }));
         }
 }

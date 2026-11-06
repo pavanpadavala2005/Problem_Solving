@@ -54,6 +54,16 @@
 |  12 | Construct BST from Inorder                           | Medium     | GFG    | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
 |  13 | Construct BST from Postorder                         | Medium     | GFG    | Nov 05, 2026 | [Nov05.java](./Nov05.java) |
 
+## 📆 November 06, 2026 — `Nov06.java`
+
+| No. | Problem Name                               | Difficulty | Source | Date         | Java File                  |
+| --: | ------------------------------------------ | ---------- | ------ | ------------ | -------------------------- |
+|  14 | Two Sum IV - Input is a BST                | Easy       | LC653  | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
+|  15 | Merge Two BSTs                             | Medium     | GFG    | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
+|  16 | Convert Sorted Array to Binary Search Tree | Easy       | LC108  | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
+|  17 | Fixing Two Nodes of BST                    | Medium     | GFG    | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
+|  18 | Recover Binary Search Tree                 | Hard       | LC99   | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
+
 ---
 
 # 📊 Problem Index
@@ -73,6 +83,11 @@
 |  11 | Construct Binary Search Tree from Preorder Traversal | Medium     | LC1008 | [Nov05.java](./Nov05.java) |
 |  12 | Construct BST from Inorder                           | Medium     | GFG    | [Nov05.java](./Nov05.java) |
 |  13 | Construct BST from Postorder                         | Medium     | GFG    | [Nov05.java](./Nov05.java) |
+|  14 | Two Sum IV - Input is a BST                          | Easy       | LC653  | [Nov06.java](./Nov06.java) |
+|  15 | Merge Two BSTs                                       | Medium     | GFG    | [Nov06.java](./Nov06.java) |
+|  16 | Convert Sorted Array to Binary Search Tree           | Easy       | LC108  | [Nov06.java](./Nov06.java) |
+|  17 | Fixing Two Nodes of BST                              | Medium     | GFG    | [Nov06.java](./Nov06.java) |
+|  18 | Recover Binary Search Tree                           | Hard       | LC99   | [Nov06.java](./Nov06.java) |
 
 ---
 
@@ -80,10 +95,10 @@
 
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
-| Easy       |        0 |     3 |     0 |       0 |      3 |
-| Medium     |        7 |     3 |     0 |       0 |     10 |
-| Hard       |        0 |     0 |     0 |       0 |      0 |
-| **TOTAL**  |    **7** | **6** | **0** |   **0** | **13** |
+| Easy       |        2 |     3 |     0 |       0 |      5 |
+| Medium     |        7 |     5 |     0 |       0 |     12 |
+| Hard       |        1 |     0 |     0 |       0 |      1 |
+| **TOTAL**  |   **10** | **8** | **0** |   **0** | **18** |
 
 ---
 
@@ -97,6 +112,7 @@
 | [Nov03.java](./Nov03.java)                                       | Minimum in BST, Delete Node in a BST, Kth Smallest Element in a BST, and Kth Largest in BST                                |
 | [Nov04.java](./Nov04.java)                                       | Validate Binary Search Tree and Lowest Common Ancestor of a Binary Search Tree                                             |
 | [Nov05.java](./Nov05.java)                                       | Predecessor and Successor in BST, Construct BST from Preorder, Inorder, and Postorder Traversals                           |
+| [Nov06.java](./Nov06.java)                                       | Two Sum IV, Merge Two BSTs, Convert Sorted Array to BST, Fixing Two Nodes of BST, and Recover BST                          |
 
 ---
 
