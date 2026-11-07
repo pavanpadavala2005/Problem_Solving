@@ -3,10 +3,10 @@ import java.util.*;
 
 class TreeNode {
     TreeNode left;
-    Integer val;
+    int val;
     TreeNode right;
 
-    public TreeNode(Integer val) {
+    public TreeNode(int val) {
         this.left = null;
         this.val = val;
         this.right = null;
