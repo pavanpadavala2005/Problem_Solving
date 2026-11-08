@@ -2,7 +2,7 @@
 
 > 📌 **This README is the central tracker for all Dynamic Programming-related problem-solving practice.**
 >
-> The folder contains both standalone Dynamic Programming implementations and day-wise problem-solving files.
+> The folder contains day-wise problem-solving files covering different Dynamic Programming problems and techniques.
 >
 > **Problem Name · Difficulty · Source · Date · Java File**
 
@@ -18,15 +18,26 @@
 |   2 | Climbing Stairs  | Easy       | LC70   | Nov 07, 2026 | [Nov07.java](./Nov07.java) |
 |   3 | Frog Jump        | Easy       | GFG    | Nov 07, 2026 | [Nov07.java](./Nov07.java) |
 
+## 📆 November 08, 2026 — `Nov08.java`
+
+| No. | Problem Name                         | Difficulty | Source  | Date         | Java File                  |
+| --: | ------------------------------------ | ---------- | ------- | ------------ | -------------------------- |
+|   4 | Frog Jump with K Distances           | Medium     | TUF714  | Nov 08, 2026 | [Nov08.java](./Nov08.java) |
+|   5 | Maximum Sum of Non-Adjacent Elements | Medium     | Code360 | Nov 08, 2026 | [Nov08.java](./Nov08.java) |
+|   6 | House Robber                         | Medium     | LC198   | Nov 08, 2026 | [Nov08.java](./Nov08.java) |
+
 ---
 
 # 📊 Problem Index
 
-| No. | Problem Name     | Difficulty | Source | Java File                  |
-| --: | ---------------- | ---------- | ------ | -------------------------- |
-|   1 | Fibonacci Number | Easy       | LC509  | [Nov07.java](./Nov07.java) |
-|   2 | Climbing Stairs  | Easy       | LC70   | [Nov07.java](./Nov07.java) |
-|   3 | Frog Jump        | Easy       | GFG    | [Nov07.java](./Nov07.java) |
+| No. | Problem Name                         | Difficulty | Source  | Java File                  |
+| --: | ------------------------------------ | ---------- | ------- | -------------------------- |
+|   1 | Fibonacci Number                     | Easy       | LC509   | [Nov07.java](./Nov07.java) |
+|   2 | Climbing Stairs                      | Easy       | LC70    | [Nov07.java](./Nov07.java) |
+|   3 | Frog Jump                            | Easy       | GFG     | [Nov07.java](./Nov07.java) |
+|   4 | Frog Jump with K Distances           | Medium     | TUF714  | [Nov08.java](./Nov08.java) |
+|   5 | Maximum Sum of Non-Adjacent Elements | Medium     | Code360 | [Nov08.java](./Nov08.java) |
+|   6 | House Robber                         | Medium     | LC198   | [Nov08.java](./Nov08.java) |
 
 ---
 
@@ -35,17 +46,18 @@
 | Difficulty | LeetCode |   GFG | Other | General | Total |
 | ---------- | -------: | ----: | ----: | ------: | ----: |
 | Easy       |        2 |     1 |     0 |       0 |     3 |
-| Medium     |        0 |     0 |     0 |       0 |     0 |
+| Medium     |        1 |     0 |     2 |       0 |     3 |
 | Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **2** | **1** | **0** |   **0** | **3** |
+| **TOTAL**  |    **3** | **1** | **2** |   **0** | **6** |
 
 ---
 
 # 📁 Files
 
-| Java File                  | Description                                      |
-| -------------------------- | ------------------------------------------------ |
-| [Nov07.java](./Nov07.java) | Fibonacci Number, Climbing Stairs, and Frog Jump |
+| Java File                  | Description                                                                        |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| [Nov07.java](./Nov07.java) | Fibonacci Number, Climbing Stairs, and Frog Jump                                   |
+| [Nov08.java](./Nov08.java) | Frog Jump with K Distances, Maximum Sum of Non-Adjacent Elements, and House Robber |
 
 ---
 
