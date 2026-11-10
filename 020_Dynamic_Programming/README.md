@@ -34,6 +34,13 @@
 |   8 | Coin Change     | Medium     | LC322  | Nov 09, 2026 | [Nov09.java](./Nov09.java) |
 |   9 | House Robber II | Medium     | LC213  | Nov 09, 2026 | [Nov09.java](./Nov09.java) |
 
+## 📆 November 10, 2026 — `Nov10.java`
+
+| No. | Problem Name    | Difficulty | Source | Date         | Java File                  |
+| --: | --------------- | ---------- | ------ | ------------ | -------------------------- |
+|  10 | Geek's Training | Medium     | GFG    | Nov 10, 2026 | [Nov10.java](./Nov10.java) |
+|  11 | Unique Paths    | Medium     | LC62   | Nov 10, 2026 | [Nov10.java](./Nov10.java) |
+
 ---
 
 # 📊 Problem Index
@@ -49,17 +56,19 @@
 |   7 | Geek's Training                      | Medium     | GFG     | [Nov09.java](./Nov09.java) |
 |   8 | Coin Change                          | Medium     | LC322   | [Nov09.java](./Nov09.java) |
 |   9 | House Robber II                      | Medium     | LC213   | [Nov09.java](./Nov09.java) |
+|  10 | Geek's Training                      | Medium     | GFG     | [Nov10.java](./Nov10.java) |
+|  11 | Unique Paths                         | Medium     | LC62    | [Nov10.java](./Nov10.java) |
 
 ---
 
 # 📈 Source Legend
 
-| Difficulty | LeetCode |   GFG | Other | General | Total |
-| ---------- | -------: | ----: | ----: | ------: | ----: |
-| Easy       |        2 |     1 |     0 |       0 |     3 |
-| Medium     |        3 |     1 |     2 |       0 |     6 |
-| Hard       |        0 |     0 |     0 |       0 |     0 |
-| **TOTAL**  |    **5** | **2** | **2** |   **0** | **9** |
+| Difficulty | LeetCode |   GFG | Other | General |  Total |
+| ---------- | -------: | ----: | ----: | ------: | -----: |
+| Easy       |        2 |     1 |     0 |       0 |      3 |
+| Medium     |        4 |     2 |     2 |       0 |      8 |
+| Hard       |        0 |     0 |     0 |       0 |      0 |
+| **TOTAL**  |    **6** | **3** | **2** |   **0** | **11** |
 
 ---
 
@@ -70,6 +79,7 @@
 | [Nov07.java](./Nov07.java) | Fibonacci Number, Climbing Stairs, and Frog Jump                                   |
 | [Nov08.java](./Nov08.java) | Frog Jump with K Distances, Maximum Sum of Non-Adjacent Elements, and House Robber |
 | [Nov09.java](./Nov09.java) | Geek's Training, Coin Change, and House Robber II                                  |
+| [Nov10.java](./Nov10.java) | Geek's Training and Unique Paths                                                   |
 
 ---
 
