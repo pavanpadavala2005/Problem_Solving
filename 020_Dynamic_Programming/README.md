@@ -56,6 +56,12 @@
 |  15 | Longest Subarray with Sum at Most K | Easy       | INFOSYS_02_02 | Nov 11, 2026 | [InfoCoding.java](./InfoCoding.java) |
 |  16 | Count Subsets with XOR Equal to K   | Medium     | INFOSYS_03_03 | Nov 11, 2026 | [InfoCoding.java](./InfoCoding.java) |
 
+## 📆 November 12, 2026 — `Nov12.java`
+
+| No. | Problem Name     | Difficulty | Source | Date         | Java File                  |
+| --: | ---------------- | ---------- | ------ | ------------ | -------------------------- |
+|  17 | Minimum Path Sum | Medium     | LC64   | Nov 12, 2026 | [Nov12.java](./Nov12.java) |
+
 ---
 
 # 📊 Problem Index
@@ -78,6 +84,7 @@
 |  14 | Metro Line Construction Budget       | Medium     | INFOSYS_01_03 | [InfoCoding.java](./InfoCoding.java) |
 |  15 | Longest Subarray with Sum at Most K  | Easy       | INFOSYS_02_02 | [InfoCoding.java](./InfoCoding.java) |
 |  16 | Count Subsets with XOR Equal to K    | Medium     | INFOSYS_03_03 | [InfoCoding.java](./InfoCoding.java) |
+|  17 | Minimum Path Sum                     | Medium     | LC64          | [Nov12.java](./Nov12.java)           |
 
 ---
 
@@ -86,9 +93,9 @@
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
 | Easy       |        2 |     1 |     1 |       0 |      4 |
-| Medium     |        6 |     2 |     5 |       0 |     13 |
+| Medium     |        7 |     2 |     5 |       0 |     14 |
 | Hard       |        0 |     0 |     0 |       0 |      0 |
-| **TOTAL**  |    **8** | **3** | **6** |   **0** | **17** |
+| **TOTAL**  |    **9** | **3** | **6** |   **0** | **18** |
 
 ---
 
@@ -102,6 +109,7 @@
 | [Nov10.java](./Nov10.java)           | Geek's Training and Unique Paths                                                                           |
 | [Nov11.java](./Nov11.java)           | Unique Paths and Unique Paths II                                                                           |
 | [InfoCoding.java](./InfoCoding.java) | Metro Line Construction Budget, Longest Subarray with Sum at Most K, and Count Subsets with XOR Equal to K |
+| [Nov12.java](./Nov12.java)           | Minimum Path Sum                                                                                           |
 
 ---
 
