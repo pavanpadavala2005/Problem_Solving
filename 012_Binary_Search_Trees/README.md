@@ -64,6 +64,14 @@
 |  17 | Fixing Two Nodes of BST                    | Medium     | GFG    | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
 |  18 | Recover Binary Search Tree                 | Hard       | LC99   | Nov 06, 2026 | [Nov06.java](./Nov06.java) |
 
+## 📆 November 13, 2026 — `Nov13.java`
+
+| No. | Problem Name                | Difficulty | Source | Date         | Java File                  |
+| --: | --------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  19 | Binary Search Tree Iterator | Medium     | LC173  | Nov 13, 2026 | [Nov13.java](./Nov13.java) |
+|  20 | Closest in BST              | Medium     | GFG    | Nov 13, 2026 | [Nov13.java](./Nov13.java) |
+|  21 | Merge Two Binary Trees      | Easy       | LC617  | Nov 13, 2026 | [Nov13.java](./Nov13.java) |
+
 ---
 
 # 📊 Problem Index
@@ -88,6 +96,9 @@
 |  16 | Convert Sorted Array to Binary Search Tree           | Easy       | LC108  | [Nov06.java](./Nov06.java) |
 |  17 | Fixing Two Nodes of BST                              | Medium     | GFG    | [Nov06.java](./Nov06.java) |
 |  18 | Recover Binary Search Tree                           | Hard       | LC99   | [Nov06.java](./Nov06.java) |
+|  19 | Binary Search Tree Iterator                          | Medium     | LC173  | [Nov13.java](./Nov13.java) |
+|  20 | Closest in BST                                       | Medium     | GFG    | [Nov13.java](./Nov13.java) |
+|  21 | Merge Two Binary Trees                               | Easy       | LC617  | [Nov13.java](./Nov13.java) |
 
 ---
 
@@ -95,10 +106,10 @@
 
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
-| Easy       |        2 |     3 |     0 |       0 |      5 |
-| Medium     |        7 |     5 |     0 |       0 |     12 |
+| Easy       |        3 |     3 |     0 |       0 |      6 |
+| Medium     |        8 |     6 |     0 |       0 |     14 |
 | Hard       |        1 |     0 |     0 |       0 |      1 |
-| **TOTAL**  |   **10** | **8** | **0** |   **0** | **18** |
+| **TOTAL**  |   **12** | **9** | **0** |   **0** | **21** |
 
 ---
 
@@ -113,6 +124,7 @@
 | [Nov04.java](./Nov04.java)                                       | Validate Binary Search Tree and Lowest Common Ancestor of a Binary Search Tree                                             |
 | [Nov05.java](./Nov05.java)                                       | Predecessor and Successor in BST, Construct BST from Preorder, Inorder, and Postorder Traversals                           |
 | [Nov06.java](./Nov06.java)                                       | Two Sum IV, Merge Two BSTs, Convert Sorted Array to BST, Fixing Two Nodes of BST, and Recover BST                          |
+| [Nov13.java](./Nov13.java)                                       | Binary Search Tree Iterator, Closest in BST, and Merge Two Binary Trees                                                    |
 
 ---
 

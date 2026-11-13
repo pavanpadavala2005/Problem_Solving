@@ -97,9 +97,15 @@ public class Demo {
                 //                                 10, 5, 8, 2, 20
                 //                 }));
 
-                TreeNode root = bt.constructBinaryTree(new Integer[] { 5, 2, 4, 1, 3 });
+                // TreeNode root = bt.constructBinaryTree(new Integer[] {
+                //                 // 5, 2, 4, 1, 3
+                //                 6, 7, 3, null, 2, 2, 4
+                //                 // 6, null, 3, null, 6, null, 5, null, 3, null, 1, null, 3, null, 8, null, 7, null, 5
+                //                 // 
+                // });
+                // System.out.println(Nov13.largestBst(root));
 
-                System.out.println(Nov07.largestBst(root));
+                TreeNode root = bt.constructBinaryTree(new Integer[] { 7, 3, 15, null, null, 9, 20 });
 
         }
 }

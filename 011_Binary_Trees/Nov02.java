@@ -1,39 +1,38 @@
-
 import java.util.HashMap;
 
 public class Nov02 {
-    // TODO:
     // ! ============= LC889. Construct Binary Tree from Preorder and Postorder Traversal ============
-    // TODO:
-
-    public static TreeNode constructFromPrePost(int[] preOrder, int[] postOrder) {
-        int n = preOrder.length;
-        int m = postOrder.length;
-        if (n <= 0 || m <= 0)
-            return null;
+    /*
+    @ TC --> O(N)
+    @ SC --> O(N)
+    */
+    public static TreeNode constructFromPrePostBetter(int[] preOrder, int[] postOrder) {
+        int n = postOrder.length;
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < m; i++)
+        for (int i = 0; i < n; i++)
             map.put(postOrder[i], i);
-        return construct(preOrder, 0, n - 1, postOrder, 0, m - 1, map);
+        return construct(preOrder, 0, n - 1, postOrder, 0, n - 1, map);
     }
 
-    public static TreeNode construct(int[] preOrder, int prsIdx, int preIdx, int[] postOrder, int posIdx, int poeIdx,
-            HashMap<Integer, Integer> map) {
-        if (prsIdx > preIdx)
+    public static TreeNode construct(int[] preOrder, int preStart, int preEnd, int[] postOrder, int postStart,
+            int postEnd, HashMap<Integer, Integer> map) {
+        if (preStart > preEnd)
             return null;
-        TreeNode root = new TreeNode(preOrder[prsIdx]);
-        if (prsIdx == preIdx)
+        TreeNode root = new TreeNode(preOrder[preStart]);
+
+        if (preStart == preEnd)
             return root;
-        int leftIdx = -1;
-        if (prsIdx + 1 <= preIdx)
-            leftIdx = map.get(preOrder[prsIdx + 1]);
-        int numElements = leftIdx - posIdx + 1;
-        root.left = construct(preOrder, prsIdx + 1, prsIdx + numElements, postOrder, posIdx, leftIdx, map);
-        root.right = construct(preOrder, prsIdx + numElements + 1, preIdx, postOrder, leftIdx + 1, poeIdx - 1,
-                map);
+
+        int leftRoot = preOrder[preStart + 1];
+        int idx = map.get(leftRoot);
+        int size = idx - postStart + 1;
+
+        root.left = construct(preOrder, preStart + 1, preStart + size, postOrder, postStart, idx, map);
+        root.right = construct(preOrder, preStart + 1 + size, preEnd, postOrder, idx + 1, postEnd - 1, map);
+
         return root;
     }
-
-    // ! ============= LC226. Invert Binary Tree ============
-
 }
+
+// ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
+// 1. LC889. Construct Binary Tree from Preorder and Postorder Traversal ✅
