@@ -72,6 +72,12 @@
 |  20 | Closest in BST              | Medium     | GFG    | Nov 13, 2026 | [Nov13.java](./Nov13.java) |
 |  21 | Merge Two Binary Trees      | Easy       | LC617  | Nov 13, 2026 | [Nov13.java](./Nov13.java) |
 
+## 📆 November 14, 2026 — `Nov14.java`
+
+| No. | Problem Name                              | Difficulty | Source | Date         | Java File                  |
+| --: | ----------------------------------------- | ---------- | ------ | ------------ | -------------------------- |
+|  22 | Convert Sorted List to Binary Search Tree | Medium     | LC109  | Nov 14, 2026 | [Nov14.java](./Nov14.java) |
+
 ---
 
 # 📊 Problem Index
@@ -99,6 +105,7 @@
 |  19 | Binary Search Tree Iterator                          | Medium     | LC173  | [Nov13.java](./Nov13.java) |
 |  20 | Closest in BST                                       | Medium     | GFG    | [Nov13.java](./Nov13.java) |
 |  21 | Merge Two Binary Trees                               | Easy       | LC617  | [Nov13.java](./Nov13.java) |
+|  22 | Convert Sorted List to Binary Search Tree            | Medium     | LC109  | [Nov14.java](./Nov14.java) |
 
 ---
 
@@ -107,9 +114,9 @@
 | Difficulty | LeetCode |   GFG | Other | General |  Total |
 | ---------- | -------: | ----: | ----: | ------: | -----: |
 | Easy       |        3 |     3 |     0 |       0 |      6 |
-| Medium     |        8 |     6 |     0 |       0 |     14 |
+| Medium     |        9 |     6 |     0 |       0 |     15 |
 | Hard       |        1 |     0 |     0 |       0 |      1 |
-| **TOTAL**  |   **12** | **9** | **0** |   **0** | **21** |
+| **TOTAL**  |   **13** | **9** | **0** |   **0** | **22** |
 
 ---
 
@@ -125,6 +132,7 @@
 | [Nov05.java](./Nov05.java)                                       | Predecessor and Successor in BST, Construct BST from Preorder, Inorder, and Postorder Traversals                           |
 | [Nov06.java](./Nov06.java)                                       | Two Sum IV, Merge Two BSTs, Convert Sorted Array to BST, Fixing Two Nodes of BST, and Recover BST                          |
 | [Nov13.java](./Nov13.java)                                       | Binary Search Tree Iterator, Closest in BST, and Merge Two Binary Trees                                                    |
+| [Nov14.java](./Nov14.java)                                       | Convert Sorted List to Binary Search Tree                                                                                  |
 
 ---
 

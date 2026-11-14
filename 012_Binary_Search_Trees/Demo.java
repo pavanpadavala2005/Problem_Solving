@@ -103,9 +103,17 @@ public class Demo {
                 //                 // 6, null, 3, null, 6, null, 5, null, 3, null, 1, null, 3, null, 8, null, 7, null, 5
                 //                 // 
                 // });
+
+                // ! ============= Nov 13 Problems =============
+
                 // System.out.println(Nov13.largestBst(root));
 
-                TreeNode root = bt.constructBinaryTree(new Integer[] { 7, 3, 15, null, null, 9, 20 });
+                // TreeNode root = bt.constructBinaryTree(new Integer[] { 7, 3, 15, null, null, 9, 20 });
 
+                // ! ============= Nov 14 Problems =============
+
+                SLLNode head = SinglyLinkedListUtils.getHead(new int[] { -10, -3, 0, 5, 9 });
+
+                bt.levelOrder(Nov14.sortedListToBST(head));
         }
 }
