@@ -1,8 +1,5 @@
 public class Nov12 {
 
-    // ! ============= LC2304. Minimum Path Cost in a Grid ============
-    // ! ============= LC120. Triangle ============
-
     // ! ============= LC64. Minimum Path Sum ============
     /*
     @ TC --> O(M * N)
