@@ -31,5 +31,4 @@ public class Nov15 {
         return sum;
     }
 }
-
 // ! Target Min -> 2 , Max -> 5 (Quality Problems Only)
