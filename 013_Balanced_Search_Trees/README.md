@@ -16,8 +16,11 @@
 
 ## 📁 Implementations/
 
-| No. | Implementation | Difficulty | Source | Java File |
-| --: | -------------- | ---------- | ------ | --------- |
+| No. | Implementation                          | Difficulty | Source  | Java File                                |
+| --: | --------------------------------------- | ---------- | ------- | ---------------------------------------- |
+|   1 | AVL Tree — Recursive Height Calculation | Medium     | General | [AVLTreeV1.java](./AVLTreeV1.java)       |
+|   2 | AVL Tree — Stored Height Optimization   | Medium     | General | [AVLTreeV2.java](./AVLTreeV2.java)       |
+|   3 | Red-Black Tree                          | Medium     | General | [RedBlackTree.java](./RedBlackTree.java) |
 
 ---
 
@@ -52,9 +55,12 @@
 
 # 📁 Files
 
-| Java File                  | Description                                                                                                    |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Nov19.java](./Nov19.java) | Balance a Binary Search Tree using Inorder Traversal and Divide and Conquer to construct a height-balanced BST |
+| Java File                                | Description                                                                                                                                                       |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [AVLTreeV1.java](./AVLTreeV1.java)       | AVL Tree implementation using recursive height calculation, insertion, deletion, balance factor calculation, and AVL rotations                                    |
+| [AVLTreeV2.java](./AVLTreeV2.java)       | Optimized AVL Tree implementation using stored node heights, height updates, insertion, deletion, and AVL rotations                                               |
+| [RedBlackTree.java](./RedBlackTree.java) | Red-Black Tree implementation containing node structure, parent pointers, left and right rotations, iterative and recursive insertion, and insertion fix-up logic |
+| [Nov19.java](./Nov19.java)               | Balance a Binary Search Tree using Inorder Traversal and Divide and Conquer to construct a height-balanced BST                                                    |
 
 ---
 
@@ -75,6 +81,12 @@
 - Use the official difficulty for platform-specific problems when available.
 
 ### Implementations
+
+- Add standalone data structure implementations to the Implementations section.
+
+- Maintain separate Java files for different implementation approaches or optimizations.
+
+- Update the Files table with a brief description of every implementation.
 
 ---
 
