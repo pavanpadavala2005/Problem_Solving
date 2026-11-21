@@ -14,5 +14,13 @@ public class Demo {
 
         // Binary_Search_Tree_Utils bt = new Binary_Tree_Utils();
 
+        SplayTree st = new SplayTree();
+
+        st.insert(10);
+        st.insert(20);
+        st.insert(30);
+
+        st.levelOrder();
+
     }
 }

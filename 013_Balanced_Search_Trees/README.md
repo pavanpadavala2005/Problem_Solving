@@ -21,6 +21,7 @@
 |   1 | AVL Tree — Recursive Height Calculation | Medium     | General | [AVLTreeV1.java](./AVLTreeV1.java)       |
 |   2 | AVL Tree — Stored Height Optimization   | Medium     | General | [AVLTreeV2.java](./AVLTreeV2.java)       |
 |   3 | Red-Black Tree                          | Medium     | General | [RedBlackTree.java](./RedBlackTree.java) |
+|   4 | Splay Tree                              | Medium     | General | [SplayTree.java](./SplayTree.java)       |
 
 ---
 
@@ -60,6 +61,7 @@
 | [AVLTreeV1.java](./AVLTreeV1.java)       | AVL Tree implementation using recursive height calculation, insertion, deletion, balance factor calculation, and AVL rotations                                    |
 | [AVLTreeV2.java](./AVLTreeV2.java)       | Optimized AVL Tree implementation using stored node heights, height updates, insertion, deletion, and AVL rotations                                               |
 | [RedBlackTree.java](./RedBlackTree.java) | Red-Black Tree implementation containing node structure, parent pointers, left and right rotations, iterative and recursive insertion, and insertion fix-up logic |
+| [SplayTree.java](./SplayTree.java)       | Splay Tree implementation using Zig and Zag rotations, Splay operation, insertion, searching, deletion, Inorder Traversal, and Level Order Traversal              |
 | [Nov19.java](./Nov19.java)               | Balance a Binary Search Tree using Inorder Traversal and Divide and Conquer to construct a height-balanced BST                                                    |
 
 ---
