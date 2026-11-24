@@ -11,16 +11,25 @@ public class Demo {
         //     at.levelOrder();
 
         // ! ============= Nov 19 Problems =============
-
+        // 
         // Binary_Search_Tree_Utils bt = new Binary_Tree_Utils();
 
-        SplayTree st = new SplayTree();
+        // SplayTree st = new SplayTree();
 
-        st.insert(10);
-        st.insert(20);
-        st.insert(30);
+        // st.insert(10);
+        // st.insert(20);
+        // st.insert(30);
 
-        st.levelOrder();
+        // st.levelOrder();
 
+        // ! ============= Nov 24 Problems =============
+        SegmentTreeV3 st = new SegmentTreeV3();
+        st.insert(new int[] { 42, 87, -15, 0, 63, -94, 21, -7, 55, -68 });
+
+        // st.levelOrder();
+        // st.updateElement(0, 10);
+        // st.levelOrder();
+
+        System.out.println(st.getRangeMax(0, 4));
     }
 }
