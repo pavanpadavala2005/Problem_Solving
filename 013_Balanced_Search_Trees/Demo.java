@@ -23,13 +23,22 @@ public class Demo {
         // st.levelOrder();
 
         // ! ============= Nov 24 Problems =============
-        SegmentTreeV3 st = new SegmentTreeV3();
-        st.insert(new int[] { 42, 87, -15, 0, 63, -94, 21, -7, 55, -68 });
+
+        // SegmentTreeV3 st = new SegmentTreeV3();
+        // st.insert(new int[] { 42, 87, -15, 0, 63, -94, 21, -7, 55, -68 });
 
         // st.levelOrder();
         // st.updateElement(0, 10);
         // st.levelOrder();
 
-        System.out.println(st.getRangeMax(0, 4));
+        // System.out.println(st.getRangeMax(0, 4));
+
+        // ! ============= Nov 25 Problems =============
+        // int i = 8;
+        // System.out.println(i + (i & -i));
+        BinaryHeap.MaxHeap mxHeap = new BinaryHeap().new MaxHeap(new int[] { 1, 3, 4, 5, 10, 28, 18, 2, 9, 6, 7 });
+
+        // mxHeap.heapSort();
+        mxHeap.printHeap();
     }
 }
