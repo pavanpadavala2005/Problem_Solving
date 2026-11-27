@@ -1,5 +1,4 @@
 
-// ! =============== GEN. Linked List Practice Runner ================
 public class Demo {
         public static void main(String[] args) {
 
@@ -200,11 +199,24 @@ public class Demo {
                 // //
                 // );
 
-                Node head = SinglyLinkedListUtils.getHead(
-                                new int[] {
-                                                1, 0, 1
-                                });
-                System.out.println(Aug05.getDecimalValue(head));
+                // Node head = SinglyLinkedListUtils.getHead(
+                //                 new int[] {
+                //                                 1, 0, 1
+                //                 });
+                // System.out.println(Aug05.getDecimalValue(head));
+
+                SinglyLinkedListUtils sll = new SinglyLinkedListUtils();
+                Node[] lists = new Node[] {
+                                sll.getHead(new int[] { 1, 4, 5 }),
+                                sll.getHead(new int[] { 1, 3, 4 }),
+                                sll.getHead(new int[] { 2, 6 })
+                };
+
+                // Node res = Nov27.merge(lists[0], lists[1]);
+                Node head = Nov27.mergeKListsBetter(lists);
+
+                System.out.println(sll.getList(head));
+
         }
 
 }
